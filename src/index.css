@@ -1,0 +1,98 @@
+:root {
+  /* Modern Medical Professional Palette */
+  --bg-primary: #0f172a;
+  /* Deep Navy Slate */
+  --bg-secondary: #1e293b;
+  /* Lighter Slate for cards */
+  --bg-card: #1e293b;
+  /* Keeping consistency */
+  --text-primary: #f1f5f9;
+  /* Off-white for readability */
+  --text-secondary: #94a3b8;
+  /* Muted slate for secondary text */
+  --accent-primary: #38bdf8;
+  /* Sky Blue - trustworthy, medical */
+  --accent-secondary: #0ea5e9;
+  /* Darker Sky Blue */
+  --accent-glow: rgba(56, 189, 248, 0.5);
+  --border-color: #334155;
+  --nav-bg: rgba(15, 23, 42, 0.95);
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Spacing */
+  --section-padding: 80px;
+  --container-width: 1200px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+/* Utilities */
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section {
+  padding: var(--section-padding) 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-align: center;
+  background: linear-gradient(to right, var(--text-primary), var(--accent-primary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-secondary);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-color);
+}
