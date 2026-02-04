@@ -146,9 +146,23 @@ Error generating stack: `+l.message+`
                     right: 0;
                     width: 40px;
                     height: 100%;
-                    background: linear-gradient(to right, transparent, rgba(255,255,255,0.8));
+                    background: linear-gradient(to right, transparent, var(--bg-primary));
                     pointer-events: none;
                 }
+            .calc-input, .calc-select {
+                width: 100%;
+                padding: 12px 16px;
+                border-radius: 8px;
+                background: var(--bg-muted);
+                border: 1px solid var(--border-color);
+                color: var(--text-primary);
+                font-size: 1rem;
+                outline: none;
+                transition: border-color 0.2s ease;
+            }
+            .calc-input:focus, .calc-select:focus {
+                border-color: var(--accent-navy);
+            }
             .calculator-tab:hover {
                 color: var(--accent-navy);
             background: var(--accent-light);
