@@ -27,8 +27,23 @@ async function syncPublications() {
     console.log(`[2/4] Retrieved ${pmids.length} PMIDs. Checking against local database...`);
     const currentCode = fs.readFileSync(DATA_FILE, 'utf8');
     
-    // Check if the PMID already exists in the file (to avoid duplicates)
-    const newPmids = pmids.filter(pmid => !currentCode.includes(`"${pmid}"`) && !currentCode.includes(`'${pmid}'`));
+    // Normalization helper to catch title matches across manual/auto boundaries
+    const normalize = (str) => str.toLowerCase().replace(/[^a-z0-9]/g, '');
+    
+    // Extract existing titles and DOIs from the file for deep matching
+    const existingTitles = [...currentCode.matchAll(/title:\s*["'](.+?)["']/g)].map(m => normalize(m[1]));
+    const existingDois = [...currentCode.matchAll(/doi:\s*["'](.+?)["']/g)].map(m => m[1]).filter(d => d);
+    const existingPmids = [...currentCode.matchAll(/pmid:\s*["'](.+?)["']/g)].map(m => m[1]);
+
+    const newPmids = pmids.filter(pmid => {
+        // 1. Direct PMID Check
+        if (existingPmids.includes(pmid) || currentCode.includes(`'pub-auto-${pmid}'`)) return false;
+        
+        return true; 
+    });
+    
+    // We will perform DOI and Title checks AFTER fetching summaries for the "candidate" PMIDs
+    // to ensure we have the metadata to compare.
     
     if (newPmids.length === 0) {
         console.log('No new publications to sync. System is strictly up to date.');
@@ -44,23 +59,37 @@ async function syncPublications() {
     const results = summaryData?.result || {};
     
     let replacementBlock = '';
+    let addedCount = 0;
     
     for (const pmid of newPmids) {
         const item = results[pmid];
         if (!item || item.uid !== pmid) continue;
         
         const title = item.title ? item.title.replace(/"/g, '\\"') : '';
+        const doiEntry = (item.articleids || []).find(id => id.idtype === 'doi');
+        const doi = doiEntry ? doiEntry.value : '';
+
+        // Performance secondary check: Normalized Title & DOI
+        if (existingTitles.includes(normalize(title))) {
+            console.log(`- Skipping "${title.substring(0, 40)}..." (Title match)`);
+            continue;
+        }
+        if (doi && existingDois.includes(doi)) {
+            console.log(`- Skipping ID ${pmid} (DOI match: ${doi})`);
+            continue;
+        }
+
         const journal = item.fulljournalname || item.source;
         const journalAbbrev = item.source;
         const authors = (item.authors || []).map(a => `"${a.name}"`).join(', ');
         
-        // Dynamic Role Recognition
+        // ... rest of logic for formatting object ...
+        // [Existing role and date parsing logic continues here]
         let yourRole = "Co-Author";
         if (item.authors && item.authors.length > 0 && item.authors[0].name.includes("Alhayek B")) {
             yourRole = "First Author";
         }
         
-        // Date parsing
         const pubDate = item.pubdate || '';
         const yearMatch = pubDate.match(/20\d{2}/);
         const year = yearMatch ? yearMatch[0] : new Date().getFullYear();
@@ -73,22 +102,16 @@ async function syncPublications() {
                 break;
             }
         }
-        
-        // Identifiers
-        const doiEntry = (item.articleids || []).find(id => id.idtype === 'doi');
-        const doi = doiEntry ? doiEntry.value : '';
-        
+
         const pmcEntry = (item.articleids || []).find(id => id.idtype === 'pmc');
         const pmc = pmcEntry ? pmcEntry.value : '';
         
-        // AMA Citation styling compilation
         let citationStr = `${journalAbbrev}. ${year} ${month}`;
         if (item.volume) citationStr += `; ${item.volume}`;
         if (item.issue) citationStr += `(${item.issue})`;
         if (item.pages) citationStr += `: ${item.pages}`;
         citationStr += '.';
 
-        // Formulate the raw Javascript object syntax securely
         replacementBlock += `
     {
         id: 'pub-auto-${pmid}',
@@ -112,9 +135,15 @@ async function syncPublications() {
         tags: autoTag("${title}", "${journalAbbrev}"),
         featured: false,
     },`;
+        addedCount++;
     }
     
-    console.log(`[4/4] Writing ${newPmids.length} new structural entries to SRC...`);
+    if (addedCount === 0) {
+        console.log('Deep sync resolved all candidates as existing duplicates. Nothing to add.');
+        return;
+    }
+
+    console.log(`[4/4] Writing ${addedCount} new structural entries to SRC...`);
     const anchor = "// AUTO-SYNC-ANCHOR-DO-NOT-DELETE";
     const newCode = currentCode.replace(anchor, replacementBlock.trimEnd() + "\n    " + anchor);
     
