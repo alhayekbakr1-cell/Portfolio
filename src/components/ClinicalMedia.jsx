@@ -10,8 +10,8 @@ const ClinicalMedia = () => {
         description: "Translating Quality Improvement research into high-fidelity video education to reduce unnecessary PF4 testing in the ICU.",
         tech: ["Runway Gen-3", "ElevenLabs TTS", "Adobe Premiere"],
         stills: [
-            "/src/assets/media/hit_physician.png",
-            "/src/assets/media/hit_vein.png"
+            "/media/hit_physician.png",
+            "/media/hit_vein.png"
         ],
         clips: [
             {
@@ -19,35 +19,35 @@ const ClinicalMedia = () => {
                 title: "The Hospital Environment",
                 context: "Introduction to the QI initiative.",
                 prompt: "Cinematic tracking shot, moving slowly down a modern hospital corridor. Healthcare professionals in scrubs walking purposefully. 35mm lens, medical documentary style.",
-                image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800"
+                image: "/media/hit_corridor.png"
             },
             {
                 id: 2,
                 title: "The Problem: Overtesting",
                 context: "Common practice of ordering HIT PF4 tests prematurely.",
                 prompt: "Close up, over-the-shoulder shot. Concerned physician looking at a glowing medical tablet. Camera dollies in slowly. Dramatic cinematic rim lighting.",
-                image: "/src/assets/media/hit_physician.png"
+                image: "/media/hit_physician.png"
             },
             {
                 id: 3,
                 title: "The Harm: Clinical Risk",
                 context: "False positives and bleeding risks.",
                 prompt: "Macro extreme close-up of a hospital IV drip chamber. Clear fluid drips in ultra-slow motion. Cinematic reflections, photorealistic 8k.",
-                image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800"
+                image: "/media/hit_iv.png"
             },
             {
                 id: 4,
                 title: "The Microscopic Science",
                 context: "Platelet release and clot formation mechanics.",
                 prompt: "3D microscopic animation inside a human vein. Platelets clustering with glowing green heparin molecules. Dynamic camera pushing forward, cinematic lighting.",
-                image: "/src/assets/media/hit_vein.png"
+                image: "/media/hit_vein.png"
             },
             {
                 id: 5,
                 title: "The Solution: 4T Score",
                 context: "Calculating the probability before testing.",
                 prompt: "Medium shot, bright clinical lighting. Doctors stand at a nurse's station pointing at a screen. Camera orbits around them. High quality, crisp focus.",
-                image: "https://images.unsplash.com/photo-1576091160550-217359f4ecf8?auto=format&fit=crop&q=80&w=800"
+                image: "/media/hit_4t.png"
             }
         ]
     };
