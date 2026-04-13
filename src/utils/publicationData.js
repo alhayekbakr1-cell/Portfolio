@@ -473,7 +473,8 @@ export const peerReviewed = [
         pmc: "PMC10427834",
         tags: autoTag("Atypical distal tracheal fibrous bridge and bronchial stenosis in an adult patient with bronchopulmonary dysplasia.", "Respirol Case Rep"),
         featured: false,
-    },\n    // AUTO-SYNC-ANCHOR-DO-NOT-DELETE
+    },
+    // AUTO-SYNC-ANCHOR-DO-NOT-DELETE
 ];
 
 // Submitted Publications

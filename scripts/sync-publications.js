@@ -116,7 +116,7 @@ async function syncPublications() {
     
     console.log(`[4/4] Writing ${newPmids.length} new structural entries to SRC...`);
     const anchor = "// AUTO-SYNC-ANCHOR-DO-NOT-DELETE";
-    const newCode = currentCode.replace(anchor, replacementBlock.trimEnd() + "\\n    " + anchor);
+    const newCode = currentCode.replace(anchor, replacementBlock.trimEnd() + "\n    " + anchor);
     
     fs.writeFileSync(DATA_FILE, newCode, 'utf8');
     console.log('✅ Synchronization Protocol Complete!');
