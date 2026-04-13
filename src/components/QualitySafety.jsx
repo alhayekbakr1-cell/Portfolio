@@ -4,133 +4,192 @@ const QualitySafety = () => {
     const projects = [
         {
             title: "Diagnostic Stewardship: Inappropriate HIT Testing",
-            problem: "Baseline data revealed 70% rate of inappropriate PF4 testing for suspected Heparin-Induced Thrombocytopenia (HIT), leading to excess costs and unnecessary anticoagulation.",
-            intervention: "Collaborating with hospital IT and EPIC teams to implement an EMR-based best practice advisory (BPA) and resident education regarding the '4T Score' pre-test probability assessment.",
-            metrics: "Reduced inappropriate testing by 40% (observed over 6 months); projected annual savings of $15k.",
             role: "Project Lead",
-            status: "Manuscript in Preparation"
+            problem: "70% rate of inappropriate PF4 testing for suspected Heparin-Induced Thrombocytopenia (HIT).",
+            intervention: "EMR-based Best Practice Advisory (BPA) and physician education focused on 4T Score adjudication.",
+            metrics: "40% reduction in inappropriate testing; $15k projected annual savings.",
+            status: "In Progress",
+            icon: "🧬"
         },
         {
-            title: "Change Through Learning: Educational Interventions to Improve Cancer Pain Management",
-            problem: "Persistent knowledge gaps in cancer pain management (opioid stewardship, complex regimens) among healthcare providers affect patient quality of life.",
-            intervention: "Designed and delivered a multidisciplinary curriculum with interactive workshops for Hematology-Oncology physicians and residents.",
-            metrics: "Mean knowledge scores improved from 62% to 82% (p < 0.001); large effect size (d=0.96) across all training levels.",
+            title: "Improving Cancer Pain Management",
             role: "Lead Author",
-            status: "Completed Study"
+            problem: "Knowledge gaps in oncology opioid stewardship and complex regimen management.",
+            intervention: "Multidisciplinary curriculum and workshops for Hem/Onc residents and faculty.",
+            metrics: "32% improvement in mean knowledge scores; large effect size (d=0.96).",
+            status: "Completed",
+            icon: "📋"
         },
         {
-            title: "Cancer Prevention: HPV Vaccination Program in Resident Clinic",
-            problem: "Resident clinic (IMRAC) lacked HPV vaccine availability, representing a critical missed opportunity for adult cancer prevention (ages 18-45) given low national uptake (57%).",
-            intervention: "4-month rapid-cycle QI: Procured vaccine stock, utilized Epic SlicerDicer to identify 240 eligible patients, and executed scripted outreach calls alongside daily clinic huddle reminders.",
-            metrics: "178 patients contacted (74% reach rate); 35% acceptance rate among those reached. Successfully operationalized vaccine ordering with net positive financial margin.",
+            title: "HPV Vaccination in Resident Clinic",
             role: "Co-Investigator",
-            status: "Preliminary Data / Ongoing"
+            problem: "Critical missed opportunities for adult cancer prevention (ages 18-45) in resident primary care.",
+            intervention: "Rapid-cycle QI: Epic SlicerDicer identification and scripted outreach program.",
+            metrics: "74% reach rate; 35% acceptance rate. Fully operationalized with positive margin.",
+            status: "Pilot Success",
+            icon: "💉"
         },
         {
-            title: "Health Equity: Hypertension Management in Uninsured ED Patients",
-            problem: "Uninsured patients presenting to the ED with hypertensive urgency had high 30-day revisit rates due to lack of outpatient follow-up and monitoring tools.",
-            intervention: "Distributed home BP cuffs and educational materials; established a referral pathway to the GME continuity clinic for 7-day follow-up.",
-            metrics: "Target: Reduce 30-day ED revisits by 20%. Ongoing data collection.",
+            title: "Hypertension in Uninsured ED Patients",
             role: "Program Co-Lead",
-            status: "Planning"
+            problem: "High 30-day ED revisit rates due to lack of monitoring tools and follow-up for uninsured patients.",
+            intervention: "Distribution of home BP cuffs and dedicated referral pathway to GME clinic.",
+            metrics: "Goal: 20% reduction in 30-day revisits. Active data collection phase.",
+            status: "Active",
+            icon: "💓"
         }
     ];
 
     const styles = {
         container: {
-            padding: '80px 20px',
+            padding: '100px 20px',
             background: 'var(--bg-primary)',
         },
         wrapper: {
-            maxWidth: 'var(--container-width)',
+            maxWidth: '1200px',
             margin: '0 auto',
         },
         grid: {
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-            gap: '30px',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))',
+            gap: '32px',
         },
         card: {
             background: 'var(--bg-card)',
-            padding: '2rem',
-            borderRadius: '8px',
-            borderTop: '4px solid var(--accent-primary)',
-            boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+            borderRadius: '12px',
+            padding: '32px',
+            border: '1px solid var(--border-color)',
+            boxShadow: 'var(--shadow-sm)',
+            transition: 'all 0.3s ease',
+            display: 'flex',
+            flexDirection: 'column',
         },
         header: {
             display: 'flex',
             justifyContent: 'space-between',
             alignItems: 'baseline',
-            marginBottom: '1rem',
-            flexWrap: 'wrap',
-            gap: '10px'
+            marginBottom: '1.5rem',
+        },
+        titleRow: {
+            display: 'flex',
+            alignItems: 'center',
+            gap: '12px',
+            marginBottom: '4px',
+        },
+        icon: {
+            fontSize: '1.5rem',
         },
         title: {
             fontSize: '1.25rem',
-            color: 'var(--text-primary)',
-            fontWeight: '700',
-            flex: '1',
+            color: 'var(--accent-navy)',
+            fontWeight: '800',
+            lineHeight: '1.3',
+            margin: 0,
         },
         status: {
-            fontSize: '0.8rem',
-            background: 'rgba(100, 255, 218, 0.1)',
-            color: 'var(--accent-primary)',
-            padding: '4px 8px',
-            borderRadius: '12px',
+            fontSize: '0.7rem',
+            background: 'var(--accent-light)',
+            color: 'var(--accent-navy)',
+            padding: '3px 8px',
+            borderRadius: '4px',
+            fontWeight: '700',
+            textTransform: 'uppercase',
+            letterSpacing: '0.05em',
+        },
+        roleBadge: {
+            fontSize: '0.85rem',
+            color: 'var(--text-muted)',
             fontWeight: '600',
-            whiteSpace: 'nowrap',
-        },
-        role: {
+            marginBottom: '20px',
             display: 'block',
-            fontSize: '0.9rem',
-            color: 'var(--text-secondary)',
-            marginBottom: '1rem',
-            fontStyle: 'italic',
         },
-        detailRow: {
-            marginBottom: '0.8rem',
-            fontSize: '0.95rem',
-            lineHeight: '1.5',
-            color: 'var(--text-secondary)',
+        section: {
+            marginBottom: '16px',
         },
         label: {
+            fontSize: '0.75rem',
+            color: 'var(--text-muted)',
+            textTransform: 'uppercase',
             fontWeight: '700',
-            color: 'var(--text-primary)',
-            marginRight: '6px',
+            letterSpacing: '0.1em',
+            marginBottom: '6px',
+            display: 'block',
+        },
+        text: {
+            fontSize: '0.95rem',
+            color: 'var(--text-secondary)',
+            lineHeight: '1.6',
+            margin: 0,
+        },
+        metricsBox: {
+            marginTop: 'auto',
+            padding: '16px',
+            background: '#F8FAFC',
+            borderRadius: '8px',
+            border: '1px solid #E2E8F0',
+        },
+        metricsTitle: {
+            fontSize: '0.75rem',
+            color: 'var(--accent-navy)',
+            fontWeight: '800',
+            textTransform: 'uppercase',
+            marginBottom: '4px',
+            display: 'block',
+        },
+        metricsValue: {
+            fontSize: '0.95rem',
+            color: 'var(--accent-navy)',
+            fontWeight: '600',
+            margin: 0,
         }
     };
 
     return (
         <section id="quality" style={styles.container}>
             <div style={styles.wrapper}>
-                <h2 className="section-title">Quality & Patient Safety</h2>
+                <h2 className="section-title">Quality, Safety & Population Health</h2>
                 <div style={styles.grid}>
                     {projects.map((proj, index) => (
-                        <div key={index} style={styles.card}>
+                        <div key={index} style={styles.card} className="quality-card">
                             <div style={styles.header}>
-                                <h3 style={styles.title}>{proj.title}</h3>
+                                <div style={styles.titleRow}>
+                                    <span style={styles.icon}>{proj.icon}</span>
+                                    <h3 style={styles.title}>{proj.title}</h3>
+                                </div>
                                 <span style={styles.status}>{proj.status}</span>
                             </div>
-                            <span style={styles.role}>Role: {proj.role}</span>
 
-                            <div style={styles.detailRow}>
-                                <span style={styles.label}>Problem:</span>
-                                {proj.problem}
+                            <span style={styles.roleBadge}>Role: {proj.role}</span>
+
+                            <div style={styles.section}>
+                                <span style={styles.label}>The Problem</span>
+                                <p style={styles.text}>{proj.problem}</p>
                             </div>
-                            <div style={styles.detailRow}>
-                                <span style={styles.label}>Intervention:</span>
-                                {proj.intervention}
+
+                            <div style={styles.section}>
+                                <span style={styles.label}>Clinical Intervention</span>
+                                <p style={styles.text}>{proj.intervention}</p>
                             </div>
-                            <div style={styles.detailRow}>
-                                <span style={styles.label}>Metrics:</span>
-                                {proj.metrics}
+
+                            <div style={styles.metricsBox}>
+                                <span style={styles.metricsTitle}>Key Metrics / Impact</span>
+                                <p style={styles.metricsValue}>{proj.metrics}</p>
                             </div>
                         </div>
                     ))}
                 </div>
             </div>
+
+            <style>{`
+                .quality-card:hover {
+                    box-shadow: var(--shadow-md);
+                    transform: translateY(-5px);
+                    border-color: var(--accent-navy);
+                }
+            `}</style>
         </section>
     );
 };
 
 export default QualitySafety;
+

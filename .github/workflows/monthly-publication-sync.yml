@@ -1,0 +1,31 @@
+name: Monthly Publication Sync
+
+on:
+  schedule:
+    - cron: '0 0 1 * *' # Run at 00:00 on the 1st of every month
+  workflow_dispatch: # Allow manual triggering from the GitHub UI
+
+permissions:
+  contents: write # Needed to push commits back to the repo
+
+jobs:
+  sync_publications:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          
+      - name: Run PubMed Synchronization Script
+        run: node scripts/sync-publications.js
+        
+      - name: Auto-Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 chore: Auto-sync new PubMed publications"
+          branch: main
+          file_pattern: src/utils/publicationData.js

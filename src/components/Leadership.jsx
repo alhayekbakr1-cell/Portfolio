@@ -3,87 +3,133 @@ import React from 'react';
 const Leadership = () => {
     const roles = [
         {
-            role: "Selected Chief Medical Resident (Research & Innovation), 2026–2027",
-            focus: "Research & Quality Improvement",
-            period: "Term begins July 2026",
-            description: "",
-            achievements: [
+            role: "Chief Medical Resident (Research & Innovation)",
+            institution: "AdventHealth Tampa",
+            period: "2026 – 2027",
+            focus: "Research Oversight & QI Strategy",
+            highlights: [
                 "Selected to oversee all research and Quality Improvement (QI) projects within the residency program.",
-                "Provide mentorship, structural improvements, and guidance to residents.",
-                "Foster scholarly output and clinical excellence."
-            ]
+                "Directing institutional strategy for research infrastructure and resident publishing."
+            ],
+            badge: "Selected",
+            icon: "🎓"
         },
         {
-            role: "Founding Member – Internal Medicine Scholarly Activity Committee",
-            focus: "AdventHealth Tampa",
+            role: "Founding Member – Scholarly Activity Committee",
+            institution: "AdventHealth Tampa",
             period: "2024 – Present",
-            description: "Co-founded this resident-driven initiative during PGY-1 to organize and build the research environment. Connected residents with research mentors at AdventHealth Orlando.",
-            achievements: [
-                "Overseeing 20+ active resident projects and fostering a sustainable culture of inquiry.",
-                "Increased resident scholarly output (national conference abstracts and planned publications).",
-                "Mentoring peers in research design and quality improvement methodologies."
-            ]
+            focus: "Institutional Research Environment",
+            highlights: [
+                "Co-founded resident-driven initiative during PGY-1 to build research infrastructure."
+            ],
+            badge: "Institutional Impact",
+            icon: "🏛️"
         },
         {
             role: "Clinical Artificial Intelligence Lead",
-            focus: "AdventHealth Tampa",
+            institution: "AdventHealth Enterprise",
             period: "2025 - Present",
-            description: "Partnered with enterprise AI/analytics teams to implement clinical AI governance, safety review, equity checks, and evaluation metrics for LLM-enabled workflows.",
-            achievements: [
-                "Collaborating with OpenAI and hospital leadership to optimize the deployment of AI tools in clinical settings.",
-                "Developing hospital-wide governance policies for the safe and ethical use of Generative AI in patient care.",
-                "Leading 'AI in Medicine' grand rounds to educate staff on ethical use and implementation."
-            ]
+            focus: "Clinical AI Governance & Ethics",
+            highlights: [
+                "Partnered with Enterprise AI teams to implement LLM-enabled workflows and safety reviews.",
+                "Collaborating with OpenAI and leadership to optimize clinical AI deployment.",
+                "Developed hospital-wide governance policies for ethical Generative AI use in patient care."
+            ],
+            badge: "Innovation Lead",
+            icon: "🤖"
         }
     ];
 
     const styles = {
         container: {
+            padding: '100px 20px',
             background: 'var(--bg-secondary)',
-            padding: '80px 20px',
         },
         wrapper: {
-            maxWidth: 'var(--container-width)',
+            maxWidth: '1200px',
             margin: '0 auto',
         },
-        roleCard: {
-            borderLeft: '4px solid var(--accent-primary)',
-            padding: '2rem',
-            background: 'rgba(255, 255, 255, 0.03)',
-            marginBottom: '2rem',
-            borderRadius: '0 8px 8px 0',
+        grid: {
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))',
+            gap: '32px',
         },
-        roleHeader: {
+        card: {
+            background: 'var(--bg-card)',
+            borderRadius: '12px',
+            padding: '32px',
+            border: '1px solid var(--border-color)',
+            boxShadow: 'var(--shadow-sm)',
+            transition: 'all 0.3s ease',
             display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'baseline',
-            marginBottom: '1rem',
-            flexWrap: 'wrap',
-            gap: '10px',
+            flexDirection: 'column',
         },
-        roleTitle: {
-            fontSize: '1.75rem',
-            color: 'var(--text-primary)',
+        header: {
+            display: 'flex',
+            alignItems: 'center',
+            gap: '16px',
+            marginBottom: '20px',
         },
-        rolePeriod: {
-            color: 'var(--accent-primary)',
-            fontFamily: 'monospace',
-            fontWeight: '600',
+        iconBox: {
+            width: '48px',
+            height: '48px',
+            borderRadius: '10px',
+            background: 'var(--accent-light)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontSize: '1.5rem',
         },
-        roleSub: {
-            fontSize: '1.2rem',
+        badge: {
+            display: 'inline-block',
+            fontSize: '0.7rem',
+            padding: '2px 8px',
+            borderRadius: '4px',
+            background: 'var(--accent-navy)',
+            color: 'white',
+            fontWeight: '700',
+            textTransform: 'uppercase',
+            letterSpacing: '0.05em',
+            marginBottom: '12px',
+        },
+        title: {
+            fontSize: '1.3rem',
+            color: 'var(--accent-navy)',
+            fontWeight: '800',
+            lineHeight: '1.3',
+            margin: 0,
+        },
+        focus: {
+            fontSize: '0.95rem',
             color: 'var(--text-secondary)',
-            marginBottom: '1rem',
+            fontWeight: '600',
+            marginBottom: '16px',
+            display: 'block',
+        },
+        period: {
+            fontSize: '0.85rem',
+            color: 'var(--text-muted)',
+            fontStyle: 'italic',
+            marginBottom: '20px',
             display: 'block',
         },
         list: {
-            listStyle: 'disc',
-            paddingLeft: '20px',
-            color: 'var(--text-secondary)',
-            marginTop: '1rem',
+            listStyle: 'none',
+            padding: 0,
+            margin: 'auto 0 0 0',
         },
         listItem: {
-            marginBottom: '0.5rem',
+            fontSize: '0.9rem',
+            color: 'var(--text-secondary)',
+            lineHeight: '1.6',
+            marginBottom: '10px',
+            position: 'relative',
+            paddingLeft: '20px',
+        },
+        bullet: {
+            position: 'absolute',
+            left: 0,
+            color: 'var(--accent-navy)',
         }
     };
 
@@ -91,26 +137,42 @@ const Leadership = () => {
         <section id="leadership" style={styles.container}>
             <div style={styles.wrapper}>
                 <h2 className="section-title">Leadership & Institutional Impact</h2>
-                <div>
+
+                <div style={styles.grid}>
                     {roles.map((item, index) => (
-                        <div key={index} style={styles.roleCard}>
-                            <div style={styles.roleHeader}>
-                                <h3 style={styles.roleTitle}>{item.role}</h3>
-                                <span style={styles.rolePeriod}>{item.period}</span>
+                        <div key={index} style={styles.card} className="leadership-card">
+                            <span style={styles.badge}>{item.badge}</span>
+                            <div style={styles.header}>
+                                <div style={styles.iconBox}>{item.icon}</div>
+                                <h3 style={styles.title}>{item.role}</h3>
                             </div>
-                            <span style={styles.roleSub}>{item.focus}</span>
-                            <p style={{ color: 'var(--text-secondary)' }}>{item.description}</p>
+
+                            <span style={styles.focus}>{item.focus}</span>
+                            <span style={styles.period}>{item.institution} | {item.period}</span>
+
                             <ul style={styles.list}>
-                                {item.achievements.map((ach, i) => (
-                                    <li key={i} style={styles.listItem}>{ach}</li>
+                                {item.highlights.map((ach, i) => (
+                                    <li key={i} style={styles.listItem}>
+                                        <span style={styles.bullet}>▹</span>
+                                        {ach}
+                                    </li>
                                 ))}
                             </ul>
                         </div>
                     ))}
                 </div>
             </div>
+
+            <style>{`
+                .leadership-card:hover {
+                    box-shadow: var(--shadow-md);
+                    transform: translateY(-5px);
+                    border-color: var(--accent-navy);
+                }
+            `}</style>
         </section>
     );
 };
 
 export default Leadership;
+

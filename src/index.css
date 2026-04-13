@@ -1,28 +1,42 @@
 :root {
-  /* Modern Medical Professional Palette */
-  --bg-primary: #0f172a;
-  /* Deep Navy Slate */
-  --bg-secondary: #1e293b;
-  /* Lighter Slate for cards */
-  --bg-card: #1e293b;
-  /* Keeping consistency */
-  --text-primary: #f1f5f9;
-  /* Off-white for readability */
-  --text-secondary: #94a3b8;
-  /* Muted slate for secondary text */
-  --accent-primary: #38bdf8;
-  /* Sky Blue - trustworthy, medical */
-  --accent-secondary: #0ea5e9;
-  /* Darker Sky Blue */
-  --accent-glow: rgba(56, 189, 248, 0.5);
-  --border-color: #334155;
-  --nav-bg: rgba(15, 23, 42, 0.95);
+  /* Academic Professional Light Theme */
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #F8FAFC;
+  --bg-card: #FFFFFF;
 
-  /* Typography */
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --text-primary: #0F172A;
+  --text-secondary: #334155;
+  --text-muted: #64748B;
+
+  /* The "Ivy League" Palette */
+  --accent-navy: #0A2540;
+  /* Deeper, richer Navy */
+  --accent-blue: #2563EB;
+  --accent-light: #EFF6FF;
+
+  --accent-gold: #C5A059;
+  /* Muted Bronze/Gold for key highlights */
+  --accent-gold-light: #F3E8D3;
+  /* Light wash for backgrounds */
+  --accent-gold-hover: #AB8847;
+  /* Darker gold for interaction */
+
+  --border-color: #E2E8F0;
+  --border-dark: #CBD5E0;
+
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  --bg-muted: #F8FAFC;
+  --bg-badge: #F1F5F9;
+
+  /* Typography - Academic Professional */
+  --font-serif: 'Playfair Display', 'Georgia', serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
   /* Spacing */
-  --section-padding: 80px;
+  --section-padding: 120px;
   --container-width: 1200px;
 }
 
@@ -32,22 +46,71 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
 body {
   font-family: var(--font-sans);
   background-color: var(--bg-primary);
   color: var(--text-primary);
-  line-height: 1.6;
+  line-height: 1.7;
+  font-size: 17px;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+
+/* Paper/Grain Texture Overlay */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.75rem;
 }
 
 a {
   text-decoration: none;
-  color: inherit;
-  transition: color 0.3s ease;
-}
-
-ul {
-  list-style: none;
+  color: var(--accent-blue);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 button {
@@ -55,44 +118,127 @@ button {
   border: none;
   outline: none;
   font-family: inherit;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Utilities */
-.container {
-  max-width: var(--container-width);
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.section {
-  padding: var(--section-padding) 0;
-}
-
+/* Section Decorator */
 .section-title {
   font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   text-align: center;
-  background: linear-gradient(to right, var(--text-primary), var(--accent-primary));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--accent-navy);
+  position: relative;
+  padding-bottom: 1.2rem;
 }
 
-/* Scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background-color: var(--accent-gold);
+  border-radius: 2px;
 }
 
-::-webkit-scrollbar-track {
-  background: var(--bg-primary);
+/* Global Input Styling */
+.calc-input,
+.calc-select,
+.contact-input {
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  font-family: var(--font-sans);
+  background-color: #F8FAFC;
+  color: var(--text-primary);
+  transition: all 0.2s ease;
 }
 
-::-webkit-scrollbar-thumb {
-  background: var(--bg-secondary);
-  border-radius: 5px;
+.calc-input:focus,
+.calc-select:focus,
+.contact-input:focus {
+  outline: none;
+  border-color: var(--accent-blue);
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: var(--border-color);
+/* Responsive Grid Adjustments */
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 80px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2,
+  .section-title {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .calculator-tabs-container {
+    overflow-x: auto;
+    padding-bottom: 5px;
+  }
+}
+
+/* Form Layout Helpers */
+@media (max-width: 640px) {
+  .calc-input-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+/* Dark Mode Polish - Unified Midnight Navy */
+[data-theme="dark"] {
+  --bg-primary: #05101A;
+  /* Very Dark Navy (Almost Black) */
+  --bg-secondary: #0A2540;
+  /* The "Hero Navy" */
+  --bg-card: #0A2540;
+  /* Match the brand navy */
+
+  --text-primary: #FFFFFF;
+  /* Pure White for contrast */
+  --text-secondary: #CBD5E1;
+  /* Light Grey */
+  --text-muted: #94A3B8;
+
+  --accent-navy: #60A5FA;
+  /* Bright Blue for accents */
+  --accent-blue: #3B82F6;
+  --accent-light: rgba(96, 165, 250, 0.1);
+  /* Subtle blue tint for badges */
+
+  --border-color: #1E3A8A;
+  /* Dark Blue Border */
+  --border-dark: #172554;
+
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.6);
+
+  --bg-muted: #071624;
+  /* Darker box for inside cards */
+  --bg-badge: #172554;
+  /* Navy Badge background */
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Site remains light by default unless user toggles, or we can auto-detect */
 }
