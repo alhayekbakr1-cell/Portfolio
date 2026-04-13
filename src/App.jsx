@@ -25,6 +25,7 @@ const Footer = lazy(() => import('./components/Footer'));
 const QuickAccessToolbar = lazy(() => import('./components/QuickAccessToolbar'));
 const NewsFeed = lazy(() => import('./components/NewsFeed'));
 const CollaborateMatcher = lazy(() => import('./components/CollaborateMatcher'));
+const ClinicalMedia = lazy(() => import('./components/ClinicalMedia'));
 // Simple loading fallback
 const LoadingSpinner = () => (
   <div style={{ padding: '50px', textAlign: 'center', color: '#64748b' }}>
@@ -76,6 +77,7 @@ function App() {
               <Route path="/references" element={<References />} />
               <Route path="/news" element={<NewsFeed />} />
               <Route path="/collaborate" element={<CollaborateMatcher />} />
+              <Route path="/media-lab" element={<ClinicalMedia />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </ErrorBoundary>

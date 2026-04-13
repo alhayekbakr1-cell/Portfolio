@@ -39,6 +39,7 @@ const Header = () => {
             label: 'Impact',
             children: [
                 { label: 'Leadership', href: '/leadership' },
+                { label: 'Clinical Media Lab', href: '/media-lab' },
                 { label: 'Quality & Safety', href: '/quality-safety' },
                 { label: 'Teaching', href: '/teaching' },
                 { label: 'Service', href: '/service' },
