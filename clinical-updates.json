@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-26T22:55:00.000Z",
-  "summary": "Clinical updates across major specialties. Cards link to live PubMed searches filtered for recent trials, guidelines, reviews, and hot topics.",
+  "generatedAt": "2026-04-26T22:45:00.000Z",
+  "summary": "Recent clinical updates across internal medicine and major specialties. The automated updater refreshes this feed with trials, guidelines, and high-impact literature.",
   "specialties": [
     "Oncology",
     "Cardiology",
@@ -15,114 +15,14 @@
   ],
   "items": [
     {
-      "id": "clinical-oncology-trials",
-      "title": "Recent oncology phase 3 trials",
-      "description": "Live search for recent randomized and phase 3 oncology trials across solid tumors and hematologic malignancies.",
-      "source": "Live PubMed search",
-      "specialty": "Oncology",
-      "type": "Trial",
-      "date": "2026-04-26",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/?term=%28oncology+OR+cancer+OR+neoplasm%29+AND+%28phase+3+OR+randomized+controlled+trial%29&filter=datesearch.y_1"
-    },
-    {
-      "id": "clinical-oncology-guidelines",
-      "title": "Recent oncology guideline updates",
-      "description": "Live search for new guideline and consensus publications relevant to cancer diagnosis, treatment, supportive care, and survivorship.",
-      "source": "Live PubMed search",
-      "specialty": "Oncology",
-      "type": "Guideline",
-      "date": "2026-04-26",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/?term=%28oncology+OR+cancer+OR+neoplasm%29+AND+%28guideline+OR+practice+guideline+OR+consensus%29&filter=datesearch.y_1"
-    },
-    {
-      "id": "clinical-hematology-trials",
-      "title": "Recent hematology trials",
-      "description": "Live search for recent trials in leukemia, lymphoma, myeloma, anemia, thrombosis, anticoagulation, and transfusion medicine.",
-      "source": "Live PubMed search",
-      "specialty": "Hematology",
-      "type": "Trial",
-      "date": "2026-04-26",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/?term=%28hematology+OR+leukemia+OR+lymphoma+OR+myeloma+OR+thrombosis+OR+anticoagulation%29+AND+%28trial+OR+randomized%29&filter=datesearch.y_1"
-    },
-    {
-      "id": "clinical-cardiology-trials",
-      "title": "Recent cardiology trials",
-      "description": "Live search for recent trials in heart failure, coronary disease, atrial fibrillation, hypertension, lipid management, and structural heart disease.",
-      "source": "Live PubMed search",
-      "specialty": "Cardiology",
-      "type": "Trial",
-      "date": "2026-04-26",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/?term=%28cardiology+OR+heart+failure+OR+atrial+fibrillation+OR+myocardial+infarction+OR+hypertension%29+AND+%28trial+OR+randomized%29&filter=datesearch.y_1"
-    },
-    {
-      "id": "clinical-id-stewardship",
-      "title": "Antimicrobial stewardship updates",
-      "description": "Live search for recent literature on antimicrobial stewardship, diagnostic stewardship, antibiotic resistance, and infection prevention.",
-      "source": "Live PubMed search",
-      "specialty": "Infectious Disease",
-      "type": "Hot topic",
-      "date": "2026-04-26",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/?term=%28antimicrobial+stewardship+OR+diagnostic+stewardship+OR+antibiotic+resistance+OR+infection+prevention%29&filter=datesearch.y_1"
-    },
-    {
-      "id": "clinical-pulm-icu-trials",
-      "title": "Recent pulmonary and ICU trials",
-      "description": "Live search for recent trials in ARDS, mechanical ventilation, COPD, pulmonary embolism, shock, and critical care practice.",
-      "source": "Live PubMed search",
-      "specialty": "Pulmonary/Critical Care",
-      "type": "Trial",
-      "date": "2026-04-26",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/?term=%28critical+care+OR+ARDS+OR+mechanical+ventilation+OR+COPD+OR+pulmonary+embolism+OR+shock%29+AND+%28trial+OR+randomized%29&filter=datesearch.y_1"
-    },
-    {
-      "id": "clinical-gi-trials",
-      "title": "Recent gastroenterology trials",
-      "description": "Live search for recent trials in inflammatory bowel disease, hepatology, cirrhosis, GI bleeding, pancreatology, and endoscopy.",
-      "source": "Live PubMed search",
-      "specialty": "Gastroenterology",
-      "type": "Trial",
-      "date": "2026-04-26",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/?term=%28gastroenterology+OR+inflammatory+bowel+disease+OR+cirrhosis+OR+hepatology+OR+gastrointestinal+bleeding%29+AND+%28trial+OR+randomized%29&filter=datesearch.y_1"
-    },
-    {
-      "id": "clinical-nephrology-trials",
-      "title": "Recent nephrology trials",
-      "description": "Live search for recent trials in CKD, acute kidney injury, dialysis, glomerular disease, electrolytes, and kidney-protective therapies.",
-      "source": "Live PubMed search",
-      "specialty": "Nephrology",
-      "type": "Trial",
-      "date": "2026-04-26",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/?term=%28nephrology+OR+chronic+kidney+disease+OR+acute+kidney+injury+OR+dialysis+OR+glomerulonephritis%29+AND+%28trial+OR+randomized%29&filter=datesearch.y_1"
-    },
-    {
-      "id": "clinical-endocrine-glp1",
-      "title": "GLP-1, obesity, and metabolic updates",
-      "description": "Live search for recent literature on GLP-1/GIP therapies, obesity medicine, diabetes outcomes, and cardiometabolic risk reduction.",
-      "source": "Live PubMed search",
-      "specialty": "Endocrinology",
-      "type": "Hot topic",
-      "date": "2026-04-26",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/?term=%28GLP-1+OR+semaglutide+OR+tirzepatide+OR+obesity+OR+diabetes%29&filter=datesearch.y_1"
-    },
-    {
-      "id": "clinical-neurology-trials",
-      "title": "Recent neurology trials",
-      "description": "Live search for recent trials in stroke, seizure disorders, dementia, multiple sclerosis, movement disorders, and neurocritical care.",
-      "source": "Live PubMed search",
-      "specialty": "Neurology",
-      "type": "Trial",
-      "date": "2026-04-26",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/?term=%28neurology+OR+stroke+OR+seizure+OR+dementia+OR+multiple+sclerosis%29+AND+%28trial+OR+randomized%29&filter=datesearch.y_1"
-    },
-    {
-      "id": "clinical-hospital-medicine-hot-topics",
-      "title": "Hospital medicine hot topics",
-      "description": "Live search for recent literature on diagnostic stewardship, inpatient safety, readmissions, VTE prophylaxis, transitions of care, and high-value care.",
-      "source": "Live PubMed search",
+      "id": "clinical-updates-initialized",
+      "title": "Clinical Updates feed initialized",
+      "description": "This page is now connected to a clinical updates feed for recent trials, guideline changes, and specialty-specific hot topics.",
+      "source": "Bakr Alhayek Portfolio",
       "specialty": "Hospital Medicine",
-      "type": "Hot topic",
+      "type": "Site update",
       "date": "2026-04-26",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/?term=%28hospital+medicine+OR+inpatient+OR+diagnostic+stewardship+OR+readmission+OR+VTE+prophylaxis+OR+high-value+care%29&filter=datesearch.y_1"
+      "link": "https://bakralhayek.com/#/clinical-updates"
     }
   ]
 }
