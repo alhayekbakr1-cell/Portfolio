@@ -1,12 +1,23 @@
 name: Update AI news feed
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/update-ai-news.mjs
+      - .github/workflows/update-ai-news.yml
+      - public/ai-news.json
   schedule:
     - cron: '0 12 * * 1'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-ai-news-feed
+  cancel-in-progress: false
 
 jobs:
   update-ai-news:
@@ -16,6 +27,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
