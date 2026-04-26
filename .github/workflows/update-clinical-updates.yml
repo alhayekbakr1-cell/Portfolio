@@ -1,0 +1,49 @@
+name: Update clinical updates feed
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/update-clinical-updates.mjs
+      - .github/workflows/update-clinical-updates.yml
+      - public/clinical-updates.json
+  schedule:
+    - cron: '0 13 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-clinical-updates-feed
+  cancel-in-progress: false
+
+jobs:
+  update-clinical-updates:
+    name: Refresh clinical updates
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Refresh clinical updates data
+        run: node scripts/update-clinical-updates.mjs
+
+      - name: Commit updated feed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: refresh clinical updates feed'
+          file_pattern: public/clinical-updates.json

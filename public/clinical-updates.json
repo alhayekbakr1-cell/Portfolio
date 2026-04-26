@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-04-26T22:45:00.000Z",
+  "summary": "Recent clinical updates across internal medicine and major specialties. The automated updater refreshes this feed with trials, guidelines, and high-impact literature.",
+  "specialties": [
+    "Oncology",
+    "Cardiology",
+    "Hematology",
+    "Infectious Disease",
+    "Pulmonary/Critical Care",
+    "Gastroenterology",
+    "Nephrology",
+    "Endocrinology",
+    "Neurology",
+    "Hospital Medicine"
+  ],
+  "items": [
+    {
+      "id": "clinical-updates-initialized",
+      "title": "Clinical Updates feed initialized",
+      "description": "This page is now connected to a clinical updates feed for recent trials, guideline changes, and specialty-specific hot topics.",
+      "source": "Bakr Alhayek Portfolio",
+      "specialty": "Hospital Medicine",
+      "type": "Site update",
+      "date": "2026-04-26",
+      "link": "https://bakralhayek.com/#/clinical-updates"
+    }
+  ]
+}
