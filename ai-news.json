@@ -1,16 +1,122 @@
 {
-  "generatedAt": "2026-04-26T00:00:00.000Z",
-  "summary": "Weekly AI updates are being initialized. The automated updater will refresh this file with global AI news from selected research, policy, product, and industry sources.",
-  "sources": [],
+  "generatedAt": "2026-04-26T22:30:00.000Z",
+  "summary": "Latest global AI updates refreshed from major frontier lab, policy, healthcare, and industry sources.",
+  "sources": [
+    { "name": "OpenAI News", "category": "Frontier labs", "url": "https://openai.com/news/rss.xml" },
+    { "name": "Google DeepMind Blog", "category": "Frontier labs", "url": "https://deepmind.google/blog/rss.xml" },
+    { "name": "Reuters", "category": "Industry", "url": "https://www.reuters.com/technology/" },
+    { "name": "Axios", "category": "Industry", "url": "https://www.axios.com/technology" },
+    { "name": "CSIS", "category": "Policy", "url": "https://www.csis.org/" },
+    { "name": "Healthcare AI Digest", "category": "Healthcare", "url": "https://healthaidigest.com/" }
+  ],
   "items": [
     {
-      "id": "ai-updates-initialized",
-      "title": "AI Updates feed initialized",
-      "description": "This page is now connected to a static AI news feed that can be refreshed automatically every week by GitHub Actions.",
-      "source": "Bakr Alhayek Portfolio",
-      "category": "Site update",
-      "date": "2026-04-26",
-      "link": "https://bakralhayek.com/#/ai-updates"
+      "id": "openai-gpt-55-release",
+      "title": "OpenAI introduces GPT-5.5",
+      "description": "OpenAI released GPT-5.5, positioning it as a stronger model for coding, research, office work, computer use, and longer-running agentic tasks.",
+      "source": "OpenAI / Axios",
+      "category": "Frontier labs",
+      "date": "2026-04-23",
+      "link": "https://www.axios.com/2026/04/23/openai-releases-spud-gpt-model"
+    },
+    {
+      "id": "openai-clinician-chatgpt",
+      "title": "OpenAI expands ChatGPT support for clinicians",
+      "description": "OpenAI announced a clinician-focused ChatGPT offering for verified U.S. physicians, nurse practitioners, and pharmacists, highlighting clinical documentation, care support, and research workflows.",
+      "source": "OpenAI News",
+      "category": "Healthcare",
+      "date": "2026-04-22",
+      "link": "https://openai.com/index/making-chatgpt-better-for-clinicians"
+    },
+    {
+      "id": "google-enterprise-ai-agents",
+      "title": "Google centers enterprise AI strategy on agents",
+      "description": "Google announced expanded enterprise AI products focused on custom agents, governance, security, Gemini Enterprise, upgraded Vertex AI, and new TPU infrastructure.",
+      "source": "Reuters",
+      "category": "Enterprise AI",
+      "date": "2026-04-22",
+      "link": "https://www.reuters.com/business/google-puts-ai-agents-heart-its-enterprise-money-making-push-2026-04-22/"
+    },
+    {
+      "id": "deepmind-decoupled-diloco",
+      "title": "Google DeepMind publishes Decoupled DiLoCo work",
+      "description": "Google DeepMind described Decoupled DiLoCo, a distributed training approach aimed at making AI training more resilient across separated compute clusters.",
+      "source": "Google DeepMind Blog",
+      "category": "Research",
+      "date": "2026-04-22",
+      "link": "https://deepmind.google/blog/decoupled-diloco/"
+    },
+    {
+      "id": "openai-workspace-agents",
+      "title": "Workspace agents arrive in ChatGPT",
+      "description": "OpenAI introduced workspace agents in ChatGPT for cloud-based automation of complex workflows across tools and team operations.",
+      "source": "OpenAI News",
+      "category": "Agentic AI",
+      "date": "2026-04-22",
+      "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt"
+    },
+    {
+      "id": "openai-privacy-filter",
+      "title": "OpenAI introduces Privacy Filter",
+      "description": "OpenAI released Privacy Filter, an open-weight model intended to detect and redact personally identifiable information in text.",
+      "source": "OpenAI News",
+      "category": "Safety and privacy",
+      "date": "2026-04-22",
+      "link": "https://openai.com/index/introducing-openai-privacy-filter"
+    },
+    {
+      "id": "healthcare-ai-digest-april-2026",
+      "title": "Healthcare AI focus: FDA devices, state bills, clinical admin agents",
+      "description": "Healthcare AI Digest highlighted FDA-authorized AI device growth, state policy attention to AI-driven insurance decisions, and funding around voice/chat agents for clinical administration.",
+      "source": "Healthcare AI Digest",
+      "category": "Healthcare",
+      "date": "2026-04-20",
+      "link": "https://healthaidigest.com/"
+    },
+    {
+      "id": "csis-april-policy-asia-ai",
+      "title": "CSIS tracks AI standards and policy activity in Asia",
+      "description": "CSIS reported on regional AI policy developments, including China standards work around humanoid robots and embodied AI plus broader AI+ industrial planning.",
+      "source": "CSIS",
+      "category": "Policy",
+      "date": "2026-04-09",
+      "link": "https://www.csis.org/analysis/pac-tech-pulse-april-2026"
+    },
+    {
+      "id": "white-house-ai-framework-2026",
+      "title": "U.S. AI policy framework emphasizes innovation, safety, and federal alignment",
+      "description": "A March 2026 White House framework outlined nonbinding legislative recommendations on AI, including child safety, free speech, workforce readiness, innovation, and concerns about fragmented state regulation.",
+      "source": "Holland & Knight analysis",
+      "category": "Policy",
+      "date": "2026-03-27",
+      "link": "https://www.hklaw.com/en/insights/publications/2026/03/white-house-releases-a-national-policy-framework-for-artificial"
+    },
+    {
+      "id": "openai-images-20",
+      "title": "OpenAI announces ChatGPT Images 2.0",
+      "description": "OpenAI introduced an updated image generation model with improved text rendering, multilingual support, and visual reasoning capabilities.",
+      "source": "OpenAI News",
+      "category": "Multimodal AI",
+      "date": "2026-04-21",
+      "link": "https://openai.com/index/introducing-chatgpt-images-2-0"
+    },
+    {
+      "id": "openai-codex-enterprise",
+      "title": "OpenAI scales Codex for enterprise software workflows",
+      "description": "OpenAI announced enterprise Codex expansion with consulting partners and positioned Codex around software development lifecycle workflows.",
+      "source": "OpenAI News",
+      "category": "Enterprise AI",
+      "date": "2026-04-21",
+      "link": "https://openai.com/index/scaling-codex-to-enterprises-worldwide"
+    },
+    {
+      "id": "deepmind-industry-partners",
+      "title": "Google DeepMind expands frontier AI partnerships",
+      "description": "Google DeepMind announced partnerships with global consultancies to help organizations adopt frontier AI capabilities.",
+      "source": "Google DeepMind Blog",
+      "category": "Enterprise AI",
+      "date": "2026-04-21",
+      "link": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/"
     }
   ]
 }
