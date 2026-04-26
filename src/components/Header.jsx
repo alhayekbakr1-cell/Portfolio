@@ -53,8 +53,7 @@ const Header = () => {
         {
             label: 'Resources',
             children: [
-                { label: 'Clinical Updates', href: '/clinical-updates' },
-                { label: 'Medical Literature', href: '/news' },
+                { label: 'Medical Updates', href: '/medical-updates' },
                 { label: 'Clinical Tools', href: '/calculators' },
                 { label: 'References', href: '/references' },
             ]
