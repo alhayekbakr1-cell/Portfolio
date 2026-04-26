@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-04-26T00:00:00.000Z",
+  "summary": "Weekly AI updates are being initialized. The automated updater will refresh this file with global AI news from selected research, policy, product, and industry sources.",
+  "sources": [],
+  "items": [
+    {
+      "id": "ai-updates-initialized",
+      "title": "AI Updates feed initialized",
+      "description": "This page is now connected to a static AI news feed that can be refreshed automatically every week by GitHub Actions.",
+      "source": "Bakr Alhayek Portfolio",
+      "category": "Site update",
+      "date": "2026-04-26",
+      "link": "https://bakralhayek.com/#/ai-updates"
+    }
+  ]
+}
