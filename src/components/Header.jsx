@@ -32,6 +32,7 @@ const Header = () => {
             children: [
                 { label: 'Research Works', href: '/research' },
                 { label: 'Medical AI Lab', href: '/medical-ai' },
+                { label: 'AI Updates', href: '/ai-updates' },
                 { label: 'Publications', href: '/publications' },
             ]
         },
@@ -54,9 +55,9 @@ const Header = () => {
             children: [
                 { label: 'Clinical Tools', href: '/calculators' },
                 { label: 'References', href: '/references' },
+                { label: 'Medical Literature', href: '/news' },
             ]
         },
-        { label: 'News', href: '/news' },
         { label: 'Collaborate', href: '/collaborate' },
         { label: 'Contact', href: '/contact' },
     ];
