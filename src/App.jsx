@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -21,11 +21,10 @@ const References = lazy(() => import('./components/References'));
 const ClinicalCalculators = lazy(() => import('./components/ClinicalCalculators'));
 const MedicalAILab = lazy(() => import('./components/MedicalAI'));
 const AIUpdates = lazy(() => import('./components/AIUpdates'));
-const ClinicalUpdates = lazy(() => import('./components/ClinicalUpdates'));
+const MedicalUpdates = lazy(() => import('./components/ClinicalUpdates'));
 const Contact = lazy(() => import('./components/Contact'));
 const Footer = lazy(() => import('./components/Footer'));
 const QuickAccessToolbar = lazy(() => import('./components/QuickAccessToolbar'));
-const NewsFeed = lazy(() => import('./components/NewsFeed'));
 const CollaborateMatcher = lazy(() => import('./components/CollaborateMatcher'));
 const ClinicalMedia = lazy(() => import('./components/ClinicalMedia'));
 // Simple loading fallback
@@ -70,7 +69,9 @@ function App() {
               <Route path="/research" element={<Research />} />
               <Route path="/medical-ai" element={<MedicalAILab />} />
               <Route path="/ai-updates" element={<AIUpdates />} />
-              <Route path="/clinical-updates" element={<ClinicalUpdates />} />
+              <Route path="/medical-updates" element={<MedicalUpdates />} />
+              <Route path="/clinical-updates" element={<Navigate to="/medical-updates" replace />} />
+              <Route path="/news" element={<Navigate to="/medical-updates" replace />} />
               <Route path="/publications" element={<Publications />} />
               <Route path="/leadership" element={<Leadership />} />
               <Route path="/quality-safety" element={<QualitySafety />} />
@@ -79,7 +80,6 @@ function App() {
               <Route path="/service" element={<Service />} />
               <Route path="/calculators" element={<ClinicalCalculators />} />
               <Route path="/references" element={<References />} />
-              <Route path="/news" element={<NewsFeed />} />
               <Route path="/collaborate" element={<CollaborateMatcher />} />
               <Route path="/media-lab" element={<ClinicalMedia />} />
               <Route path="/contact" element={<Contact />} />
