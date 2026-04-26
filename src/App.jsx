@@ -21,6 +21,7 @@ const References = lazy(() => import('./components/References'));
 const ClinicalCalculators = lazy(() => import('./components/ClinicalCalculators'));
 const MedicalAILab = lazy(() => import('./components/MedicalAI'));
 const AIUpdates = lazy(() => import('./components/AIUpdates'));
+const ClinicalUpdates = lazy(() => import('./components/ClinicalUpdates'));
 const Contact = lazy(() => import('./components/Contact'));
 const Footer = lazy(() => import('./components/Footer'));
 const QuickAccessToolbar = lazy(() => import('./components/QuickAccessToolbar'));
@@ -69,6 +70,7 @@ function App() {
               <Route path="/research" element={<Research />} />
               <Route path="/medical-ai" element={<MedicalAILab />} />
               <Route path="/ai-updates" element={<AIUpdates />} />
+              <Route path="/clinical-updates" element={<ClinicalUpdates />} />
               <Route path="/publications" element={<Publications />} />
               <Route path="/leadership" element={<Leadership />} />
               <Route path="/quality-safety" element={<QualitySafety />} />
