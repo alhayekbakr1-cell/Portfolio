@@ -15,7 +15,7 @@ const ClinicalUpdates = () => {
         const loadFeed = async () => {
             try {
                 const response = await fetch(`${import.meta.env.BASE_URL || '/'}clinical-updates.json`, { cache: 'no-store' });
-                if (!response.ok) throw new Error('Unable to load the clinical updates feed.');
+                if (!response.ok) throw new Error('Unable to load the medical updates feed.');
                 const data = await response.json();
                 if (mounted) {
                     setFeed(data);
@@ -89,10 +89,10 @@ const ClinicalUpdates = () => {
                     initial={{ opacity: 0, y: 18 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.45 }}
-                    aria-labelledby="clinical-updates-title"
+                    aria-labelledby="medical-updates-title"
                 >
-                    <div style={styles.eyebrow}><Stethoscope size={18} aria-hidden="true" /> Weekly Clinical Intelligence</div>
-                    <h1 id="clinical-updates-title" style={styles.title}>Clinical Updates</h1>
+                    <div style={styles.eyebrow}><Stethoscope size={18} aria-hidden="true" /> Weekly Medical Intelligence</div>
+                    <h1 id="medical-updates-title" style={styles.title}>Medical Updates</h1>
                     <p style={styles.subtitle}>
                         Recent trials, guideline updates, practice-changing literature, and hot topics across internal medicine and major subspecialties.
                     </p>
@@ -103,12 +103,12 @@ const ClinicalUpdates = () => {
                     </div>
                 </motion.section>
 
-                {status === 'loading' && <div style={styles.notice}>Loading clinical updates...</div>}
-                {status === 'error' && <div style={styles.notice}><strong>Unable to load clinical updates.</strong><p style={{ marginTop: '8px' }}>{error}</p></div>}
+                {status === 'loading' && <div style={styles.notice}>Loading medical updates...</div>}
+                {status === 'error' && <div style={styles.notice}><strong>Unable to load medical updates.</strong><p style={{ marginTop: '8px' }}>{error}</p></div>}
 
                 {status === 'success' && (
                     <>
-                        <section style={styles.controls} aria-label="Clinical update filters">
+                        <section style={styles.controls} aria-label="Medical update filters">
                             <div style={styles.controlCard}>
                                 <div style={styles.controlLabel}><Filter size={16} aria-hidden="true" /> Specialty</div>
                                 <div style={styles.chipWrap}>
@@ -132,9 +132,9 @@ const ClinicalUpdates = () => {
                         </section>
 
                         {filteredItems.length === 0 ? (
-                            <div style={styles.notice}>No clinical updates found for this filter yet.</div>
+                            <div style={styles.notice}>No medical updates found for this filter yet.</div>
                         ) : (
-                            <section style={styles.grid} aria-label="Clinical update articles">
+                            <section style={styles.grid} aria-label="Medical update articles">
                                 {filteredItems.map((item, index) => (
                                     <motion.a
                                         key={item.id || `${item.link}-${index}`}
