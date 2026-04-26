@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Bakr Alhayek MD monogram</title>
+  <desc id="desc">A navy and gold BA MD monogram for the Bakr Alhayek MD portfolio.</desc>
+  <rect width="64" height="64" rx="14" fill="#0A2540"/>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="#C5A059" stroke-width="2.5"/>
+  <text x="32" y="30" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#FFFFFF" letter-spacing="-1">BA</text>
+  <text x="32" y="45" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#C5A059" letter-spacing="1.2">MD</text>
+</svg>
