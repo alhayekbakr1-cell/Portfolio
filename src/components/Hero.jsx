@@ -1,33 +1,50 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import profileImage from '../assets/profile.webp';
 
 const Hero = () => {
-    const [showEmail, setShowEmail] = useState(false);
     const canvasRef = useRef(null);
     const baseUrl = import.meta.env.BASE_URL || '/';
     const cvPath = `${baseUrl}Bakr_Alhayek_CV.pdf`;
     const navigate = useNavigate();
 
-    // Canvas Animation Logic
+    // Decorative canvas animation with mobile and reduced-motion safeguards
     useEffect(() => {
         const canvas = canvasRef.current;
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        if (!canvas || reduceMotion) return;
+
         const ctx = canvas.getContext('2d');
-        let width, height;
+        let width = 0;
+        let height = 0;
         let particles = [];
         let animationFrameId;
         let isVisible = true;
+        let isRunning = false;
+
+        const getParticleCount = () => {
+            if (window.innerWidth < 640) return 28;
+            if (window.innerWidth < 1024) return 45;
+            return 70;
+        };
 
         const resize = () => {
-            width = canvas.width = window.innerWidth;
-            height = canvas.height = window.innerHeight;
+            const pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+            width = window.innerWidth;
+            height = window.innerHeight;
+            canvas.width = width * pixelRatio;
+            canvas.height = height * pixelRatio;
+            canvas.style.width = `${width}px`;
+            canvas.style.height = `${height}px`;
+            ctx.setTransform(pixelRatio, 0, 0, pixelRatio, 0, 0);
         };
 
         class Particle {
             constructor() {
                 this.x = Math.random() * width;
                 this.y = Math.random() * height;
-                this.vx = (Math.random() - 0.5) * 0.3; // Slower speed
+                this.vx = (Math.random() - 0.5) * 0.3;
                 this.vy = (Math.random() - 0.5) * 0.3;
                 this.size = Math.random() * 2 + 1;
             }
@@ -40,7 +57,7 @@ const Hero = () => {
                 if (this.y > height) this.y = 0;
             }
             draw() {
-                ctx.fillStyle = 'rgba(10, 37, 64, 0.15)'; // Tuned: visible but subtle
+                ctx.fillStyle = 'rgba(10, 37, 64, 0.15)';
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
                 ctx.fill();
@@ -49,26 +66,32 @@ const Hero = () => {
 
         const init = () => {
             particles = [];
-            for (let i = 0; i < 70; i++) {
+            for (let i = 0; i < getParticleCount(); i += 1) {
                 particles.push(new Particle());
             }
         };
 
         const animate = () => {
-            if (!isVisible) return;
+            if (!isVisible || document.hidden) {
+                isRunning = false;
+                return;
+            }
 
+            isRunning = true;
             ctx.clearRect(0, 0, width, height);
-            for (let i = 0; i < particles.length; i++) {
+
+            for (let i = 0; i < particles.length; i += 1) {
                 particles[i].update();
                 particles[i].draw();
-                // Connect particles
-                for (let j = i; j < particles.length; j++) {
+
+                for (let j = i + 1; j < particles.length; j += 1) {
                     const dx = particles[i].x - particles[j].x;
                     const dy = particles[i].y - particles[j].y;
                     const distance = Math.sqrt(dx * dx + dy * dy);
+
                     if (distance < 150) {
                         ctx.beginPath();
-                        ctx.strokeStyle = `rgba(10, 37, 64, ${0.12 * (1 - distance / 150)})`; // Tuned line opacity
+                        ctx.strokeStyle = `rgba(10, 37, 64, ${0.12 * (1 - distance / 150)})`;
                         ctx.lineWidth = 1;
                         ctx.moveTo(particles[i].x, particles[i].y);
                         ctx.lineTo(particles[j].x, particles[j].y);
@@ -76,36 +99,56 @@ const Hero = () => {
                     }
                 }
             }
+
             animationFrameId = requestAnimationFrame(animate);
         };
 
-        window.addEventListener('resize', resize);
+        const startAnimation = () => {
+            if (!isRunning && isVisible && !document.hidden) {
+                animationFrameId = requestAnimationFrame(animate);
+            }
+        };
+
+        const handleResize = () => {
+            resize();
+            init();
+        };
+
+        const handleVisibilityChange = () => {
+            if (document.hidden) {
+                cancelAnimationFrame(animationFrameId);
+                isRunning = false;
+            } else {
+                startAnimation();
+            }
+        };
+
+        window.addEventListener('resize', handleResize);
+        document.addEventListener('visibilitychange', handleVisibilityChange);
         resize();
         init();
 
-        // Intersection Observer to pause animation
         const observer = new IntersectionObserver(
             ([entry]) => {
                 isVisible = entry.isIntersecting;
                 if (isVisible) {
-                    animate();
+                    startAnimation();
                 } else {
                     cancelAnimationFrame(animationFrameId);
+                    isRunning = false;
                 }
             },
             { threshold: 0 }
         );
 
-        if (canvas) {
-            observer.observe(canvas);
-        }
+        observer.observe(canvas);
+        startAnimation();
 
         return () => {
-            window.removeEventListener('resize', resize);
+            window.removeEventListener('resize', handleResize);
+            document.removeEventListener('visibilitychange', handleVisibilityChange);
             cancelAnimationFrame(animationFrameId);
-            if (canvas) {
-                observer.unobserve(canvas);
-            }
+            observer.disconnect();
         };
     }, []);
 
@@ -121,7 +164,7 @@ const Hero = () => {
             display: 'flex',
             alignItems: 'center',
             position: 'relative',
-            overflow: 'hidden', // Contain canvas
+            overflow: 'hidden',
         },
         canvas: {
             position: 'absolute',
@@ -163,17 +206,6 @@ const Hero = () => {
             boxShadow: 'var(--shadow-lg)',
             transition: 'transform 0.5s ease',
         },
-        imageRing: {
-            position: 'absolute',
-            top: '-10px',
-            left: '-10px',
-            right: '-10px',
-            bottom: '-10px',
-            borderRadius: '50%',
-            border: '2px dashed var(--accent-navy)',
-            opacity: 0.3,
-            animation: 'rotate 20s linear infinite',
-        },
         greeting: {
             fontSize: '1.2rem',
             color: 'var(--accent-gold)',
@@ -197,9 +229,6 @@ const Hero = () => {
             fontWeight: '700',
             marginBottom: '1.5rem',
             lineHeight: '1.3',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '12px',
         },
         description: {
             fontSize: '1.2rem',
@@ -269,25 +298,28 @@ const Hero = () => {
     };
 
     const animations = `
-        @keyframes rotate {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-        
         .hero-profile-container:hover .profile-img {
             transform: scale(1.02);
         }
         
-        .hero-primary-btn:hover {
+        .hero-primary-btn:hover,
+        .hero-primary-btn:focus-visible {
             background-color: var(--accent-gold-hover);
             transform: translateY(-3px);
             box-shadow: 0 8px 20px rgba(197, 160, 89, 0.4);
         }
         
-        .hero-secondary-btn:hover {
+        .hero-secondary-btn:hover,
+        .hero-secondary-btn:focus-visible {
             background-color: var(--accent-navy);
             color: white;
             transform: translateY(-3px);
+        }
+
+        .hero-primary-btn:focus-visible,
+        .hero-secondary-btn:focus-visible {
+            outline: 3px solid var(--accent-blue);
+            outline-offset: 3px;
         }
 
         @media (max-width: 768px) {
@@ -300,16 +332,16 @@ const Hero = () => {
     return (
         <>
             <style>{animations}</style>
-            <section id="home" style={styles.hero}>
-                <canvas ref={canvasRef} style={styles.canvas} />
+            <section id="home" style={styles.hero} aria-labelledby="hero-title">
+                <canvas ref={canvasRef} style={styles.canvas} aria-hidden="true" />
                 <div style={styles.heroContainer}>
                     <div style={styles.content} className="hero-content">
                         <p style={styles.greeting}>Physician • Researcher • Innovator</p>
-                        <h1 style={styles.title}>Bakr Alhayek, MD</h1>
+                        <h1 id="hero-title" style={styles.title}>Bakr Alhayek, MD</h1>
 
-                        <div style={styles.subtitle}>
+                        <h2 style={styles.subtitle}>
                             Internal Medicine Resident Physician
-                        </div>
+                        </h2>
 
                         <div style={styles.description}>
                             <p>
@@ -320,7 +352,7 @@ const Hero = () => {
 
                         <div style={styles.glassBox}>
                             <div style={styles.mission}>
-                                <span style={{ fontSize: '1.5rem' }}>🎯</span>
+                                <span style={{ fontSize: '1.5rem' }} aria-hidden="true">🎯</span>
                                 <p>
                                     <strong>Professional Objective:</strong> Pursuing a Hematology/Oncology fellowship to bridge the gap between complex inpatient management and scalable outcomes research.
                                 </p>
@@ -333,21 +365,23 @@ const Hero = () => {
                                 download
                                 style={styles.primaryBtn}
                                 className="hero-primary-btn"
+                                aria-label="Download Bakr Alhayek's curriculum vitae as a PDF"
                             >
-                                <span style={{ fontSize: '1.2rem' }}>📄</span> Download Curriculum Vitae
+                                <span style={{ fontSize: '1.2rem' }} aria-hidden="true">📄</span> Download Curriculum Vitae
                             </a>
                             <button
                                 onClick={handleConnect}
                                 style={styles.secondaryBtn}
                                 className="hero-secondary-btn"
+                                aria-label="Go to the contact page"
                             >
-                                <span style={{ fontSize: '1.2rem' }}>✉️</span> Get in Touch
+                                <span style={{ fontSize: '1.2rem' }} aria-hidden="true">✉️</span> Get in Touch
                             </button>
                         </div>
                     </div>
 
                     <div style={styles.imageContainer} className="hero-profile-container">
-                        <img src={profileImage} alt="Bakr Alhayek, MD" style={styles.profileImage} className="profile-img" />
+                        <img src={profileImage} alt="Portrait of Bakr Alhayek, MD" style={styles.profileImage} className="profile-img" />
                     </div>
                 </div>
             </section>
@@ -356,4 +390,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
