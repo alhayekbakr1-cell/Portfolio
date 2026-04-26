@@ -1,122 +1,317 @@
 {
-  "generatedAt": "2026-04-26T22:30:00.000Z",
-  "summary": "Latest global AI updates refreshed from major frontier lab, policy, healthcare, and industry sources.",
+  "generatedAt": "2026-04-26T22:23:24.506Z",
+  "summary": "Latest global AI updates from 5 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
-    { "name": "OpenAI News", "category": "Frontier labs", "url": "https://openai.com/news/rss.xml" },
-    { "name": "Google DeepMind Blog", "category": "Frontier labs", "url": "https://deepmind.google/blog/rss.xml" },
-    { "name": "Reuters", "category": "Industry", "url": "https://www.reuters.com/technology/" },
-    { "name": "Axios", "category": "Industry", "url": "https://www.axios.com/technology" },
-    { "name": "CSIS", "category": "Policy", "url": "https://www.csis.org/" },
-    { "name": "Healthcare AI Digest", "category": "Healthcare", "url": "https://healthaidigest.com/" }
+    {
+      "name": "OpenAI News",
+      "category": "Frontier labs",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "name": "Google DeepMind Blog",
+      "category": "Frontier labs",
+      "url": "https://deepmind.google/blog/rss.xml"
+    },
+    {
+      "name": "Anthropic News",
+      "category": "Frontier labs",
+      "url": "https://www.anthropic.com/news/rss.xml"
+    },
+    {
+      "name": "MIT News - Artificial Intelligence",
+      "category": "Research",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2-rss.xml"
+    },
+    {
+      "name": "Stanford HAI",
+      "category": "Research and policy",
+      "url": "https://hai.stanford.edu/news/rss.xml"
+    },
+    {
+      "name": "The Decoder",
+      "category": "Industry",
+      "url": "https://the-decoder.com/feed/"
+    },
+    {
+      "name": "VentureBeat AI",
+      "category": "Industry",
+      "url": "https://venturebeat.com/category/ai/feed/"
+    }
+  ],
+  "failedSources": [
+    "Anthropic News: Anthropic News responded with 404",
+    "MIT News - Artificial Intelligence: MIT News - Artificial Intelligence responded with 404"
   ],
   "items": [
     {
-      "id": "openai-gpt-55-release",
-      "title": "OpenAI introduces GPT-5.5",
-      "description": "OpenAI released GPT-5.5, positioning it as a stronger model for coding, research, office work, computer use, and longer-running agentic tasks.",
-      "source": "OpenAI / Axios",
-      "category": "Frontier labs",
-      "date": "2026-04-23",
-      "link": "https://www.axios.com/2026/04/23/openai-releases-spud-gpt-model"
+      "id": "the-decoder-https-the-decoder-com-openai-kills-its-dedicated-coding-model-codex-again-folding-it-into-gpt-5-5-",
+      "title": "OpenAI kills its dedicated coding model Codex again, folding it into GPT-5.5",
+      "description": "OpenAI has once again retired its dedicated Codex coding model, folding its capabilities directly into the main model. GPT-5.5 promises stronger agentic coding and lower token usage, OpenAI says. The article OpenAI kills its dedicated coding model Codex again,",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-04-26",
+      "link": "https://the-decoder.com/openai-kills-its-dedicated-coding-model-codex-again-folding-it-into-gpt-5-5/"
     },
     {
-      "id": "openai-clinician-chatgpt",
-      "title": "OpenAI expands ChatGPT support for clinicians",
-      "description": "OpenAI announced a clinician-focused ChatGPT offering for verified U.S. physicians, nurse practitioners, and pharmacists, highlighting clinical documentation, care support, and research workflows.",
+      "id": "the-decoder-https-the-decoder-com-openai-says-old-prompts-are-holding-gpt-5-5-back-and-developers-need-a-fresh-baseline-",
+      "title": "OpenAI says old prompts are holding GPT-5.5 back and developers need a fresh baseline",
+      "description": "OpenAI says developers shouldn't carry over old prompts for GPT-5.5. Instead, start minimal and from scratch. Role definitions, which some had written off as unnecessary, are back at the front of the framework. The article OpenAI says old prompts are holding G",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-04-26",
+      "link": "https://the-decoder.com/openai-says-old-prompts-are-holding-gpt-5-5-back-and-developers-need-a-fresh-baseline/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-500-investment-bankers-review-ai-outputs-and-find-none-ready-for-client-delivery-",
+      "title": "500 investment bankers review AI outputs and find none ready for client delivery",
+      "description": "A new benchmark puts top models like GPT-5.4 and Claude Opus 4.6 to work on the kinds of tasks junior investment bankers handle every day. Not a single AI output was rated ready to send to a client; the results are too imprecise or flat-out wrong. Still, more ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-04-26",
+      "link": "https://the-decoder.com/500-investment-bankers-review-ai-outputs-and-find-none-ready-for-client-delivery/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-survey-finds-claudes-weekly-active-users-in-the-us-skew-far-wealthier-than-any-rival-a",
+      "title": "Survey finds Claude&#039;s weekly active users in the US skew far wealthier than any rival AI assistant",
+      "description": "A survey shows Claude users earn significantly more than users of other AI services. Here's how income breaks down across ChatGPT, Gemini, and the rest. The article Survey finds Claude&#039;s weekly active users in the US skew far wealthier than any rival AI a",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-04-26",
+      "link": "https://the-decoder.com/survey-finds-claudes-weekly-active-users-in-the-us-skew-far-wealthier-than-any-rival-ai-assistant/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-ai-agents-arent-replacing-software-engineering-but-expanding-it-far-beyond-code-resear",
+      "title": "AI agents aren&#039;t replacing software engineering but expanding it far beyond code, researchers argue",
+      "description": "The popular story goes that AI agents are swallowing up more programming work and developers are headed for obsolescence. A new paper from researchers at Chalmers University of Technology and the Volvo Group argues that view misses the mark. The article AI age",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-04-26",
+      "link": "https://the-decoder.com/ai-agents-arent-replacing-software-engineering-but-expanding-it-far-beyond-code-researchers-argue/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-gpt-5-5-tops-benchmarks-but-still-hallucinates-frequently-at-a-20-percent-higher-api-c",
+      "title": "GPT-5.5 tops benchmarks but still hallucinates frequently at a 20 percent higher API cost",
+      "description": "GPT-5.5 pushes OpenAI back to the top of the AI benchmarks. The price went up, but it still looks like the best bang for your buck among proprietary models. The article GPT-5.5 tops benchmarks but still hallucinates frequently at a 20 percent higher API cost a",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-04-25",
+      "link": "https://the-decoder.com/gpt-5-5-tops-benchmarks-but-still-hallucinates-frequently-at-a-20-percent-higher-api-cost/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-us-programmer-job-growth-nearly-halved-since-chatgpt-launched-fed-study-finds-",
+      "title": "US programmer job growth nearly halved since ChatGPT launched, Fed study finds",
+      "description": "Programmers are among the professional groups whose everyday lives have changed the most as a result of generative AI. A new study by the Federal Reserve Board now provides evidence that this is also reflected in employment figures. The article US programmer j",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-04-25",
+      "link": "https://the-decoder.com/us-programmer-job-growth-nearly-halved-since-chatgpt-launched-fed-study-finds/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-qwen3-6-27b-beats-much-larger-predecessor-on-most-coding-benchmarks-",
+      "title": "Qwen3.6-27B beats much larger predecessor on most coding benchmarks",
+      "description": "Alibaba's new open-source model Qwen3.6-27B beats its 15-times-larger predecessor across coding benchmarks with just 27 billion parameters. The article Qwen3.6-27B beats much larger predecessor on most coding benchmarks appeared first on The Decoder .",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-04-25",
+      "link": "https://the-decoder.com/qwen3-6-27b-beats-much-larger-predecessor-on-most-coding-benchmarks/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-anthropic-says-stronger-ai-models-cut-better-deals-and-the-losers-dont-even-notice-",
+      "title": "Anthropic says stronger AI models cut better deals, and the losers don&#039;t even notice",
+      "description": "Anthropic let 69 AI agents trade on behalf of employees in an internal marketplace for a week. Stronger models scored better deals, and the people stuck with weaker agents never noticed. If AI models start handling real transactions for humans, these dynamics ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-04-25",
+      "link": "https://the-decoder.com/anthropic-says-stronger-ai-models-cut-better-deals-and-the-losers-dont-even-notice/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-the-uae-wants-half-its-government-run-by-autonomous-ai-agents-within-two-years-",
+      "title": "The UAE wants half its government run by autonomous AI agents within two years",
+      "description": "The United Arab Emirates plans to shift half of its government operations to autonomous AI systems within two years. The article The UAE wants half its government run by autonomous AI agents within two years appeared first on The Decoder .",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-04-25",
+      "link": "https://the-decoder.com/the-uae-wants-half-its-government-run-by-autonomous-ai-agents-within-two-years/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-introducing-gpt-5-5",
+      "title": "Introducing GPT-5.5",
+      "description": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
       "source": "OpenAI News",
-      "category": "Healthcare",
+      "category": "Frontier labs",
+      "date": "2026-04-23",
+      "link": "https://openai.com/index/introducing-gpt-5-5"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-gpt-5-5-system-card",
+      "title": "GPT-5.5 System Card",
+      "description": "",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-23",
+      "link": "https://openai.com/index/gpt-5-5-system-card"
+    },
+    {
+      "id": "openai-news-https-openai-com-academy-codex-automations",
+      "title": "Automations",
+      "description": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-23",
+      "link": "https://openai.com/academy/codex-automations"
+    },
+    {
+      "id": "openai-news-https-openai-com-academy-top-10-use-cases-codex-for-work",
+      "title": "Top 10 uses for Codex at work",
+      "description": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-23",
+      "link": "https://openai.com/academy/top-10-use-cases-codex-for-work"
+    },
+    {
+      "id": "openai-news-https-openai-com-academy-codex-plugins-and-skills",
+      "title": "Plugins and skills",
+      "description": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-23",
+      "link": "https://openai.com/academy/codex-plugins-and-skills"
+    },
+    {
+      "id": "openai-news-https-openai-com-academy-working-with-codex",
+      "title": "Working with Codex",
+      "description": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-23",
+      "link": "https://openai.com/academy/working-with-codex"
+    },
+    {
+      "id": "openai-news-https-openai-com-academy-codex-settings",
+      "title": "Codex settings",
+      "description": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-23",
+      "link": "https://openai.com/academy/codex-settings"
+    },
+    {
+      "id": "openai-news-https-openai-com-academy-what-is-codex",
+      "title": "What is Codex?",
+      "description": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-23",
+      "link": "https://openai.com/academy/what-is-codex"
+    },
+    {
+      "id": "openai-news-https-openai-com-academy-codex-how-to-start",
+      "title": "How to get started with Codex",
+      "description": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-23",
+      "link": "https://openai.com/academy/codex-how-to-start"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-gpt-5-5-bio-bug-bounty",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "description": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-23",
+      "link": "https://openai.com/index/gpt-5-5-bio-bug-bounty"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-making-chatgpt-better-for-clinicians",
+      "title": "Making ChatGPT better for clinicians",
+      "description": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
       "date": "2026-04-22",
       "link": "https://openai.com/index/making-chatgpt-better-for-clinicians"
     },
     {
-      "id": "google-enterprise-ai-agents",
-      "title": "Google centers enterprise AI strategy on agents",
-      "description": "Google announced expanded enterprise AI products focused on custom agents, governance, security, Gemini Enterprise, upgraded Vertex AI, and new TPU infrastructure.",
-      "source": "Reuters",
-      "category": "Enterprise AI",
-      "date": "2026-04-22",
-      "link": "https://www.reuters.com/business/google-puts-ai-agents-heart-its-enterprise-money-making-push-2026-04-22/"
-    },
-    {
-      "id": "deepmind-decoupled-diloco",
-      "title": "Google DeepMind publishes Decoupled DiLoCo work",
-      "description": "Google DeepMind described Decoupled DiLoCo, a distributed training approach aimed at making AI training more resilient across separated compute clusters.",
-      "source": "Google DeepMind Blog",
-      "category": "Research",
-      "date": "2026-04-22",
-      "link": "https://deepmind.google/blog/decoupled-diloco/"
-    },
-    {
-      "id": "openai-workspace-agents",
-      "title": "Workspace agents arrive in ChatGPT",
-      "description": "OpenAI introduced workspace agents in ChatGPT for cloud-based automation of complex workflows across tools and team operations.",
+      "id": "openai-news-https-openai-com-academy-workspace-agents",
+      "title": "Workspace agents",
+      "description": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
       "source": "OpenAI News",
-      "category": "Agentic AI",
+      "category": "Frontier labs",
+      "date": "2026-04-22",
+      "link": "https://openai.com/academy/workspace-agents"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-speeding-up-agentic-workflows-with-websockets",
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "description": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-22",
+      "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-introducing-workspace-agents-in-chatgpt",
+      "title": "Introducing workspace agents in ChatGPT",
+      "description": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
       "date": "2026-04-22",
       "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt"
     },
     {
-      "id": "openai-privacy-filter",
-      "title": "OpenAI introduces Privacy Filter",
-      "description": "OpenAI released Privacy Filter, an open-weight model intended to detect and redact personally identifiable information in text.",
+      "id": "openai-news-https-openai-com-index-introducing-openai-privacy-filter",
+      "title": "Introducing OpenAI Privacy Filter",
+      "description": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
       "source": "OpenAI News",
-      "category": "Safety and privacy",
+      "category": "Frontier labs",
       "date": "2026-04-22",
       "link": "https://openai.com/index/introducing-openai-privacy-filter"
     },
     {
-      "id": "healthcare-ai-digest-april-2026",
-      "title": "Healthcare AI focus: FDA devices, state bills, clinical admin agents",
-      "description": "Healthcare AI Digest highlighted FDA-authorized AI device growth, state policy attention to AI-driven insurance decisions, and funding around voice/chat agents for clinical administration.",
-      "source": "Healthcare AI Digest",
-      "category": "Healthcare",
-      "date": "2026-04-20",
-      "link": "https://healthaidigest.com/"
+      "id": "google-deepmind-blog-https-deepmind-google-blog-decoupled-diloco-",
+      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+      "description": "",
+      "source": "Google DeepMind Blog",
+      "category": "Frontier labs",
+      "date": "2026-04-22",
+      "link": "https://deepmind.google/blog/decoupled-diloco/"
     },
     {
-      "id": "csis-april-policy-asia-ai",
-      "title": "CSIS tracks AI standards and policy activity in Asia",
-      "description": "CSIS reported on regional AI policy developments, including China standards work around humanoid robots and embodied AI plus broader AI+ industrial planning.",
-      "source": "CSIS",
-      "category": "Policy",
-      "date": "2026-04-09",
-      "link": "https://www.csis.org/analysis/pac-tech-pulse-april-2026"
-    },
-    {
-      "id": "white-house-ai-framework-2026",
-      "title": "U.S. AI policy framework emphasizes innovation, safety, and federal alignment",
-      "description": "A March 2026 White House framework outlined nonbinding legislative recommendations on AI, including child safety, free speech, workforce readiness, innovation, and concerns about fragmented state regulation.",
-      "source": "Holland & Knight analysis",
-      "category": "Policy",
-      "date": "2026-03-27",
-      "link": "https://www.hklaw.com/en/insights/publications/2026/03/white-house-releases-a-national-policy-framework-for-artificial"
-    },
-    {
-      "id": "openai-images-20",
-      "title": "OpenAI announces ChatGPT Images 2.0",
-      "description": "OpenAI introduced an updated image generation model with improved text rendering, multilingual support, and visual reasoning capabilities.",
+      "id": "openai-news-https-openai-com-index-introducing-chatgpt-images-2-0",
+      "title": "Introducing ChatGPT Images 2.0",
+      "description": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
       "source": "OpenAI News",
-      "category": "Multimodal AI",
+      "category": "Frontier labs",
       "date": "2026-04-21",
       "link": "https://openai.com/index/introducing-chatgpt-images-2-0"
     },
     {
-      "id": "openai-codex-enterprise",
-      "title": "OpenAI scales Codex for enterprise software workflows",
-      "description": "OpenAI announced enterprise Codex expansion with consulting partners and positioned Codex around software development lifecycle workflows.",
+      "id": "openai-news-https-openai-com-index-scaling-codex-to-enterprises-worldwide",
+      "title": "Scaling Codex to enterprises worldwide",
+      "description": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
       "source": "OpenAI News",
-      "category": "Enterprise AI",
+      "category": "Frontier labs",
       "date": "2026-04-21",
       "link": "https://openai.com/index/scaling-codex-to-enterprises-worldwide"
     },
     {
-      "id": "deepmind-industry-partners",
-      "title": "Google DeepMind expands frontier AI partnerships",
-      "description": "Google DeepMind announced partnerships with global consultancies to help organizations adopt frontier AI capabilities.",
+      "id": "google-deepmind-blog-https-deepmind-google-blog-partnering-with-industry-leaders-to-accelerate-ai-transformation-",
+      "title": "Partnering with industry leaders to accelerate AI transformation",
+      "description": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
       "source": "Google DeepMind Blog",
-      "category": "Enterprise AI",
+      "category": "Frontier labs",
       "date": "2026-04-21",
       "link": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-hyatt-advances-ai-with-chatgpt-enterprise",
+      "title": "OpenAI helps Hyatt advance AI among colleagues",
+      "description": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-20",
+      "link": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise"
     }
   ]
 }
