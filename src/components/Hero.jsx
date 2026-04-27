@@ -1,19 +1,20 @@
 import React, { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import profileImage from '../assets/profile.webp';
+import { motion, useReducedMotion } from 'framer-motion';
 
 const Hero = () => {
     const canvasRef = useRef(null);
     const baseUrl = import.meta.env.BASE_URL || '/';
     const cvPath = `${baseUrl}Bakr_Alhayek_CV.pdf`;
     const navigate = useNavigate();
+    const reduceMotion = useReducedMotion();
 
     // Decorative canvas animation with mobile and reduced-motion safeguards
     useEffect(() => {
         const canvas = canvasRef.current;
-        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const reduceMotionPreference = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-        if (!canvas || reduceMotion) return;
+        if (!canvas || reduceMotionPreference) return;
 
         const ctx = canvas.getContext('2d');
         let width = 0;
@@ -159,7 +160,7 @@ const Hero = () => {
 
     const styles = {
         hero: {
-            padding: '160px 20px 100px',
+            padding: '170px 20px 110px',
             minHeight: '100vh',
             display: 'flex',
             alignItems: 'center',
@@ -176,85 +177,68 @@ const Hero = () => {
             pointerEvents: 'none',
         },
         heroContainer: {
-            maxWidth: '1200px',
+            maxWidth: '1120px',
             margin: '0 auto',
-            display: 'flex',
+            display: 'grid',
+            gridTemplateColumns: 'minmax(0, 1fr)',
             alignItems: 'center',
-            justifyContent: 'space-between',
-            gap: '80px',
-            flexWrap: 'wrap-reverse',
             position: 'relative',
             zIndex: 2,
             width: '100%',
         },
         content: {
-            flex: '1',
-            minWidth: '320px',
-        },
-        imageContainer: {
-            flex: '0 0 320px',
-            display: 'flex',
-            justifyContent: 'center',
-            position: 'relative',
-        },
-        profileImage: {
-            width: '320px',
-            height: '320px',
-            borderRadius: '50%',
-            objectFit: 'cover',
-            border: '8px solid white',
-            boxShadow: 'var(--shadow-lg)',
-            transition: 'transform 0.5s ease',
+            maxWidth: '850px',
         },
         greeting: {
-            fontSize: '1.2rem',
+            fontSize: '1.05rem',
             color: 'var(--accent-gold)',
-            fontWeight: '600',
-            marginBottom: '0.75rem',
-            letterSpacing: '1px',
+            fontWeight: '700',
+            marginBottom: '0.9rem',
+            letterSpacing: '1.5px',
             textTransform: 'uppercase',
         },
         title: {
-            fontSize: '4rem',
+            fontSize: 'clamp(3.3rem, 8vw, 6.6rem)',
             marginBottom: '1rem',
             color: 'var(--text-primary)',
             fontFamily: 'var(--font-serif)',
-            fontWeight: '800',
-            letterSpacing: '-1.5px',
-            lineHeight: '1.1',
+            fontWeight: '900',
+            letterSpacing: '-0.06em',
+            lineHeight: '0.96',
         },
         subtitle: {
-            fontSize: '1.75rem',
+            fontSize: 'clamp(1.35rem, 3vw, 2.1rem)',
             color: 'var(--accent-navy)',
-            fontWeight: '700',
+            fontWeight: '800',
             marginBottom: '1.5rem',
-            lineHeight: '1.3',
+            lineHeight: '1.25',
         },
         description: {
-            fontSize: '1.2rem',
+            fontSize: '1.22rem',
             color: 'var(--text-secondary)',
-            lineHeight: '1.8',
-            marginBottom: '2.5rem',
-            maxWidth: '680px',
+            lineHeight: '1.85',
+            marginBottom: '2.4rem',
+            maxWidth: '760px',
         },
         highlight: {
             color: 'var(--text-primary)',
-            fontWeight: '700',
+            fontWeight: '750',
             borderBottom: '2px solid var(--accent-gold)',
         },
         glassBox: {
-            padding: '2rem',
-            background: 'rgba(255, 255, 255, 0.7)',
-            backdropFilter: 'blur(10px)',
-            border: '1px solid rgba(255, 255, 255, 0.3)',
-            borderRadius: '12px',
-            boxShadow: 'var(--shadow-sm)',
+            padding: '1.6rem 1.8rem',
+            background: 'rgba(255, 255, 255, 0.72)',
+            backdropFilter: 'blur(16px)',
+            border: '1px solid rgba(255, 255, 255, 0.55)',
+            borderRadius: '18px',
+            boxShadow: '0 22px 70px rgba(10, 37, 64, 0.09)',
             marginBottom: '2.5rem',
+            maxWidth: '780px',
         },
         mission: {
             fontSize: '1rem',
             color: 'var(--text-primary)',
-            lineHeight: '1.6',
+            lineHeight: '1.65',
             margin: 0,
             display: 'flex',
             gap: '12px',
@@ -269,51 +253,76 @@ const Hero = () => {
             backgroundColor: 'var(--accent-gold)',
             border: 'none',
             color: '#FFFFFF',
-            borderRadius: '8px',
+            borderRadius: '999px',
             fontSize: '1.05rem',
-            fontWeight: '600',
-            transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+            fontWeight: '700',
             textDecoration: 'none',
             display: 'inline-flex',
             alignItems: 'center',
             gap: '10px',
             cursor: 'pointer',
-            boxShadow: '0 4px 12px rgba(197, 160, 89, 0.3)',
+            boxShadow: '0 15px 32px rgba(197, 160, 89, 0.28)',
         },
         secondaryBtn: {
             padding: '16px 36px',
-            backgroundColor: 'transparent',
+            backgroundColor: 'rgba(255,255,255,0.55)',
             border: '2px solid var(--accent-navy)',
             color: 'var(--accent-navy)',
-            borderRadius: '8px',
+            borderRadius: '999px',
             fontSize: '1.05rem',
-            fontWeight: '600',
-            transition: 'all 0.3s ease',
+            fontWeight: '700',
             textDecoration: 'none',
             display: 'inline-flex',
             alignItems: 'center',
             gap: '10px',
             cursor: 'pointer',
+            backdropFilter: 'blur(10px)',
+        },
+        statRail: {
+            display: 'grid',
+            gridTemplateColumns: 'repeat(3, minmax(0, 1fr))',
+            gap: '14px',
+            marginTop: '2.4rem',
+            maxWidth: '780px',
+        },
+        stat: {
+            padding: '16px',
+            borderRadius: '18px',
+            border: '1px solid rgba(226, 232, 240, 0.85)',
+            background: 'rgba(255,255,255,0.62)',
+            backdropFilter: 'blur(14px)',
+            boxShadow: '0 12px 40px rgba(10,37,64,0.06)',
+        },
+        statNumber: {
+            display: 'block',
+            fontFamily: 'var(--font-serif)',
+            fontSize: '1.65rem',
+            fontWeight: '900',
+            color: 'var(--accent-navy)',
+            lineHeight: 1,
+        },
+        statLabel: {
+            display: 'block',
+            marginTop: '6px',
+            color: 'var(--text-secondary)',
+            fontSize: '0.86rem',
+            fontWeight: 700,
         }
     };
 
     const animations = `
-        .hero-profile-container:hover .profile-img {
-            transform: scale(1.02);
-        }
-        
         .hero-primary-btn:hover,
         .hero-primary-btn:focus-visible {
             background-color: var(--accent-gold-hover);
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(197, 160, 89, 0.4);
+            transform: translateY(-4px) scale(1.015);
+            box-shadow: 0 18px 40px rgba(197, 160, 89, 0.38);
         }
         
         .hero-secondary-btn:hover,
         .hero-secondary-btn:focus-visible {
             background-color: var(--accent-navy);
             color: white;
-            transform: translateY(-3px);
+            transform: translateY(-4px) scale(1.015);
         }
 
         .hero-primary-btn:focus-visible,
@@ -323,11 +332,15 @@ const Hero = () => {
         }
 
         @media (max-width: 768px) {
-            .hero-content h1 { font-size: 2.8rem !important; }
-            .hero-content h2 { font-size: 1.4rem !important; }
-            .profile-img { width: 260px !important; height: 260px !important; }
+            .hero-stat-rail { grid-template-columns: 1fr !important; }
         }
     `;
+
+    const reveal = reduceMotion ? {} : {
+        initial: { opacity: 0, y: 26, filter: 'blur(10px)' },
+        animate: { opacity: 1, y: 0, filter: 'blur(0px)' },
+        transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] }
+    };
 
     return (
         <>
@@ -335,8 +348,10 @@ const Hero = () => {
             <section id="home" style={styles.hero} aria-labelledby="hero-title">
                 <canvas ref={canvasRef} style={styles.canvas} aria-hidden="true" />
                 <div style={styles.heroContainer}>
-                    <div style={styles.content} className="hero-content">
-                        <p style={styles.greeting}>Physician • Researcher • Innovator</p>
+                    <motion.div style={styles.content} className="hero-content" {...reveal}>
+                        <motion.p style={styles.greeting} initial={reduceMotion ? undefined : { opacity: 0, x: -18 }} animate={reduceMotion ? undefined : { opacity: 1, x: 0 }} transition={{ duration: 0.55, delay: 0.1 }}>
+                            Physician • Researcher • Innovator
+                        </motion.p>
                         <h1 id="hero-title" style={styles.title}>Bakr Alhayek, MD</h1>
 
                         <h2 style={styles.subtitle}>
@@ -350,14 +365,14 @@ const Hero = () => {
                             </p>
                         </div>
 
-                        <div style={styles.glassBox}>
+                        <motion.div style={styles.glassBox} initial={reduceMotion ? undefined : { opacity: 0, y: 22 }} animate={reduceMotion ? undefined : { opacity: 1, y: 0 }} transition={{ duration: 0.65, delay: 0.22 }}>
                             <div style={styles.mission}>
                                 <span style={{ fontSize: '1.5rem' }} aria-hidden="true">🎯</span>
                                 <p>
                                     <strong>Professional Objective:</strong> Pursuing a Hematology/Oncology fellowship to bridge the gap between complex inpatient management and scalable outcomes research.
                                 </p>
                             </div>
-                        </div>
+                        </motion.div>
 
                         <div style={styles.buttonGroup}>
                             <a
@@ -378,11 +393,13 @@ const Hero = () => {
                                 <span style={{ fontSize: '1.2rem' }} aria-hidden="true">✉️</span> Get in Touch
                             </button>
                         </div>
-                    </div>
 
-                    <div style={styles.imageContainer} className="hero-profile-container">
-                        <img src={profileImage} alt="Portrait of Bakr Alhayek, MD" style={styles.profileImage} className="profile-img" />
-                    </div>
+                        <motion.div style={styles.statRail} className="hero-stat-rail" initial={reduceMotion ? undefined : { opacity: 0, y: 22 }} animate={reduceMotion ? undefined : { opacity: 1, y: 0 }} transition={{ duration: 0.65, delay: 0.34 }}>
+                            <div style={styles.stat}><span style={styles.statNumber}>IM</span><span style={styles.statLabel}>Internal Medicine</span></div>
+                            <div style={styles.stat}><span style={styles.statNumber}>H/O</span><span style={styles.statLabel}>Heme/Onc trajectory</span></div>
+                            <div style={styles.stat}><span style={styles.statNumber}>AI</span><span style={styles.statLabel}>Clinical informatics</span></div>
+                        </motion.div>
+                    </motion.div>
                 </div>
             </section>
         </>
