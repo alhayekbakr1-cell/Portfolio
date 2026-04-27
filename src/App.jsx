@@ -23,7 +23,7 @@ const ClinicalCalculators = lazy(() => import('./components/ClinicalCalculators'
 const MedicalAILab = lazy(() => import('./components/MedicalAI'));
 const AIUpdates = lazy(() => import('./components/AIUpdates'));
 const MedicalUpdates = lazy(() => import('./components/ClinicalUpdates'));
-const Contact = lazy(() => import('./components/Contact'));
+const Contact = lazy(() => import('./components/ContactEnhanced'));
 const Footer = lazy(() => import('./components/Footer'));
 const QuickAccessToolbar = lazy(() => import('./components/QuickAccessToolbar'));
 const CollaborateMatcher = lazy(() => import('./components/CollaborateMatcher'));
