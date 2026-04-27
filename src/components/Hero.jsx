@@ -1,19 +1,20 @@
 import React, { useEffect, useRef } from 'react';
+import { motion, useReducedMotion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import profileImage from '../assets/profile.webp';
 
 const Hero = () => {
     const canvasRef = useRef(null);
     const baseUrl = import.meta.env.BASE_URL || '/';
     const cvPath = `${baseUrl}Bakr_Alhayek_CV.pdf`;
     const navigate = useNavigate();
+    const reduceMotion = useReducedMotion();
 
     // Decorative canvas animation with mobile and reduced-motion safeguards
     useEffect(() => {
         const canvas = canvasRef.current;
-        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const reduceMotionPreference = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-        if (!canvas || reduceMotion) return;
+        if (!canvas || reduceMotionPreference) return;
 
         const ctx = canvas.getContext('2d');
         let width = 0;
@@ -157,6 +158,11 @@ const Hero = () => {
         navigate('/contact');
     };
 
+    const fadeUp = reduceMotion ? {} : {
+        initial: { opacity: 0, y: 28 },
+        animate: { opacity: 1, y: 0 },
+    };
+
     const styles = {
         hero: {
             padding: '160px 20px 100px',
@@ -176,35 +182,14 @@ const Hero = () => {
             pointerEvents: 'none',
         },
         heroContainer: {
-            maxWidth: '1200px',
+            maxWidth: '1120px',
             margin: '0 auto',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            gap: '80px',
-            flexWrap: 'wrap-reverse',
             position: 'relative',
             zIndex: 2,
             width: '100%',
         },
         content: {
-            flex: '1',
-            minWidth: '320px',
-        },
-        imageContainer: {
-            flex: '0 0 320px',
-            display: 'flex',
-            justifyContent: 'center',
-            position: 'relative',
-        },
-        profileImage: {
-            width: '320px',
-            height: '320px',
-            borderRadius: '50%',
-            objectFit: 'cover',
-            border: '8px solid white',
-            boxShadow: 'var(--shadow-lg)',
-            transition: 'transform 0.5s ease',
+            maxWidth: '860px',
         },
         greeting: {
             fontSize: '1.2rem',
@@ -215,18 +200,18 @@ const Hero = () => {
             textTransform: 'uppercase',
         },
         title: {
-            fontSize: '4rem',
+            fontSize: 'clamp(3.2rem, 8vw, 6.7rem)',
             marginBottom: '1rem',
             color: 'var(--text-primary)',
             fontFamily: 'var(--font-serif)',
             fontWeight: '800',
-            letterSpacing: '-1.5px',
-            lineHeight: '1.1',
+            letterSpacing: '-3px',
+            lineHeight: '0.98',
         },
         subtitle: {
-            fontSize: '1.75rem',
+            fontSize: 'clamp(1.35rem, 3vw, 2rem)',
             color: 'var(--accent-navy)',
-            fontWeight: '700',
+            fontWeight: '750',
             marginBottom: '1.5rem',
             lineHeight: '1.3',
         },
@@ -235,7 +220,7 @@ const Hero = () => {
             color: 'var(--text-secondary)',
             lineHeight: '1.8',
             marginBottom: '2.5rem',
-            maxWidth: '680px',
+            maxWidth: '760px',
         },
         highlight: {
             color: 'var(--text-primary)',
@@ -244,12 +229,13 @@ const Hero = () => {
         },
         glassBox: {
             padding: '2rem',
-            background: 'rgba(255, 255, 255, 0.7)',
-            backdropFilter: 'blur(10px)',
-            border: '1px solid rgba(255, 255, 255, 0.3)',
-            borderRadius: '12px',
-            boxShadow: 'var(--shadow-sm)',
+            background: 'rgba(255, 255, 255, 0.72)',
+            backdropFilter: 'blur(14px)',
+            border: '1px solid rgba(255, 255, 255, 0.38)',
+            borderRadius: '18px',
+            boxShadow: '0 24px 70px rgba(10, 37, 64, 0.10)',
             marginBottom: '2.5rem',
+            maxWidth: '820px',
         },
         mission: {
             fontSize: '1rem',
@@ -269,63 +255,53 @@ const Hero = () => {
             backgroundColor: 'var(--accent-gold)',
             border: 'none',
             color: '#FFFFFF',
-            borderRadius: '8px',
+            borderRadius: '999px',
             fontSize: '1.05rem',
-            fontWeight: '600',
-            transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+            fontWeight: '700',
             textDecoration: 'none',
             display: 'inline-flex',
             alignItems: 'center',
             gap: '10px',
             cursor: 'pointer',
-            boxShadow: '0 4px 12px rgba(197, 160, 89, 0.3)',
+            boxShadow: '0 12px 30px rgba(197, 160, 89, 0.32)',
         },
         secondaryBtn: {
             padding: '16px 36px',
-            backgroundColor: 'transparent',
+            backgroundColor: 'rgba(255,255,255,0.52)',
             border: '2px solid var(--accent-navy)',
             color: 'var(--accent-navy)',
-            borderRadius: '8px',
+            borderRadius: '999px',
             fontSize: '1.05rem',
-            fontWeight: '600',
-            transition: 'all 0.3s ease',
+            fontWeight: '700',
             textDecoration: 'none',
             display: 'inline-flex',
             alignItems: 'center',
             gap: '10px',
             cursor: 'pointer',
+            backdropFilter: 'blur(10px)',
         }
     };
 
     const animations = `
-        .hero-profile-container:hover .profile-img {
-            transform: scale(1.02);
-        }
-        
         .hero-primary-btn:hover,
         .hero-primary-btn:focus-visible {
             background-color: var(--accent-gold-hover);
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(197, 160, 89, 0.4);
+            transform: translateY(-4px) scale(1.01);
+            box-shadow: 0 18px 38px rgba(197, 160, 89, 0.42);
         }
         
         .hero-secondary-btn:hover,
         .hero-secondary-btn:focus-visible {
             background-color: var(--accent-navy);
             color: white;
-            transform: translateY(-3px);
+            transform: translateY(-4px) scale(1.01);
+            box-shadow: 0 18px 38px rgba(10, 37, 64, 0.16);
         }
 
         .hero-primary-btn:focus-visible,
         .hero-secondary-btn:focus-visible {
             outline: 3px solid var(--accent-blue);
             outline-offset: 3px;
-        }
-
-        @media (max-width: 768px) {
-            .hero-content h1 { font-size: 2.8rem !important; }
-            .hero-content h2 { font-size: 1.4rem !important; }
-            .profile-img { width: 260px !important; height: 260px !important; }
         }
     `;
 
@@ -336,30 +312,30 @@ const Hero = () => {
                 <canvas ref={canvasRef} style={styles.canvas} aria-hidden="true" />
                 <div style={styles.heroContainer}>
                     <div style={styles.content} className="hero-content">
-                        <p style={styles.greeting}>Physician • Researcher • Innovator</p>
-                        <h1 id="hero-title" style={styles.title}>Bakr Alhayek, MD</h1>
+                        <motion.p {...fadeUp} transition={{ duration: 0.5 }} style={styles.greeting}>Physician • Researcher • Innovator</motion.p>
+                        <motion.h1 {...fadeUp} transition={{ duration: 0.6, delay: 0.08 }} id="hero-title" style={styles.title}>Bakr Alhayek, MD</motion.h1>
 
-                        <h2 style={styles.subtitle}>
+                        <motion.h2 {...fadeUp} transition={{ duration: 0.6, delay: 0.16 }} style={styles.subtitle}>
                             Internal Medicine Resident Physician
-                        </h2>
+                        </motion.h2>
 
-                        <div style={styles.description}>
+                        <motion.div {...fadeUp} transition={{ duration: 0.6, delay: 0.24 }} style={styles.description}>
                             <p>
                                 Dedicated to advancing <span style={styles.highlight}>inpatient oncologic care</span> through rigorous evidence-based practice and <span style={styles.highlight}>diagnostic stewardship</span>.
                                 Active investigator at <span style={styles.highlight}>AdventHealth Tampa</span> with a focus on hematopoietic complications and clinical informatics.
                             </p>
-                        </div>
+                        </motion.div>
 
-                        <div style={styles.glassBox}>
+                        <motion.div {...fadeUp} transition={{ duration: 0.6, delay: 0.32 }} style={styles.glassBox} className="luxury-sheen">
                             <div style={styles.mission}>
                                 <span style={{ fontSize: '1.5rem' }} aria-hidden="true">🎯</span>
                                 <p>
                                     <strong>Professional Objective:</strong> Pursuing a Hematology/Oncology fellowship to bridge the gap between complex inpatient management and scalable outcomes research.
                                 </p>
                             </div>
-                        </div>
+                        </motion.div>
 
-                        <div style={styles.buttonGroup}>
+                        <motion.div {...fadeUp} transition={{ duration: 0.6, delay: 0.4 }} style={styles.buttonGroup}>
                             <a
                                 href={cvPath}
                                 download
@@ -377,11 +353,7 @@ const Hero = () => {
                             >
                                 <span style={{ fontSize: '1.2rem' }} aria-hidden="true">✉️</span> Get in Touch
                             </button>
-                        </div>
-                    </div>
-
-                    <div style={styles.imageContainer} className="hero-profile-container">
-                        <img src={profileImage} alt="Portrait of Bakr Alhayek, MD" style={styles.profileImage} className="profile-img" />
+                        </motion.div>
                     </div>
                 </div>
             </section>
