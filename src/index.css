@@ -27,6 +27,8 @@
   --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 24px 70px rgba(10, 37, 64, 0.14);
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
 
   --bg-muted: #F8FAFC;
   --bg-badge: #F1F5F9;
@@ -55,6 +57,14 @@ html {
   margin: 0 auto;
   padding: 0 20px;
   width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.App {
+  position: relative;
+  min-height: 100vh;
+  isolation: isolate;
 }
 
 body {
@@ -110,7 +120,7 @@ h3 {
 a {
   text-decoration: none;
   color: var(--accent-blue);
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 0.25s var(--motion-ease), transform 0.25s var(--motion-ease), box-shadow 0.25s var(--motion-ease), border-color 0.25s var(--motion-ease), background-color 0.25s var(--motion-ease);
 }
 
 button {
@@ -118,7 +128,24 @@ button {
   border: none;
   outline: none;
   font-family: inherit;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.25s var(--motion-ease), box-shadow 0.25s var(--motion-ease), border-color 0.25s var(--motion-ease), background-color 0.25s var(--motion-ease), color 0.25s var(--motion-ease);
+}
+
+button:hover,
+a:hover {
+  transform: translateY(-1px);
+}
+
+button:active,
+a:active {
+  transform: translateY(0) scale(0.99);
+}
+
+button:focus-visible,
+a:focus-visible,
+[role="button"]:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.35);
+  outline-offset: 4px;
 }
 
 /* Section Decorator */
@@ -139,8 +166,55 @@ button {
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background-color: var(--accent-gold);
+  background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
   border-radius: 2px;
+  animation: titleSweep 4.5s ease-in-out infinite;
+}
+
+/* Premium Motion Utilities */
+.motion-card,
+.card,
+[class*="card"],
+article,
+section a[style*="border"] {
+  will-change: transform, box-shadow;
+}
+
+.card:hover,
+.motion-card:hover,
+article:hover,
+section a[style*="border"]:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-xl);
+}
+
+.luxury-sheen {
+  position: relative;
+  overflow: hidden;
+}
+
+.luxury-sheen::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(115deg, transparent 0%, rgba(255,255,255,0.28) 45%, transparent 60%);
+  transform: translateX(-120%);
+  transition: transform 0.8s var(--motion-ease);
+}
+
+.luxury-sheen:hover::after {
+  transform: translateX(120%);
+}
+
+@keyframes titleSweep {
+  0%, 100% { width: 72px; opacity: 0.75; }
+  50% { width: 132px; opacity: 1; }
+}
+
+@keyframes gentleFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
 }
 
 /* Global Input Styling */
@@ -232,11 +306,32 @@ button {
   --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.6);
+  --shadow-xl: 0 28px 80px rgba(0, 0, 0, 0.55);
 
   --bg-muted: #071624;
   /* Darker box for inside cards */
   --bg-badge: #172554;
   /* Navy Badge background */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  button:hover,
+  a:hover,
+  .card:hover,
+  .motion-card:hover,
+  article:hover,
+  section a[style*="border"]:hover {
+    transform: none !important;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
