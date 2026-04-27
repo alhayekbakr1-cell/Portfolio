@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import { useTheme } from '../hooks/useTheme';
 
 const Header = () => {
@@ -69,12 +70,12 @@ const Header = () => {
             left: 0,
             width: '100%',
             zIndex: 1000,
-            transition: 'all 0.3s ease',
+            transition: 'all 0.35s cubic-bezier(0.22, 1, 0.36, 1)',
             padding: scrolled ? '12px 0' : '20px 0',
-            background: scrolled || location.pathname !== '/' ? 'var(--bg-primary)' : 'transparent',
-            backdropFilter: scrolled ? 'blur(10px)' : 'none',
-            boxShadow: scrolled ? 'var(--shadow-sm)' : 'none',
-            borderBottom: scrolled ? '1px solid var(--border-color)' : '1px solid transparent',
+            background: scrolled || location.pathname !== '/' ? 'rgba(255, 255, 255, 0.82)' : 'transparent',
+            backdropFilter: scrolled || location.pathname !== '/' ? 'blur(18px) saturate(1.15)' : 'none',
+            boxShadow: scrolled ? '0 16px 45px rgba(10, 37, 64, 0.08)' : 'none',
+            borderBottom: scrolled ? '1px solid rgba(226, 232, 240, 0.75)' : '1px solid transparent',
         },
         nav: {
             display: 'flex',
@@ -130,32 +131,34 @@ const Header = () => {
             top: '100%',
             left: '50%',
             transform: 'translateX(-50%)',
-            background: 'var(--bg-card)',
-            border: '1px solid var(--border-color)',
-            borderRadius: '8px',
-            boxShadow: 'var(--shadow-lg)',
-            padding: '8px',
-            minWidth: '200px',
+            background: 'rgba(255, 255, 255, 0.94)',
+            backdropFilter: 'blur(18px)',
+            border: '1px solid rgba(226, 232, 240, 0.85)',
+            borderRadius: '14px',
+            boxShadow: '0 24px 70px rgba(10, 37, 64, 0.14)',
+            padding: '10px',
+            minWidth: '210px',
             display: 'flex',
             flexDirection: 'column',
             gap: '4px',
             opacity: 0,
             visibility: 'hidden',
-            transition: 'all 0.2s ease',
-            marginTop: '10px',
+            transition: 'all 0.28s cubic-bezier(0.22, 1, 0.36, 1)',
+            marginTop: '14px',
         },
         dropdownVisible: {
             opacity: 1,
             visibility: 'visible',
-            marginTop: '0px',
+            marginTop: '4px',
+            transform: 'translateX(-50%) translateY(0)',
         },
         dropdownItem: {
-            padding: '8px 12px',
+            padding: '9px 12px',
             color: 'var(--text-secondary)',
             textDecoration: 'none',
             fontSize: '0.85rem',
-            borderRadius: '4px',
-            transition: 'background 0.2s',
+            borderRadius: '9px',
+            transition: 'background 0.2s, transform 0.2s, color 0.2s',
             whiteSpace: 'nowrap',
         },
         themeToggle: {
@@ -255,6 +258,7 @@ const Header = () => {
         .dropdown-item:hover {
             background-color: var(--bg-secondary);
             color: var(--accent-navy);
+            transform: translateX(3px);
         }
     `;
 
@@ -265,7 +269,12 @@ const Header = () => {
     return (
         <>
             <style>{mobileStyles}</style>
-            <header style={styles.header}>
+            <motion.header
+                style={styles.header}
+                initial={{ y: -18, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
+            >
                 <div className="container" style={styles.nav}>
                     <NavLink to="/" style={styles.logo} onClick={() => setMobileMenuOpen(false)}>
                         Bakr Alhayek, MD
@@ -347,7 +356,7 @@ const Header = () => {
                         </button>
                     </div>
                 </div>
-            </header>
+            </motion.header>
 
             <div className="mobile-overlay" style={styles.mobileOverlay}>
                 <ul style={styles.mobileNavList}>
