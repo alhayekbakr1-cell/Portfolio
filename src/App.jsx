@@ -7,7 +7,6 @@ import ScrollProgress from './components/ScrollProgress';
 import GoogleAnalytics from './components/GoogleAnalytics';
 import ScrollToTop from './components/ScrollToTop';
 import MotionBackground from './components/MotionBackground';
-import PageTransition from './components/PageTransition';
 
 // Lazy load non-critical components
 const Experience = lazy(() => import('./components/Experience'));
@@ -61,34 +60,32 @@ function App() {
 
         <Suspense fallback={<LoadingSpinner />}>
           <ErrorBoundary>
-            <PageTransition>
-              <Routes>
-                <Route path="/" element={
-                  <>
-                    <Hero />
-                    <AcademicVision />
-                  </>
-                } />
-                <Route path="/experience" element={<Experience />} />
-                <Route path="/research" element={<Research />} />
-                <Route path="/medical-ai" element={<MedicalAILab />} />
-                <Route path="/ai-updates" element={<AIUpdates />} />
-                <Route path="/medical-updates" element={<MedicalUpdates />} />
-                <Route path="/clinical-updates" element={<Navigate to="/medical-updates" replace />} />
-                <Route path="/news" element={<Navigate to="/medical-updates" replace />} />
-                <Route path="/publications" element={<Publications />} />
-                <Route path="/leadership" element={<Leadership />} />
-                <Route path="/quality-safety" element={<QualitySafety />} />
-                <Route path="/education" element={<Education />} />
-                <Route path="/teaching" element={<TeachingMentorship />} />
-                <Route path="/service" element={<Service />} />
-                <Route path="/calculators" element={<ClinicalCalculators />} />
-                <Route path="/references" element={<References />} />
-                <Route path="/collaborate" element={<CollaborateMatcher />} />
-                <Route path="/media-lab" element={<ClinicalMedia />} />
-                <Route path="/contact" element={<Contact />} />
-              </Routes>
-            </PageTransition>
+            <Routes>
+              <Route path="/" element={
+                <>
+                  <Hero />
+                  <AcademicVision />
+                </>
+              } />
+              <Route path="/experience" element={<Experience />} />
+              <Route path="/research" element={<Research />} />
+              <Route path="/medical-ai" element={<MedicalAILab />} />
+              <Route path="/ai-updates" element={<AIUpdates />} />
+              <Route path="/medical-updates" element={<MedicalUpdates />} />
+              <Route path="/clinical-updates" element={<Navigate to="/medical-updates" replace />} />
+              <Route path="/news" element={<Navigate to="/medical-updates" replace />} />
+              <Route path="/publications" element={<Publications />} />
+              <Route path="/leadership" element={<Leadership />} />
+              <Route path="/quality-safety" element={<QualitySafety />} />
+              <Route path="/education" element={<Education />} />
+              <Route path="/teaching" element={<TeachingMentorship />} />
+              <Route path="/service" element={<Service />} />
+              <Route path="/calculators" element={<ClinicalCalculators />} />
+              <Route path="/references" element={<References />} />
+              <Route path="/collaborate" element={<CollaborateMatcher />} />
+              <Route path="/media-lab" element={<ClinicalMedia />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
           </ErrorBoundary>
         </Suspense>
 
