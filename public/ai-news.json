@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T14:11:01.974Z",
+  "generatedAt": "2026-05-04T14:18:50.567Z",
   "summary": "Latest global AI updates from 5 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
     {
@@ -44,13 +44,166 @@
   ],
   "items": [
     {
-      "id": "openai-news-https-openai-com-index-next-phase-of-microsoft-partnership",
-      "title": "The next phase of the Microsoft OpenAI partnership",
-      "description": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.",
+      "id": "the-decoder-https-the-decoder-com-openai-raises-over-4-billion-for-new-enterprise-deployment-venture-",
+      "title": "OpenAI raises over $4 billion for new enterprise deployment venture",
+      "description": "OpenAI has raised more than $4 billion for a new joint venture called \"The Deployment Company,\" according to Bloomberg. The article OpenAI raises over $4 billion for new enterprise deployment venture appeared first on The Decoder .",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-04",
+      "link": "https://the-decoder.com/openai-raises-over-4-billion-for-new-enterprise-deployment-venture/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-building-ai-data-centers-is-becoming-a-stress-test-for-banks-",
+      "title": "Building AI data centers is becoming a stress test for banks",
+      "description": "The construction of new AI data centers devours billions in borrowed capital. Major banks such as JPMorgan and Morgan Stanley are now looking for ways to pass on the growing credit risks to other investors. The article Building AI data centers is becoming a st",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-04",
+      "link": "https://the-decoder.com/building-ai-data-centers-is-becoming-a-stress-test-for-banks/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-cerebras-targets-40-billion-valuation-in-second-ipo-attempt-",
+      "title": "Cerebras targets $40 billion valuation in second IPO attempt",
+      "description": "AI chip maker Cerebras Systems is heading to the Nasdaq under the ticker CBRS. The IPO roadshow kicks off Monday, with shares targeted between $115 and $125, Reuters reports, citing a person familiar with the matter. The article Cerebras targets $40 billion va",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-04",
+      "link": "https://the-decoder.com/cerebras-targets-40-billion-valuation-in-second-ipo-attempt/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-openai-says-human-attention-is-the-bottleneck-so-it-built-a-system-to-let-agents-manag",
+      "title": "OpenAI says human attention is the bottleneck, so it built a system to let agents manage themselves",
+      "description": "OpenAI's new Symphony spec flips the AI coding workflow on its head: instead of developers babysitting multiple Codex sessions, agents pull their own tickets straight from Linear and run until the job is done. The article OpenAI says human attention is the bot",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-04",
+      "link": "https://the-decoder.com/openai-says-human-attention-is-the-bottleneck-so-it-built-a-system-to-let-agents-manage-themselves/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-co-pilot-becomes-a-co-author-in-vs-code-without-being-asked-",
+      "title": "Microsoft caught sneaking \"Co-Authored-by Copilot\" into VS Code commits - even with AI off",
+      "description": "Microsoft quietly slipped a \"Co-Authored-by Copilot\" line into Git commits in Visual Studio Code - even for developers who had turned off the AI features entirely. The article Microsoft caught sneaking \"Co-Authored-by Copilot\" into VS Code commits - even with ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-03",
+      "link": "https://the-decoder.com/co-pilot-becomes-a-co-author-in-vs-code-without-being-asked/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-mit-study-explains-why-scaling-language-models-works-so-reliably-",
+      "title": "MIT study explains why scaling language models works so reliably",
+      "description": "MIT researchers have a mechanistic explanation for why large language model performance scales so reliably with size. The answer comes down to a phenomenon called superposition. The article MIT study explains why scaling language models works so reliably appea",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-03",
+      "link": "https://the-decoder.com/mit-study-explains-why-scaling-language-models-works-so-reliably/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-china-is-falling-behind-in-the-ai-race-according-to-a-us-government-benchmark-",
+      "title": "China is falling behind in the AI race, according to a US government benchmark",
+      "description": "A US government agency says China is now eight months behind in the AI race, but independent data doesn't back that up. And while US labs keep chasing smarter models, the price edge from Deepseek and other Chinese players may end up being the stronger argument",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-03",
+      "link": "https://the-decoder.com/china-is-falling-behind-in-the-ai-race-according-to-a-us-government-benchmark/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-",
+      "title": "Xiaomi&#039;s open-weight MiMo-V2.5-Pro takes aim at Claude Opus with hours-long autonomous coding",
+      "description": "Xiaomi's new MiMo-V2.5-Pro nearly matches Anthropic's Claude Opus 4.6 on coding benchmarks while burning 40 to 60 percent fewer tokens, according to the company. The release pushes Xiaomi deeper into the race among Chinese open-weight providers like Deepseek, ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-03",
+      "link": "https://the-decoder.com/xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-coding/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-same-prompt-different-morals-how-frontier-ai-models-diverge-on-ethical-dilemmas-",
+      "title": "Same prompt, different morals: how frontier AI models diverge on ethical dilemmas",
+      "description": "A new benchmark puts leading language models through 100 everyday ethical scenarios, from data misuse in sales to protocol violations in oncology. Behind the results lies a bigger question: who decides what an AI is allowed to do, and whose ethics does it foll",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-03",
+      "link": "https://the-decoder.com/same-prompt-different-morals-how-frontier-ai-models-diverge-on-ethical-dilemmas/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-sh",
+      "title": "Even the latest AI models make three systematic reasoning errors, ARC-AGI-3 analysis shows",
+      "description": "The ARC Prize Foundation analyzed 160 game runs of OpenAI's GPT-5.5 and Anthropic's Opus 4.7 on the ARC-AGI-3 benchmark. Three systematic error patterns explain why both models stay below 1 percent on tasks that humans can solve without much trouble. The artic",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-02",
+      "link": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-advanced-account-security",
+      "title": "Introducing Advanced Account Security",
+      "description": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-30",
+      "link": "https://openai.com/index/advanced-account-security"
+    },
+    {
+      "id": "google-deepmind-blog-https-deepmind-google-blog-ai-co-clinician-",
+      "title": "Enabling a new model for healthcare with AI co-clinician",
+      "description": "Researching the path to AI-augmented care and development of an AI co-clinician.",
+      "source": "Google DeepMind Blog",
+      "category": "Frontier labs",
+      "date": "2026-04-30",
+      "link": "https://deepmind.google/blog/ai-co-clinician/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-where-the-goblins-came-from",
+      "title": "Where the goblins came from",
+      "description": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-29",
+      "link": "https://openai.com/index/where-the-goblins-came-from"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-building-the-compute-infrastructure-for-the-intelligence-age",
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "description": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-29",
+      "link": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-cybersecurity-in-the-intelligence-age",
+      "title": "Cybersecurity in the Intelligence Age",
+      "description": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-29",
+      "link": "https://openai.com/index/cybersecurity-in-the-intelligence-age"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-our-commitment-to-community-safety",
+      "title": "Our commitment to community safety",
+      "description": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-28",
+      "link": "https://openai.com/index/our-commitment-to-community-safety"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-openai-on-aws",
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "description": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-28",
+      "link": "https://openai.com/index/openai-on-aws"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-openai-available-at-fedramp-moderate",
+      "title": "OpenAI available at FedRAMP Moderate",
+      "description": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.",
       "source": "OpenAI News",
       "category": "Frontier labs",
       "date": "2026-04-27",
-      "link": "https://openai.com/index/next-phase-of-microsoft-partnership"
+      "link": "https://openai.com/index/openai-available-at-fedramp-moderate"
     },
     {
       "id": "openai-news-https-openai-com-index-next-phase-of-microsoft-partnership",
@@ -60,6 +213,24 @@
       "category": "Frontier labs",
       "date": "2026-04-27",
       "link": "https://openai.com/index/next-phase-of-microsoft-partnership"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-open-source-codex-orchestration-symphony",
+      "title": "An open-source spec for orchestration: Symphony",
+      "description": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-27",
+      "link": "https://openai.com/index/open-source-codex-orchestration-symphony"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-choco",
+      "title": "Choco automates food distribution with AI agents",
+      "description": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-04-27",
+      "link": "https://openai.com/index/choco"
     },
     {
       "id": "google-deepmind-blog-https-deepmind-google-blog-announcing-our-partnership-with-the-republic-of-korea-",
@@ -71,51 +242,6 @@
       "link": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-sam-altman-outlines-five-principles-that-double-as-justification-for-openais-business-",
-      "title": "Sam Altman outlines five principles that double as justification for OpenAI&#039;s business decisions",
-      "description": "OpenAI's CEO has laid out five guiding principles for the company's future work. They also serve as a rationale for some of OpenAI's more unconventional business moves. The article Sam Altman outlines five principles that double as justification for OpenAI&#03",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-04-27",
-      "link": "https://the-decoder.com/sam-altman-outlines-five-principles-that-double-as-justification-for-openais-business-decisions/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-meta-wants-to-power-ai-data-centers-with-solar-energy-from-space-",
-      "title": "Meta wants to power AI data centers with solar energy from space",
-      "description": "Meta has signed a deal with startup Overview Energy for up to 1 gigawatt of space-based solar power. The only catch: the technology doesn't exist yet. The article Meta wants to power AI data centers with solar energy from space appeared first on The Decoder .",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-04-27",
-      "link": "https://the-decoder.com/meta-wants-to-power-ai-data-centers-with-solar-energy-from-space/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-china-blocks-metas-2-billion-acquisition-of-ai-startup-manus-",
-      "title": "China blocks Meta&#039;s $2 billion acquisition of AI startup Manus",
-      "description": "Beijing orders the unwinding of the already completed acquisition. The move comes amid intensifying technological rivalry between the US and China. The article China blocks Meta&#039;s $2 billion acquisition of AI startup Manus appeared first on The Decoder .",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-04-27",
-      "link": "https://the-decoder.com/china-blocks-metas-2-billion-acquisition-of-ai-startup-manus/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-the-company-with-a-monopoly-on-ais-most-critical-machine-is-racing-to-build-more-",
-      "title": "The company with a monopoly on AI&#039;s most critical machine is racing to build more",
-      "description": "ASML plans to significantly increase production of its EUV lithography machines to keep pace with growing demand for AI chips, the Wall Street Journal reports. The article The company with a monopoly on AI&#039;s most critical machine is racing to build more a",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-04-27",
-      "link": "https://the-decoder.com/the-company-with-a-monopoly-on-ais-most-critical-machine-is-racing-to-build-more/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-openai-reportedly-developing-its-own-smartphone-chips-with-mediatek-and-qualcomm-",
-      "title": "OpenAI reportedly developing its own smartphone chips with MediaTek and Qualcomm",
-      "description": "According to analyst Ming-Chi Kuo, OpenAI is working with MediaTek and Qualcomm on custom smartphone processors, with Luxshare as the exclusive partner for system design and manufacturing. The article OpenAI reportedly developing its own smartphone chips with ",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-04-27",
-      "link": "https://the-decoder.com/openai-reportedly-developing-its-own-smartphone-chips-with-mediatek-and-qualcomm/"
-    },
-    {
       "id": "openai-news-https-openai-com-index-our-principles",
       "title": "Our principles",
       "description": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
@@ -123,60 +249,6 @@
       "category": "Frontier labs",
       "date": "2026-04-26",
       "link": "https://openai.com/index/our-principles"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-openai-kills-its-dedicated-coding-model-codex-again-folding-it-into-gpt-5-5-",
-      "title": "OpenAI kills its dedicated coding model Codex again, folding it into GPT-5.5",
-      "description": "OpenAI has once again retired its dedicated Codex coding model, folding its capabilities directly into the main model. GPT-5.5 promises stronger agentic coding and lower token usage, OpenAI says. The article OpenAI kills its dedicated coding model Codex again,",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-04-26",
-      "link": "https://the-decoder.com/openai-kills-its-dedicated-coding-model-codex-again-folding-it-into-gpt-5-5/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-openai-says-old-prompts-are-holding-gpt-5-5-back-and-developers-need-a-fresh-baseline-",
-      "title": "OpenAI says old prompts are holding GPT-5.5 back and developers need a fresh baseline",
-      "description": "OpenAI says developers shouldn't carry over old prompts for GPT-5.5. Instead, start minimal and from scratch. Role definitions, which some had written off as unnecessary, are back at the front of the framework. The article OpenAI says old prompts are holding G",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-04-26",
-      "link": "https://the-decoder.com/openai-says-old-prompts-are-holding-gpt-5-5-back-and-developers-need-a-fresh-baseline/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-500-investment-bankers-review-ai-outputs-and-find-none-ready-for-client-delivery-",
-      "title": "500 investment bankers review AI outputs and find none ready for client delivery",
-      "description": "A new benchmark puts top models like GPT-5.4 and Claude Opus 4.6 to work on the kinds of tasks junior investment bankers handle every day. Not a single AI output was rated ready to send to a client; the results are too imprecise or flat-out wrong. Still, more ",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-04-26",
-      "link": "https://the-decoder.com/500-investment-bankers-review-ai-outputs-and-find-none-ready-for-client-delivery/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-survey-finds-claudes-weekly-active-users-in-the-us-skew-far-wealthier-than-any-rival-a",
-      "title": "Survey finds Claude&#039;s weekly active users in the US skew far wealthier than any rival AI assistant",
-      "description": "A survey shows Claude users earn significantly more than users of other AI services. Here's how income breaks down across ChatGPT, Gemini, and the rest. The article Survey finds Claude&#039;s weekly active users in the US skew far wealthier than any rival AI a",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-04-26",
-      "link": "https://the-decoder.com/survey-finds-claudes-weekly-active-users-in-the-us-skew-far-wealthier-than-any-rival-ai-assistant/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-ai-agents-arent-replacing-software-engineering-but-expanding-it-far-beyond-code-resear",
-      "title": "AI agents aren&#039;t replacing software engineering but expanding it far beyond code, researchers argue",
-      "description": "The popular story goes that AI agents are swallowing up more programming work and developers are headed for obsolescence. A new paper from researchers at Chalmers University of Technology and the Volvo Group argues that view misses the mark. The article AI age",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-04-26",
-      "link": "https://the-decoder.com/ai-agents-arent-replacing-software-engineering-but-expanding-it-far-beyond-code-researchers-argue/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-gpt-5-5-system-card",
-      "title": "GPT-5.5 System Card",
-      "description": "",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-23",
-      "link": "https://openai.com/index/gpt-5-5-system-card"
     },
     {
       "id": "openai-news-https-openai-com-index-introducing-gpt-5-5",
@@ -188,13 +260,13 @@
       "link": "https://openai.com/index/introducing-gpt-5-5"
     },
     {
-      "id": "openai-news-https-openai-com-academy-codex-automations",
-      "title": "Automations",
-      "description": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+      "id": "openai-news-https-openai-com-index-gpt-5-5-system-card",
+      "title": "GPT-5.5 System Card",
+      "description": "",
       "source": "OpenAI News",
       "category": "Frontier labs",
       "date": "2026-04-23",
-      "link": "https://openai.com/academy/codex-automations"
+      "link": "https://openai.com/index/gpt-5-5-system-card"
     },
     {
       "id": "openai-news-https-openai-com-academy-what-is-codex",
@@ -204,15 +276,6 @@
       "category": "Frontier labs",
       "date": "2026-04-23",
       "link": "https://openai.com/academy/what-is-codex"
-    },
-    {
-      "id": "openai-news-https-openai-com-academy-top-10-use-cases-codex-for-work",
-      "title": "Top 10 uses for Codex at work",
-      "description": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-23",
-      "link": "https://openai.com/academy/top-10-use-cases-codex-for-work"
     },
     {
       "id": "openai-news-https-openai-com-academy-codex-how-to-start",
@@ -249,69 +312,6 @@
       "category": "Frontier labs",
       "date": "2026-04-23",
       "link": "https://openai.com/academy/codex-plugins-and-skills"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-gpt-5-5-bio-bug-bounty",
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "description": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-23",
-      "link": "https://openai.com/index/gpt-5-5-bio-bug-bounty"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-making-chatgpt-better-for-clinicians",
-      "title": "Making ChatGPT better for clinicians",
-      "description": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-22",
-      "link": "https://openai.com/index/making-chatgpt-better-for-clinicians"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-workspace-agents-in-chatgpt",
-      "title": "Introducing workspace agents in ChatGPT",
-      "description": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-22",
-      "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-speeding-up-agentic-workflows-with-websockets",
-      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
-      "description": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-22",
-      "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets"
-    },
-    {
-      "id": "openai-news-https-openai-com-academy-workspace-agents",
-      "title": "Workspace agents",
-      "description": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-22",
-      "link": "https://openai.com/academy/workspace-agents"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-openai-privacy-filter",
-      "title": "Introducing OpenAI Privacy Filter",
-      "description": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-22",
-      "link": "https://openai.com/index/introducing-openai-privacy-filter"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-decoupled-diloco-",
-      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
-      "description": "",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-04-22",
-      "link": "https://deepmind.google/blog/decoupled-diloco/"
     }
   ]
 }
