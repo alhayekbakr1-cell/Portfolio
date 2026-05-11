@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T14:18:50.567Z",
+  "generatedAt": "2026-05-11T15:26:57.701Z",
   "summary": "Latest global AI updates from 5 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
     {
@@ -44,274 +44,274 @@
   ],
   "items": [
     {
-      "id": "the-decoder-https-the-decoder-com-openai-raises-over-4-billion-for-new-enterprise-deployment-venture-",
-      "title": "OpenAI raises over $4 billion for new enterprise deployment venture",
-      "description": "OpenAI has raised more than $4 billion for a new joint venture called \"The Deployment Company,\" according to Bloomberg. The article OpenAI raises over $4 billion for new enterprise deployment venture appeared first on The Decoder .",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-04",
-      "link": "https://the-decoder.com/openai-raises-over-4-billion-for-new-enterprise-deployment-venture/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-building-ai-data-centers-is-becoming-a-stress-test-for-banks-",
-      "title": "Building AI data centers is becoming a stress test for banks",
-      "description": "The construction of new AI data centers devours billions in borrowed capital. Major banks such as JPMorgan and Morgan Stanley are now looking for ways to pass on the growing credit risks to other investors. The article Building AI data centers is becoming a st",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-04",
-      "link": "https://the-decoder.com/building-ai-data-centers-is-becoming-a-stress-test-for-banks/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-cerebras-targets-40-billion-valuation-in-second-ipo-attempt-",
-      "title": "Cerebras targets $40 billion valuation in second IPO attempt",
-      "description": "AI chip maker Cerebras Systems is heading to the Nasdaq under the ticker CBRS. The IPO roadshow kicks off Monday, with shares targeted between $115 and $125, Reuters reports, citing a person familiar with the matter. The article Cerebras targets $40 billion va",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-04",
-      "link": "https://the-decoder.com/cerebras-targets-40-billion-valuation-in-second-ipo-attempt/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-openai-says-human-attention-is-the-bottleneck-so-it-built-a-system-to-let-agents-manag",
-      "title": "OpenAI says human attention is the bottleneck, so it built a system to let agents manage themselves",
-      "description": "OpenAI's new Symphony spec flips the AI coding workflow on its head: instead of developers babysitting multiple Codex sessions, agents pull their own tickets straight from Linear and run until the job is done. The article OpenAI says human attention is the bot",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-04",
-      "link": "https://the-decoder.com/openai-says-human-attention-is-the-bottleneck-so-it-built-a-system-to-let-agents-manage-themselves/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-co-pilot-becomes-a-co-author-in-vs-code-without-being-asked-",
-      "title": "Microsoft caught sneaking \"Co-Authored-by Copilot\" into VS Code commits - even with AI off",
-      "description": "Microsoft quietly slipped a \"Co-Authored-by Copilot\" line into Git commits in Visual Studio Code - even for developers who had turned off the AI features entirely. The article Microsoft caught sneaking \"Co-Authored-by Copilot\" into VS Code commits - even with ",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-03",
-      "link": "https://the-decoder.com/co-pilot-becomes-a-co-author-in-vs-code-without-being-asked/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-mit-study-explains-why-scaling-language-models-works-so-reliably-",
-      "title": "MIT study explains why scaling language models works so reliably",
-      "description": "MIT researchers have a mechanistic explanation for why large language model performance scales so reliably with size. The answer comes down to a phenomenon called superposition. The article MIT study explains why scaling language models works so reliably appea",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-03",
-      "link": "https://the-decoder.com/mit-study-explains-why-scaling-language-models-works-so-reliably/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-china-is-falling-behind-in-the-ai-race-according-to-a-us-government-benchmark-",
-      "title": "China is falling behind in the AI race, according to a US government benchmark",
-      "description": "A US government agency says China is now eight months behind in the AI race, but independent data doesn't back that up. And while US labs keep chasing smarter models, the price edge from Deepseek and other Chinese players may end up being the stronger argument",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-03",
-      "link": "https://the-decoder.com/china-is-falling-behind-in-the-ai-race-according-to-a-us-government-benchmark/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-",
-      "title": "Xiaomi&#039;s open-weight MiMo-V2.5-Pro takes aim at Claude Opus with hours-long autonomous coding",
-      "description": "Xiaomi's new MiMo-V2.5-Pro nearly matches Anthropic's Claude Opus 4.6 on coding benchmarks while burning 40 to 60 percent fewer tokens, according to the company. The release pushes Xiaomi deeper into the race among Chinese open-weight providers like Deepseek, ",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-03",
-      "link": "https://the-decoder.com/xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-coding/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-same-prompt-different-morals-how-frontier-ai-models-diverge-on-ethical-dilemmas-",
-      "title": "Same prompt, different morals: how frontier AI models diverge on ethical dilemmas",
-      "description": "A new benchmark puts leading language models through 100 everyday ethical scenarios, from data misuse in sales to protocol violations in oncology. Behind the results lies a bigger question: who decides what an AI is allowed to do, and whose ethics does it foll",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-03",
-      "link": "https://the-decoder.com/same-prompt-different-morals-how-frontier-ai-models-diverge-on-ethical-dilemmas/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-sh",
-      "title": "Even the latest AI models make three systematic reasoning errors, ARC-AGI-3 analysis shows",
-      "description": "The ARC Prize Foundation analyzed 160 game runs of OpenAI's GPT-5.5 and Anthropic's Opus 4.7 on the ARC-AGI-3 benchmark. Three systematic error patterns explain why both models stay below 1 percent on tasks that humans can solve without much trouble. The artic",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-02",
-      "link": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-advanced-account-security",
-      "title": "Introducing Advanced Account Security",
-      "description": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
+      "id": "openai-news-https-openai-com-business-guides-and-resources-how-enterprises-are-scaling-ai",
+      "title": "How enterprises are scaling AI",
+      "description": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-04-30",
-      "link": "https://openai.com/index/advanced-account-security"
+      "date": "2026-05-11",
+      "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai"
     },
     {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-ai-co-clinician-",
-      "title": "Enabling a new model for healthcare with AI co-clinician",
-      "description": "Researching the path to AI-augmented care and development of an AI co-clinician.",
+      "id": "openai-news-https-openai-com-index-openai-campus-network-student-club-interest-form",
+      "title": "OpenAI Campus Network: Student club interest form",
+      "description": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-11",
+      "link": "https://openai.com/index/openai-campus-network-student-club-interest-form"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-openai-launches-the-deployment-company",
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "description": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-11",
+      "link": "https://openai.com/index/openai-launches-the-deployment-company"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-lawsuit-claims-chatgpt-coached-fsu-shooter-on-gun-operation-timing-and-victim-threshol",
+      "title": "Lawsuit claims ChatGPT coached FSU shooter on gun operation, timing, and victim thresholds",
+      "description": "OpenAI is facing a lawsuit over the mass shooting at Florida State University. According to the complaint, the shooter spent months talking to ChatGPT about guns and shootings. Florida's attorney general has launched a criminal investigation, saying: \"If ChatG",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-11",
+      "link": "https://the-decoder.com/lawsuit-claims-chatgpt-coached-fsu-shooter-on-gun-operation-timing-and-victim-thresholds/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-ai-turns-patches-into-working-exploits-in-30-minutes-and-the-90-day-disclosure-window-",
+      "title": "AI turns patches into working exploits in 30 minutes, and the 90-day disclosure window is the casualty",
+      "description": "Language models find security flaws faster and turn patches into working exploits in minutes. A veteran researcher says the established disclosure process needs to change. The article AI turns patches into working exploits in 30 minutes, and the 90-day disclos",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-11",
+      "link": "https://the-decoder.com/ai-turns-patches-into-working-exploits-in-30-minutes-and-the-90-day-disclosure-window-is-the-casualty/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-generative-ai-turns-identity-theft-into-an-industrial-scale-operation-",
+      "title": "Generative AI turns identity theft into an industrial-scale operation",
+      "description": "A Bloomberg investigation shows how generative AI and autonomous agents are supercharging identity theft in the US, from social security number lookups on the darknet to deepfake driver's licenses. The article Generative AI turns identity theft into an industr",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-11",
+      "link": "https://the-decoder.com/generative-ai-turns-identity-theft-into-an-industrial-scale-operation/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-nvidia-pumps-over-40-billion-dollars-into-ai-partners-so-far-in-2026-",
+      "title": "Nvidia pumps over 40 billion dollars into AI partners so far in 2026",
+      "description": "Nvidia has invested more than $40 billion in AI companies in 2025, cementing its role as the industry's biggest backer. The article Nvidia pumps over 40 billion dollars into AI partners so far in 2026 appeared first on The Decoder .",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-11",
+      "link": "https://the-decoder.com/nvidia-pumps-over-40-billion-dollars-into-ai-partners-so-far-in-2026/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-openais-internal-share-sale-minted-roughly-75-multimillionaires-who-each-cashed-out-th",
+      "title": "OpenAI&#039;s internal share sale minted roughly 75 multimillionaires who each cashed out the $30 million cap",
+      "description": "In October 2025, OpenAI organized a $6.6 billion share sale for over 600 current and former employees. Around 75 of them cashed out the maximum cap of $30 million each. President Greg Brockman says he holds shares worth roughly $30 billion. The article OpenAI&",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-11",
+      "link": "https://the-decoder.com/openais-internal-share-sale-minted-roughly-75-multimillionaires-who-each-cashed-out-the-30-million-cap/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-ai-agents-can-now-hack-computers-and-copy-themselves-and-theyre-getting-better-fast-",
+      "title": "AI agents can now hack computers and copy themselves, and they&#039;re getting better fast",
+      "description": "Palisade Research shows that AI agents can hack remote computers, copy themselves onto them, and form replication chains. In one year, the success rate jumped from 6 to 81 percent. The researchers expect remaining barriers to fall as models get better at hacki",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-10",
+      "link": "https://the-decoder.com/ai-agents-can-now-hack-computers-and-copy-themselves-and-theyre-getting-better-fast/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-anthropic-and-openai-sit-down-with-religious-leaders-to-seek-ethical-advice-",
+      "title": "Anthropic and OpenAI sit down with religious leaders to seek ethical advice",
+      "description": "Anthropic and OpenAI are turning to religious leaders for help with AI ethics. At the first \"Faith-AI Covenant\" roundtable in New York, representatives from both companies met with faith leaders from various religions. Critics like AI researcher Rumman Chowdhu",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-10",
+      "link": "https://the-decoder.com/anthropic-and-openai-sit-down-with-religious-leaders-to-seek-ethical-advice/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-bytedance-plans-over-30-billion-for-ai-expansion-bets-big-on-chinese-chips-",
+      "title": "ByteDance plans over $30 billion for AI expansion, bets big on Chinese chips",
+      "description": "ByteDance is raising its planned AI spending for 2026 to over 200 billion yuan (roughly $30 billion), at least a 25 percent jump from earlier plans. The TikTok parent is increasingly turning to Chinese chips. Still, the figure looks modest next to the $725 bil",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-10",
+      "link": "https://the-decoder.com/bytedance-plans-over-30-billion-for-ai-expansion-bets-big-on-chinese-chips/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-metr-says-it-can-barely-measure-claude-mythos-palo-alto-networks-warns-of-autonomous-a",
+      "title": "METR says it can barely measure Claude Mythos, Palo Alto Networks warns of autonomous AI attackers",
+      "description": "METR can barely measure Claude Mythos Preview with its current test suite. Only five out of 228 tasks cover the relevant capability range. Meanwhile, Palo Alto Networks reports that frontier models autonomously chain vulnerabilities, shrinking the time from in",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-10",
+      "link": "https://the-decoder.com/metr-says-it-can-barely-measure-claude-mythos-palo-alto-networks-warns-of-autonomous-ai-attackers/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-gpt-5-5-costs-49-to-92-percent-more-than-its-predecessor-depending-on-the-input-length",
+      "title": "GPT-5.5 costs 49 to 92 percent more than its predecessor, depending on the input length",
+      "description": "OpenAI doubled GPT-5.5's list price compared to GPT-5.4, claiming shorter responses would offset the increase. An OpenRouter analysis of real usage data tells a different story: actual costs rose 49 to 92 percent depending on input length. Anthropic hiked Opus",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-10",
+      "link": "https://the-decoder.com/gpt-5-5-costs-49-to-92-percent-more-than-its-predecessor-depending-on-the-input-length/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-running-codex-safely",
+      "title": "Running Codex safely at OpenAI",
+      "description": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-08",
+      "link": "https://openai.com/index/running-codex-safely"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-gpt-5-5-with-trusted-access-for-cyber",
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "description": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-07",
+      "link": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-parloa",
+      "title": "Parloa builds service agents customers want to talk to",
+      "description": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-07",
+      "link": "https://openai.com/index/parloa"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-advancing-voice-intelligence-with-new-models-in-the-api",
+      "title": "Advancing voice intelligence with new models in the API",
+      "description": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-07",
+      "link": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-testing-ads-in-chatgpt",
+      "title": "Testing ads in ChatGPT",
+      "description": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-07",
+      "link": "https://openai.com/index/testing-ads-in-chatgpt"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-introducing-trusted-contact-in-chatgpt",
+      "title": "Introducing Trusted Contact in ChatGPT",
+      "description": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-07",
+      "link": "https://openai.com/index/introducing-trusted-contact-in-chatgpt"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-simplex",
+      "title": "Simplex rethinks software development with Codex",
+      "description": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-07",
+      "link": "https://openai.com/index/simplex"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-how-chatgpt-protects-privacy",
+      "title": "How ChatGPT learns about the world while protecting privacy",
+      "description": "Learn how ChatGPT safeguards your privacy, reduces personal data in training, and gives you control over whether your conversations improve AI models.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-06",
+      "link": "https://openai.com/index/how-chatgpt-protects-privacy"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-introducing-chatgpt-futures-class-of-2026",
+      "title": "Introducing ChatGPT Futures: Class of 2026",
+      "description": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity with ChatGPT.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-06",
+      "link": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-uber",
+      "title": "Uber uses OpenAI to help people earn smarter and book faster",
+      "description": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-06",
+      "link": "https://openai.com/index/uber"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-singular-bank",
+      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+      "description": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-06",
+      "link": "https://openai.com/index/singular-bank"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-introducing-b2b-signals",
+      "title": "How frontier firms are pulling ahead",
+      "description": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-06",
+      "link": "https://openai.com/index/introducing-b2b-signals"
+    },
+    {
+      "id": "google-deepmind-blog-https-deepmind-google-blog-alphaevolve-impact-",
+      "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+      "description": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
       "source": "Google DeepMind Blog",
       "category": "Frontier labs",
-      "date": "2026-04-30",
-      "link": "https://deepmind.google/blog/ai-co-clinician/"
+      "date": "2026-05-06",
+      "link": "https://deepmind.google/blog/alphaevolve-impact/"
     },
     {
-      "id": "openai-news-https-openai-com-index-where-the-goblins-came-from",
-      "title": "Where the goblins came from",
-      "description": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
+      "id": "openai-news-https-openai-com-index-mrc-supercomputer-networking",
+      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
+      "description": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-04-29",
-      "link": "https://openai.com/index/where-the-goblins-came-from"
+      "date": "2026-05-05",
+      "link": "https://openai.com/index/mrc-supercomputer-networking"
     },
     {
-      "id": "openai-news-https-openai-com-index-building-the-compute-infrastructure-for-the-intelligence-age",
-      "title": "Building the compute infrastructure for the Intelligence Age",
-      "description": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
+      "id": "openai-news-https-openai-com-index-gpt-5-5-instant",
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "description": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-04-29",
-      "link": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age"
+      "date": "2026-05-05",
+      "link": "https://openai.com/index/gpt-5-5-instant"
     },
     {
-      "id": "openai-news-https-openai-com-index-cybersecurity-in-the-intelligence-age",
-      "title": "Cybersecurity in the Intelligence Age",
-      "description": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-29",
-      "link": "https://openai.com/index/cybersecurity-in-the-intelligence-age"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-our-commitment-to-community-safety",
-      "title": "Our commitment to community safety",
-      "description": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-28",
-      "link": "https://openai.com/index/our-commitment-to-community-safety"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-openai-on-aws",
-      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-      "description": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-28",
-      "link": "https://openai.com/index/openai-on-aws"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-openai-available-at-fedramp-moderate",
-      "title": "OpenAI available at FedRAMP Moderate",
-      "description": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-27",
-      "link": "https://openai.com/index/openai-available-at-fedramp-moderate"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-next-phase-of-microsoft-partnership",
-      "title": "The next phase of the Microsoft OpenAI partnership",
-      "description": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-27",
-      "link": "https://openai.com/index/next-phase-of-microsoft-partnership"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-open-source-codex-orchestration-symphony",
-      "title": "An open-source spec for orchestration: Symphony",
-      "description": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-27",
-      "link": "https://openai.com/index/open-source-codex-orchestration-symphony"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-choco",
-      "title": "Choco automates food distribution with AI agents",
-      "description": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-27",
-      "link": "https://openai.com/index/choco"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-announcing-our-partnership-with-the-republic-of-korea-",
-      "title": "Announcing our partnership with the Republic of Korea",
-      "description": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-04-27",
-      "link": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-our-principles",
-      "title": "Our principles",
-      "description": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-26",
-      "link": "https://openai.com/index/our-principles"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-gpt-5-5",
-      "title": "Introducing GPT-5.5",
-      "description": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-23",
-      "link": "https://openai.com/index/introducing-gpt-5-5"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-gpt-5-5-system-card",
-      "title": "GPT-5.5 System Card",
+      "id": "openai-news-https-openai-com-index-gpt-5-5-instant-system-card",
+      "title": "GPT-5.5 Instant System Card",
       "description": "",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-04-23",
-      "link": "https://openai.com/index/gpt-5-5-system-card"
+      "date": "2026-05-05",
+      "link": "https://openai.com/index/gpt-5-5-instant-system-card"
     },
     {
-      "id": "openai-news-https-openai-com-academy-what-is-codex",
-      "title": "What is Codex?",
-      "description": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "id": "openai-news-https-openai-com-index-advancing-youth-safety-in-emea",
+      "title": "Advancing youth safety and wellbeing in EMEA",
+      "description": "Explore OpenAI’s European Youth Safety Blueprint and EMEA Youth & Wellbeing Grants, advancing safe, responsible AI for teens, families, and educators.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-04-23",
-      "link": "https://openai.com/academy/what-is-codex"
-    },
-    {
-      "id": "openai-news-https-openai-com-academy-codex-how-to-start",
-      "title": "How to get started with Codex",
-      "description": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-23",
-      "link": "https://openai.com/academy/codex-how-to-start"
-    },
-    {
-      "id": "openai-news-https-openai-com-academy-codex-settings",
-      "title": "Codex settings",
-      "description": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-23",
-      "link": "https://openai.com/academy/codex-settings"
-    },
-    {
-      "id": "openai-news-https-openai-com-academy-working-with-codex",
-      "title": "Working with Codex",
-      "description": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-23",
-      "link": "https://openai.com/academy/working-with-codex"
-    },
-    {
-      "id": "openai-news-https-openai-com-academy-codex-plugins-and-skills",
-      "title": "Plugins and skills",
-      "description": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-04-23",
-      "link": "https://openai.com/academy/codex-plugins-and-skills"
+      "date": "2026-05-05",
+      "link": "https://openai.com/index/advancing-youth-safety-in-emea"
     }
   ]
 }
