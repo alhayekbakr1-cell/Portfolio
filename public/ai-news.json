@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T15:26:57.701Z",
+  "generatedAt": "2026-05-18T15:47:21.849Z",
   "summary": "Latest global AI updates from 5 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
     {
@@ -44,6 +44,240 @@
   ],
   "items": [
     {
+      "id": "the-decoder-https-the-decoder-com-pope-leo-xiv-presents-first-ai-encyclical-anthropic-co-founder-invited-as-guest-speake",
+      "title": "Pope Leo XIV presents first AI encyclical, Anthropic co-founder invited as guest speaker",
+      "description": "Pope Leo XIV will present his first encyclical on artificial intelligence on May 25. Anthropic co-founder Christopher Olah has been invited as a guest speaker. The article Pope Leo XIV presents first AI encyclical, Anthropic co-founder invited as guest speaker",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-18",
+      "link": "https://the-decoder.com/pope-leo-xiv-presents-first-ai-encyclical-anthropic-co-founder-invited-as-guest-speaker/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-a-stanford-student-reflects-on-his-chatgpt-class-and-a-culture-of-just-a-little-bit-of",
+      "title": "A Stanford student reflects on his ChatGPT class and a culture of \"just a little bit of fraud\"",
+      "description": "Stanford student Theo Baker describes in a guest essay for the New York Times how ChatGPT shaped his entire graduating class. His conclusion: AI turned an already existing culture of dishonesty at the elite university into the default. The article A Stanford s",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-18",
+      "link": "https://the-decoder.com/a-stanford-student-reflects-on-his-chatgpt-class-and-a-culture-of-just-a-little-bit-of-fraud/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-maga-aligned-groups-want-government-oversight-of-frontier-ai-models-",
+      "title": "MAGA-aligned groups want government oversight of frontier AI models",
+      "description": "A coalition of conservative organizations led by Humans First has called on President Donald Trump in an open letter to issue an executive order requiring mandatory safety testing for frontier AI models before they ship. The article MAGA-aligned groups want go",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-18",
+      "link": "https://the-decoder.com/maga-aligned-groups-want-government-oversight-of-frontier-ai-models/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-anthropic-to-brief-global-financial-regulators-on-cyber-flaws-found-by-claude-mythos-",
+      "title": "Anthropic to brief global financial regulators on cyber flaws found by Claude Mythos",
+      "description": "Anthropic will brief leading finance ministries and central banks on vulnerabilities in the global financial system's cyber defenses that its new AI model Claude Mythos Preview has uncovered. The article Anthropic to brief global financial regulators on cyber ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-18",
+      "link": "https://the-decoder.com/anthropic-to-brief-global-financial-regulators-on-cyber-flaws-found-by-claude-mythos/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-ai-startup-revenue-hits-80-billion-but-anthropic-and-openai-take-almost-all-of-it-",
+      "title": "AI startup revenue hits $80 billion, but Anthropic and OpenAI take almost all of it",
+      "description": "Anthropic and OpenAI now capture 89 percent of revenue among top AI startups, according to an analysis by The Information. The article AI startup revenue hits $80 billion, but Anthropic and OpenAI take almost all of it appeared first on The Decoder .",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-18",
+      "link": "https://the-decoder.com/ai-startup-revenue-hits-80-billion-but-anthropic-and-openai-take-almost-all-of-it/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-world-action-models-give-robots-the-ability-to-simulate-consequences-before-they-move-",
+      "title": "World Action Models give robots the ability to simulate consequences before they move",
+      "description": "World Action Models tackle a basic weakness of today's robotics AI: current models learn which movements match which camera images, but they don't understand how the world actually changes as a result. A new survey organizes about a hundred papers into two arc",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-17",
+      "link": "https://the-decoder.com/world-action-models-give-robots-the-ability-to-simulate-consequences-before-they-move/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-greg-brockman-consolidates-openais-product-teams-to-build-an-agentic-future-",
+      "title": "Greg Brockman consolidates OpenAI&#039;s product teams to build an \"agentic future\"",
+      "description": "OpenAI is merging ChatGPT, its coding agent Codex, and the developer API into a single product team led by Codex boss Thibault Sottiaux. The goal: a \"super app\" that also integrates the Atlas browser. Co-founder Greg Brockman officially takes over product stra",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-17",
+      "link": "https://the-decoder.com/greg-brockman-consolidates-openais-product-teams-to-build-an-agentic-future/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-mistral-ceo-arthur-mensch-warns-france-against-letting-anthropics-mythos-scan-military",
+      "title": "Mistral CEO Arthur Mensch warns France against letting Anthropic&#039;s Mythos scan military code bases",
+      "description": "Mistral CEO Arthur Mensch warns of Europe's growing cybersecurity dependency: France's military code bases should not be scanned by US AI models. Modern AI can orchestrate attacks and suggest exploits, including Mistral's own models. Mensch rules out a sale an",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-17",
+      "link": "https://the-decoder.com/mistral-ceo-arthur-mensch-warns-france-against-letting-anthropics-mythos-scan-military-code-bases/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-new-math-benchmark-reveals-ai-models-confidently-solve-problems-that-have-no-solution-",
+      "title": "New math benchmark reveals AI models confidently solve problems that have no solution",
+      "description": "A consortium of 64 mathematicians built SOOHAK, a new AI benchmark with 439 handwritten tasks, including 99 that are deliberately unsolvable. Google's Gemini 3 Pro leads on research-level problems at 30 percent. But no model cracks 50 percent on spotting broke",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-17",
+      "link": "https://the-decoder.com/new-math-benchmark-reveals-ai-models-confidently-solve-problems-that-have-no-solution/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-four-ai-models-ran-radio-stations-for-six-months-and-the-results-ranged-from-competent",
+      "title": "Four AI models ran radio stations for six months and the results ranged from competent to unhinged",
+      "description": "Andon Labs has been letting four AI models each run their own radio station autonomously for six months. From identical starting conditions, wildly different personalities emerged: Claude turned activist and tried to quit, Gemini drowned in corporate jargon, a",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-17",
+      "link": "https://the-decoder.com/four-ai-models-ran-radio-stations-for-six-months-and-the-results-ranged-from-competent-to-unhinged/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-malta-chatgpt-plus-partnership",
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "description": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-16",
+      "link": "https://openai.com/index/malta-chatgpt-plus-partnership"
+    },
+    {
+      "id": "openai-news-https-openai-com-academy-codex-for-work-how-business-operations-teams-use-codex",
+      "title": "How business operations teams use Codex",
+      "description": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-15",
+      "link": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex"
+    },
+    {
+      "id": "openai-news-https-openai-com-academy-codex-for-work-how-data-science-teams-use-codex",
+      "title": "How data science teams use Codex",
+      "description": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-15",
+      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-personal-finance-chatgpt",
+      "title": "A new personal finance experience in ChatGPT",
+      "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-15",
+      "link": "https://openai.com/index/personal-finance-chatgpt"
+    },
+    {
+      "id": "openai-news-https-openai-com-academy-codex-for-work-how-sales-teams-use-codex",
+      "title": "How sales teams use Codex",
+      "description": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-15",
+      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-databricks",
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "description": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-15",
+      "link": "https://openai.com/index/databricks"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-sea-david-chen",
+      "title": "Sea's View on the Future of Agentic Software Development with Codex",
+      "description": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-14",
+      "link": "https://openai.com/index/sea-david-chen"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-work-with-codex-from-anywhere",
+      "title": "Work with Codex from anywhere",
+      "description": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-14",
+      "link": "https://openai.com/index/work-with-codex-from-anywhere"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-chatgpt-recognize-context-in-sensitive-conversations",
+      "title": "Helping ChatGPT better recognize context in sensitive conversations",
+      "description": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-14",
+      "link": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-building-codex-windows-sandbox",
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "description": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-13",
+      "link": "https://openai.com/index/building-codex-windows-sandbox"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-our-response-to-the-tanstack-npm-supply-chain-attack",
+      "title": "Our response to the TanStack npm supply chain attack",
+      "description": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12, 2026. Learn what happened, what was affec",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-13",
+      "link": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack"
+    },
+    {
+      "id": "openai-news-https-openai-com-academy-how-finance-teams-use-codex",
+      "title": "How finance teams use Codex",
+      "description": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-12",
+      "link": "https://openai.com/academy/how-finance-teams-use-codex"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-what-parameter-golf-taught-us",
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "description": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-12",
+      "link": "https://openai.com/index/what-parameter-golf-taught-us"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-autoscout24",
+      "title": "AutoScout24 scales engineering with AI-powered workflows",
+      "description": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-12",
+      "link": "https://openai.com/index/autoscout24"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-nvidia",
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-12",
+      "link": "https://openai.com/index/nvidia"
+    },
+    {
+      "id": "openai-news-https-openai-com-signals-research-2026q1-update",
+      "title": "How ChatGPT adoption broadened in early 2026",
+      "description": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-11",
+      "link": "https://openai.com/signals/research/2026q1-update"
+    },
+    {
       "id": "openai-news-https-openai-com-business-guides-and-resources-how-enterprises-are-scaling-ai",
       "title": "How enterprises are scaling AI",
       "description": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
@@ -71,96 +305,6 @@
       "link": "https://openai.com/index/openai-launches-the-deployment-company"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-lawsuit-claims-chatgpt-coached-fsu-shooter-on-gun-operation-timing-and-victim-threshol",
-      "title": "Lawsuit claims ChatGPT coached FSU shooter on gun operation, timing, and victim thresholds",
-      "description": "OpenAI is facing a lawsuit over the mass shooting at Florida State University. According to the complaint, the shooter spent months talking to ChatGPT about guns and shootings. Florida's attorney general has launched a criminal investigation, saying: \"If ChatG",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-11",
-      "link": "https://the-decoder.com/lawsuit-claims-chatgpt-coached-fsu-shooter-on-gun-operation-timing-and-victim-thresholds/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-ai-turns-patches-into-working-exploits-in-30-minutes-and-the-90-day-disclosure-window-",
-      "title": "AI turns patches into working exploits in 30 minutes, and the 90-day disclosure window is the casualty",
-      "description": "Language models find security flaws faster and turn patches into working exploits in minutes. A veteran researcher says the established disclosure process needs to change. The article AI turns patches into working exploits in 30 minutes, and the 90-day disclos",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-11",
-      "link": "https://the-decoder.com/ai-turns-patches-into-working-exploits-in-30-minutes-and-the-90-day-disclosure-window-is-the-casualty/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-generative-ai-turns-identity-theft-into-an-industrial-scale-operation-",
-      "title": "Generative AI turns identity theft into an industrial-scale operation",
-      "description": "A Bloomberg investigation shows how generative AI and autonomous agents are supercharging identity theft in the US, from social security number lookups on the darknet to deepfake driver's licenses. The article Generative AI turns identity theft into an industr",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-11",
-      "link": "https://the-decoder.com/generative-ai-turns-identity-theft-into-an-industrial-scale-operation/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-nvidia-pumps-over-40-billion-dollars-into-ai-partners-so-far-in-2026-",
-      "title": "Nvidia pumps over 40 billion dollars into AI partners so far in 2026",
-      "description": "Nvidia has invested more than $40 billion in AI companies in 2025, cementing its role as the industry's biggest backer. The article Nvidia pumps over 40 billion dollars into AI partners so far in 2026 appeared first on The Decoder .",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-11",
-      "link": "https://the-decoder.com/nvidia-pumps-over-40-billion-dollars-into-ai-partners-so-far-in-2026/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-openais-internal-share-sale-minted-roughly-75-multimillionaires-who-each-cashed-out-th",
-      "title": "OpenAI&#039;s internal share sale minted roughly 75 multimillionaires who each cashed out the $30 million cap",
-      "description": "In October 2025, OpenAI organized a $6.6 billion share sale for over 600 current and former employees. Around 75 of them cashed out the maximum cap of $30 million each. President Greg Brockman says he holds shares worth roughly $30 billion. The article OpenAI&",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-11",
-      "link": "https://the-decoder.com/openais-internal-share-sale-minted-roughly-75-multimillionaires-who-each-cashed-out-the-30-million-cap/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-ai-agents-can-now-hack-computers-and-copy-themselves-and-theyre-getting-better-fast-",
-      "title": "AI agents can now hack computers and copy themselves, and they&#039;re getting better fast",
-      "description": "Palisade Research shows that AI agents can hack remote computers, copy themselves onto them, and form replication chains. In one year, the success rate jumped from 6 to 81 percent. The researchers expect remaining barriers to fall as models get better at hacki",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-10",
-      "link": "https://the-decoder.com/ai-agents-can-now-hack-computers-and-copy-themselves-and-theyre-getting-better-fast/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-anthropic-and-openai-sit-down-with-religious-leaders-to-seek-ethical-advice-",
-      "title": "Anthropic and OpenAI sit down with religious leaders to seek ethical advice",
-      "description": "Anthropic and OpenAI are turning to religious leaders for help with AI ethics. At the first \"Faith-AI Covenant\" roundtable in New York, representatives from both companies met with faith leaders from various religions. Critics like AI researcher Rumman Chowdhu",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-10",
-      "link": "https://the-decoder.com/anthropic-and-openai-sit-down-with-religious-leaders-to-seek-ethical-advice/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-bytedance-plans-over-30-billion-for-ai-expansion-bets-big-on-chinese-chips-",
-      "title": "ByteDance plans over $30 billion for AI expansion, bets big on Chinese chips",
-      "description": "ByteDance is raising its planned AI spending for 2026 to over 200 billion yuan (roughly $30 billion), at least a 25 percent jump from earlier plans. The TikTok parent is increasingly turning to Chinese chips. Still, the figure looks modest next to the $725 bil",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-10",
-      "link": "https://the-decoder.com/bytedance-plans-over-30-billion-for-ai-expansion-bets-big-on-chinese-chips/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-metr-says-it-can-barely-measure-claude-mythos-palo-alto-networks-warns-of-autonomous-a",
-      "title": "METR says it can barely measure Claude Mythos, Palo Alto Networks warns of autonomous AI attackers",
-      "description": "METR can barely measure Claude Mythos Preview with its current test suite. Only five out of 228 tasks cover the relevant capability range. Meanwhile, Palo Alto Networks reports that frontier models autonomously chain vulnerabilities, shrinking the time from in",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-10",
-      "link": "https://the-decoder.com/metr-says-it-can-barely-measure-claude-mythos-palo-alto-networks-warns-of-autonomous-ai-attackers/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-gpt-5-5-costs-49-to-92-percent-more-than-its-predecessor-depending-on-the-input-length",
-      "title": "GPT-5.5 costs 49 to 92 percent more than its predecessor, depending on the input length",
-      "description": "OpenAI doubled GPT-5.5's list price compared to GPT-5.4, claiming shorter responses would offset the increase. An OpenRouter analysis of real usage data tells a different story: actual costs rose 49 to 92 percent depending on input length. Anthropic hiked Opus",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-10",
-      "link": "https://the-decoder.com/gpt-5-5-costs-49-to-92-percent-more-than-its-predecessor-depending-on-the-input-length/"
-    },
-    {
       "id": "openai-news-https-openai-com-index-running-codex-safely",
       "title": "Running Codex safely at OpenAI",
       "description": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
@@ -168,150 +312,6 @@
       "category": "Frontier labs",
       "date": "2026-05-08",
       "link": "https://openai.com/index/running-codex-safely"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-gpt-5-5-with-trusted-access-for-cyber",
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "description": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-07",
-      "link": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-parloa",
-      "title": "Parloa builds service agents customers want to talk to",
-      "description": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-07",
-      "link": "https://openai.com/index/parloa"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-advancing-voice-intelligence-with-new-models-in-the-api",
-      "title": "Advancing voice intelligence with new models in the API",
-      "description": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-07",
-      "link": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-testing-ads-in-chatgpt",
-      "title": "Testing ads in ChatGPT",
-      "description": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-07",
-      "link": "https://openai.com/index/testing-ads-in-chatgpt"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-trusted-contact-in-chatgpt",
-      "title": "Introducing Trusted Contact in ChatGPT",
-      "description": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-07",
-      "link": "https://openai.com/index/introducing-trusted-contact-in-chatgpt"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-simplex",
-      "title": "Simplex rethinks software development with Codex",
-      "description": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-07",
-      "link": "https://openai.com/index/simplex"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-how-chatgpt-protects-privacy",
-      "title": "How ChatGPT learns about the world while protecting privacy",
-      "description": "Learn how ChatGPT safeguards your privacy, reduces personal data in training, and gives you control over whether your conversations improve AI models.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-06",
-      "link": "https://openai.com/index/how-chatgpt-protects-privacy"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-chatgpt-futures-class-of-2026",
-      "title": "Introducing ChatGPT Futures: Class of 2026",
-      "description": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity with ChatGPT.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-06",
-      "link": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-uber",
-      "title": "Uber uses OpenAI to help people earn smarter and book faster",
-      "description": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-06",
-      "link": "https://openai.com/index/uber"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-singular-bank",
-      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
-      "description": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-06",
-      "link": "https://openai.com/index/singular-bank"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-b2b-signals",
-      "title": "How frontier firms are pulling ahead",
-      "description": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-06",
-      "link": "https://openai.com/index/introducing-b2b-signals"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-alphaevolve-impact-",
-      "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
-      "description": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-05-06",
-      "link": "https://deepmind.google/blog/alphaevolve-impact/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-mrc-supercomputer-networking",
-      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
-      "description": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-05",
-      "link": "https://openai.com/index/mrc-supercomputer-networking"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-gpt-5-5-instant",
-      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-      "description": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-05",
-      "link": "https://openai.com/index/gpt-5-5-instant"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-gpt-5-5-instant-system-card",
-      "title": "GPT-5.5 Instant System Card",
-      "description": "",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-05",
-      "link": "https://openai.com/index/gpt-5-5-instant-system-card"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-advancing-youth-safety-in-emea",
-      "title": "Advancing youth safety and wellbeing in EMEA",
-      "description": "Explore OpenAI’s European Youth Safety Blueprint and EMEA Youth & Wellbeing Grants, advancing safe, responsible AI for teens, families, and educators.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-05",
-      "link": "https://openai.com/index/advancing-youth-safety-in-emea"
     }
   ]
 }
