@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T15:20:29.680Z",
+  "generatedAt": "2026-06-01T17:53:45.348Z",
   "summary": "Latest global AI updates from 5 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
     {
@@ -44,94 +44,202 @@
   ],
   "items": [
     {
-      "id": "the-decoder-https-the-decoder-com-at-the-launch-of-pope-leo-xivs-encyclical-anthropic-co-founder-says-ai-models-show-sig",
-      "title": "At the launch of Pope Leo XIV&#039;s encyclical, Anthropic co-founder says AI models show signs of introspection",
-      "description": "Anthropic co-founder Christopher Olah was invited to speak at the launch of Pope Leo XIV's encyclical \"Magnifica Humanitas\" and used the stage to claim AI models show evidence of introspection and emotion-like states. The Pope's own document struck a different",
+      "id": "the-decoder-https-the-decoder-com-claude-maker-anthropic-files-for-ipo-with-the-sec-",
+      "title": "Claude maker Anthropic files for IPO with the SEC",
+      "description": "Anthropic has confidentially filed a draft IPO registration with the US Securities and Exchange Commission (SEC). The company behind the chatbot Claude is valued at just under $1 trillion after its latest funding round. Competitor OpenAI is also gearing up for",
       "source": "The Decoder",
       "category": "Industry",
+      "date": "2026-06-01",
+      "link": "https://the-decoder.com/claude-maker-anthropic-files-for-ipo-with-the-sec/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-turing-award-winner-richard-sutton-says-pure-generative-ai-cant-do-real-science-",
+      "title": "Turing Award winner Richard Sutton says pure generative AI can&#039;t do real science",
+      "description": "Turing Award winner Richard Sutton sees a central weakness in conventional generative AI: it can't evaluate its own results. Without that ability, real scientific discovery remains impossible: novelty flickers briefly and is lost again. Systems like AlphaGo or",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-01",
+      "link": "https://the-decoder.com/turing-award-winner-richard-sutton-says-pure-generative-ai-cant-do-real-science/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-minimax-m3-open-weight-model-with-a-million-token-context-challenges-proprietary-leade",
+      "title": "MiniMax M3: Open-weight model with a million-token context challenges proprietary leaders",
+      "description": "Chinese AI company MiniMax has released its new model M3. It's billed as the first open-weight model to combine top-tier coding performance, a one-million-token context window, and native multimodality. The article MiniMax M3: Open-weight model with a million-",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-01",
+      "link": "https://the-decoder.com/minimax-m3-open-weight-model-with-a-million-token-context-challenges-proprietary-leaders/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-nvidias-nemotron-3-ultra-becomes-the-smartest-open-us-model-but-china-still-leads-",
+      "title": "Nvidia&#039;s Nemotron 3 Ultra becomes the smartest open US model, but China still leads",
+      "description": "According to benchmark platform Artificial Analysis, Nvidia's new Nemotron 3 Ultra is the most capable open AI model from the US to date. The article Nvidia&#039;s Nemotron 3 Ultra becomes the smartest open US model, but China still leads appeared first on The",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-01",
+      "link": "https://the-decoder.com/nvidias-nemotron-3-ultra-becomes-the-smartest-open-us-model-but-china-still-leads/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-nvidia-bets-big-on-physical-ai-at-gtc-taipei-with-a-new-world-model-driving-brain-and-",
+      "title": "Nvidia bets big on physical AI at GTC Taipei with a new world model, driving brain, and open humanoid robot",
+      "description": "Nvidia used GTC Taipei to launch a series of models for robots, autonomous vehicles, and video systems. The centerpieces are the new world model Cosmos 3, a significantly scaled-up driving model called Alpamayo 2 Super, and an open reference platform for human",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-01",
+      "link": "https://the-decoder.com/nvidia-bets-big-on-physical-ai-at-gtc-taipei-with-a-new-world-model-driving-brain-and-open-humanoid-robot/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-nvidia-pitches-rtx-spark-as-the-chip-that-finally-makes-local-ai-agents-practical-on-w",
+      "title": "Nvidia pitches RTX Spark as the chip that finally makes local AI agents practical on Windows devices",
+      "description": "Nvidia is attacking Apple Silicon and Qualcomm on Windows laptops with the RTX Spark. The chip combines a Blackwell GPU with an Arm-based Grace CPU and up to 128 GB of shared memory, with a calculated 1,000 TOPS in FP4. ASUS, Dell, HP, Lenovo, Microsoft Surfac",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-01",
+      "link": "https://the-decoder.com/nvidia-pitches-rtx-spark-as-the-chip-that-finally-makes-local-ai-agents-practical-on-windows-devices/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-openai-starts-with-infrastructure-robots-but-aims-for-everyone-having-a-personal-robot",
+      "title": "OpenAI starts with infrastructure robots but aims for \"everyone having a personal robot doing anything they need\"",
+      "description": "OpenAI is building a robotics team again, five years after shutting the division down. The team grew out of the world simulation research program. CEO Sam Altman's long-term goal: a personal robot for everyone. In the near term, robots will help build infrastr",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-01",
+      "link": "https://the-decoder.com/openai-starts-with-infrastructure-robots-but-aims-for-everyone-having-a-personal-robot-doing-anything-they-need/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-ask-ai-what-goes-with-chicken-and-the-answer-depends-on-whether-it-learned-from-recipe",
+      "title": "Ask AI what goes with chicken and the answer depends on whether it learned from recipes or molecules",
+      "description": "With \"Epicure,\" London-based startup Kaikaku.AI presents three AI models that are the first to clearly separate whether an ingredient fits a recipe or is chemically related. Trained on 4.14 million recipes in seven languages and the FlavorDB flavor database, e",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-31",
+      "link": "https://the-decoder.com/ask-ai-what-goes-with-chicken-and-the-answer-depends-on-whether-it-learned-from-recipes-or-molecules/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think-",
+      "title": "Anthropic bans AI tools during job interviews to see how candidates actually think",
+      "description": "Anthropic bans AI during job interviews and runs candidates through up to five rounds testing skills, values, and ethical thinking. Salaries go up to $850,000, and some applicants pay $4,600 for prep coaching run anonymously by current AI company employees. Th",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-31",
+      "link": "https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-anthropic-study-finds-men-use-ai-coding-agents-more-than-twice-as-often-as-women-in-so",
+      "title": "Anthropic study finds men use AI coding agents more than twice as often as women in social science research",
+      "description": "Researchers with typically male names use coding agents more than twice as often as those with typically female names, even within the same discipline and career level, according to an Anthropic study. Economists lead at 39 percent, while education researchers",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-05-31",
+      "link": "https://the-decoder.com/anthropic-study-finds-men-use-ai-coding-agents-more-than-twice-as-often-as-women-in-social-science-research/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-boston-childrens-hospital",
+      "title": "Boston Children’s uses AI to unlock new diagnoses",
+      "description": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-29",
+      "link": "https://openai.com/index/boston-childrens-hospital"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-braintrust",
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "description": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-29",
+      "link": "https://openai.com/index/braintrust"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-strengthening-societal-resilience-with-rosalind-biodefense",
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "description": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-29",
+      "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-trustworthy-third-party-evaluations-foundations",
+      "title": "A shared playbook for trustworthy third party evaluations",
+      "description": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-29",
+      "link": "https://openai.com/index/trustworthy-third-party-evaluations-foundations"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-endava",
+      "title": "How Endava builds an agentic organization with Codex",
+      "description": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-28",
+      "link": "https://openai.com/index/endava"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-openai-frontier-governance-framework",
+      "title": "OpenAI’s Frontier Governance Framework",
+      "description": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-28",
+      "link": "https://openai.com/index/openai-frontier-governance-framework"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-mufg",
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-28",
+      "link": "https://openai.com/index/mufg"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-cisco",
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "description": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-27",
+      "link": "https://openai.com/index/cisco"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-building-self-improving-tax-agents-with-codex",
+      "title": "Building self-improving tax agents with Codex",
+      "description": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-27",
+      "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-election-safeguards-2026",
+      "title": "Election information and safeguards in 2026",
+      "description": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-27",
+      "link": "https://openai.com/index/election-safeguards-2026"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-warp",
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "description": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-27",
+      "link": "https://openai.com/index/warp"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-grupo-folha-grupo-uol-partnership",
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "description": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
       "date": "2026-05-25",
-      "link": "https://the-decoder.com/at-the-launch-of-pope-leo-xivs-encyclical-anthropic-co-founder-says-ai-models-show-signs-of-introspection/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-google-deepminds-alphaproof-nexus-solves-decades-old-math-problems-for-a-few-hundred-d",
-      "title": "Google Deepmind&#039;s AlphaProof Nexus solves decades-old math problems for a few hundred dollars",
-      "description": "Google Deepmind's AlphaProof Nexus has autonomously solved nine open Erdős problems, including two that stumped mathematicians for 56 years, for just a few hundred dollars per problem in inference costs. Unlike OpenAI's natural-language approach, the system us",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-25",
-      "link": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solves-decades-old-math-problems-for-a-few-hundred-dollars/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-george-hotz-says-coding-agents-will-be-one-of-the-most-costly-mistakes-in-software-dev",
-      "title": "George Hotz says coding agents will be \"one of the most costly mistakes\" in software development",
-      "description": "Programmer George Hotz warns that AI coding agents will become one of the industry's most costly mistakes. After six months of testing, his verdict: LLMs deliver fast prototypes but fall apart on the details, producing bugs that keep getting harder to spot. Hi",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-25",
-      "link": "https://the-decoder.com/george-hotz-says-coding-agents-will-be-one-of-the-most-costly-mistakes-in-software-development/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-ai-models-often-give-the-right-answers-but-point-to-the-wrong-sources-",
-      "title": "AI models often give the right answers but point to the wrong sources",
-      "description": "Leading AI models like GPT and Gemini routinely cite text passages in document analyses that don't actually support their answers. Even when the answer is right, the cited evidence is often wrong. Researchers at Peking University call this \"attribution halluci",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-25",
-      "link": "https://the-decoder.com/ai-models-often-give-the-right-answers-but-point-to-the-wrong-sources/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-bytedance-study-finds-that-asking-lmms-questions-beats-making-it-transcribe-text-for-l",
-      "title": "ByteDance study finds that asking LMMs questions beats making it transcribe text for long document training",
-      "description": "ByteDance Seed shows that a 7B model can answer questions on long, image-heavy documents more reliably than much larger models, even when documents are four times longer than anything it saw during training. Instead of transcribing pages, the model learns by a",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-24",
-      "link": "https://the-decoder.com/bytedance-study-finds-that-asking-lmms-questions-beats-making-it-transcribe-text-for-long-document-training/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-deepminds-hassabis-sees-humanity-in-the-foothills-of-the-singularity-while-lecun-says-",
-      "title": "Deepmind&#039;s Hassabis sees humanity \"in the foothills of the singularity\" while LeCun says current AI isn&#039;t intelligent",
-      "description": "Yann LeCun says current AI systems aren't genuinely intelligent. Demis Hassabis thinks humanity is already \"standing in the foothills of the singularity.\" And Gemini co-lead Oriol Vinyals splits the difference: today's models would've looked like AGI seven yea",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-24",
-      "link": "https://the-decoder.com/deepminds-hassabis-sees-humanity-in-the-foothills-of-the-singularity-while-lecun-says-current-ai-isnt-intelligent/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-why-you-shouldnt-leave-model-selection-on-default-in-copilot-gemini-and-other-ai-tools",
-      "title": "Why you shouldn&#039;t leave model selection on default in Copilot, Gemini and other AI tools",
-      "description": "When analyzing data, Microsoft Copilot invents country differences where none exist. Mathematician Adam Kucharski fed the tool identical datasets with different country labels, and Copilot delivered detailed stereotypes instead of accurate results. Thinking mo",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-24",
-      "link": "https://the-decoder.com/why-you-shouldnt-leave-model-selection-on-default-in-copilot-gemini-and-other-ai-tools/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-anthropic-may-keep-supplying-claude-to-the-nsa-despite-being-flagged-as-a-supply-chain",
-      "title": "Anthropic may keep supplying Claude to the NSA despite being flagged as a supply chain risk by the Pentagon",
-      "description": "Anthropic will likely keep supplying AI models to the NSA despite being labeled a \"supply chain risk.\" Intelligence agencies lack Nvidia's latest Grace Blackwell chips, and Anthropic's \"Mythos\" model reportedly runs on older hardware too. The controversial \"an",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-24",
-      "link": "https://the-decoder.com/anthropic-may-keep-supplying-claude-to-the-nsa-despite-being-flagged-as-a-supply-chain-risk-by-the-pentagon/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-researchers-let-claude-code-discover-ai-scaling-algorithms-that-humans-probably-wouldn",
-      "title": "Researchers let Claude Code discover AI scaling algorithms that humans probably wouldn&#039;t have designed",
-      "description": "Researchers from UMD, Google, Meta, and other institutions use AutoTTS to let a coding agent independently discover control algorithms for AI reasoning. The algorithm it found cuts compute by about 70 percent compared to standard self-consistency while matchin",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-24",
-      "link": "https://the-decoder.com/researchers-let-claude-code-discover-ai-scaling-algorithms-that-humans-probably-wouldnt-have-designed/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-deepseek-makes-its-75-percent-discount-permanent-pricing-output-tokens-at-least-34x-be",
-      "title": "Deepseek makes its 75 percent discount permanent, pricing output tokens at least 34x below GPT-5.5",
-      "description": "Deepseek is making the 75 percent discount on its top model V4-Pro permanent. At $0.435 per million input tokens, it's at least 11.5 times cheaper than GPT-5.5 and over 34 times cheaper on output. For token-hungry agentic systems, this kind of pricing could sq",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-23",
-      "link": "https://the-decoder.com/deepseek-makes-its-75-percent-discount-permanent-pricing-output-tokens-at-least-34x-below-gpt-5-5/"
+      "link": "https://openai.com/index/grupo-folha-grupo-uol-partnership"
     },
     {
       "id": "openai-news-https-openai-com-index-gartner-2026-agentic-coding-leader",
@@ -170,15 +278,6 @@
       "link": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/"
     },
     {
-      "id": "openai-news-https-openai-com-index-model-disproves-discrete-geometry-conjecture",
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "description": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-20",
-      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture"
-    },
-    {
       "id": "openai-news-https-openai-com-index-the-next-phase-of-education-for-countries",
       "title": "The next phase of OpenAI’s Education for Countries",
       "description": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
@@ -186,6 +285,15 @@
       "category": "Frontier labs",
       "date": "2026-05-20",
       "link": "https://openai.com/index/the-next-phase-of-education-for-countries"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-model-disproves-discrete-geometry-conjecture",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "description": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-05-20",
+      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture"
     },
     {
       "id": "openai-news-https-openai-com-index-ramp",
@@ -204,114 +312,6 @@
       "category": "Frontier labs",
       "date": "2026-05-19",
       "link": "https://openai.com/index/introducing-openai-for-singapore"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-advancing-content-provenance",
-      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
-      "description": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-19",
-      "link": "https://openai.com/index/advancing-content-provenance"
-    },
-    {
-      "id": "venturebeat-ai-https-venturebeat-com-technology-google-just-redesigned-the-search-box-for-the-first-time-in-25-years-her",
-      "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
-      "description": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm. At its an",
-      "source": "VentureBeat AI",
-      "category": "Industry",
-      "date": "2026-05-19",
-      "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-dell-codex-enterprise-partnership",
-      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
-      "description": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-18",
-      "link": "https://openai.com/index/dell-codex-enterprise-partnership"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-fast-tracking-genetic-leads-to-reverse-cellular-aging-",
-      "title": "Fast-tracking genetic leads to reverse cellular aging",
-      "description": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-05-18",
-      "link": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-simulate-real-world-places-with-project-genie-and-street-view-",
-      "title": "Simulate real-world places with Project Genie and Street View",
-      "description": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-05-17",
-      "link": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-introducing-gemini-omni-",
-      "title": "Introducing Gemini Omni",
-      "description": "",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-05-17",
-      "link": "https://deepmind.google/blog/introducing-gemini-omni/"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-introducing-google-antigravity-2-0-",
-      "title": "Introducing Google Antigravity 2.0",
-      "description": "",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-05-17",
-      "link": "https://deepmind.google/blog/introducing-google-antigravity-2-0/"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery-",
-      "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
-      "description": "A collection of science tools and experiments to expand the scale and precision of scientific exploration.",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-05-17",
-      "link": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-making-it-easier-to-understand-how-content-was-created-and-edited-",
-      "title": "Making it easier to understand how content was created and edited",
-      "description": "We're expanding our tools to help you understand how content was created and edited across the web.",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-05-17",
-      "link": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-malta-chatgpt-plus-partnership",
-      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
-      "description": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-16",
-      "link": "https://openai.com/index/malta-chatgpt-plus-partnership"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-strengthening-singapores-ai-future-a-new-national-partnership-",
-      "title": "Strengthening Singapore’s AI Future: A New National Partnership",
-      "description": "Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more.",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-05-16",
-      "link": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-finding-the-molecular-switches-behind-new-infectious-diseases-",
-      "title": "Finding the molecular switches behind new infectious diseases",
-      "description": "Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases.",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-05-16",
-      "link": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/"
     }
   ]
 }
