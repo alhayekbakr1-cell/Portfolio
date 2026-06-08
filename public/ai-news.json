@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T17:53:45.348Z",
+  "generatedAt": "2026-06-08T16:06:13.734Z",
   "summary": "Latest global AI updates from 5 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
     {
@@ -44,94 +44,220 @@
   ],
   "items": [
     {
-      "id": "the-decoder-https-the-decoder-com-claude-maker-anthropic-files-for-ipo-with-the-sec-",
-      "title": "Claude maker Anthropic files for IPO with the SEC",
-      "description": "Anthropic has confidentially filed a draft IPO registration with the US Securities and Exchange Commission (SEC). The company behind the chatbot Claude is valued at just under $1 trillion after its latest funding round. Competitor OpenAI is also gearing up for",
+      "id": "the-decoder-https-the-decoder-com-most-companies-are-flying-blind-on-ai-spending-",
+      "title": "Most companies are flying blind on AI spending",
+      "description": "Only 26 percent of companies have full visibility into their AI costs, a KPMG survey finds. The article Most companies are flying blind on AI spending appeared first on The Decoder .",
       "source": "The Decoder",
       "category": "Industry",
+      "date": "2026-06-08",
+      "link": "https://the-decoder.com/most-companies-are-flying-blind-on-ai-spending/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-frontier-radar-3-how-agentic-ai-is-turning-tokens-into-a-business-metric-",
+      "title": "Frontier Radar #3: How agentic AI is turning tokens into a business metric",
+      "description": "Monthly subscription, open chat, ask question: This is how generative AI used to work. Agentic workflows go beyond this model. They consume many times more tokens, run autonomously for hours and make flat rates unaffordable for providers. At the same time, tok",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-08",
+      "link": "https://the-decoder.com/frontier-radar-3-how-agentic-ai-is-turning-tokens-into-a-business-metric/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-instagram-ai-chatbot-breach-may-have-affected-over-to-20000-accounts-meta-discloses-",
+      "title": "Instagram AI chatbot breach may have affected over to 20,000 accounts, Meta discloses",
+      "description": "Meta has put a number on the security breach in its AI support chatbot for Instagram for the first time: at least 20,225 accounts were compromised. For nearly seven weeks, the system sent password reset links to arbitrary email addresses without verifying they",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-08",
+      "link": "https://the-decoder.com/instagram-ai-chatbot-breach-may-have-affected-over-to-20000-accounts-meta-discloses/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-microsoft-tightens-rules-for-conflict-zones-after-investigation-into-israels-military-",
+      "title": "Microsoft tightens rules for conflict zones after investigation into Israel&#039;s military use of Azure",
+      "description": "Microsoft has wrapped up its investigation into Israel's military use of its Azure cloud and is rolling out new human rights checks. But the report leaves key questions unanswered: the actual contents of the military data were never examined, and staff departu",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-08",
+      "link": "https://the-decoder.com/microsoft-tightens-rules-for-conflict-zones-after-investigation-into-israels-military-use-of-azure/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-moonshot-ai-targets-a-30-billion-valuation-more-than-six-times-its-late-2025-worth-",
+      "title": "Moonshot AI targets a $30 billion valuation, more than six times its late-2025 worth",
+      "description": "Moonshot AI, the Chinese company behind the Kimi chatbot, is looking for a valuation of up to $30 billion in a new funding round. The article Moonshot AI targets a $30 billion valuation, more than six times its late-2025 worth appeared first on The Decoder .",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-08",
+      "link": "https://the-decoder.com/moonshot-ai-targets-a-30-billion-valuation-more-than-six-times-its-late-2025-worth/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-deepseek-topped-ramps-trending-software-vendors-in-june-2026-as-us-companies-chase-che",
+      "title": "Deepseek topped Ramp&#039;s trending software vendors in June 2026 as US companies chase cheaper AI",
+      "description": "Deepseek topped Ramp's trending software vendors in June 2026 as a paid service that US companies send data to directly. Ramp chief economist Ara Kharazian points to growing cost awareness as a driver but warns about security risks of using Chinese models. The",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-07",
+      "link": "https://the-decoder.com/deepseek-topped-ramps-trending-software-vendors-in-june-2026-as-us-companies-chase-cheaper-ai/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-openai-says-chat-is-dead-and-plans-to-rebuild-chatgpt-as-a-full-blown-agent-app-",
+      "title": "OpenAI says \"chat is dead\" and plans to rebuild ChatGPT as a full-blown agent app",
+      "description": "OpenAI is planning the biggest overhaul of ChatGPT since its launch. The chatbot will become a \"superapp\" bundling coding tools, AI agents, and partner apps like Canva and Booking.com. \"Chat is dead,\" the company says internally. The future supposedly belongs ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-07",
+      "link": "https://the-decoder.com/openai-says-chat-is-dead-and-plans-to-rebuild-chatgpt-as-a-full-blown-agent-app/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-perplexitys-search-as-code-lets-ai-models-write-their-own-search-pipelines-instead-of-",
+      "title": "Perplexity&#039;s \"Search as Code\" lets AI models write their own search pipelines instead of calling fixed APIs",
+      "description": "Perplexity's new \"Search as Code\" architecture dumps rigid search APIs and lets AI models write their own search routines in Python. By letting the agent handle its own filtering and deduplication inside a sandbox, the system beats OpenAI and Anthropic on key ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-07",
+      "link": "https://the-decoder.com/perplexitys-search-as-code-lets-ai-models-write-their-own-search-pipelines-instead-of-calling-fixed-apis/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-chatgpts-new-lockdown-mode-lets-you-disable-web-access-and-more-to-protect-sensitive-d",
+      "title": "ChatGPT&#039;s new Lockdown Mode lets you disable web access and more to protect sensitive data from prompt injection",
+      "description": "OpenAI's new Lockdown Mode for ChatGPT disables web access, Deep Research, and Agent Mode to make data theft through prompt injection attacks harder. The mode doesn't fully prevent such attacks, it only blocks the final step in an exfiltration chain. Prompt in",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-07",
+      "link": "https://the-decoder.com/chatgpts-new-lockdown-mode-lets-you-disable-web-access-and-more-to-protect-sensitive-data-from-prompt-injection/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-anthropic-poaches-openais-second-ever-chip-engineer-as-both-companies-race-toward-ipos",
+      "title": "Anthropic poaches OpenAI&#039;s second-ever chip engineer as both companies race toward IPOs",
+      "description": "Clive Chan, by his own account the second hardware employee in OpenAI's custom chip program, is moving to Anthropic. He brings experience from Tesla's Autopilot ASIC and the OpenAI-Broadcom partnership. The move comes as both companies prepare for their IPOs, ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-07",
+      "link": "https://the-decoder.com/anthropic-poaches-openais-second-ever-chip-engineer-as-both-companies-race-toward-ipos/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-endava-frontiers",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "description": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-04",
+      "link": "https://openai.com/index/endava-frontiers"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-chatgpt-memory-dreaming",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "description": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-04",
+      "link": "https://openai.com/index/chatgpt-memory-dreaming"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-biodefense-in-the-intelligence-age",
+      "title": "Biodefense in the Intelligence Age",
+      "description": "An action plan for AI-powered biological resilience",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-04",
+      "link": "https://openai.com/index/biodefense-in-the-intelligence-age"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-introducing-new-capabilities-to-gpt-rosalind",
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "description": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-03",
+      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-wasmer",
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "description": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-03",
+      "link": "https://openai.com/index/wasmer"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-public-policy-agenda",
+      "title": "OpenAI public policy agenda",
+      "description": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-03",
+      "link": "https://openai.com/index/public-policy-agenda"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-frontier-safety-blueprint",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "description": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-03",
+      "link": "https://openai.com/index/frontier-safety-blueprint"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-travelers",
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "description": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-02",
+      "link": "https://openai.com/index/travelers"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-codex-for-every-role-tool-workflow",
+      "title": "Codex for every role, tool, and workflow",
+      "description": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-02",
+      "link": "https://openai.com/index/codex-for-every-role-tool-workflow"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-advancing-youth-safety-and-opportunity-through-global-leadership",
+      "title": "Advancing youth safety and opportunity through global leadership",
+      "description": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-02",
+      "link": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-codex-for-knowledge-work",
+      "title": "Codex is becoming a productivity tool for everyone",
+      "description": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-02",
+      "link": "https://openai.com/index/codex-for-knowledge-work"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-our-views-on-ai-policy-and-political-advocacy",
+      "title": "Our views on AI policy and political advocacy",
+      "description": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
       "date": "2026-06-01",
-      "link": "https://the-decoder.com/claude-maker-anthropic-files-for-ipo-with-the-sec/"
+      "link": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-turing-award-winner-richard-sutton-says-pure-generative-ai-cant-do-real-science-",
-      "title": "Turing Award winner Richard Sutton says pure generative AI can&#039;t do real science",
-      "description": "Turing Award winner Richard Sutton sees a central weakness in conventional generative AI: it can't evaluate its own results. Without that ability, real scientific discovery remains impossible: novelty flickers briefly and is lost again. Systems like AlphaGo or",
-      "source": "The Decoder",
-      "category": "Industry",
+      "id": "openai-news-https-openai-com-index-stargate-michigan-data-center",
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "description": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
       "date": "2026-06-01",
-      "link": "https://the-decoder.com/turing-award-winner-richard-sutton-says-pure-generative-ai-cant-do-real-science/"
+      "link": "https://openai.com/index/stargate-michigan-data-center"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-minimax-m3-open-weight-model-with-a-million-token-context-challenges-proprietary-leade",
-      "title": "MiniMax M3: Open-weight model with a million-token context challenges proprietary leaders",
-      "description": "Chinese AI company MiniMax has released its new model M3. It's billed as the first open-weight model to combine top-tier coding performance, a one-million-token context window, and native multimodality. The article MiniMax M3: Open-weight model with a million-",
-      "source": "The Decoder",
-      "category": "Industry",
+      "id": "openai-news-https-openai-com-index-openai-frontier-models-and-codex-are-now-available-on-aws",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "description": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move fa",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
       "date": "2026-06-01",
-      "link": "https://the-decoder.com/minimax-m3-open-weight-model-with-a-million-token-context-challenges-proprietary-leaders/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-nvidias-nemotron-3-ultra-becomes-the-smartest-open-us-model-but-china-still-leads-",
-      "title": "Nvidia&#039;s Nemotron 3 Ultra becomes the smartest open US model, but China still leads",
-      "description": "According to benchmark platform Artificial Analysis, Nvidia's new Nemotron 3 Ultra is the most capable open AI model from the US to date. The article Nvidia&#039;s Nemotron 3 Ultra becomes the smartest open US model, but China still leads appeared first on The",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-01",
-      "link": "https://the-decoder.com/nvidias-nemotron-3-ultra-becomes-the-smartest-open-us-model-but-china-still-leads/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-nvidia-bets-big-on-physical-ai-at-gtc-taipei-with-a-new-world-model-driving-brain-and-",
-      "title": "Nvidia bets big on physical AI at GTC Taipei with a new world model, driving brain, and open humanoid robot",
-      "description": "Nvidia used GTC Taipei to launch a series of models for robots, autonomous vehicles, and video systems. The centerpieces are the new world model Cosmos 3, a significantly scaled-up driving model called Alpamayo 2 Super, and an open reference platform for human",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-01",
-      "link": "https://the-decoder.com/nvidia-bets-big-on-physical-ai-at-gtc-taipei-with-a-new-world-model-driving-brain-and-open-humanoid-robot/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-nvidia-pitches-rtx-spark-as-the-chip-that-finally-makes-local-ai-agents-practical-on-w",
-      "title": "Nvidia pitches RTX Spark as the chip that finally makes local AI agents practical on Windows devices",
-      "description": "Nvidia is attacking Apple Silicon and Qualcomm on Windows laptops with the RTX Spark. The chip combines a Blackwell GPU with an Arm-based Grace CPU and up to 128 GB of shared memory, with a calculated 1,000 TOPS in FP4. ASUS, Dell, HP, Lenovo, Microsoft Surfac",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-01",
-      "link": "https://the-decoder.com/nvidia-pitches-rtx-spark-as-the-chip-that-finally-makes-local-ai-agents-practical-on-windows-devices/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-openai-starts-with-infrastructure-robots-but-aims-for-everyone-having-a-personal-robot",
-      "title": "OpenAI starts with infrastructure robots but aims for \"everyone having a personal robot doing anything they need\"",
-      "description": "OpenAI is building a robotics team again, five years after shutting the division down. The team grew out of the world simulation research program. CEO Sam Altman's long-term goal: a personal robot for everyone. In the near term, robots will help build infrastr",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-01",
-      "link": "https://the-decoder.com/openai-starts-with-infrastructure-robots-but-aims-for-everyone-having-a-personal-robot-doing-anything-they-need/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-ask-ai-what-goes-with-chicken-and-the-answer-depends-on-whether-it-learned-from-recipe",
-      "title": "Ask AI what goes with chicken and the answer depends on whether it learned from recipes or molecules",
-      "description": "With \"Epicure,\" London-based startup Kaikaku.AI presents three AI models that are the first to clearly separate whether an ingredient fits a recipe or is chemically related. Trained on 4.14 million recipes in seven languages and the FlavorDB flavor database, e",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-31",
-      "link": "https://the-decoder.com/ask-ai-what-goes-with-chicken-and-the-answer-depends-on-whether-it-learned-from-recipes-or-molecules/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think-",
-      "title": "Anthropic bans AI tools during job interviews to see how candidates actually think",
-      "description": "Anthropic bans AI during job interviews and runs candidates through up to five rounds testing skills, values, and ethical thinking. Salaries go up to $850,000, and some applicants pay $4,600 for prep coaching run anonymously by current AI company employees. Th",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-31",
-      "link": "https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-anthropic-study-finds-men-use-ai-coding-agents-more-than-twice-as-often-as-women-in-so",
-      "title": "Anthropic study finds men use AI coding agents more than twice as often as women in social science research",
-      "description": "Researchers with typically male names use coding agents more than twice as often as those with typically female names, even within the same discipline and career level, according to an Anthropic study. Economists lead at 39 percent, while education researchers",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-05-31",
-      "link": "https://the-decoder.com/anthropic-study-finds-men-use-ai-coding-agents-more-than-twice-as-often-as-women-in-social-science-research/"
+      "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws"
     },
     {
       "id": "openai-news-https-openai-com-index-boston-childrens-hospital",
@@ -179,15 +305,6 @@
       "link": "https://openai.com/index/endava"
     },
     {
-      "id": "openai-news-https-openai-com-index-openai-frontier-governance-framework",
-      "title": "OpenAI’s Frontier Governance Framework",
-      "description": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-28",
-      "link": "https://openai.com/index/openai-frontier-governance-framework"
-    },
-    {
       "id": "openai-news-https-openai-com-index-mufg",
       "title": "MUFG aims to become AI-native with OpenAI",
       "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
@@ -195,123 +312,6 @@
       "category": "Frontier labs",
       "date": "2026-05-28",
       "link": "https://openai.com/index/mufg"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-cisco",
-      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
-      "description": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-27",
-      "link": "https://openai.com/index/cisco"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-building-self-improving-tax-agents-with-codex",
-      "title": "Building self-improving tax agents with Codex",
-      "description": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-27",
-      "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-election-safeguards-2026",
-      "title": "Election information and safeguards in 2026",
-      "description": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-27",
-      "link": "https://openai.com/index/election-safeguards-2026"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-warp",
-      "title": "Warp’s big bet on building open source with GPT-5.5",
-      "description": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-27",
-      "link": "https://openai.com/index/warp"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-grupo-folha-grupo-uol-partnership",
-      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
-      "description": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-25",
-      "link": "https://openai.com/index/grupo-folha-grupo-uol-partnership"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-gartner-2026-agentic-coding-leader",
-      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
-      "description": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-22",
-      "link": "https://openai.com/index/gartner-2026-agentic-coding-leader"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-virgin-atlantic",
-      "title": "How Virgin Atlantic ships faster with Codex",
-      "description": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-22",
-      "link": "https://openai.com/index/virgin-atlantic"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-adventhealth",
-      "title": "AdventHealth advances whole-person care with OpenAI",
-      "description": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-21",
-      "link": "https://openai.com/index/adventhealth"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-t",
-      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
-      "description": "",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-05-21",
-      "link": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-the-next-phase-of-education-for-countries",
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "description": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-20",
-      "link": "https://openai.com/index/the-next-phase-of-education-for-countries"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-model-disproves-discrete-geometry-conjecture",
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "description": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-20",
-      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-ramp",
-      "title": "How Ramp engineers accelerate code review with Codex",
-      "description": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-20",
-      "link": "https://openai.com/index/ramp"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-openai-for-singapore",
-      "title": "Introducing OpenAI for Singapore",
-      "description": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-05-19",
-      "link": "https://openai.com/index/introducing-openai-for-singapore"
     }
   ]
 }
