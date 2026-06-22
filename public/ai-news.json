@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T17:22:42.698Z",
+  "generatedAt": "2026-06-22T17:06:35.074Z",
   "summary": "Latest global AI updates from 5 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
     {
@@ -44,40 +44,193 @@
   ],
   "items": [
     {
-      "id": "the-decoder-https-the-decoder-com-nvidia-joins-ai-debt-boom-with-20-billion-bond-sale-",
-      "title": "Nvidia joins AI debt boom with $20 billion bond sale",
-      "description": "Nvidia wants to raise at least $20 billion through its first bond sale since 2021, Bloomberg reports, citing people with direct knowledge of the deal. The article Nvidia joins AI debt boom with $20 billion bond sale appeared first on The Decoder .",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-15",
-      "link": "https://the-decoder.com/nvidia-joins-ai-debt-boom-with-20-billion-bond-sale/"
+      "id": "openai-news-https-openai-com-index-patch-the-planet",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "description": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-22",
+      "link": "https://openai.com/index/patch-the-planet"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-pokemon-go-data-helped-train-ai-now-linked-to-military-drones-",
-      "title": "Pokémon Go data helped train AI now linked to military drones",
-      "description": "Volunteer AR scans from Pokémon Go players fed into Niantic's spatial AI models. That technology is now being combined with a US defense contractor's software for GPS-free navigation. The article Pokémon Go data helped train AI now linked to military drones ap",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-15",
-      "link": "https://the-decoder.com/pokemon-go-data-helped-train-ai-now-linked-to-military-drones/"
+      "id": "openai-news-https-openai-com-index-daybreak-securing-the-world",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "description": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-22",
+      "link": "https://openai.com/index/daybreak-securing-the-world"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-anthropic-shutdown-sparks-sovereignty-debate-across-europe-",
-      "title": "Anthropic shutdown sparks sovereignty debate across Europe",
-      "description": "The European Commission is assessing the implications of the US order that forced Anthropic to shut down Fable 5 and Mythos 5 worldwide. European researchers are debating the right response: building their own foundation models or securing access through contr",
+      "id": "the-decoder-https-the-decoder-com-microsoft-is-building-a-2-gigawatt-data-center-in-texas-with-its-own-gas-plant-to-dodg",
+      "title": "Microsoft is building a 2-gigawatt data center in Texas with its own gas plant to dodge the grid",
+      "description": "Microsoft is building a roughly 2-gigawatt data center campus in Pecos, Texas, one of the biggest single capacity adds in its history. In an open letter, the company promises stable power prices and minimal water use, directly addressing the local backlash tha",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-06-15",
-      "link": "https://the-decoder.com/anthropic-shutdown-sparks-sovereignty-debate-across-europe/"
+      "date": "2026-06-22",
+      "link": "https://the-decoder.com/microsoft-is-building-a-2-gigawatt-data-center-in-texas-with-its-own-gas-plant-to-dodge-the-grid/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-microsoft-ceo-satya-nadella-warns-of-a-small-number-of-ai-systems-capturing-all-the-ec",
-      "title": "Microsoft CEO Satya Nadella warns of \"a small number of AI systems capturing all the economic returns\"",
-      "description": "Microsoft CEO Satya Nadella wants companies to build \"token capital\" alongside human capital, meaning their own AI capabilities built on internal data and proprietary learning loops. Without it, he warns, a few large models could absorb the value of entire ind",
+      "id": "the-decoder-https-the-decoder-com-getty-images-strikes-multi-year-deal-to-put-licensed-photos-in-chatgpt-search-",
+      "title": "Getty Images strikes multi-year deal to put licensed photos in ChatGPT search",
+      "description": "Getty Images has entered into a multi-year licensing agreement with OpenAI. The article Getty Images strikes multi-year deal to put licensed photos in ChatGPT search appeared first on The Decoder .",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-06-15",
-      "link": "https://the-decoder.com/microsoft-ceo-satya-nadella-warns-of-a-small-number-of-ai-systems-capturing-all-the-economic-returns/"
+      "date": "2026-06-22",
+      "link": "https://the-decoder.com/getty-images-strikes-multi-year-deal-to-put-licensed-photos-in-chatgpt-search/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-google-deepmind-and-a24-team-up-on-ai-filmmaking-research-",
+      "title": "Google Deepmind and A24 team up on AI filmmaking research",
+      "description": "Google Deepmind and film studio A24 are entering a long-term research partnership. Google is also investing roughly $75 million in A24, according to the Wall Street Journal. The article Google Deepmind and A24 team up on AI filmmaking research appeared first o",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-22",
+      "link": "https://the-decoder.com/google-deepmind-and-a24-team-up-on-ai-filmmaking-research/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-five-eyes-intelligence-alliance-says-frontier-ai-models-could-reshape-offensive-cyber-",
+      "title": "Five Eyes intelligence alliance says frontier AI models could reshape offensive cyber ops in months",
+      "description": "The Five Eyes intelligence agencies warn: AI models capable of taking down governments and businesses are only months away. That's according to the Guardian. The article Five Eyes intelligence alliance says frontier AI models could reshape offensive cyber ops ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-22",
+      "link": "https://the-decoder.com/five-eyes-intelligence-alliance-says-frontier-ai-models-could-reshape-offensive-cyber-ops-in-months/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-vibecoding-is-becoming-a-deal-breaker-test-for-software-acquisitions-",
+      "title": "Vibecoding is becoming a deal-breaker test for software acquisitions",
+      "description": "To assess the competitive advantage of potential acquisition targets, Bain &#38; Company uses Vibecoding to replicate their software. These AI replicas are already influencing specific purchasing decisions. The article Vibecoding is becoming a deal-breaker tes",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-22",
+      "link": "https://the-decoder.com/vibecoding-is-becoming-a-deal-breaker-test-for-software-acquisitions/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-samsung-rolls-out-chatgpt-enterprise-and-codex-to-employees-in-south-korea-",
+      "title": "Samsung rolls out ChatGPT Enterprise and Codex to employees in South Korea",
+      "description": "Samsung Electronics is deploying ChatGPT Enterprise and Codex to all employees in South Korea and everyone in its Device eXperience (DX) division worldwide. The article Samsung rolls out ChatGPT Enterprise and Codex to employees in South Korea appeared first o",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-22",
+      "link": "https://the-decoder.com/samsung-rolls-out-chatgpt-enterprise-and-codex-to-employees-in-south-korea/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchm",
+      "title": "Sakana AI&#039;s Fugu orchestrates multiple LLMs to match Anthropic&#039;s Fable and Mythos benchmarks",
+      "description": "Japanese AI startup Sakana AI is launching Fugu, a system that coordinates multiple AI models on the fly to compete with leaders like Anthropic's Fable 5. The approach also aims to cut dependence on any single AI provider. The article Sakana AI&#039;s Fugu orc",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-22",
+      "link": "https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-samsung-electronics-chatgpt-codex-deployment",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-21",
+      "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-ai-is-inflating-student-grades-and-the-effect-points-to-outsourced-work-not-better-lea",
+      "title": "AI is inflating student grades, and the effect points to outsourced work, not better learning",
+      "description": "A UC Berkeley study of more than 500,000 grades found that courses heavy on writing and coding saw grades jump after ChatGPT launched. The effect shows up mainly in homework, a sign that AI is replacing student work rather than improving learning. The article ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-21",
+      "link": "https://the-decoder.com/ai-is-inflating-student-grades-and-the-effect-points-to-outsourced-work-not-better-learning/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-sam-altman-says-a-whole-generation-of-researchers-held-ai-back-by-underestimating-what",
+      "title": "Sam Altman says a whole generation of researchers held AI back by underestimating what scaling could do",
+      "description": "At a Stanford talk, Sam Altman defended LLM scaling and hit back at skeptics, saying a whole generation of researchers slowed the field by underestimating what scaling could do. He cited OpenAI's recent disproof of a mathematical conjecture as evidence. The ar",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-21",
+      "link": "https://the-decoder.com/sam-altman-says-a-whole-generation-of-researchers-held-ai-back-by-underestimating-what-scaling-could-do/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-aws-says-ai-agents-lack-business-context-and-security-launches-two-services-to-patch-t",
+      "title": "AWS says AI agents lack business context and security, launches two services to patch the gaps",
+      "description": "At its summit in New York, AWS unveiled two new services. Continuum automatically detects, prioritizes, and fixes code vulnerabilities. Context builds a knowledge graph from corporate data to give AI agents the business context they need. Both tackle the same ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-06-21",
+      "link": "https://the-decoder.com/aws-says-ai-agents-lack-business-context-and-security-launches-two-services-to-patch-the-gaps/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-chatgpt-enterprise-spend-controls",
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "description": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-18",
+      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-improving-health-intelligence-in-chatgpt",
+      "title": "Improving health intelligence in ChatGPT",
+      "description": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-18",
+      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-diagnose-rare-childhood-diseases",
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "description": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-18",
+      "link": "https://openai.com/index/diagnose-rare-childhood-diseases"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-ai-chemist-improves-reaction",
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "description": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-17",
+      "link": "https://openai.com/index/ai-chemist-improves-reaction"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-introducing-life-sci-bench",
+      "title": "Introducing LifeSciBench",
+      "description": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-17",
+      "link": "https://openai.com/index/introducing-life-sci-bench"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-deployment-simulation",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-16",
+      "link": "https://openai.com/index/deployment-simulation"
+    },
+    {
+      "id": "google-deepmind-blog-https-deepmind-google-blog-unlocking-uk-house-building-with-ai-accelerated-planning-",
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "description": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+      "source": "Google DeepMind Blog",
+      "category": "Frontier labs",
+      "date": "2026-06-16",
+      "link": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/"
+    },
+    {
+      "id": "google-deepmind-blog-https-deepmind-google-blog-securing-the-future-of-ai-agents-",
+      "title": "Securing the future of AI agents",
+      "description": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+      "source": "Google DeepMind Blog",
+      "category": "Frontier labs",
+      "date": "2026-06-16",
+      "link": "https://deepmind.google/blog/securing-the-future-of-ai-agents/"
     },
     {
       "id": "openai-news-https-openai-com-index-introducing-openai-partner-network",
@@ -87,60 +240,6 @@
       "category": "Frontier labs",
       "date": "2026-06-14",
       "link": "https://openai.com/index/introducing-openai-partner-network"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-microsoft-researchs-mirage-gives-video-generation-a-persistent-spatial-memory-that-doe",
-      "title": "Microsoft Research&#039;s Mirage gives video generation a persistent spatial memory that doesn&#039;t forget what&#039;s around the corner",
-      "description": "Mirage, a video world model from Microsoft Research and several universities, stores scene information directly in latent space instead of pixel-based point clouds. That slashes compute time and graphics memory while keeping scenes spatially consistent through",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-14",
-      "link": "https://the-decoder.com/microsoft-researchs-mirage-gives-video-generation-a-persistent-spatial-memory-that-doesnt-forget-whats-around-the-corner/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-google-clouds-open-knowledge-format-turns-scattered-docs-into-markdown-files-for-ai-ag",
-      "title": "Google Cloud&#039;s Open Knowledge Format turns scattered docs into Markdown files for AI agents",
-      "description": "Google Cloud's new Open Knowledge Format (OKF) standardizes scattered organizational knowledge as Markdown files with YAML frontmatter, making it portable and usable for AI agents. The minimalist spec formalizes a pattern Andrej Karpathy recently popularized a",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-14",
-      "link": "https://the-decoder.com/google-clouds-open-knowledge-format-turns-scattered-docs-into-markdown-files-for-ai-agents/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-kpmg-fabricated-ai-case-studies-in-a-report-designed-to-sell-clients-on-ai-adoption-",
-      "title": "KPMG fabricated AI case studies in a report designed to sell clients on AI adoption",
-      "description": "KPMG published a report on AI in business that contained fabricated case studies involving UBS, the NHS, and other organizations. GPTZero CEO Edward Tian, who helped uncover the errors, warns of \"secondary hallucinations,\" flawed claims from trusted consulting",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-14",
-      "link": "https://the-decoder.com/kpmg-fabricated-ai-case-studies-in-a-report-designed-to-sell-clients-on-ai-adoption/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-ai-coding-agents-find-the-right-file-but-miss-the-exact-lines-that-matter-study-shows-",
-      "title": "AI coding agents find the right file but miss the exact lines that matter, study shows",
-      "description": "AI coding agents like Claude Code or Codex reliably find the right file but miss most of the critical lines within it. The new SWE-Explore benchmark is the first to test code search separately from the actual repair, and it shows that without enough context, e",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-14",
-      "link": "https://the-decoder.com/ai-coding-agents-find-the-right-file-but-miss-the-exact-lines-that-matter-study-shows/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-amazon-and-five-other-companies-reportedly-triggered-the-government-crackdown-on-anthr",
-      "title": "Amazon and five other companies reportedly triggered the government crackdown on Anthropic&#039;s Fable model",
-      "description": "Amazon CEO Andy Jassy and executives from other tech companies reportedly warned the Trump administration about security vulnerabilities in Anthropic's Fable model, even though Amazon is one of Anthropic's largest investors. Within hours, the White House force",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-14",
-      "link": "https://the-decoder.com/amazon-and-five-other-companies-reportedly-triggered-the-government-crackdown-on-anthropics-fable-model/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-new-ai-model-called-count-anything-does-exactly-what-it-says-and-thats-harder-than-it-",
-      "title": "New AI model called \"Count Anything\" does exactly what it says, and that&#039;s harder than it sounds",
-      "description": "\"Count Anything\" is intended to be the first AI model capable of counting objects in any type of image, from crowds to cell samples under a microscope, using nothing more than a text prompt. In a comparative test, it cuts the error rate in half compared to pre",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-13",
-      "link": "https://the-decoder.com/new-ai-model-called-count-anything-does-exactly-what-it-says-and-thats-harder-than-it-sounds/"
     },
     {
       "id": "openai-news-https-openai-com-index-academy-courses-applying-ai-at-work",
@@ -161,15 +260,6 @@
       "link": "https://openai.com/index/preply"
     },
     {
-      "id": "openai-news-https-openai-com-index-bbva",
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-11",
-      "link": "https://openai.com/index/bbva"
-    },
-    {
       "id": "openai-news-https-openai-com-index-using-codex-to-simulate-black-holes",
       "title": "How an astrophysicist uses Codex to help simulate black holes",
       "description": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
@@ -179,13 +269,13 @@
       "link": "https://openai.com/index/using-codex-to-simulate-black-holes"
     },
     {
-      "id": "openai-news-https-openai-com-index-openai-to-acquire-ona",
-      "title": "OpenAI to acquire Ona",
-      "description": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "id": "openai-news-https-openai-com-index-bbva",
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
       "source": "OpenAI News",
       "category": "Frontier labs",
       "date": "2026-06-11",
-      "link": "https://openai.com/index/openai-to-acquire-ona"
+      "link": "https://openai.com/index/bbva"
     },
     {
       "id": "openai-news-https-openai-com-index-supporting-eu-trustworthy-ai-ecosystem",
@@ -195,6 +285,15 @@
       "category": "Frontier labs",
       "date": "2026-06-11",
       "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-openai-to-acquire-ona",
+      "title": "OpenAI to acquire Ona",
+      "description": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-11",
+      "link": "https://openai.com/index/openai-to-acquire-ona"
     },
     {
       "id": "openai-news-https-openai-com-index-openai-on-oracle-cloud",
@@ -213,105 +312,6 @@
       "category": "Frontier labs",
       "date": "2026-06-10",
       "link": "https://openai.com/index/prc-linked-influence-operations-ai-debates"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-lseg",
-      "title": "From data to decisions: how LSEG is scaling trusted AI",
-      "description": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-10",
-      "link": "https://openai.com/index/lseg"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-diffusiongemma-4x-faster-text-generation-",
-      "title": "DiffusionGemma: 4x faster text generation",
-      "description": "",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-06-10",
-      "link": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-investing-in-multi-agent-ai-safety-research-",
-      "title": "Investing in multi-agent AI safety research",
-      "description": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-06-10",
-      "link": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-nextdoor",
-      "title": "How engineers at Nextdoor use Codex to build without limits",
-      "description": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-09",
-      "link": "https://openai.com/index/nextdoor"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-notion",
-      "title": "What Codex unlocks for Notion",
-      "description": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-09",
-      "link": "https://openai.com/index/notion"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-industrial-policy-for-the-intelligence-age",
-      "title": "Industrial policy for the Intelligence Age",
-      "description": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-09",
-      "link": "https://openai.com/index/industrial-policy-for-the-intelligence-age"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-fluid-natural-voice-translation-with-gemini-35-live-translate-",
-      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
-      "description": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-06-09",
-      "link": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model-",
-      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
-      "description": "",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-06-09",
-      "link": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-powering-the-future-of-robotics-in-europe-",
-      "title": "Powering the future of robotics in Europe",
-      "description": "",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-06-09",
-      "link": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-openai-submits-confidential-s-1",
-      "title": "Confidential submission of draft S-1 to the SEC",
-      "description": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-08",
-      "link": "https://openai.com/index/openai-submits-confidential-s-1"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-built-to-benefit-everyone-our-plan",
-      "title": "Built to benefit everyone: our plan",
-      "description": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-08",
-      "link": "https://openai.com/index/built-to-benefit-everyone-our-plan"
     }
   ]
 }
