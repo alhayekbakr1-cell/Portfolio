@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T15:57:53.887Z",
+  "generatedAt": "2026-07-06T15:47:01.285Z",
   "summary": "Latest global AI updates from 5 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
     {
@@ -44,6 +44,150 @@
   ],
   "items": [
     {
+      "id": "the-decoder-https-the-decoder-com-nvidias-kyber-nvl144-reportedly-pushed-back-more-than-a-year-asian-suppliers-drop-",
+      "title": "Nvidia&#039;s Kyber NVL144 reportedly pushed back more than a year, Asian suppliers drop",
+      "description": "Nvidia's next AI server rack, Kyber NVL144, has been delayed more than a year to 2028 because of circuit board manufacturing problems, according to analyst firm SemiAnalysis. Asian suppliers lost up to double-digit percentages in market value. The more powerfu",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-07-06",
+      "link": "https://the-decoder.com/nvidias-kyber-nvl144-reportedly-pushed-back-more-than-a-year-asian-suppliers-drop/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-china-forces-its-biggest-ai-platforms-to-shut-down-humanlike-chatbot-personas-",
+      "title": "China forces its biggest AI platforms to shut down humanlike chatbot personas",
+      "description": "ByteDance and Alibaba are shutting down the features that let users build and chat with custom AI companions, responding to new regulations from Beijing. The article China forces its biggest AI platforms to shut down humanlike chatbot personas appeared first o",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-07-06",
+      "link": "https://the-decoder.com/china-forces-its-biggest-ai-platforms-to-shut-down-humanlike-chatbot-personas/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence-",
+      "title": "Amazon sunsets Mechanical Turk, the original \"Artificial Artificial Intelligence\"",
+      "description": "Amazon Web Services is shutting down its crowdsourcing service Mechanical Turk to new customers starting July 30, 2026. The article Amazon sunsets Mechanical Turk, the original \"Artificial Artificial Intelligence\" appeared first on The Decoder .",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-07-06",
+      "link": "https://the-decoder.com/amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-",
+      "title": "JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed",
+      "description": "Security firm Sysdig describes an extortion attack where a language model broke in on its own, stole credentials, and destroyed databases. No human appeared to be at the controls. The article JADEPUFFER is the first agentic ransomware operation and it exposes ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-07-06",
+      "link": "https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few",
+      "title": "Claude Code and Fable 5 ported the 2003 PC game Command &#038; Conquer to native iOS in \"a few hours\"",
+      "description": "A Google Deepmind developer ported the 2003 real-time strategy game \"Command &#038; Conquer: Generals Zero Hour\" to iPhone and iPad using Anthropic's Claude Code. The first build took 40 minutes. The full source code is on GitHub. The article Claude Code and F",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-07-05",
+      "link": "https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory",
+      "title": "Baidu&#039;s \"Unlimited OCR\" processes dozens of document pages in one pass by treating memory like human forgetting",
+      "description": "Baidu's Unlimited OCR reads dozens of document pages in a single pass, where previous systems topped out at about ten. A modified attention mechanism keeps memory use flat no matter how many pages the model processes. It currently holds the top spot on the mos",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-07-05",
+      "link": "https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-ai-private-schools-sell-wealthy-us-families-on-personalized-learning-over-traditional-",
+      "title": "AI private schools sell wealthy US families on personalized learning over traditional education",
+      "description": "Wealthy US families are increasingly sending their kids to AI schools like Alpha School, which combines two hours of AI tutoring with project-based workshops for up to $75,000 a year in tuition. The trend highlights a growing education gap in the AI era, where",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-07-05",
+      "link": "https://the-decoder.com/ai-private-schools-sell-wealthy-us-families-on-personalized-learning-over-traditional-education/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-busin",
+      "title": "Mistral CEO Mensch says proprietary AI models give labs a front-row seat to your business processes",
+      "description": "Mistral founder Arthur Mensch warns companies against relying on closed AI models. He claims AI labs are storing more and more customer data and have, in some cases, used it to go after their own customers as competitors. The concern is valid, but Mistral can'",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-07-05",
+      "link": "https://the-decoder.com/mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-business-processes/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-hollywood-wants-seedance-banned-and-reportedly-also-wants-to-keep-using-it-",
+      "title": "Hollywood wants Seedance banned and reportedly also wants to keep using it",
+      "description": "Bytedance's AI video tool Seedance is dividing Hollywood. A viral clip featuring AI-generated Brad Pitt and Tom Cruise prompted the Motion Picture Association's first-ever cease-and-desist against an AI company. But behind the scenes, studios are quietly using",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-07-05",
+      "link": "https://the-decoder.com/hollywood-wants-seedance-banned-and-reportedly-also-wants-to-keep-using-it/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-ai-search-agents-dont-fail-at-searching-they-fail-at-asking-the-right-questions-when-q",
+      "title": "AI search agents don&#039;t fail at searching, they fail at asking the right questions when queries get ambiguous",
+      "description": "AI search agents rarely fail at multi-step research because of the search itself. Their real problem is not asking the user for clarification when queries are ambiguous. A new benchmark called DiscoBench shows that models searching repeatedly instead of asking",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-07-05",
+      "link": "https://the-decoder.com/ai-search-agents-dont-fail-at-searching-they-fail-at-asking-the-right-questions-when-queries-get-ambiguous/"
+    },
+    {
+      "id": "google-deepmind-blog-https-deepmind-google-blog-google-deepmind-and-a24-announce-first-of-its-kind-research-partnership-",
+      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+      "description": "",
+      "source": "Google DeepMind Blog",
+      "category": "Frontier labs",
+      "date": "2026-07-03",
+      "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-how-chatgpt-adoption-has-expanded",
+      "title": "How ChatGPT adoption has expanded",
+      "description": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-30",
+      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-genebench-pro-case-studies",
+      "title": "Inside Genebench-Pro",
+      "description": "",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-30",
+      "link": "https://openai.com/index/genebench-pro/case-studies"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-introducing-genebench-pro",
+      "title": "Introducing GeneBench-Pro",
+      "description": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-30",
+      "link": "https://openai.com/index/introducing-genebench-pro"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-core-dump-epidemiology-data-infrastructure-bug",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "description": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-30",
+      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug"
+    },
+    {
+      "id": "google-deepmind-blog-https-deepmind-google-blog-start-building-with-nano-banana-2-lite-and-gemini-omni-flash-",
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "description": "",
+      "source": "Google DeepMind Blog",
+      "category": "Frontier labs",
+      "date": "2026-06-30",
+      "link": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/"
+    },
+    {
       "id": "openai-news-https-openai-com-index-mapping-ai-jobs-transition-eu",
       "title": "Mapping Europe’s AI Workforce Opportunity",
       "description": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
@@ -53,51 +197,6 @@
       "link": "https://openai.com/index/mapping-ai-jobs-transition-eu"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data-",
-      "title": "Meta restricts use of Claude Code and Codex to keep rival AI out of its training data",
-      "description": "Meta is restricting its engineers' use of Anthropic's Claude and OpenAI's Codex to prevent output from these AI tools from being incorporated into its own training data. The article Meta restricts use of Claude Code and Codex to keep rival AI out of its traini",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-29",
-      "link": "https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour-",
-      "title": "Deloitte tells its own consultants: AI is coming for the billable hour",
-      "description": "An internal Deloitte presentation projects that the consulting industry's classic hourly billing model will shrink to a thin sliver of the total market by 2035, replaced by AI agents. \"Our model is toast,\" one consultant summed up the message. McKinsey and BCG",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-29",
-      "link": "https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-",
-      "title": "The US military used AI to pick thousands of targets but missed a note saying one was a school",
-      "description": "The probe into a missile strike on an Iranian school exposes serious gaps in the US military's targeting infrastructure. AI is supposed to close them. The article The US military used AI to pick thousands of targets but missed a note saying one was a school ap",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-29",
-      "link": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-f",
-      "title": "Claude Code runs a GitHub repo&#039;s hidden malware without verification, giving attackers full control",
-      "description": "Security researchers at Mozilla's 0DIN platform have shown how a single compromised GitHub repo can take over a developer's machine the moment an AI coding tool like Claude Code runs its setup. The catch: the malicious code only loads at runtime via a DNS quer",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-29",
-      "link": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices",
-      "title": "Samsung and SK Hynix plan $590 billion chip investment as AI demand sends memory prices soaring",
-      "description": "Samsung and SK Hynix, backed by the South Korean government, are pouring $590 billion into new chip factories and packaging centers as AI data center demand surges. According to Jefferies, memory prices could climb to 50 percent per quarter through 2027. The t",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-29",
-      "link": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring/"
-    },
-    {
       "id": "openai-news-https-openai-com-index-hp-frontier-partnership",
       "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
       "description": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
@@ -105,51 +204,6 @@
       "category": "Frontier labs",
       "date": "2026-06-28",
       "link": "https://openai.com/index/hp-frontier-partnership"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-ai-wont-become-a-real-coworker-until-it-stops-answering-and-starts-finishing-tasks-",
-      "title": "AI won&#039;t become a real coworker until it stops answering and starts finishing tasks",
-      "description": "A survey paper by Tencent and several Chinese universities traces the path from chatbot to \"digital colleague.\" AI systems won't become reliable coworkers, the researchers argue, until they finish entire tasks in persistent work environments instead of just ge",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-28",
-      "link": "https://the-decoder.com/ai-wont-become-a-real-coworker-until-it-stops-answering-and-starts-finishing-tasks/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-coinbase-joins-the-rush-to-chinese-ai-models-as-western-labs-face-a-pricing-stress-tes",
-      "title": "Coinbase joins the rush to Chinese AI models as Western labs face a pricing stress test",
-      "description": "Coinbase CEO Brian Armstrong is switching his company to Chinese AI models like GLM 5.2 and Kimi 2.7. An automated routing system picks the best model for each request based on task and price, and better caching pushed the hit rate from 5 to 60 percent. Coinba",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-28",
-      "link": "https://the-decoder.com/coinbase-joins-the-rush-to-chinese-ai-models-as-western-labs-face-a-pricing-stress-test/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-tes",
-      "title": "Only three AI models finished above starting capital in a 500-day startup survival test",
-      "description": "Researchers at Princeton University built CEO-Bench, a test where AI agents have to run a fictional software company for 500 simulated days. Most current models go broke, and a simple rule-based heuristic with no AI beats nearly all of them. The article Only t",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-28",
-      "link": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-chinese-cybersecurity-firm-builds-ai-tools-to-rival-mythos-and-frames-the-race-as-cybe",
-      "title": "Chinese cybersecurity firm builds AI tools to rival Mythos and frames the race as cyber-nuclear deterrence",
-      "description": "360 founder Zhou Hongyi presents two AI security tools designed to compete with Anthropic's Mythos. One has already flagged 3,432 vulnerabilities. Zhou admits Chinese models trail Western ones by 20 to 30 percent, but compares Mythos to \"cyber nuclear weapons\"",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-28",
-      "link": "https://the-decoder.com/chinese-cybersecurity-firm-builds-ai-tools-to-rival-mythos-and-frames-the-race-as-cyber-nuclear-deterrence/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-kno",
-      "title": "Sina&#039;s open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn&#039;t",
-      "description": "Sina Weibo's VibeThinker-3B has just three billion parameters but matches models like DeepSeek V3.2 and Kimi K2.5 on math and coding benchmarks. Those models are up to 333 times larger. The secret isn't size but multi-stage post-training. The researchers propo",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-06-28",
-      "link": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt/"
     },
     {
       "id": "openai-news-https-openai-com-index-previewing-gpt-5-6-sol",
@@ -215,15 +269,6 @@
       "link": "https://openai.com/index/omio"
     },
     {
-      "id": "openai-news-https-openai-com-index-daybreak-securing-the-world",
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "description": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-22",
-      "link": "https://openai.com/index/daybreak-securing-the-world"
-    },
-    {
       "id": "openai-news-https-openai-com-index-patch-the-planet",
       "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
       "description": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
@@ -231,6 +276,15 @@
       "category": "Frontier labs",
       "date": "2026-06-22",
       "link": "https://openai.com/index/patch-the-planet"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-daybreak-securing-the-world",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "description": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-22",
+      "link": "https://openai.com/index/daybreak-securing-the-world"
     },
     {
       "id": "openai-news-https-openai-com-index-codex-maxxing-long-running-work",
@@ -258,60 +312,6 @@
       "category": "Frontier labs",
       "date": "2026-06-18",
       "link": "https://openai.com/index/chatgpt-enterprise-spend-controls"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-improving-health-intelligence-in-chatgpt",
-      "title": "Improving health intelligence in ChatGPT",
-      "description": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-18",
-      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-diagnose-rare-childhood-diseases",
-      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "description": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-18",
-      "link": "https://openai.com/index/diagnose-rare-childhood-diseases"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-ai-chemist-improves-reaction",
-      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "description": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-17",
-      "link": "https://openai.com/index/ai-chemist-improves-reaction"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-life-sci-bench",
-      "title": "Introducing LifeSciBench",
-      "description": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-17",
-      "link": "https://openai.com/index/introducing-life-sci-bench"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-deployment-simulation",
-      "title": "Predicting model behavior before release by simulating deployment",
-      "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-16",
-      "link": "https://openai.com/index/deployment-simulation"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-unlocking-uk-house-building-with-ai-accelerated-planning-",
-      "title": "Unlocking UK house-building with AI-accelerated planning",
-      "description": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-06-16",
-      "link": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/"
     }
   ]
 }
