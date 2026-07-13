@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T15:47:01.285Z",
+  "generatedAt": "2026-07-13T14:48:20.763Z",
   "summary": "Latest global AI updates from 5 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
     {
@@ -44,94 +44,202 @@
   ],
   "items": [
     {
-      "id": "the-decoder-https-the-decoder-com-nvidias-kyber-nvl144-reportedly-pushed-back-more-than-a-year-asian-suppliers-drop-",
-      "title": "Nvidia&#039;s Kyber NVL144 reportedly pushed back more than a year, Asian suppliers drop",
-      "description": "Nvidia's next AI server rack, Kyber NVL144, has been delayed more than a year to 2028 because of circuit board manufacturing problems, according to analyst firm SemiAnalysis. Asian suppliers lost up to double-digit percentages in market value. The more powerfu",
+      "id": "the-decoder-https-the-decoder-com-nadella-calls-out-ai-labs-like-openai-and-anthropic-for-banning-distillation-while-tra",
+      "title": "Nadella calls out AI labs like OpenAI and Anthropic for banning distillation while training on everyone else&#039;s data",
+      "description": "Microsoft CEO Satya Nadella is calling out OpenAI and Anthropic for what he calls a \"reverse information paradox.\" They train on public data under fair use but ban distillation of their own models, all while learning from customer interactions. Nadella wants c",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-07-06",
-      "link": "https://the-decoder.com/nvidias-kyber-nvl144-reportedly-pushed-back-more-than-a-year-asian-suppliers-drop/"
+      "date": "2026-07-13",
+      "link": "https://the-decoder.com/nadella-calls-out-ai-labs-like-openai-and-anthropic-for-banning-distillation-while-training-on-everyone-elses-data/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-china-forces-its-biggest-ai-platforms-to-shut-down-humanlike-chatbot-personas-",
-      "title": "China forces its biggest AI platforms to shut down humanlike chatbot personas",
-      "description": "ByteDance and Alibaba are shutting down the features that let users build and chat with custom AI companions, responding to new regulations from Beijing. The article China forces its biggest AI platforms to shut down humanlike chatbot personas appeared first o",
+      "id": "the-decoder-https-the-decoder-com-german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-e",
+      "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
+      "description": "A German research consortium has released Soofi S 30B-A3B, an open language model trained entirely on Deutsche Telekom's cloud infrastructure in Munich. The model uses an efficient hybrid architecture that activates only a fraction of its 31.6 billion paramete",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-07-06",
-      "link": "https://the-decoder.com/china-forces-its-biggest-ai-platforms-to-shut-down-humanlike-chatbot-personas/"
+      "date": "2026-07-13",
+      "link": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence-",
-      "title": "Amazon sunsets Mechanical Turk, the original \"Artificial Artificial Intelligence\"",
-      "description": "Amazon Web Services is shutting down its crowdsourcing service Mechanical Turk to new customers starting July 30, 2026. The article Amazon sunsets Mechanical Turk, the original \"Artificial Artificial Intelligence\" appeared first on The Decoder .",
+      "id": "the-decoder-https-the-decoder-com-sensorfm-",
+      "title": "Google’s SensorFM turns messy wearable sensor data into a general-purpose health intelligence layer",
+      "description": "Google Research's SensorFM is a foundation model trained on more than a trillion minutes of wearable data from five million Fitbit and Pixel Watch users. It beats existing benchmarks on 34 of 35 health and behavioral tasks. SensorFM could eventually power Goog",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-07-06",
-      "link": "https://the-decoder.com/amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence/"
+      "date": "2026-07-13",
+      "link": "https://the-decoder.com/sensorfm/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-",
-      "title": "JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed",
-      "description": "Security firm Sysdig describes an extortion attack where a language model broke in on its own, stole credentials, and destroyed databases. No human appeared to be at the controls. The article JADEPUFFER is the first agentic ransomware operation and it exposes ",
+      "id": "the-decoder-https-the-decoder-com-anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-",
+      "title": "Anthropic extends free Fable 5 access for subscribers as OpenAI&#039;s GPT-5.6 Sol heats up the pricing war",
+      "description": "Anthropic is keeping Claude Fable 5 in its subscription plans through July 19, 2026. The model was supposed to switch to pay-per-use today. Subscribers can use up to 50 percent of their weekly limit for Fable 5. The extension is likely a response to pricing pr",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-07-06",
-      "link": "https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed/"
+      "date": "2026-07-13",
+      "link": "https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few",
-      "title": "Claude Code and Fable 5 ported the 2003 PC game Command &#038; Conquer to native iOS in \"a few hours\"",
-      "description": "A Google Deepmind developer ported the 2003 real-time strategy game \"Command &#038; Conquer: Generals Zero Hour\" to iPhone and iPad using Anthropic's Claude Code. The first build took 40 minutes. The full source code is on GitHub. The article Claude Code and F",
+      "id": "the-decoder-https-the-decoder-com-linkedin-is-the-undisputed-king-of-long-form-ai-slop-according-to-a-study-spanning-fiv",
+      "title": "LinkedIn is the undisputed king of long-form AI slop, according to a study spanning five platforms",
+      "description": "One in four longer social media posts is entirely AI-generated, according to a Pangram analysis. LinkedIn leads with 41 percent of long-form posts flagged as AI-written. The platform made up only a third of all posts scanned but accounted for nearly two-thirds",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-07-05",
-      "link": "https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/"
+      "date": "2026-07-12",
+      "link": "https://the-decoder.com/linkedin-is-the-undisputed-king-of-long-form-ai-slop-according-to-a-study-spanning-five-platforms/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory",
-      "title": "Baidu&#039;s \"Unlimited OCR\" processes dozens of document pages in one pass by treating memory like human forgetting",
-      "description": "Baidu's Unlimited OCR reads dozens of document pages in a single pass, where previous systems topped out at about ten. A modified attention mechanism keeps memory use flat no matter how many pages the model processes. It currently holds the top spot on the mos",
+      "id": "the-decoder-https-the-decoder-com-claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-externa",
+      "title": "Claude Code now has a built-in browser that lets the AI read, click, and type on external websites",
+      "description": "Claude Code now has a built-in browser that lets the AI open, read, and interact with web pages directly inside the development environment. Write actions on external sites are screened by classifiers, and purchases or account creations need user approval. The",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-07-05",
-      "link": "https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/"
+      "date": "2026-07-12",
+      "link": "https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-ai-private-schools-sell-wealthy-us-families-on-personalized-learning-over-traditional-",
-      "title": "AI private schools sell wealthy US families on personalized learning over traditional education",
-      "description": "Wealthy US families are increasingly sending their kids to AI schools like Alpha School, which combines two hours of AI tutoring with project-based workshops for up to $75,000 a year in tuition. The trend highlights a growing education gap in the AI era, where",
+      "id": "the-decoder-https-the-decoder-com-sp-global-sees-openai-as-a-key-credit-risk-for-oracle-and-cuts-its-credit-rating-",
+      "title": "S&#038;P Global sees OpenAI as a \"key credit risk\" for Oracle and cuts its credit rating",
+      "description": "S&#038;P Global has downgraded Oracle's credit rating to \"BBB-,\" one notch above junk status. OpenAI accounts for roughly half of Oracle's $638 billion in contractual obligations. If OpenAI walked away, Oracle would be stuck with massive data center capacity i",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-07-05",
-      "link": "https://the-decoder.com/ai-private-schools-sell-wealthy-us-families-on-personalized-learning-over-traditional-education/"
+      "date": "2026-07-12",
+      "link": "https://the-decoder.com/sp-global-sees-openai-as-a-key-credit-risk-for-oracle-and-cuts-its-credit-rating/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-busin",
-      "title": "Mistral CEO Mensch says proprietary AI models give labs a front-row seat to your business processes",
-      "description": "Mistral founder Arthur Mensch warns companies against relying on closed AI models. He claims AI labs are storing more and more customer data and have, in some cases, used it to go after their own customers as competitors. The concern is valid, but Mistral can'",
+      "id": "the-decoder-https-the-decoder-com-meta-kills-muse-image-feature-that-let-anyone-generate-ai-photos-of-instagram-users-wi",
+      "title": "Meta kills Muse Image feature that let anyone generate AI photos of Instagram users without consent",
+      "description": "Meta pulled a controversial feature from its new Muse Image model after widespread criticism. The feature let users generate AI images of other people by @-mentioning their public Instagram accounts. No consent needed, just a username. Meta admits \"this featur",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-07-05",
-      "link": "https://the-decoder.com/mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-business-processes/"
+      "date": "2026-07-12",
+      "link": "https://the-decoder.com/meta-kills-muse-image-feature-that-let-anyone-generate-ai-photos-of-instagram-users-without-consent/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-hollywood-wants-seedance-banned-and-reportedly-also-wants-to-keep-using-it-",
-      "title": "Hollywood wants Seedance banned and reportedly also wants to keep using it",
-      "description": "Bytedance's AI video tool Seedance is dividing Hollywood. A viral clip featuring AI-generated Brad Pitt and Tom Cruise prompted the Motion Picture Association's first-ever cease-and-desist against an AI company. But behind the scenes, studios are quietly using",
+      "id": "the-decoder-https-the-decoder-com-claude-coworks-biggest-use-case-is-the-mundane-office-work-nobody-wants-to-own-anthrop",
+      "title": "Claude Cowork&#039;s biggest use case is the mundane office work nobody wants to own, Anthropic says",
+      "description": "Anthropic analyzed 1.2 million Claude Cowork sessions from more than 600,000 organizations. About half of all usage goes toward business processes and text creation, what Anthropic calls \"the work around the work.\" That means tasks like compiling status report",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-07-05",
-      "link": "https://the-decoder.com/hollywood-wants-seedance-banned-and-reportedly-also-wants-to-keep-using-it/"
+      "date": "2026-07-12",
+      "link": "https://the-decoder.com/claude-coworks-biggest-use-case-is-the-mundane-office-work-nobody-wants-to-own-anthropic-says/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-ai-search-agents-dont-fail-at-searching-they-fail-at-asking-the-right-questions-when-q",
-      "title": "AI search agents don&#039;t fail at searching, they fail at asking the right questions when queries get ambiguous",
-      "description": "AI search agents rarely fail at multi-step research because of the search itself. Their real problem is not asking the user for clarification when queries are ambiguous. A new benchmark called DiscoBench shows that models searching repeatedly instead of asking",
+      "id": "the-decoder-https-the-decoder-com-openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-f",
+      "title": "OpenAI CEO Altman is now \"pretty sure\" AI is net job-creating, which is quite the pivot from predicting mass layoffs",
+      "description": "OpenAI CEO Sam Altman now says he's \"pretty sure\" AI has created more jobs than it's eliminated. That's a sharp turn from his earlier warnings about entire professions disappearing. Anthropic CEO Dario Amodei is walking back similar claims, too. But studies so",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-07-05",
-      "link": "https://the-decoder.com/ai-search-agents-dont-fail-at-searching-they-fail-at-asking-the-right-questions-when-queries-get-ambiguous/"
+      "date": "2026-07-12",
+      "link": "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-deutsche-telekom",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "description": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-10",
+      "link": "https://openai.com/index/deutsche-telekom"
+    },
+    {
+      "id": "openai-news-https-openai-com-academy-getting-started",
+      "title": "Getting started with ChatGPT",
+      "description": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-10",
+      "link": "https://openai.com/academy/getting-started"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-gpt-5-6-preferred-model-microsoft-365-copilot",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "description": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-09",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-bio-bug-bounty",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "description": "Details about the OpenAI Bio Bounty program",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-09",
+      "link": "https://openai.com/index/bio-bug-bounty"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-gpt-5-6",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "description": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-09",
+      "link": "https://openai.com/index/gpt-5-6"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-chatgpt-for-your-most-ambitious-work",
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "description": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-09",
+      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-government-national-security-partnerships",
+      "title": "Our approach to government and national security partnerships",
+      "description": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-08",
+      "link": "https://openai.com/index/government-national-security-partnerships"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-separating-signal-from-noise-coding-evaluations",
+      "title": "Separating signal from noise in coding evaluations",
+      "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-08",
+      "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-k-12-educators-practical-skills",
+      "title": "Helping K–12 educators build practical AI skills",
+      "description": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-08",
+      "link": "https://openai.com/index/k-12-educators-practical-skills"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-introducing-gpt-live",
+      "title": "Introducing GPT-Live",
+      "description": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-08",
+      "link": "https://openai.com/index/introducing-gpt-live"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-mufg",
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-07",
+      "link": "https://openai.com/index/mufg"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-australian-payments-plus",
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "description": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-07",
+      "link": "https://openai.com/index/australian-payments-plus"
     },
     {
       "id": "google-deepmind-blog-https-deepmind-google-blog-google-deepmind-and-a24-announce-first-of-its-kind-research-partnership-",
@@ -152,15 +260,6 @@
       "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded"
     },
     {
-      "id": "openai-news-https-openai-com-index-genebench-pro-case-studies",
-      "title": "Inside Genebench-Pro",
-      "description": "",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-30",
-      "link": "https://openai.com/index/genebench-pro/case-studies"
-    },
-    {
       "id": "openai-news-https-openai-com-index-introducing-genebench-pro",
       "title": "Introducing GeneBench-Pro",
       "description": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
@@ -168,6 +267,15 @@
       "category": "Frontier labs",
       "date": "2026-06-30",
       "link": "https://openai.com/index/introducing-genebench-pro"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-genebench-pro-case-studies",
+      "title": "Inside Genebench-Pro",
+      "description": "",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-06-30",
+      "link": "https://openai.com/index/genebench-pro/case-studies"
     },
     {
       "id": "openai-news-https-openai-com-index-core-dump-epidemiology-data-infrastructure-bug",
@@ -204,114 +312,6 @@
       "category": "Frontier labs",
       "date": "2026-06-28",
       "link": "https://openai.com/index/hp-frontier-partnership"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-previewing-gpt-5-6-sol",
-      "title": "Previewing GPT-5.6 Sol: a next-generation model",
-      "description": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-26",
-      "link": "https://openai.com/index/previewing-gpt-5-6-sol"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-how-agents-are-transforming-work",
-      "title": "How agents are transforming work",
-      "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-25",
-      "link": "https://openai.com/index/how-agents-are-transforming-work"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-openai-broadcom-jalapeno-inference-chip",
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "description": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-24",
-      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-introducing-computer-use-in-gemini-3-5-flash-",
-      "title": "Introducing computer use in Gemini 3.5 Flash",
-      "description": "",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-06-24",
-      "link": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-helping-build-shared-standards-for-advanced-ai",
-      "title": "Helping build shared standards for advanced AI",
-      "description": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-23",
-      "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-gpt-5-immunology-mystery",
-      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "description": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-23",
-      "link": "https://openai.com/index/gpt-5-immunology-mystery"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-omio",
-      "title": "How Omio is building the future of conversational travel",
-      "description": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-23",
-      "link": "https://openai.com/index/omio"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-patch-the-planet",
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "description": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-22",
-      "link": "https://openai.com/index/patch-the-planet"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-daybreak-securing-the-world",
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "description": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-22",
-      "link": "https://openai.com/index/daybreak-securing-the-world"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-codex-maxxing-long-running-work",
-      "title": "Codex-maxxing for long-running work",
-      "description": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-22",
-      "link": "https://openai.com/index/codex-maxxing-long-running-work"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-samsung-electronics-chatgpt-codex-deployment",
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-21",
-      "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-chatgpt-enterprise-spend-controls",
-      "title": "New usage analytics and updated spend controls for enterprises",
-      "description": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-06-18",
-      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls"
     }
   ]
 }
