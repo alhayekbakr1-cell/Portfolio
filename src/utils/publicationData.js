@@ -75,28 +75,6 @@ const extractJournal = (citation) => {
 export const peerReviewed = [
 
     {
-        id: 'pub-auto-thyroid-immuno',
-        title: "Advances in Immunotherapy for Thyroid Malignancies: Current Evidence, Biomarkers, and Future Horizons.",
-        authors: ["Alhayek B", "Hadidi D", "Baidoun F", "Ramsakal A", "Abdel-Rahman O"],
-        journal: "Frontiers in Oncology",
-        journalAbbrev: "Front Oncol",
-        citation: "Front Oncol. 2026 Feb; 16: 104829.",
-        year: 2026,
-        month: "Feb",
-        volume: "16",
-        issue: "",
-        pages: "104829",
-        yourRole: "First Author",
-        type: "peer-reviewed",
-        category: "Head & Neck",
-        link: "https://pubmed.ncbi.nlm.nih.gov/",
-        doi: "10.3389/fonc.2026.104829",
-        pmid: "",
-        pmc: "",
-        tags: autoTag("Advances in Immunotherapy for Thyroid Malignancies: Current Evidence, Biomarkers, and Future Horizons.", "Frontiers in Oncology"),
-        featured: true,
-    },
-    {
         id: 'pub-auto-41916426',
         title: "QIM26-292: Capturing a Potentially Life-Altering Missed Opportunity in Cancer Prevention: Implementing a Human Papillomavirus (HPV) Vaccination Program in an Internal Medicine Resident Ambulatory Care Clinic (IMRAC).",
         authors: ["Malone X", "Alhayek B", "Khan A", "Ramsakal A"],
@@ -343,20 +321,6 @@ export const peerReviewed = [
 
 // Submitted Publications
 export const submitted = [
-    {
-        id: 'sub-002',
-        title: "SGLT2 Inhibitors for Mitigation of Cancer Therapy-Related Cardiac Dysfunction (CTRCD): A Systematic Synthesis and Mechanistic Framework",
-        authors: ["Alhayek B", "Cardio-Oncology Research Group"],
-        journal: "JACC: CardioOncology",
-        journalAbbrev: "JACC CardioOncol",
-        citation: "Submitted to JACC: CardioOncology (2026).",
-        year: 2026,
-        yourRole: "First Author",
-        type: "submitted",
-        category: "Cardio-Oncology & Immune Toxicities",
-        tags: autoTag("SGLT2 Inhibitors for Mitigation of Cancer Therapy-Related Cardiac Dysfunction CTRCD", "JACC CardioOncology"),
-        featured: true,
-    },
     {
         id: 'sub-001',
         title: "Electrophysiologic Phenotype Outperforms LVEF for Mortality Risk Stratification in ICI-Myocarditis",
