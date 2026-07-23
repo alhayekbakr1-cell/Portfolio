@@ -10,23 +10,19 @@
 
   /* The "Ivy League" Palette */
   --accent-navy: #0A2540;
-  /* Deeper, richer Navy */
   --accent-blue: #2563EB;
   --accent-light: #EFF6FF;
 
   --accent-gold: #C5A059;
-  /* Muted Bronze/Gold for key highlights */
   --accent-gold-light: #F3E8D3;
-  /* Light wash for backgrounds */
   --accent-gold-hover: #AB8847;
-  /* Darker gold for interaction */
 
   --border-color: #E2E8F0;
   --border-dark: #CBD5E0;
 
-  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 2px 4px 0 rgba(10, 37, 64, 0.05);
+  --shadow-md: 0 6px 16px -2px rgba(10, 37, 64, 0.08);
+  --shadow-lg: 0 12px 28px -4px rgba(10, 37, 64, 0.10);
   --shadow-xl: 0 24px 70px rgba(10, 37, 64, 0.14);
   --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
 
@@ -52,10 +48,25 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-dark);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-gold);
+}
+
 .container {
   max-width: var(--container-width);
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 24px;
   width: 100%;
   position: relative;
   z-index: 1;
@@ -78,7 +89,7 @@ body {
   position: relative;
 }
 
-/* Paper/Grain Texture Overlay */
+/* Subtle Ambient Gradient Overlay */
 body::before {
   content: "";
   position: fixed;
@@ -88,7 +99,7 @@ body::before {
   height: 100%;
   pointer-events: none;
   z-index: 9999;
-  opacity: 0.04;
+  opacity: 0.035;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }
 
@@ -148,6 +159,13 @@ a:focus-visible,
   outline-offset: 4px;
 }
 
+/* Gradient Text Helper */
+.text-gradient {
+  background: linear-gradient(135deg, var(--accent-navy) 0%, var(--accent-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Section Decorator */
 .section-title {
   font-size: 2.5rem;
@@ -171,13 +189,14 @@ a:focus-visible,
   animation: titleSweep 4.5s ease-in-out infinite;
 }
 
-/* Premium Motion Utilities */
+/* Premium Motion & Glass Utilities */
 .motion-card,
 .card,
 [class*="card"],
 article,
 section a[style*="border"] {
   will-change: transform, box-shadow;
+  transition: all 0.3s var(--motion-ease);
 }
 
 .card:hover,
@@ -186,6 +205,7 @@ article:hover,
 section a[style*="border"]:hover {
   transform: translateY(-6px);
   box-shadow: var(--shadow-xl);
+  border-color: var(--accent-gold) !important;
 }
 
 .luxury-sheen {
@@ -207,6 +227,22 @@ section a[style*="border"]:hover {
   transform: translateX(120%);
 }
 
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #10B981;
+  box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  animation: pulseGreen 2s infinite;
+  display: inline-block;
+}
+
+@keyframes pulseGreen {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+  70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
 @keyframes titleSweep {
   0%, 100% { width: 72px; opacity: 0.75; }
   50% { width: 132px; opacity: 1; }
@@ -225,9 +261,9 @@ section a[style*="border"]:hover {
   padding: 14px 18px;
   font-size: 1rem;
   border: 1px solid var(--border-color);
-  border-radius: 10px;
+  border-radius: 12px;
   font-family: var(--font-sans);
-  background-color: #F8FAFC;
+  background-color: var(--bg-muted);
   color: var(--text-primary);
   transition: all 0.2s ease;
 }
@@ -237,8 +273,8 @@ section a[style*="border"]:hover {
 .contact-input:focus {
   outline: none;
   border-color: var(--accent-blue);
-  background-color: #FFFFFF;
-  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+  background-color: var(--bg-card);
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
 }
 
 /* Responsive Grid Adjustments */
@@ -281,26 +317,18 @@ section a[style*="border"]:hover {
 /* Dark Mode Polish - Unified Midnight Navy */
 [data-theme="dark"] {
   --bg-primary: #05101A;
-  /* Very Dark Navy (Almost Black) */
   --bg-secondary: #0A2540;
-  /* The "Hero Navy" */
   --bg-card: #0A2540;
-  /* Match the brand navy */
 
   --text-primary: #FFFFFF;
-  /* Pure White for contrast */
   --text-secondary: #CBD5E1;
-  /* Light Grey */
   --text-muted: #94A3B8;
 
   --accent-navy: #60A5FA;
-  /* Bright Blue for accents */
   --accent-blue: #3B82F6;
-  --accent-light: rgba(96, 165, 250, 0.1);
-  /* Subtle blue tint for badges */
+  --accent-light: rgba(96, 165, 250, 0.12);
 
   --border-color: #1E3A8A;
-  /* Dark Blue Border */
   --border-dark: #172554;
 
   --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
@@ -309,9 +337,7 @@ section a[style*="border"]:hover {
   --shadow-xl: 0 28px 80px rgba(0, 0, 0, 0.55);
 
   --bg-muted: #071624;
-  /* Darker box for inside cards */
   --bg-badge: #172554;
-  /* Navy Badge background */
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -332,8 +358,4 @@ section a[style*="border"]:hover {
   section a[style*="border"]:hover {
     transform: none !important;
   }
-}
-
-@media (prefers-color-scheme: dark) {
-  /* Site remains light by default unless user toggles, or we can auto-detect */
 }
