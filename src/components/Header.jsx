@@ -1,7 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useTheme } from '../hooks/useTheme';
+import { ChevronDown, Moon, Sun, Menu, X } from 'lucide-react';
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -14,27 +15,34 @@ const Header = () => {
     useEffect(() => {
         const handleScroll = () => {
             const scrollPosition = window.scrollY;
-            setScrolled(scrollPosition > 50);
-            setShowName(scrollPosition > 400 || location.pathname !== '/');
+            setScrolled(scrollPosition > 40);
+            setShowName(scrollPosition > 350 || location.pathname !== '/');
         };
 
-        setShowName(window.scrollY > 400 || location.pathname !== '/');
+        setShowName(window.scrollY > 350 || location.pathname !== '/');
 
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, [location.pathname]);
 
-    // Structured Navigation
+    // Streamlined, Non-Crowded Navigation Structure
     const navStructure = [
         { label: 'Home', href: '/' },
-        { label: 'Experience', href: '/experience' },
         {
-            label: 'Research',
+            label: 'About',
             children: [
-                { label: 'Research Works', href: '/research' },
+                { label: 'Clinical Experience', href: '/experience' },
+                { label: 'Education & Training', href: '/education' },
+                { label: 'Professional References', href: '/references' },
+            ]
+        },
+        {
+            label: 'Research & AI',
+            children: [
+                { label: 'Research Portfolio', href: '/research' },
+                { label: 'Publications', href: '/publications' },
                 { label: 'Medical AI Lab', href: '/medical-ai' },
                 { label: 'AI Updates', href: '/ai-updates' },
-                { label: 'Publications', href: '/publications' },
             ]
         },
         {
@@ -43,20 +51,15 @@ const Header = () => {
                 { label: 'Leadership', href: '/leadership' },
                 { label: 'Clinical Media Lab', href: '/media-lab' },
                 { label: 'Quality & Safety', href: '/quality-safety' },
-                { label: 'Teaching', href: '/teaching' },
-                { label: 'Service', href: '/service' },
+                { label: 'Teaching & Mentorship', href: '/teaching' },
+                { label: 'Academic Service', href: '/service' },
             ]
         },
         {
-            label: 'Education',
-            href: '/education'
-        },
-        {
-            label: 'Resources',
+            label: 'Tools & Updates',
             children: [
+                { label: 'Clinical Calculators', href: '/calculators' },
                 { label: 'Medical Updates', href: '/medical-updates' },
-                { label: 'Clinical Tools', href: '/calculators' },
-                { label: 'References', href: '/references' },
             ]
         },
         { label: 'Collaborate', href: '/collaborate' },
@@ -71,11 +74,11 @@ const Header = () => {
             width: '100%',
             zIndex: 1000,
             transition: 'all 0.35s cubic-bezier(0.22, 1, 0.36, 1)',
-            padding: scrolled ? '12px 0' : '20px 0',
-            background: scrolled || location.pathname !== '/' ? 'rgba(255, 255, 255, 0.82)' : 'transparent',
-            backdropFilter: scrolled || location.pathname !== '/' ? 'blur(18px) saturate(1.15)' : 'none',
-            boxShadow: scrolled ? '0 16px 45px rgba(10, 37, 64, 0.08)' : 'none',
-            borderBottom: scrolled ? '1px solid rgba(226, 232, 240, 0.75)' : '1px solid transparent',
+            padding: scrolled ? '10px 0' : '16px 0',
+            background: scrolled || location.pathname !== '/' ? 'rgba(255, 255, 255, 0.90)' : 'transparent',
+            backdropFilter: scrolled || location.pathname !== '/' ? 'blur(16px) saturate(1.2)' : 'none',
+            boxShadow: scrolled ? '0 12px 35px rgba(10, 37, 64, 0.08)' : 'none',
+            borderBottom: scrolled ? '1px solid rgba(226, 232, 240, 0.8)' : '1px solid transparent',
         },
         nav: {
             display: 'flex',
@@ -85,8 +88,8 @@ const Header = () => {
             zIndex: 1002,
         },
         logo: {
-            fontSize: '1.5rem',
-            fontWeight: '600',
+            fontSize: '1.35rem',
+            fontWeight: '800',
             fontFamily: 'var(--font-serif)',
             color: 'var(--accent-navy)',
             letterSpacing: '-0.5px',
@@ -96,10 +99,14 @@ const Header = () => {
             pointerEvents: showName || mobileMenuOpen ? 'auto' : 'none',
             zIndex: 1003,
             textDecoration: 'none',
+            whiteSpace: 'nowrap',
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '6px',
         },
         navList: {
             display: 'flex',
-            gap: '24px', // Increased gap since there are fewer items
+            gap: '18px',
             alignItems: 'center',
             listStyle: 'none',
             margin: 0,
@@ -111,40 +118,42 @@ const Header = () => {
         },
         navLink: {
             color: 'var(--text-secondary)',
-            fontSize: '0.9rem',
-            fontWeight: '500',
-            transition: 'color 0.2s ease',
+            fontSize: '0.92rem',
+            fontWeight: '600',
+            transition: 'all 0.2s ease',
             position: 'relative',
-            paddingBottom: '4px',
+            padding: '6px 8px',
             textDecoration: 'none',
-            display: 'flex',
+            display: 'inline-flex',
             alignItems: 'center',
             gap: '4px',
+            whiteSpace: 'nowrap',
+            borderRadius: '6px',
         },
         activeLink: {
             color: 'var(--accent-navy)',
-            fontWeight: '700',
-            borderBottom: '2px solid var(--accent-navy)',
+            fontWeight: '800',
+            background: 'var(--accent-light)',
         },
         dropdown: {
             position: 'absolute',
             top: '100%',
             left: '50%',
             transform: 'translateX(-50%)',
-            background: 'rgba(255, 255, 255, 0.94)',
-            backdropFilter: 'blur(18px)',
-            border: '1px solid rgba(226, 232, 240, 0.85)',
+            background: 'rgba(255, 255, 255, 0.96)',
+            backdropFilter: 'blur(20px)',
+            border: '1px solid rgba(226, 232, 240, 0.9)',
             borderRadius: '14px',
-            boxShadow: '0 24px 70px rgba(10, 37, 64, 0.14)',
-            padding: '10px',
-            minWidth: '210px',
+            boxShadow: '0 20px 60px rgba(10, 37, 64, 0.12)',
+            padding: '8px',
+            minWidth: '220px',
             display: 'flex',
             flexDirection: 'column',
-            gap: '4px',
+            gap: '3px',
             opacity: 0,
             visibility: 'hidden',
-            transition: 'all 0.28s cubic-bezier(0.22, 1, 0.36, 1)',
-            marginTop: '14px',
+            transition: 'all 0.25s cubic-bezier(0.22, 1, 0.36, 1)',
+            marginTop: '12px',
         },
         dropdownVisible: {
             opacity: 1,
@@ -153,43 +162,39 @@ const Header = () => {
             transform: 'translateX(-50%) translateY(0)',
         },
         dropdownItem: {
-            padding: '9px 12px',
+            padding: '10px 14px',
             color: 'var(--text-secondary)',
             textDecoration: 'none',
-            fontSize: '0.85rem',
-            borderRadius: '9px',
-            transition: 'background 0.2s, transform 0.2s, color 0.2s',
+            fontSize: '0.88rem',
+            fontWeight: '500',
+            borderRadius: '8px',
+            transition: 'background 0.2s, color 0.2s',
             whiteSpace: 'nowrap',
+            display: 'block',
         },
         themeToggle: {
-            background: 'none',
-            border: 'none',
+            background: 'var(--bg-card)',
+            border: '1px solid var(--border-color)',
             cursor: 'pointer',
-            padding: '8px',
-            borderRadius: '50%',
+            padding: '8px 12px',
+            borderRadius: '20px',
             color: 'var(--text-secondary)',
-            display: 'flex',
+            display: 'inline-flex',
             alignItems: 'center',
-            justifyContent: 'center',
+            gap: '6px',
+            fontSize: '0.82rem',
+            fontWeight: '700',
             transition: 'all 0.2s ease',
-            marginLeft: '5px',
+            marginLeft: '4px',
         },
         hamburger: {
             display: 'none',
-            flexDirection: 'column',
-            gap: '6px',
             background: 'none',
             border: 'none',
             cursor: 'pointer',
             padding: '8px',
+            color: 'var(--accent-navy)',
             zIndex: 1003,
-        },
-        hamburgerLine: {
-            width: '24px',
-            height: '2px',
-            backgroundColor: 'var(--accent-navy)',
-            transition: 'all 0.3s ease',
-            borderRadius: '2px',
         },
         mobileOverlay: {
             position: 'fixed',
@@ -205,26 +210,28 @@ const Header = () => {
             alignItems: 'center',
             opacity: mobileMenuOpen ? 1 : 0,
             pointerEvents: mobileMenuOpen ? 'auto' : 'none',
-            transition: 'opacity 0.4s ease',
+            transition: 'opacity 0.35s ease',
+            padding: '80px 20px 40px',
         },
         mobileNavList: {
             display: 'flex',
             flexDirection: 'column',
-            gap: '20px',
+            gap: '16px',
             listStyle: 'none',
             margin: 0,
             padding: 0,
             textAlign: 'center',
             transform: mobileMenuOpen ? 'translateY(0)' : 'translateY(20px)',
-            transition: 'transform 0.4s ease 0.1s',
-            maxHeight: '80vh',
+            transition: 'transform 0.35s ease',
+            maxHeight: '75vh',
             overflowY: 'auto',
             width: '100%',
+            maxWidth: '400px',
         },
         mobileNavLink: {
             color: 'var(--accent-navy)',
             fontSize: '1.2rem',
-            fontWeight: '600',
+            fontWeight: '700',
             fontFamily: 'var(--font-serif)',
             textDecoration: 'none',
             display: 'block',
@@ -232,37 +239,32 @@ const Header = () => {
         },
         mobileSubLink: {
             color: 'var(--text-secondary)',
-            fontSize: '1rem',
+            fontSize: '0.95rem',
             textDecoration: 'none',
             display: 'block',
-            padding: '4px',
+            padding: '6px',
         }
     };
 
-    const hamburgerLine1 = { transform: mobileMenuOpen ? 'rotate(45deg) translate(5px, 6px)' : 'none' };
-    const hamburgerLine2 = { opacity: mobileMenuOpen ? 0 : 1 };
-    const hamburgerLine3 = { transform: mobileMenuOpen ? 'rotate(-45deg) translate(5px, -6px)' : 'none' };
-
     const mobileStyles = `
-        @media (max-width: 1000px) {
+        @media (max-width: 1024px) {
             .desktop-nav { display: none !important; }
             .mobile-hamburger { display: flex !important; }
         }
-        @media (min-width: 1001px) {
+        @media (min-width: 1025px) {
             .mobile-overlay { display: none !important; }
         }
         .theme-toggle:hover {
-            background-color: var(--bg-secondary);
+            background-color: var(--accent-light);
             color: var(--accent-navy);
+            border-color: var(--accent-navy);
         }
         .dropdown-item:hover {
-            background-color: var(--bg-secondary);
+            background-color: var(--accent-light);
             color: var(--accent-navy);
-            transform: translateX(3px);
         }
     `;
 
-    // Dropdown helper
     const handleDropdownEnter = (label) => setActiveDropdown(label);
     const handleDropdownLeave = () => setActiveDropdown(null);
 
@@ -273,12 +275,13 @@ const Header = () => {
                 style={styles.header}
                 initial={{ y: -18, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
+                transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
             >
                 <div className="container" style={styles.nav}>
                     <NavLink to="/" style={styles.logo} onClick={() => setMobileMenuOpen(false)}>
                         Bakr Alhayek, MD
                     </NavLink>
+
                     <nav className="desktop-nav">
                         <ul style={styles.navList}>
                             {navStructure.map((item, index) => (
@@ -290,7 +293,8 @@ const Header = () => {
                                 >
                                     {item.children ? (
                                         <div style={styles.navLink}>
-                                            {item.label} ▾
+                                            <span>{item.label}</span>
+                                            <ChevronDown size={14} style={{ transition: 'transform 0.2s', transform: activeDropdown === item.label ? 'rotate(180deg)' : 'none' }} />
                                             <div
                                                 style={{
                                                     ...styles.dropdown,
@@ -329,42 +333,36 @@ const Header = () => {
                                     className="theme-toggle"
                                     aria-label="Toggle Dark Mode"
                                 >
-                                    {theme === 'light' ? '🌙' : '☀️'}
+                                    {theme === 'light' ? <Moon size={14} /> : <Sun size={14} />}
+                                    <span>{theme === 'light' ? 'Dark' : 'Light'}</span>
                                 </button>
                             </li>
                         </ul>
                     </nav>
 
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <button
-                            className="mobile-hamburger"
-                            onClick={toggleTheme}
-                            style={{ ...styles.themeToggle, display: 'none', marginRight: '40px' }}
-                        >
-                            {theme === 'light' ? '🌙' : '☀️'}
-                        </button>
-
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                         <button
                             className="mobile-hamburger"
                             style={styles.hamburger}
                             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                             aria-label="Toggle menu"
                         >
-                            <span style={{ ...styles.hamburgerLine, ...hamburgerLine1 }}></span>
-                            <span style={{ ...styles.hamburgerLine, ...hamburgerLine2 }}></span>
-                            <span style={{ ...styles.hamburgerLine, ...hamburgerLine3 }}></span>
+                            {mobileMenuOpen ? <X size={26} /> : <Menu size={26} />}
                         </button>
                     </div>
                 </div>
             </motion.header>
 
+            {/* Mobile Navigation Overlay */}
             <div className="mobile-overlay" style={styles.mobileOverlay}>
                 <ul style={styles.mobileNavList}>
                     {navStructure.map((item, index) => (
                         <li key={index}>
                             {item.children ? (
                                 <>
-                                    <span style={{ ...styles.mobileNavLink, opacity: 0.7 }}>{item.label}</span>
+                                    <span style={{ ...styles.mobileNavLink, opacity: 0.6, fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                                        {item.label}
+                                    </span>
                                     {item.children.map((child, cIndex) => (
                                         <NavLink
                                             key={cIndex}
@@ -387,12 +385,13 @@ const Header = () => {
                             )}
                         </li>
                     ))}
-                    <li>
+                    <li style={{ marginTop: '16px' }}>
                         <button
                             onClick={() => { toggleTheme(); setMobileMenuOpen(false); }}
-                            style={{ ...styles.mobileNavLink, background: 'none', border: 'none', cursor: 'pointer', margin: '20px auto 0' }}
+                            style={{ ...styles.themeToggle, margin: '0 auto' }}
                         >
-                            {theme === 'light' ? 'Switch to Dark Mode 🌙' : 'Switch to Light Mode ☀️'}
+                            {theme === 'light' ? <Moon size={16} /> : <Sun size={16} />}
+                            <span>Switch to {theme === 'light' ? 'Dark' : 'Light'} Mode</span>
                         </button>
                     </li>
                 </ul>
