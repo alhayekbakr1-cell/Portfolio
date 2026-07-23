@@ -1,18 +1,20 @@
-# Agent Guidelines for bakralhayek.com (Portfolio)
+# Project Guidelines & Strict Anti-Hallucination Protocol (bakralhayek.com)
 
-## Project Stack & Standards
+## 🛡️ Anti-Hallucination & Data Integrity Directives
+
+1. **Zero Unverified Data Insertion**:
+   - NEVER add, invent, infer, or extrapolate publication titles, author lists, DOIs, PMIDs, journal names, citations, or clinical study metrics without direct, explicit user input.
+
+2. **Explicit User Approval Gate**:
+   - Before modifying any content or database file (such as `publicationData.js`, `newsData.js`, clinical calculator formulas, or bio text), present the exact proposed text/JSON to the user for explicit confirmation.
+
+3. **No Filename Inference**:
+   - NEVER infer publication details, co-authors, or manuscript status from file names or folder titles. Always inspect the exact text inside documents or request user verification.
+
+4. **Link & Asset Verification**:
+   - All URLs, DOIs, PMIDs, and downloadable PDF assets must be verified to exist before adding them to the site.
+
+## Project Technical Stack
 - **Framework**: React 18+ with Vite
-- **Deployment**: GitHub Pages (`main` branch -> `gh-pages` or GitHub Actions)
-- **Domain**: https://bakralhayek.com
-
-## Workspace Skills Installed
-The following project-specific agent skills are installed under `.agents/skills/`:
-1. `vite-react-architect` - Code splitting, performance optimization, and React SPA architecture.
-2. `web-seo-lighthouse-optimizer` - Schema.org JSON-LD, Open Graph social cards, and 100/100 Lighthouse score tuning.
-3. `web-a11y-wcag22` - Accessibility compliance, ARIA roles, keyboard navigation, and contrast ratio standards.
-4. `github-pages-cicd` - Build validation, CNAME setup, and GitHub Actions automated deployment.
-5. `academic-portfolio-manager` - Publications management, clinical calculators validation, and CV synchronization.
-
-## Verification & Testing
-- Build verification: `npm run build`
-- Dev server: `npm run dev`
+- **Deployment**: GitHub Pages via GitHub Actions (`bakralhayek.com`)
+- **Build Verification**: `npm run build`
