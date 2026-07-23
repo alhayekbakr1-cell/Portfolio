@@ -1,7 +1,8 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
-import { Activity, BrainCircuit, FileText, HeartPulse, MessageSquareText, ShieldCheck, Sparkles, Stethoscope } from 'lucide-react';
+import { Activity, BrainCircuit, FileText, HeartPulse, MessageSquareText, ShieldCheck, Sparkles, Stethoscope, Cpu, Layers, CheckCircle2 } from 'lucide-react';
 import { knowledgeBase, findBestMatch } from '../utils/clinicalKnowledgeBase';
+import RevealOnScroll from './RevealOnScroll';
 
 const QUICK_PROMPTS = [
     'How should I think about ICI myocarditis?',
@@ -26,6 +27,51 @@ const CONVERSATION_STARTERS = [
         icon: Activity,
         title: 'Research framing',
         text: 'Explore how biomarkers, clinical outcomes, and informatics questions can be translated into research ideas.'
+    }
+];
+
+const AI_PROJECTS = [
+    {
+        id: 'project-rag',
+        icon: Cpu,
+        title: 'Local RAG Clinical Decision Engine',
+        category: 'Clinical Decision Support',
+        status: 'Active Portfolio Architecture',
+        description: 'Privacy-first, zero-PHI vector retrieval engine embedding NCCN, ASCO, and ESC clinical oncology guidelines for rapid, evidence-grounded point-of-care reference.',
+        highlights: [
+            '100% offline retrieval preventing PHI exposure',
+            'Structured toxicity escalation algorithms (Steroids, Infliximab, Abatacept)',
+            'Context-grounded citations with zero hallucination boundary'
+        ],
+        tags: ['Local RAG', 'Oncology CDS', 'Vector Search', 'React & Local DB']
+    },
+    {
+        id: 'project-resisync',
+        icon: Layers,
+        title: 'ResiSync: AI Residency Scheduler & Engine',
+        category: 'Informatics & Operations',
+        status: 'Active Development',
+        description: 'AI-powered internal medicine residency scheduling and workload optimization dashboard balancing call distribution, ICU rotations, and ACGME day-off compliance.',
+        highlights: [
+            'Automated constraint-based shift generation',
+            'ACGME 80-hour work week & 1-in-7 day off rule enforcement',
+            'Real-time resident team coverage visualization'
+        ],
+        tags: ['Residency Informatics', 'Scheduling Optimization', 'Workflow Automation']
+    },
+    {
+        id: 'project-persona',
+        icon: ShieldCheck,
+        title: 'Persona Task Manager & Draft Assistant',
+        category: 'Physician Productivity',
+        status: 'Prototype',
+        description: 'Privacy-focused task management interface designed for resident physicians, enabling structured action extraction and email draft reviews.',
+        highlights: [
+            'Local-first encrypted state architecture',
+            'Clinical workflow prioritization tags (ICU, Discharge, Consults)',
+            'Seamless communication template generator'
+        ],
+        tags: ['Task Management', 'Clinical Productivity', 'Local AI']
     }
 ];
 
@@ -252,6 +298,59 @@ const MedicalAILab = () => {
                         </div>
                     </motion.div>
                 </div>
+
+                {/* Section 2: Clinical Informatics & Medical AI Projects Grid */}
+                <div style={{ marginTop: '90px' }}>
+                    <RevealOnScroll>
+                        <div style={{ textAlign: 'center', marginBottom: '45px' }}>
+                            <span style={styles.badge}><Cpu size={16} /> Clinical Informatics Systems</span>
+                            <h2 style={{ ...styles.title, fontSize: 'clamp(2rem, 4vw, 3.2rem)' }}>Featured Medical AI Projects</h2>
+                            <p style={{ ...styles.subtitle, maxWidth: '680px' }}>
+                                Architecture and software frameworks developed for local RAG clinical decision support, residency scheduling, and physician task management.
+                            </p>
+                        </div>
+                    </RevealOnScroll>
+
+                    <div style={styles.projectsGrid}>
+                        {AI_PROJECTS.map((proj) => {
+                            const IconComponent = proj.icon;
+                            return (
+                                <RevealOnScroll key={proj.id}>
+                                    <div style={styles.projCard} className="med-ai-lift">
+                                        <div style={styles.projHeader}>
+                                            <div style={styles.projIconBox}>
+                                                <IconComponent size={24} color="var(--accent-navy)" />
+                                            </div>
+                                            <div>
+                                                <span style={styles.projCategory}>{proj.category} • {proj.status}</span>
+                                                <h3 style={styles.projTitle}>{proj.title}</h3>
+                                            </div>
+                                        </div>
+                                        <p style={styles.projDesc}>{proj.description}</p>
+                                        
+                                        <div style={styles.highlightSection}>
+                                            <strong style={{ fontSize: '0.85rem', color: 'var(--accent-navy)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Core Capabilities</strong>
+                                            <ul style={styles.highlightList}>
+                                                {proj.highlights.map((h, idx) => (
+                                                    <li key={idx} style={styles.highlightItem}>
+                                                        <CheckCircle2 size={15} color="var(--accent-blue)" style={{ flexShrink: 0, marginTop: '3px' }} />
+                                                        <span>{h}</span>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div>
+
+                                        <div style={styles.projTagGroup}>
+                                            {proj.tags.map((t, i) => (
+                                                <span key={i} style={styles.projTag}>{t}</span>
+                                            ))}
+                                        </div>
+                                    </div>
+                                </RevealOnScroll>
+                            );
+                        })}
+                    </div>
+                </div>
             </div>
         </section>
     );
@@ -330,7 +429,100 @@ const styles = {
     answerSummary: { margin: 0, padding: '18px 18px 0', color: 'var(--text-secondary)', lineHeight: 1.65 },
     answerSection: { padding: '16px 18px 0', color: 'var(--text-primary)' },
     answerList: { marginTop: '8px', paddingLeft: '20px', color: 'var(--text-secondary)', lineHeight: 1.6 },
-    answerFooter: { marginTop: '16px', padding: '12px 18px', background: 'var(--bg-muted)', color: 'var(--text-muted)', fontSize: '0.78rem', borderTop: '1px solid var(--border-color)' }
+    answerFooter: { marginTop: '16px', padding: '12px 18px', background: 'var(--bg-muted)', color: 'var(--text-muted)', fontSize: '0.78rem', borderTop: '1px solid var(--border-color)' },
+
+    // Projects Grid Styles
+    projectsGrid: {
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+        gap: '28px',
+    },
+    projCard: {
+        background: 'var(--bg-card)',
+        padding: '30px',
+        borderRadius: '24px',
+        border: '1px solid var(--border-color)',
+        boxShadow: 'var(--shadow-sm)',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+        height: '100%',
+    },
+    projHeader: {
+        display: 'flex',
+        alignItems: 'flex-start',
+        gap: '16px',
+        marginBottom: '16px',
+    },
+    projIconBox: {
+        padding: '14px',
+        borderRadius: '16px',
+        background: 'var(--accent-light)',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexShrink: 0,
+    },
+    projCategory: {
+        fontSize: '0.75rem',
+        fontWeight: '800',
+        textTransform: 'uppercase',
+        color: 'var(--accent-gold)',
+        letterSpacing: '0.5px',
+        display: 'block',
+        marginBottom: '4px',
+    },
+    projTitle: {
+        fontSize: '1.3rem',
+        fontWeight: '800',
+        color: 'var(--text-primary)',
+        margin: 0,
+        lineHeight: '1.25',
+    },
+    projDesc: {
+        fontSize: '0.95rem',
+        color: 'var(--text-secondary)',
+        lineHeight: '1.6',
+        marginBottom: '20px',
+    },
+    highlightSection: {
+        background: 'var(--bg-muted)',
+        padding: '16px 18px',
+        borderRadius: '16px',
+        border: '1px solid var(--border-color)',
+        marginBottom: '20px',
+    },
+    highlightList: {
+        listStyle: 'none',
+        padding: 0,
+        margin: '10px 0 0 0',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '8px',
+    },
+    highlightItem: {
+        fontSize: '0.88rem',
+        color: 'var(--text-secondary)',
+        display: 'flex',
+        alignItems: 'flex-start',
+        gap: '8px',
+        lineHeight: '1.4',
+    },
+    projTagGroup: {
+        display: 'flex',
+        flexWrap: 'wrap',
+        gap: '8px',
+        marginTop: 'auto',
+    },
+    projTag: {
+        fontSize: '0.75rem',
+        fontWeight: '700',
+        padding: '5px 12px',
+        borderRadius: '12px',
+        background: 'var(--accent-light)',
+        color: 'var(--accent-navy)',
+        border: '1px solid var(--border-color)',
+    }
 };
 
 const css = `
