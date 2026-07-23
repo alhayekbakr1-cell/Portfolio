@@ -73,8 +73,8 @@ export const calculateMELD = (bilirubin, inr, creatinine) => {
  */
 export const calculateANC = (wbc, neutrophils, bands = 0) => {
     if (wbc <= 0 || neutrophils < 0 || bands < 0) return null;
-
-    return wbc * ((neutrophils + bands) / 100);
+    const totalPercentage = Math.min(100, neutrophils + bands);
+    return wbc * (totalPercentage / 100);
 };
 
 /**
