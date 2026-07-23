@@ -2,50 +2,73 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import RevealOnScroll from './RevealOnScroll';
 
+import atcAbstract from '../assets/atc_abstract.png';
+import redFlagAbstract from '../assets/red_flag_abstract.png';
+
 const ClinicalMedia = () => {
-    const [selectedClip, setSelectedClip] = useState(null);
+    const [activeSection, setActiveSection] = useState('all'); // 'all' | 'multimedia' | 'abstracts'
+    const [selectedMedia, setSelectedMedia] = useState(null);
+
+    const visualAbstracts = [
+        {
+            id: 'va-1',
+            title: "Anaplastic Thyroid Cancer Multimodal Therapy",
+            type: "Visual Abstract",
+            journal: "American Journal of Clinical Oncology",
+            description: "Graphical abstract illustrating survival outcomes and sequencing of intensive multimodal therapy in non-metastatic Anaplastic Thyroid Cancer.",
+            image: atcAbstract,
+            tags: ["Head & Neck", "Multimodal Therapy", "Survival Analysis"],
+            date: "2026"
+        },
+        {
+            id: 'va-2',
+            title: "ICI-Induced Myocarditis Electrophysiologic Red Flags",
+            type: "Visual Abstract",
+            journal: "Cureus & JACC CardioOncology",
+            description: "Visual summary of early conduction system abnormalities, complete heart block risk, and electrophysiologic monitoring in fulminant checkpoint inhibitor myocarditis.",
+            image: redFlagAbstract,
+            tags: ["Cardio-Oncology", "Immune Toxicity", "ECG Monitoring"],
+            date: "2025"
+        }
+    ];
 
     const hitProject = {
-        title: "Overdiagnosing HIT: A Multimedia Intervention",
-        description: "Translating Quality Improvement research into high-fidelity video education to reduce unnecessary PF4 testing in the ICU.",
-        tech: ["Runway Gen-3", "ElevenLabs TTS", "Adobe Premiere"],
-        stills: [
-            "/media/hit_physician.png",
-            "/media/hit_vein.png"
-        ],
+        title: "Overdiagnosing HIT: A Multimedia Educational Intervention",
+        description: "Translating Quality Improvement research into high-fidelity video education to reduce unnecessary PF4 testing and inappropriate anticoagulation in the ICU.",
+        tech: ["Runway Gen-3", "ElevenLabs TTS", "Adobe Premiere Pro"],
         clips: [
             {
                 id: 1,
                 title: "The Hospital Environment",
-                context: "Introduction to the QI initiative.",
+                context: "Introduction to the ICU clinical environment and diagnostic workflow.",
                 prompt: "Cinematic tracking shot, moving slowly down a modern hospital corridor. Healthcare professionals in scrubs walking purposefully. 35mm lens, medical documentary style.",
                 image: "/media/hit_corridor.png"
             },
             {
                 id: 2,
                 title: "The Problem: Overtesting",
-                context: "Common practice of ordering HIT PF4 tests prematurely.",
+                context: "Premature ordering of heparin-induced thrombocytopenia (HIT) PF4 antibodies.",
                 prompt: "Close up, over-the-shoulder shot. Concerned physician looking at a glowing medical tablet. Camera dollies in slowly. Dramatic cinematic rim lighting.",
                 image: "/media/hit_physician.png"
             },
             {
                 id: 3,
                 title: "The Harm: Clinical Risk",
-                context: "False positives and bleeding risks.",
+                context: "Risks of false positives and unnecessary non-heparin anticoagulation bleeding.",
                 prompt: "Macro extreme close-up of a hospital IV drip chamber. Clear fluid drips in ultra-slow motion. Cinematic reflections, photorealistic 8k.",
                 image: "/media/hit_iv.png"
             },
             {
                 id: 4,
-                title: "The Microscopic Science",
-                context: "Platelet release and clot formation mechanics.",
+                title: "Microscopic Pathophysiology",
+                context: "PF4-heparin immune complex formation and platelet activation mechanics.",
                 prompt: "3D microscopic animation inside a human vein. Platelets clustering with glowing green heparin molecules. Dynamic camera pushing forward, cinematic lighting.",
                 image: "/media/hit_vein.png"
             },
             {
                 id: 5,
-                title: "The Solution: 4T Score",
-                context: "Calculating the probability before testing.",
+                title: "The Solution: 4T Score Stewardship",
+                context: "Calculating pre-test probability before ordering laboratory immunoassays.",
                 prompt: "Medium shot, bright clinical lighting. Doctors stand at a nurse's station pointing at a screen. Camera orbits around them. High quality, crisp focus.",
                 image: "/media/hit_4t.png"
             }
@@ -54,46 +77,75 @@ const ClinicalMedia = () => {
 
     const styles = {
         container: {
-            padding: '120px 20px',
+            padding: '120px 20px 100px',
             background: 'var(--bg-primary)',
             minHeight: '100vh',
         },
+        wrapper: {
+            maxWidth: '1200px',
+            margin: '0 auto',
+        },
         hero: {
             textAlign: 'center',
-            maxWidth: '900px',
-            margin: '0 auto 80px',
+            maxWidth: '850px',
+            margin: '0 auto 50px',
         },
         badge: {
-            background: 'rgba(navy, 0.1)',
+            background: 'var(--accent-light)',
             color: 'var(--accent-navy)',
-            padding: '8px 16px',
+            padding: '8px 18px',
             borderRadius: '20px',
-            fontSize: '0.8rem',
+            fontSize: '0.85rem',
             fontWeight: '700',
             textTransform: 'uppercase',
             letterSpacing: '1px',
             display: 'inline-block',
             marginBottom: '20px',
-            border: '1px solid var(--accent-navy)',
+            border: '1px solid var(--border-color)',
         },
         title: {
-            fontSize: 'clamp(2.5rem, 5vw, 4rem)',
+            fontSize: 'clamp(2.4rem, 5vw, 3.8rem)',
             fontFamily: 'var(--font-serif)',
             color: 'var(--accent-navy)',
-            marginBottom: '24px',
-            lineHeight: '1.1',
+            marginBottom: '20px',
+            lineHeight: '1.15',
         },
         description: {
-            fontSize: '1.25rem',
+            fontSize: '1.15rem',
             color: 'var(--text-secondary)',
             lineHeight: '1.6',
         },
+        filterTabs: {
+            display: 'flex',
+            justifyContent: 'center',
+            gap: '12px',
+            marginBottom: '50px',
+        },
+        filterBtn: (isActive) => ({
+            padding: '10px 24px',
+            borderRadius: '30px',
+            border: `1px solid ${isActive ? 'var(--accent-navy)' : 'var(--border-color)'}`,
+            background: isActive ? 'var(--accent-navy)' : 'var(--bg-card)',
+            color: isActive ? 'white' : 'var(--text-secondary)',
+            fontWeight: '600',
+            fontSize: '0.95rem',
+            cursor: 'pointer',
+            transition: 'all 0.25s ease',
+        }),
+        sectionHeading: {
+            fontSize: '1.8rem',
+            fontFamily: 'var(--font-serif)',
+            color: 'var(--accent-navy)',
+            marginBottom: '24px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+        },
         grid: {
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))',
-            gap: '30px',
-            maxWidth: '1200px',
-            margin: '0 auto',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))',
+            gap: '28px',
+            marginBottom: '70px',
         },
         card: {
             background: 'var(--bg-card)',
@@ -101,169 +153,243 @@ const ClinicalMedia = () => {
             overflow: 'hidden',
             border: '1px solid var(--border-color)',
             cursor: 'pointer',
-            transition: 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
-            position: 'relative',
+            transition: 'all 0.3s ease',
+            boxShadow: 'var(--shadow-sm)',
         },
         cardImage: {
             width: '100%',
             height: '240px',
             objectFit: 'cover',
-            transition: 'scale 0.5s ease',
         },
-        cardOverlay: {
-            position: 'absolute',
-            bottom: 0,
-            left: 0,
-            right: 0,
+        cardBody: {
             padding: '24px',
-            background: 'linear-gradient(to top, rgba(0,0,0,0.8), transparent)',
-            color: 'white',
         },
-        clipId: {
-            fontSize: '0.7rem',
-            opacity: 0.8,
+        metaType: {
+            fontSize: '0.75rem',
             textTransform: 'uppercase',
-            fontWeight: '600',
-        },
-        clipTitle: {
-            fontSize: '1.2rem',
             fontWeight: '700',
-            margin: '4px 0',
+            color: 'var(--accent-gold)',
+            marginBottom: '6px',
+        },
+        cardTitle: {
+            fontSize: '1.25rem',
+            fontWeight: '700',
+            color: 'var(--text-primary)',
+            marginBottom: '10px',
+            lineHeight: '1.3',
+        },
+        cardDesc: {
+            fontSize: '0.9rem',
+            color: 'var(--text-secondary)',
+            lineHeight: '1.5',
+            marginBottom: '16px',
+        },
+        tagGroup: {
+            display: 'flex',
+            gap: '8px',
+            flexWrap: 'wrap',
+        },
+        tag: {
+            fontSize: '0.75rem',
+            padding: '4px 10px',
+            borderRadius: '12px',
+            background: 'var(--bg-muted)',
+            color: 'var(--text-secondary)',
+            border: '1px solid var(--border-color)',
         },
         modalOverlay: {
             position: 'fixed',
             inset: 0,
-            background: 'rgba(0,0,0,0.9)',
+            background: 'rgba(5, 16, 26, 0.85)',
             zIndex: 2000,
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            padding: '40px',
-            backdropFilter: 'blur(8px)',
+            padding: '30px',
+            backdropFilter: 'blur(10px)',
         },
         modal: {
             background: 'var(--bg-card)',
-            maxWidth: '1000px',
+            maxWidth: '950px',
             width: '100%',
+            maxHeight: '90vh',
+            overflowY: 'auto',
             borderRadius: '24px',
-            overflow: 'hidden',
+            border: '1px solid var(--border-color)',
+            boxShadow: '0 25px 60px rgba(0,0,0,0.3)',
             display: 'grid',
-            gridTemplateColumns: '1.2fr 1fr',
-            boxShadow: '0 25px 50px -12px rgba(0,0,0,0.5)',
+            gridTemplateColumns: '1fr 1fr',
         },
         modalImage: {
             width: '100%',
             height: '100%',
-            objectFit: 'cover',
+            maxHeight: '550px',
+            objectFit: 'contain',
+            background: '#0a192f',
+            padding: '20px',
         },
         modalContent: {
-            padding: '48px',
+            padding: '36px',
             display: 'flex',
             flexDirection: 'column',
-            gap: '24px',
+            justifyContent: 'space-between',
+            gap: '20px',
         },
-        promptBox: {
-            background: 'var(--bg-muted)',
-            padding: '20px',
-            borderRadius: '12px',
-            border: '1px solid var(--border-color)',
-            fontFamily: 'monospace',
-            fontSize: '0.9rem',
-            color: 'var(--accent-navy)',
-            lineHeight: '1.5',
-            position: 'relative',
-        },
-        copyHint: {
-            position: 'absolute',
-            top: '8px',
-            right: '8px',
-            fontSize: '0.6rem',
+        closeBtn: {
             background: 'var(--accent-navy)',
             color: 'white',
-            padding: '2px 6px',
-            borderRadius: '4px',
+            border: 'none',
+            padding: '12px 24px',
+            borderRadius: '10px',
+            cursor: 'pointer',
+            fontWeight: '600',
+            alignSelf: 'flex-start',
         }
     };
 
     return (
         <div style={styles.container}>
-            <section style={styles.hero}>
-                <RevealOnScroll>
-                    <span style={styles.badge}>Innovation in Education</span>
-                    <h1 style={styles.title}>{hitProject.title}</h1>
-                    <p style={styles.description}>{hitProject.description}</p>
-                </RevealOnScroll>
-            </section>
-
-            <div style={styles.grid}>
-                {hitProject.clips.map((clip, idx) => (
-                    <RevealOnScroll key={clip.id} delay={idx * 0.1}>
-                        <motion.div 
-                            style={styles.card}
-                            whileHover={{ y: -10 }}
-                            onClick={() => setSelectedClip(clip)}
-                        >
-                            <img src={clip.image} alt={clip.title} style={styles.cardImage} />
-                            <div style={styles.cardOverlay}>
-                                <span style={styles.clipId}>Scene {clip.id}</span>
-                                <h3 style={styles.clipTitle}>{clip.title}</h3>
-                            </div>
-                        </motion.div>
+            <div style={styles.wrapper}>
+                <section style={styles.hero}>
+                    <RevealOnScroll>
+                        <span style={styles.badge}>Clinical Media & Innovation Lab</span>
+                        <h1 style={styles.title}>Visual Research & AI Media</h1>
+                        <p style={styles.description}>
+                            Translating complex clinical oncology research, diagnostic stewardship algorithms, and quality improvement science into graphical visual abstracts and cinematic AI education.
+                        </p>
                     </RevealOnScroll>
-                ))}
-            </div>
+                </section>
 
-            <AnimatePresence>
-                {selectedClip && (
-                    <motion.div 
-                        style={styles.modalOverlay}
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }}
-                        onClick={() => setSelectedClip(null)}
+                <div style={styles.filterTabs}>
+                    <button 
+                        style={styles.filterBtn(activeSection === 'all')}
+                        onClick={() => setActiveSection('all')}
                     >
-                        <motion.div 
-                            style={styles.modal}
-                            initial={{ scale: 0.9, y: 20 }}
-                            animate={{ scale: 1, y: 0 }}
-                            onClick={e => e.stopPropagation()}
-                        >
-                            <img src={selectedClip.image} alt={selectedClip.title} style={styles.modalImage} />
-                            <div style={styles.modalContent}>
-                                <div>
-                                    <span style={styles.clipId}>Scene {selectedClip.id} Storyboard</span>
-                                    <h2 style={{...styles.title, fontSize: '2rem', marginTop: '8px'}}>{selectedClip.title}</h2>
-                                    <p style={styles.description}>{selectedClip.context}</p>
-                                </div>
-                                
-                                <div>
-                                    <h4 style={{fontSize: '0.8rem', textTransform: 'uppercase', marginBottom: '12px', color: 'var(--text-muted)'}}>AI Motion Prompt (Gen-3 Alpha)</h4>
-                                    <div style={styles.promptBox}>
-                                        <span style={styles.copyHint}>Optimized</span>
-                                        {selectedClip.prompt}
-                                    </div>
-                                </div>
+                        All Media
+                    </button>
+                    <button 
+                        style={styles.filterBtn(activeSection === 'abstracts')}
+                        onClick={() => setActiveSection('abstracts')}
+                    >
+                        Visual Abstracts
+                    </button>
+                    <button 
+                        style={styles.filterBtn(activeSection === 'multimedia')}
+                        onClick={() => setActiveSection('multimedia')}
+                    >
+                        AI Education Storyboard
+                    </button>
+                </div>
 
-                                <button 
-                                    onClick={() => setSelectedClip(null)}
-                                    style={{
-                                        alignSelf: 'flex-start',
-                                        background: 'var(--accent-navy)',
-                                        color: 'white',
-                                        border: 'none',
-                                        padding: '12px 24px',
-                                        borderRadius: '8px',
-                                        cursor: 'pointer',
-                                        fontWeight: '600'
-                                    }}
-                                >
-                                    Close Preview
-                                </button>
-                            </div>
-                        </motion.div>
-                    </motion.div>
+                {/* Section 1: Visual Abstracts */}
+                {(activeSection === 'all' || activeSection === 'abstracts') && (
+                    <section style={{ marginBottom: '60px' }}>
+                        <h2 style={styles.sectionHeading}>📊 Visual Abstracts & Research Figures</h2>
+                        <div style={styles.grid}>
+                            {visualAbstracts.map((item) => (
+                                <RevealOnScroll key={item.id}>
+                                    <motion.div 
+                                        style={styles.card}
+                                        whileHover={{ y: -6 }}
+                                        onClick={() => setSelectedMedia({ ...item, isAbstract: true })}
+                                    >
+                                        <img src={item.image} alt={item.title} style={styles.cardImage} />
+                                        <div style={styles.cardBody}>
+                                            <span style={styles.metaType}>{item.type} • {item.journal}</span>
+                                            <h3 style={styles.cardTitle}>{item.title}</h3>
+                                            <p style={styles.cardDesc}>{item.description}</p>
+                                            <div style={styles.tagGroup}>
+                                                {item.tags.map((t, i) => (
+                                                    <span key={i} style={styles.tag}>{t}</span>
+                                                ))}
+                                            </div>
+                                        </div>
+                                    </motion.div>
+                                </RevealOnScroll>
+                            ))}
+                        </div>
+                    </section>
                 )}
-            </AnimatePresence>
+
+                {/* Section 2: AI Storyboard */}
+                {(activeSection === 'all' || activeSection === 'multimedia') && (
+                    <section>
+                        <h2 style={styles.sectionHeading}>🎬 {hitProject.title}</h2>
+                        <p style={{ color: 'var(--text-secondary)', marginBottom: '24px' }}>
+                            {hitProject.description}
+                        </p>
+                        <div style={styles.grid}>
+                            {hitProject.clips.map((clip, idx) => (
+                                <RevealOnScroll key={clip.id} delay={idx * 0.08}>
+                                    <motion.div 
+                                        style={styles.card}
+                                        whileHover={{ y: -6 }}
+                                        onClick={() => setSelectedMedia({ ...clip, isAbstract: false })}
+                                    >
+                                        <img src={clip.image} alt={clip.title} style={styles.cardImage} />
+                                        <div style={styles.cardBody}>
+                                            <span style={styles.metaType}>Scene {clip.id} • AI Storyboard</span>
+                                            <h3 style={styles.cardTitle}>{clip.title}</h3>
+                                            <p style={styles.cardDesc}>{clip.context}</p>
+                                        </div>
+                                    </motion.div>
+                                </RevealOnScroll>
+                            ))}
+                        </div>
+                    </section>
+                )}
+
+                {/* Modal View */}
+                <AnimatePresence>
+                    {selectedMedia && (
+                        <motion.div 
+                            style={styles.modalOverlay}
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            onClick={() => setSelectedMedia(null)}
+                        >
+                            <motion.div 
+                                style={styles.modal}
+                                initial={{ scale: 0.9, y: 20 }}
+                                animate={{ scale: 1, y: 0 }}
+                                onClick={e => e.stopPropagation()}
+                            >
+                                <img src={selectedMedia.image} alt={selectedMedia.title} style={styles.modalImage} />
+                                <div style={styles.modalContent}>
+                                    <div>
+                                        <span style={styles.metaType}>
+                                            {selectedMedia.isAbstract ? `${selectedMedia.type} • ${selectedMedia.journal}` : `Scene ${selectedMedia.id} Storyboard`}
+                                        </span>
+                                        <h2 style={{ ...styles.title, fontSize: '1.8rem', marginTop: '6px' }}>{selectedMedia.title}</h2>
+                                        <p style={styles.description}>
+                                            {selectedMedia.isAbstract ? selectedMedia.description : selectedMedia.context}
+                                        </p>
+                                    </div>
+
+                                    {!selectedMedia.isAbstract && selectedMedia.prompt && (
+                                        <div>
+                                            <h4 style={{ fontSize: '0.8rem', textTransform: 'uppercase', marginBottom: '8px', color: 'var(--text-muted)' }}>
+                                                Gen-3 Motion Prompt
+                                            </h4>
+                                            <p style={{ background: 'var(--bg-muted)', padding: '16px', borderRadius: '10px', fontSize: '0.85rem', fontFamily: 'monospace', border: '1px solid var(--border-color)' }}>
+                                                {selectedMedia.prompt}
+                                            </p>
+                                        </div>
+                                    )}
+
+                                    <button 
+                                        onClick={() => setSelectedMedia(null)}
+                                        style={styles.closeBtn}
+                                    >
+                                        Close Preview
+                                    </button>
+                                </div>
+                            </motion.div>
+                        </motion.div>
+                    )}
+                </AnimatePresence>
+            </div>
         </div>
     );
 };
