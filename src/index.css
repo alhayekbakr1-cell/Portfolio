@@ -2,7 +2,7 @@
   /* Theme 1: Arterial Crimson & Deep Navy (Consensus Winner) */
   --bg-primary: #FAF9F5;
   --bg-secondary: #F4F1EA;
-  --bg-card: #FFFFFF;
+  --bg-card: rgba(255, 255, 255, 0.90);
 
   --text-primary: #0A2540;
   --text-secondary: #334155;
@@ -33,13 +33,39 @@
   --bg-muted: #F8FAFC;
   --bg-badge: #F1F5F9;
 
-  /* Typography - Academic Professional */
-  --font-serif: 'Playfair Display', 'Georgia', serif;
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  /* Typography - Prestigious Medical Fonts */
+  --font-serif: 'Cinzel', 'DM Serif Display', 'Playfair Display', 'Georgia', serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
   /* Spacing */
   --section-padding: 120px;
   --container-width: 1200px;
+}
+
+/* Dark Theme Overrides */
+[data-theme="dark"] {
+  --bg-primary: #090D16;
+  --bg-secondary: #0F172A;
+  --bg-card: rgba(15, 23, 42, 0.85);
+
+  --text-primary: #F8FAFC;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+
+  --accent-navy: #38BDF8;
+  --accent-blue: #38BDF8;
+  --accent-light: rgba(255, 255, 255, 0.06);
+
+  --accent-red: #FF4D6D;
+  --accent-red-hover: #E11D48;
+  --accent-red-light: rgba(255, 77, 109, 0.15);
+
+  --accent-gold: #F4C430;
+  --accent-gold-light: rgba(244, 196, 48, 0.15);
+  --accent-gold-hover: #EAB308;
+
+  --border-color: rgba(255, 255, 255, 0.12);
+  --border-dark: rgba(255, 255, 255, 0.20);
 }
 
 * {
@@ -81,6 +107,7 @@ html {
   min-height: 100vh;
   isolation: isolate;
   background-color: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 body {
@@ -94,7 +121,7 @@ body {
   position: relative;
 }
 
-/* Ambient Medical Noise Texture Overlay */
+/* Ambient Medical Texture Overlay */
 body::before {
   content: "";
   position: fixed;
@@ -104,7 +131,7 @@ body::before {
   height: 100%;
   pointer-events: none;
   z-index: 9999;
-  opacity: 0.025;
+  opacity: 0.02;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }
 
@@ -115,22 +142,22 @@ h4,
 h5,
 h6 {
   font-family: var(--font-serif);
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.25;
   color: var(--accent-navy);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.85rem;
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.35rem;
 }
 
 a {
@@ -143,7 +170,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
-  font-family: inherit;
+  font-family: var(--font-sans);
   transition: transform 0.25s var(--motion-ease), box-shadow 0.25s var(--motion-ease), border-color 0.25s var(--motion-ease), background-color 0.25s var(--motion-ease), color 0.25s var(--motion-ease);
 }
 
@@ -179,6 +206,7 @@ a:focus-visible,
   color: var(--accent-navy);
   position: relative;
   padding-bottom: 1.2rem;
+  font-family: var(--font-serif);
 }
 
 .section-title::after {
@@ -194,7 +222,17 @@ a:focus-visible,
   animation: titleSweep 4.5s ease-in-out infinite;
 }
 
-/* Premium Motion & Glass Utilities */
+/* Global Translucent Glass Cards Across All Pages/Tabs */
+.card,
+.motion-card,
+[class*="card"],
+article,
+section {
+  background-color: var(--bg-card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
 .motion-card,
 .card,
 [class*="card"],
@@ -242,15 +280,23 @@ section a[style*="border"]:hover {
   }
 }
 
-/* Global Button Styles */
-.btn-primary-crimson {
+/* Global Primary Action Button */
+.btn-primary,
+button[type="submit"],
+.hero-primary-btn {
   background-color: var(--accent-red) !important;
   color: #FFFFFF !important;
-  box-shadow: 0 8px 20px rgba(185, 28, 28, 0.28) !important;
+  font-family: var(--font-sans) !important;
+  font-weight: 700 !important;
+  border-radius: 999px !important;
+  box-shadow: 0 10px 24px rgba(185, 28, 28, 0.28) !important;
+  transition: all 0.25s ease !important;
 }
 
-.btn-primary-crimson:hover {
+.btn-primary:hover,
+button[type="submit"]:hover,
+.hero-primary-btn:hover {
   background-color: var(--accent-red-hover) !important;
-  box-shadow: 0 12px 28px rgba(185, 28, 28, 0.38) !important;
+  box-shadow: 0 14px 32px rgba(185, 28, 28, 0.40) !important;
   transform: translateY(-2px) !important;
 }
