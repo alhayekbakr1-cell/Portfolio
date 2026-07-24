@@ -107,7 +107,7 @@ const ContactEnhanced = () => {
                             <h3 style={styles.profileName}>Bakr Alhayek, MD</h3>
                             <p style={styles.profileRole}>Internal Medicine Resident • Research Lead</p>
                             <p style={styles.infoPill}>Academic medicine, inpatient oncology, medical AI, and clinical research collaboration.</p>
-                            <p style={styles.infoPill}>AdventHealth Tampa • University of South Florida</p>
+                            <p style={styles.infoPill}>AdventHealth Tampa</p>
                         </motion.aside>
 
                         <motion.div style={styles.formCard} {...reveal} transition={{ ...reveal.transition, delay: 0.12 }}>

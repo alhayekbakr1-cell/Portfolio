@@ -7,10 +7,10 @@ const Footer = () => {
 
     const styles = {
         footer: {
-            padding: '80px 20px 40px',
+            padding: '50px 20px 40px',
             background: 'var(--bg-secondary)',
             borderTop: '1px solid var(--border-color)',
-            marginTop: '100px',
+            marginTop: '80px',
         },
         wrapper: {
             maxWidth: '1200px',
@@ -18,25 +18,7 @@ const Footer = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            gap: '32px',
-        },
-        brand: {
-            textAlign: 'center',
-        },
-        name: {
-            fontSize: '1.5rem',
-            fontFamily: 'var(--font-serif)',
-            color: 'var(--accent-navy)',
-            fontWeight: '700',
-            marginBottom: '8px',
-            display: 'block',
-        },
-        title: {
-            fontSize: '0.9rem',
-            color: 'var(--text-muted)',
-            fontWeight: '600',
-            textTransform: 'uppercase',
-            letterSpacing: '1px',
+            gap: '24px',
         },
         links: {
             display: 'flex',
@@ -60,7 +42,7 @@ const Footer = () => {
             color: 'var(--text-muted)',
             textAlign: 'center',
             borderTop: '1px solid var(--border-color)',
-            paddingTop: '32px',
+            paddingTop: '24px',
             width: '100%',
         },
         institution: {
@@ -72,11 +54,6 @@ const Footer = () => {
     return (
         <footer style={styles.footer}>
             <div style={styles.wrapper}>
-                <div style={styles.brand}>
-                    <span style={styles.name}>Bakr Alhayek, MD</span>
-                    <span style={styles.title}>Internal Medicine Resident • Research Lead</span>
-                </div>
-
                 <ul style={styles.links}>
                     <li>
                         <a href={googleScholarUrl} target="_blank" rel="noopener noreferrer" style={styles.link} className="footer-link">
@@ -96,9 +73,9 @@ const Footer = () => {
                 </ul>
 
                 <div style={styles.copyright}>
-                    <p>© {currentYear} Bakr Alhayek. All Rights Reserved. <span style={{ opacity: 0.3, fontSize: '0.7em' }}>v.Feb8</span></p>
+                    <p>© {currentYear} Bakr Alhayek, MD. All Rights Reserved.</p>
                     <p style={{ marginTop: '8px' }}>
-                        Clinical Affiliate: <span style={styles.institution}>AdventHealth Tampa</span> & <span style={styles.institution}>University of South Florida</span>
+                        Clinical Affiliate: <span style={styles.institution}>AdventHealth Tampa</span>
                     </p>
                 </div>
             </div>
@@ -113,4 +90,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

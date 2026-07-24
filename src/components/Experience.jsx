@@ -24,7 +24,7 @@ const Experience = () => {
         },
         {
             title: "Clinical Research Associate – Hem/Onc",
-            institution: "University of South Florida (USF) – Tampa, FL",
+            institution: "AdventHealth Tampa – Tampa, FL",
             period: "2023 – 2024",
             bullets: [
                 "**Trial Coordination:** Coordinated 4 multicenter clinical trials in oncology, ensuring 100% protocol compliance.",

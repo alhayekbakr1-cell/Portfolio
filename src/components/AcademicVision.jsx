@@ -129,35 +129,6 @@ const AcademicVision = () => {
                         </p>
                     </div>
                 </RevealOnScroll>
-
-                <div style={styles.goalsContainer}>
-                    <RevealOnScroll delay={0.3}>
-                        <div style={styles.goalCard}>
-                            <h3 style={styles.goalTitle}>🔬 Translational Research</h3>
-                            <p style={styles.goalText}>
-                                Bridging the gap between molecular discoveries and patient care, with a focus on immune toxicities and hematologic malignancies.
-                            </p>
-                        </div>
-                    </RevealOnScroll>
-
-                    <RevealOnScroll delay={0.4}>
-                        <div style={styles.goalCard}>
-                            <h3 style={styles.goalTitle}>🏥 Institutional Growth</h3>
-                            <p style={styles.goalText}>
-                                Building robust research infrastructure that empowers residents and faculty to engage in meaningful scholarly activity.
-                            </p>
-                        </div>
-                    </RevealOnScroll>
-
-                    <RevealOnScroll delay={0.5}>
-                        <div style={styles.goalCard}>
-                            <h3 style={styles.goalTitle}>🎓 Mentorship</h3>
-                            <p style={styles.goalText}>
-                                Cultivating a learning environment where junior trainees develop the critical thinking and resilience needed for academic careers.
-                            </p>
-                        </div>
-                    </RevealOnScroll>
-                </div>
             </div>
         </section>
     );
