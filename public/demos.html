@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakr Alhayek, MD — Multi-Agent Color Theme Debate Demos</title>
+    <style>
+        :root {
+            --bg-primary: #FAF9F5;
+            --accent-navy: #0A2540;
+            --accent-gold: #C5A059;
+            --accent-red: #B91C1C;
+            --text-primary: #0F172A;
+            --text-secondary: #475569;
+            --glass-bg: rgba(255, 255, 255, 0.88);
+            --glass-border: rgba(226, 232, 240, 0.9);
+            --font-serif: 'Playfair Display', Georgia, serif;
+            --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+        }
+
+        /* Theme 1: Arterial Crimson & Deep Navy (Consensus Winner) */
+        body.theme-1 {
+            --bg-primary: #FAF9F5;
+            --accent-navy: #0A2540;
+            --accent-gold: #C5A059;
+            --accent-red: #B91C1C;
+            --text-primary: #0A2540;
+            --text-secondary: #475569;
+            --glass-bg: rgba(255, 255, 255, 0.92);
+            --glass-border: rgba(226, 232, 240, 0.9);
+        }
+
+        /* Theme 2: AdventHealth Sapphire & Emerald */
+        body.theme-2 {
+            --bg-primary: #F8FAFC;
+            --accent-navy: #002D62;
+            --accent-gold: #059669;
+            --accent-red: #E11D48;
+            --text-primary: #002D62;
+            --text-secondary: #334155;
+            --glass-bg: rgba(255, 255, 255, 0.94);
+            --glass-border: rgba(203, 213, 225, 0.8);
+        }
+
+        /* Theme 3: Midnight Oncologic Glass (Dark Mode) */
+        body.theme-3 {
+            --bg-primary: #090D16;
+            --accent-navy: #38BDF8;
+            --accent-gold: #F4C430;
+            --accent-red: #FF4D6D;
+            --text-primary: #F8FAFC;
+            --text-secondary: #94A3B8;
+            --glass-bg: rgba(15, 23, 42, 0.75);
+            --glass-border: rgba(255, 255, 255, 0.12);
+        }
+
+        /* Theme 4: Royal Academic Burgundy & Linen */
+        body.theme-4 {
+            --bg-primary: #FDFBF7;
+            --accent-navy: #701A75;
+            --accent-gold: #D4AF37;
+            --accent-red: #991B1B;
+            --text-primary: #27272A;
+            --text-secondary: #52525B;
+            --glass-bg: rgba(255, 255, 255, 0.92);
+            --glass-border: rgba(231, 229, 228, 0.9);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            overflow-x: hidden;
+            min-height: 100vh;
+            transition: background-color 0.4s ease, color 0.4s ease;
+        }
+
+        /* Top Controls Toolbar */
+        .controls-bar {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(226, 232, 240, 0.9);
+            padding: 10px 18px;
+            border-radius: 40px;
+            box-shadow: 0 16px 40px rgba(10, 37, 64, 0.12);
+            display: flex;
+            gap: 10px;
+            max-width: 95vw;
+            overflow-x: auto;
+        }
+
+        body.theme-3 .controls-bar {
+            background: rgba(15, 23, 42, 0.92);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .demo-btn {
+            background: transparent;
+            border: 1px solid transparent;
+            padding: 9px 16px;
+            border-radius: 20px;
+            font-size: 0.88rem;
+            font-weight: 700;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.25s ease;
+            white-space: nowrap;
+        }
+
+        .demo-btn:hover {
+            color: var(--accent-red);
+            background: rgba(185, 28, 28, 0.08);
+        }
+
+        .demo-btn.active {
+            background: var(--accent-red);
+            color: #FFFFFF;
+            box-shadow: 0 4px 14px rgba(185, 28, 28, 0.35);
+        }
+
+        /* Canvas Container */
+        #canvas-container {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Hero Content Overlay Mockup */
+        .hero-mockup {
+            position: relative;
+            z-index: 10;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 120px 20px 60px;
+        }
+
+        .badge {
+            display: inline-block;
+            font-size: 0.85rem;
+            color: var(--accent-gold);
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 6px 18px;
+            background: rgba(197, 160, 89, 0.12);
+            border: 1px solid rgba(197, 160, 89, 0.3);
+            border-radius: 30px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .hero-title {
+            font-family: var(--font-serif);
+            font-size: 2.8rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            letter-spacing: -1px;
+            transition: color 0.3s ease;
+        }
+
+        .hero-subtitle {
+            font-size: 1.3rem;
+            color: var(--accent-navy);
+            font-weight: 700;
+            margin-bottom: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .hero-desc {
+            max-width: 720px;
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 30px;
+            transition: color 0.3s ease;
+        }
+
+        .glass-box {
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            padding: 20px 28px;
+            border-radius: 20px;
+            max-width: 720px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+            margin-bottom: 32px;
+            text-align: left;
+            transition: all 0.3s ease;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 16px;
+        }
+
+        .btn-primary {
+            background: var(--accent-gold);
+            color: #FFF;
+            padding: 14px 28px;
+            border-radius: 30px;
+            font-weight: 700;
+            text-decoration: none;
+            box-shadow: 0 10px 25px rgba(197, 160, 89, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .btn-secondary {
+            background: var(--glass-bg);
+            color: var(--accent-navy);
+            border: 2px solid var(--accent-navy);
+            padding: 14px 28px;
+            border-radius: 30px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .info-card {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 1000;
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            padding: 16px 20px;
+            border-radius: 16px;
+            max-width: 380px;
+            box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12);
+            transition: all 0.3s ease;
+        }
+
+        .info-card h4 {
+            font-size: 0.98rem;
+            color: var(--accent-red);
+            margin-bottom: 6px;
+            transition: color 0.3s ease;
+        }
+
+        .info-card p {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            transition: color 0.3s ease;
+        }
+    </style>
+</head>
+<body class="theme-1">
+
+    <!-- Controls Header -->
+    <div class="controls-bar">
+        <button class="demo-btn active" onclick="setTheme(1)">🩸 Theme 1: Arterial Crimson & Deep Navy (Consensus Winner)</button>
+        <button class="demo-btn" onclick="setTheme(2)">🏥 Theme 2: AdventHealth Sapphire & Emerald</button>
+        <button class="demo-btn" onclick="setTheme(3)">🌙 Theme 3: Midnight Oncologic Glass (Dark Mode)</button>
+        <button class="demo-btn" onclick="setTheme(4)">👑 Theme 4: Royal Academic Burgundy & Linen</button>
+    </div>
+
+    <!-- Canvas Container -->
+    <div id="canvas-container">
+        <canvas id="bgCanvas"></canvas>
+    </div>
+
+    <!-- Hero Section Mockup Overlay -->
+    <div class="hero-mockup">
+        <span class="badge">PHYSICIAN • RESEARCHER • INNOVATOR</span>
+        <h1 class="hero-title">Bakr Alhayek, MD</h1>
+        <h2 class="hero-subtitle">Internal Medicine Resident Physician</h2>
+        <p class="hero-desc">
+            Dedicated to advancing <strong>inpatient oncologic care</strong> through rigorous evidence-based practice and <strong>diagnostic stewardship</strong>. Active investigator at <strong>AdventHealth Tampa</strong> with a focus on hematopoietic complications and clinical informatics.
+        </p>
+        <div class="glass-box">
+            🎯 <strong>Fellowship Focus:</strong> Pursuing a Hematology/Oncology fellowship to bridge the gap between complex inpatient management and scalable outcomes research.
+        </div>
+        <div class="btn-group">
+            <a href="#" class="btn-primary">📄 Download Curriculum Vitae</a>
+            <a href="#" class="btn-secondary">✉️ Get in Touch</a>
+        </div>
+    </div>
+
+    <!-- Info Box -->
+    <div class="info-card">
+        <h4 id="infoTitle">🩸 Theme 1: Arterial Crimson & Deep Navy</h4>
+        <p id="infoDesc">Panel Consensus Winner: Warm clinical bone background (#FAF9F5) with rich arterial crimson (#B91C1C) and deep clinical navy (#0A2540) for supreme authority and academic prestige.</p>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('bgCanvas');
+        const ctx = canvas.getContext('2d');
+        
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+        let currentTheme = 1;
+
+        // Assets Paths
+        const rbcPaths = ['/cells/rbc_1.png', '/cells/rbc_2.png', '/cells/rbc_3.png'];
+        const wbcPaths = [
+            '/cells/wbc_mono_1.png', '/cells/wbc_mono_2.png', '/cells/wbc_mono_3.png',
+            '/cells/wbc_lymph_1.png',
+            '/cells/wbc_neutro_1.png', '/cells/wbc_neutro_2.png', '/cells/wbc_neutro_3.png',
+            '/cells/wbc_eosino_1.png', '/cells/wbc_eosino_2.png', '/cells/wbc_eosino_3.png',
+            '/cells/wbc_baso_1.png'
+        ];
+        const abPaths = ['/cells/ab_monomer.png', '/cells/ab_dimer.png', '/cells/ab_pentamer.png'];
+        const compPaths = ['/cells/c1.png', '/cells/c2.png', '/cells/c3.png', '/cells/c4.png', '/cells/c5.png', '/cells/c6.png', '/cells/c7.png', '/cells/c8.png', '/cells/c9.png'];
+
+        const rbcImages = [], wbcImages = [], abImages = [], compImages = [];
+
+        function loadImgs(paths, targetArr) {
+            paths.forEach(src => {
+                const img = new Image();
+                img.src = src;
+                targetArr.push(img);
+            });
+        }
+
+        loadImgs(rbcPaths, rbcImages);
+        loadImgs(wbcPaths, wbcImages);
+        loadImgs(abPaths, abImages);
+        loadImgs(compPaths, compImages);
+
+        function resize() {
+            width = window.innerWidth;
+            height = window.innerHeight;
+            canvas.width = width * window.devicePixelRatio;
+            canvas.height = height * window.devicePixelRatio;
+            ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+        }
+
+        window.addEventListener('resize', resize);
+        resize();
+
+        const themeInfos = {
+            1: {
+                title: "🩸 Theme 1: Arterial Crimson & Deep Navy (Consensus Winner)",
+                desc: "Warm clinical bone background (#FAF9F5) with rich arterial crimson (#B91C1C) and deep clinical navy (#0A2540) for supreme authority and academic prestige."
+            },
+            2: {
+                title: "🏥 Theme 2: AdventHealth Sapphire & Emerald",
+                desc: "Pearl white background (#F8FAFC) with AdventHealth Deep Sapphire (#002D62), Healthcare Emerald (#059669), and Rose Crimson (#E11D48)."
+            },
+            3: {
+                title: "🌙 Theme 3: Midnight Oncologic Glass (Dark Mode)",
+                desc: "Obsidian navy dark background (#090D16) with frosted translucent glass cards, luminescent ruby (#FF4D6D), and celestial gold (#F4C430)."
+            },
+            4: {
+                title: "👑 Theme 4: Royal Academic Burgundy & Linen",
+                desc: "Ivory linen background (#FDFBF7) with deep academic burgundy (#701A75), Venetian gold (#D4AF37), and slate charcoal."
+            }
+        };
+
+        function drawParticle(ctx, p) {
+            ctx.save();
+            ctx.translate(p.x, p.y);
+            ctx.rotate(p.angle);
+            ctx.globalAlpha = p.alpha;
+
+            let img;
+            if (p.category === 'rbc') img = rbcImages[p.imgIdx % rbcImages.length];
+            else if (p.category === 'wbc') img = wbcImages[p.imgIdx % wbcImages.length];
+            else if (p.category === 'ab') img = abImages[p.imgIdx % abImages.length];
+            else img = compImages[p.imgIdx % compImages.length];
+
+            if (img && img.complete) {
+                ctx.drawImage(img, -p.size / 2, -p.size / 2, p.size, p.size);
+            }
+
+            ctx.restore();
+        }
+
+        function createParticle() {
+            const rand = Math.random();
+            let category, imgIdx, size, alpha;
+
+            if (rand < 0.55) {
+                category = 'rbc';
+                imgIdx = Math.floor(Math.random() * rbcImages.length);
+                size = Math.random() * 12 + 18;
+                alpha = Math.random() * 0.18 + 0.12;
+            } else if (rand < 0.72) {
+                category = 'wbc';
+                imgIdx = Math.floor(Math.random() * wbcImages.length);
+                size = Math.random() * 14 + 28;
+                alpha = Math.random() * 0.2 + 0.15;
+            } else if (rand < 0.87) {
+                category = 'ab';
+                imgIdx = Math.floor(Math.random() * abImages.length);
+                size = Math.random() * 12 + 16;
+                alpha = Math.random() * 0.22 + 0.15;
+            } else {
+                category = 'comp';
+                imgIdx = Math.floor(Math.random() * compImages.length);
+                size = Math.random() * 10 + 14;
+                alpha = Math.random() * 0.22 + 0.15;
+            }
+
+            return {
+                category,
+                imgIdx,
+                x: Math.random() * width,
+                y: Math.random() * height,
+                size,
+                vx: (Math.random() - 0.5) * 0.15,
+                vy: -(Math.random() * 0.28 + 0.08),
+                angle: Math.random() * Math.PI * 2,
+                vAngle: (Math.random() - 0.5) * 0.005,
+                alpha
+            };
+        }
+
+        let particles = [];
+        function initParticles() {
+            particles = [];
+            const count = Math.floor(width / 26);
+            for (let i = 0; i < count; i++) {
+                particles.push(createParticle());
+            }
+        }
+
+        function render() {
+            ctx.clearRect(0, 0, width, height);
+            for (let p of particles) {
+                p.x += p.vx;
+                p.y += p.vy;
+                p.angle += p.vAngle;
+
+                if (p.y < -40) {
+                    p.y = height + 40;
+                    p.x = Math.random() * width;
+                }
+                if (p.x < -40) p.x = width + 40;
+                if (p.x > width + 40) p.x = -40;
+
+                drawParticle(ctx, p);
+            }
+
+            requestAnimationFrame(render);
+        }
+
+        function setTheme(theme) {
+            currentTheme = theme;
+            document.body.className = `theme-${theme}`;
+
+            const btns = document.querySelectorAll('.demo-btn');
+            btns.forEach((btn, idx) => {
+                if (idx + 1 === theme) btn.classList.add('active');
+                else btn.classList.remove('active');
+            });
+
+            document.getElementById('infoTitle').innerText = themeInfos[theme].title;
+            document.getElementById('infoDesc').innerText = themeInfos[theme].desc;
+        }
+
+        initParticles();
+        render();
+    </script>
+</body>
+</html>

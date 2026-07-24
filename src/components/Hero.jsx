@@ -2,6 +2,36 @@ import React, { useEffect, useRef } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
+import rbc1Src from '../assets/cells/rbc_1.png';
+import rbc2Src from '../assets/cells/rbc_2.png';
+import rbc3Src from '../assets/cells/rbc_3.png';
+
+import wbcMono1Src from '../assets/cells/wbc_mono_1.png';
+import wbcMono2Src from '../assets/cells/wbc_mono_2.png';
+import wbcMono3Src from '../assets/cells/wbc_mono_3.png';
+import wbcLymph1Src from '../assets/cells/wbc_lymph_1.png';
+import wbcNeutro1Src from '../assets/cells/wbc_neutro_1.png';
+import wbcNeutro2Src from '../assets/cells/wbc_neutro_2.png';
+import wbcNeutro3Src from '../assets/cells/wbc_neutro_3.png';
+import wbcEosino1Src from '../assets/cells/wbc_eosino_1.png';
+import wbcEosino2Src from '../assets/cells/wbc_eosino_2.png';
+import wbcEosino3Src from '../assets/cells/wbc_eosino_3.png';
+import wbcBaso1Src from '../assets/cells/wbc_baso_1.png';
+
+import abMonomerSrc from '../assets/cells/ab_monomer.png';
+import abDimerSrc from '../assets/cells/ab_dimer.png';
+import abPentamerSrc from '../assets/cells/ab_pentamer.png';
+
+import c1Src from '../assets/cells/c1.png';
+import c2Src from '../assets/cells/c2.png';
+import c3Src from '../assets/cells/c3.png';
+import c4Src from '../assets/cells/c4.png';
+import c5Src from '../assets/cells/c5.png';
+import c6Src from '../assets/cells/c6.png';
+import c7Src from '../assets/cells/c7.png';
+import c8Src from '../assets/cells/c8.png';
+import c9Src from '../assets/cells/c9.png';
+
 const Hero = () => {
     const canvasRef = useRef(null);
     const baseUrl = import.meta.env.BASE_URL || '/';
@@ -9,7 +39,7 @@ const Hero = () => {
     const navigate = useNavigate();
     const reduceMotion = useReducedMotion();
 
-    // Decorative canvas particle animation
+    // Subtle 2D Intravascular Flow Canvas Animation (RBCs, WBCs, Antibodies & Complements)
     useEffect(() => {
         const canvas = canvasRef.current;
         const reduceMotionPreference = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -24,10 +54,48 @@ const Hero = () => {
         let isVisible = true;
         let isRunning = false;
 
+        const rbcSrcs = [rbc1Src, rbc2Src, rbc3Src];
+        const rbcImages = [];
+        rbcSrcs.forEach(src => {
+            const img = new Image();
+            img.src = src;
+            rbcImages.push(img);
+        });
+
+        const wbcSrcs = [
+            wbcMono1Src, wbcMono2Src, wbcMono3Src,
+            wbcLymph1Src,
+            wbcNeutro1Src, wbcNeutro2Src, wbcNeutro3Src,
+            wbcEosino1Src, wbcEosino2Src, wbcEosino3Src,
+            wbcBaso1Src
+        ];
+        const wbcImages = [];
+        wbcSrcs.forEach(src => {
+            const img = new Image();
+            img.src = src;
+            wbcImages.push(img);
+        });
+
+        const abSrcs = [abMonomerSrc, abDimerSrc, abPentamerSrc];
+        const abImages = [];
+        abSrcs.forEach(src => {
+            const img = new Image();
+            img.src = src;
+            abImages.push(img);
+        });
+
+        const compSrcs = [c1Src, c2Src, c3Src, c4Src, c5Src, c6Src, c7Src, c8Src, c9Src];
+        const compImages = [];
+        compSrcs.forEach(src => {
+            const img = new Image();
+            img.src = src;
+            compImages.push(img);
+        });
+
         const getParticleCount = () => {
-            if (window.innerWidth < 640) return 28;
-            if (window.innerWidth < 1024) return 45;
-            return 70;
+            if (window.innerWidth < 640) return 24;
+            if (window.innerWidth < 1024) return 38;
+            return 52;
         };
 
         const resize = () => {
@@ -41,34 +109,86 @@ const Hero = () => {
             ctx.setTransform(pixelRatio, 0, 0, pixelRatio, 0, 0);
         };
 
-        class Particle {
+        function createParticle() {
+            const rand = Math.random();
+            let category, imgIdx, size, alpha;
+
+            if (rand < 0.55) {
+                category = 'rbc';
+                imgIdx = Math.floor(Math.random() * rbcImages.length);
+                size = Math.random() * 12 + 18;
+                alpha = Math.random() * 0.18 + 0.12;
+            } else if (rand < 0.72) {
+                category = 'wbc';
+                imgIdx = Math.floor(Math.random() * wbcImages.length);
+                size = Math.random() * 14 + 28;
+                alpha = Math.random() * 0.2 + 0.15;
+            } else if (rand < 0.87) {
+                category = 'ab';
+                imgIdx = Math.floor(Math.random() * abImages.length);
+                size = Math.random() * 12 + 16;
+                alpha = Math.random() * 0.22 + 0.15;
+            } else {
+                category = 'comp';
+                imgIdx = Math.floor(Math.random() * compImages.length);
+                size = Math.random() * 10 + 14;
+                alpha = Math.random() * 0.22 + 0.15;
+            }
+
+            return {
+                category,
+                imgIdx,
+                x: Math.random() * width,
+                y: Math.random() * height,
+                size,
+                vx: (Math.random() - 0.5) * 0.15,
+                vy: -(Math.random() * 0.28 + 0.08),
+                angle: Math.random() * Math.PI * 2,
+                vAngle: (Math.random() - 0.5) * 0.005,
+                alpha
+            };
+        }
+
+        class Particle2D {
             constructor() {
-                this.x = Math.random() * width;
-                this.y = Math.random() * height;
-                this.vx = (Math.random() - 0.5) * 0.3;
-                this.vy = (Math.random() - 0.5) * 0.3;
-                this.size = Math.random() * 2 + 1;
+                Object.assign(this, createParticle());
             }
             update() {
                 this.x += this.vx;
                 this.y += this.vy;
-                if (this.x < 0) this.x = width;
-                if (this.x > width) this.x = 0;
-                if (this.y < 0) this.y = height;
-                if (this.y > height) this.y = 0;
+                this.angle += this.vAngle;
+
+                if (this.y < -40) {
+                    this.y = height + 40;
+                    this.x = Math.random() * width;
+                }
+                if (this.x < -40) this.x = width + 40;
+                if (this.x > width + 40) this.x = -40;
             }
             draw() {
-                ctx.fillStyle = 'rgba(10, 37, 64, 0.15)';
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-                ctx.fill();
+                ctx.save();
+                ctx.translate(this.x, this.y);
+                ctx.rotate(this.angle);
+                ctx.globalAlpha = this.alpha;
+
+                let img;
+                if (this.category === 'rbc') img = rbcImages[this.imgIdx % rbcImages.length];
+                else if (this.category === 'wbc') img = wbcImages[this.imgIdx % wbcImages.length];
+                else if (this.category === 'ab') img = abImages[this.imgIdx % abImages.length];
+                else img = compImages[this.imgIdx % compImages.length];
+
+                if (img && img.complete) {
+                    ctx.drawImage(img, -this.size / 2, -this.size / 2, this.size, this.size);
+                }
+
+                ctx.restore();
             }
         }
 
         const init = () => {
             particles = [];
             for (let i = 0; i < getParticleCount(); i += 1) {
-                particles.push(new Particle());
+                particles.push(new Particle2D());
             }
         };
 
@@ -84,21 +204,6 @@ const Hero = () => {
             for (let i = 0; i < particles.length; i += 1) {
                 particles[i].update();
                 particles[i].draw();
-
-                for (let j = i + 1; j < particles.length; j += 1) {
-                    const dx = particles[i].x - particles[j].x;
-                    const dy = particles[i].y - particles[j].y;
-                    const distance = Math.sqrt(dx * dx + dy * dy);
-
-                    if (distance < 150) {
-                        ctx.beginPath();
-                        ctx.strokeStyle = `rgba(10, 37, 64, ${0.12 * (1 - distance / 150)})`;
-                        ctx.lineWidth = 1;
-                        ctx.moveTo(particles[i].x, particles[i].y);
-                        ctx.lineTo(particles[j].x, particles[j].y);
-                        ctx.stroke();
-                    }
-                }
             }
 
             animationFrameId = requestAnimationFrame(animate);
@@ -259,7 +364,7 @@ const Hero = () => {
         },
         primaryBtn: {
             padding: '16px 36px',
-            backgroundColor: 'var(--accent-gold)',
+            backgroundColor: 'var(--accent-red)',
             border: 'none',
             color: '#FFFFFF',
             borderRadius: '999px',
@@ -270,11 +375,11 @@ const Hero = () => {
             alignItems: 'center',
             gap: '10px',
             cursor: 'pointer',
-            boxShadow: '0 12px 30px rgba(197, 160, 89, 0.35)',
+            boxShadow: '0 12px 30px rgba(185, 28, 28, 0.32)',
         },
         secondaryBtn: {
             padding: '16px 36px',
-            backgroundColor: 'rgba(255,255,255,0.8)',
+            backgroundColor: 'rgba(255, 255, 255, 0.95)',
             border: '2px solid var(--accent-navy)',
             color: 'var(--accent-navy)',
             borderRadius: '999px',
@@ -285,7 +390,7 @@ const Hero = () => {
             alignItems: 'center',
             gap: '10px',
             cursor: 'pointer',
-            backdropFilter: 'blur(10px)',
+            boxShadow: '0 4px 14px rgba(10, 37, 64, 0.08)',
         },
         // Metric Badges Grid
         statsRow: {
@@ -322,9 +427,9 @@ const Hero = () => {
 
     const css = `
         .hero-primary-btn:hover {
-            background-color: var(--accent-gold-hover);
+            background-color: var(--accent-red-hover);
             transform: translateY(-3px);
-            box-shadow: 0 16px 36px rgba(197, 160, 89, 0.45);
+            box-shadow: 0 16px 36px rgba(185, 28, 28, 0.42);
         }
         .hero-secondary-btn:hover {
             background-color: var(--accent-navy);

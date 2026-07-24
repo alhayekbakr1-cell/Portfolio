@@ -254,13 +254,13 @@ const Header = () => {
             .mobile-overlay { display: none !important; }
         }
         .theme-toggle:hover {
-            background-color: var(--accent-light);
-            color: var(--accent-navy);
-            border-color: var(--accent-navy);
+            background-color: rgba(185, 28, 28, 0.08);
+            color: var(--accent-red);
+            border-color: var(--accent-red);
         }
         .dropdown-item:hover {
-            background-color: var(--accent-light);
-            color: var(--accent-navy);
+            background-color: var(--accent-red-light);
+            color: var(--accent-red);
         }
     `;
 
