@@ -54,11 +54,11 @@ const ContactEnhanced = () => {
     };
 
     const styles = {
-        section: { padding: '130px 20px 110px', background: 'var(--bg-primary)', position: 'relative', overflow: 'hidden' },
+        section: { padding: '130px 20px 110px', background: 'transparent', position: 'relative', overflow: 'hidden' },
         wrapper: { maxWidth: '780px', margin: '0 auto', position: 'relative', zIndex: 1 },
         intro: { textAlign: 'center', marginBottom: '3.5rem' },
         introText: { color: 'var(--text-secondary)', fontSize: '1.125rem', maxWidth: '680px', margin: '0 auto', lineHeight: 1.8 },
-        formCard: { padding: '36px', background: 'rgba(255,255,255,0.88)', backdropFilter: 'blur(16px)', border: '1px solid rgba(226,232,240,0.85)', borderRadius: '28px', boxShadow: '0 24px 70px rgba(10,37,64,0.10)' },
+        formCard: { padding: '36px', background: 'var(--bg-card)', border: '1px solid rgba(226,232,240,0.85)', borderRadius: '28px', boxShadow: '0 24px 70px rgba(10,37,64,0.10)' },
         form: { display: 'flex', flexDirection: 'column', gap: '20px' },
         formGroup: { display: 'flex', flexDirection: 'column', gap: '8px' },
         label: { color: 'var(--text-primary)', fontSize: '0.95rem', fontWeight: 700 },

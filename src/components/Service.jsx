@@ -19,7 +19,7 @@ const Service = () => {
     const styles = {
         container: {
             padding: '80px 20px',
-            background: 'var(--bg-secondary)',
+            background: 'transparent',
         },
         wrapper: {
             maxWidth: 'var(--container-width)',

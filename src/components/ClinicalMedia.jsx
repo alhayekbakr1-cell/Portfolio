@@ -78,7 +78,7 @@ const ClinicalMedia = () => {
     const styles = {
         container: {
             padding: '120px 20px 100px',
-            background: 'var(--bg-primary)',
+            background: 'transparent',
             minHeight: '100vh',
         },
         wrapper: {
@@ -206,7 +206,6 @@ const ClinicalMedia = () => {
             alignItems: 'center',
             justifyContent: 'center',
             padding: '30px',
-            backdropFilter: 'blur(10px)',
         },
         modal: {
             background: 'var(--bg-card)',

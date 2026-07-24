@@ -90,7 +90,7 @@ const CollaborateMatcher = () => {
     );
 
     return (
-        <section style={{ padding: '120px 20px 80px', minHeight: '100vh', background: 'var(--bg-primary)' }}>
+        <section style={{ padding: '120px 20px 80px', minHeight: '100vh', background: 'transparent' }}>
             <div className="container" style={{ maxWidth: '800px', margin: '0 auto' }}>
                 
                 {/* Header Sequence */}

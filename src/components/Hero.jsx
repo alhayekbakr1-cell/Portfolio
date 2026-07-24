@@ -80,12 +80,12 @@ const Hero = () => {
             borderBottom: '2px solid var(--accent-red)',
         },
         glassBox: {
-            padding: '2rem 2.4rem',
-            background: 'var(--bg-card)',
-            backdropFilter: 'blur(16px)',
-            border: '1px solid var(--border-color)',
+            padding: '2.2rem 2.6rem',
+            background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.96) 0%, rgba(243, 232, 211, 0.38) 100%)',
+            border: '1px solid rgba(197, 160, 89, 0.35)',
+            borderLeft: '5px solid var(--accent-gold)',
             borderRadius: '24px',
-            boxShadow: 'var(--shadow-xl)',
+            boxShadow: '0 20px 50px -10px rgba(10, 37, 64, 0.10)',
             marginBottom: '2.5rem',
             textAlign: 'left',
             maxWidth: '840px',
@@ -240,21 +240,6 @@ const Hero = () => {
                             >
                                 ✉️ Get in Touch
                             </a>
-                        </motion.div>
-
-                        <motion.div {...fadeUp} transition={{ duration: 0.6, delay: 0.48 }} style={styles.statsRow} className="stats-row">
-                            <div style={styles.statCard}>
-                                <div style={styles.statValue}>15+</div>
-                                <div style={styles.statLabel}>Peer Publications & Abstracts</div>
-                            </div>
-                            <div style={styles.statCard}>
-                                <div style={styles.statValue}>AdventHealth</div>
-                                <div style={styles.statLabel}>Tampa Affiliate</div>
-                            </div>
-                            <div style={styles.statCard}>
-                                <div style={styles.statValue}>Informatics</div>
-                                <div style={styles.statLabel}>Oncology AI Investigator</div>
-                            </div>
                         </motion.div>
                     </div>
                 </div>

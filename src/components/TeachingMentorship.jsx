@@ -36,7 +36,7 @@ const TeachingMentorship = () => {
     const styles = {
         container: {
             padding: '100px 20px',
-            background: 'var(--bg-secondary)',
+            background: 'transparent',
         },
         wrapper: {
             maxWidth: '1000px',
@@ -50,11 +50,11 @@ const TeachingMentorship = () => {
         },
         card: {
             background: 'var(--bg-card)',
-            borderRadius: '12px',
-            padding: '32px',
+            borderRadius: '20px',
+            padding: '36px',
             border: '1px solid var(--border-color)',
-            boxShadow: 'var(--shadow-sm)',
-            transition: 'all 0.3s ease',
+            boxShadow: '0 12px 32px -6px rgba(10, 37, 64, 0.08)',
+            transition: 'all 0.35s var(--motion-ease)',
             display: 'flex',
             flexDirection: 'column',
         },

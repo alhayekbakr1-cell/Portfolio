@@ -78,9 +78,9 @@ const MotionBackground = () => {
         });
 
         const getParticleCount = () => {
-            if (window.innerWidth < 640) return 30;
-            if (window.innerWidth < 1024) return 50;
-            return 75;
+            if (window.innerWidth < 640) return 22;
+            if (window.innerWidth < 1024) return 38;
+            return 50;
         };
 
         const resize = () => {
@@ -101,23 +101,23 @@ const MotionBackground = () => {
             if (rand < 0.55) {
                 category = 'rbc';
                 imgIdx = Math.floor(Math.random() * rbcImages.length);
-                size = Math.random() * 14 + 18;
-                alpha = Math.random() * 0.22 + 0.14;
+                size = Math.random() * 12 + 16;
+                alpha = Math.random() * 0.12 + 0.12;
             } else if (rand < 0.72) {
                 category = 'wbc';
                 imgIdx = Math.floor(Math.random() * wbcImages.length);
-                size = Math.random() * 16 + 28;
-                alpha = Math.random() * 0.24 + 0.16;
+                size = Math.random() * 14 + 24;
+                alpha = Math.random() * 0.12 + 0.14;
             } else if (rand < 0.87) {
                 category = 'ab';
                 imgIdx = Math.floor(Math.random() * abImages.length);
-                size = Math.random() * 14 + 16;
-                alpha = Math.random() * 0.25 + 0.16;
+                size = Math.random() * 12 + 14;
+                alpha = Math.random() * 0.12 + 0.12;
             } else {
                 category = 'comp';
                 imgIdx = Math.floor(Math.random() * compImages.length);
-                size = Math.random() * 12 + 14;
-                alpha = Math.random() * 0.25 + 0.16;
+                size = Math.random() * 10 + 12;
+                alpha = Math.random() * 0.12 + 0.12;
             }
 
             return {

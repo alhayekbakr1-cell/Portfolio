@@ -5,7 +5,7 @@ const AcademicVision = () => {
     const styles = {
         section: {
             padding: '120px 20px',
-            background: 'var(--bg-primary)',
+            background: 'transparent',
             textAlign: 'center',
             position: 'relative',
             overflow: 'hidden',
@@ -62,11 +62,13 @@ const AcademicVision = () => {
             textAlign: 'left',
         },
         goalCard: {
-            padding: '24px',
+            padding: '28px 26px',
             background: 'var(--bg-card)',
-            borderLeft: '3px solid var(--accent-navy)',
-            borderRadius: '0 8px 8px 0',
-            boxShadow: 'var(--shadow-sm)',
+            border: '1px solid var(--border-color)',
+            borderLeft: '4px solid var(--accent-red)',
+            borderRadius: '16px',
+            boxShadow: 'var(--shadow-md)',
+            transition: 'all 0.3s ease',
         },
         goalTitle: {
             fontSize: '1.1rem',

@@ -50,7 +50,7 @@ const AIUpdates = () => {
         page: {
             padding: '130px 20px 90px',
             minHeight: '100vh',
-            background: 'var(--bg-primary)',
+            background: 'transparent',
         },
         eyebrow: {
             display: 'inline-flex',

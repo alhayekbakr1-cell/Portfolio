@@ -59,7 +59,7 @@ const Experience = () => {
     const styles = {
         container: {
             padding: '100px 20px',
-            background: 'var(--bg-secondary)',
+            background: 'transparent',
         },
         wrapper: {
             maxWidth: '1000px',
@@ -74,8 +74,9 @@ const Experience = () => {
             left: '31px',
             top: 0,
             bottom: 0,
-            width: '2px',
-            background: 'var(--border-color)',
+            width: '3px',
+            background: 'linear-gradient(180deg, var(--accent-red) 0%, var(--accent-navy) 100%)',
+            borderRadius: '2px',
         },
         expItem: {
             position: 'relative',
@@ -89,14 +90,15 @@ const Experience = () => {
             width: '24px',
             height: '24px',
             borderRadius: '50%',
-            background: 'var(--bg-card)',
-            border: '4px solid var(--accent-navy)',
+            background: '#FFFFFF',
+            border: '4px solid var(--accent-red)',
+            boxShadow: '0 0 0 6px rgba(185, 28, 28, 0.15)',
             zIndex: 1,
         },
         period: {
             fontSize: '0.9rem',
             fontWeight: '700',
-            color: 'var(--accent-navy)',
+            color: 'var(--accent-red)',
             marginBottom: '8px',
             display: 'block',
             textTransform: 'uppercase',
@@ -104,11 +106,11 @@ const Experience = () => {
         },
         contentCard: {
             background: 'var(--bg-card)',
-            padding: '32px',
-            borderRadius: '12px',
-            boxShadow: 'var(--shadow-sm)',
+            padding: '36px',
+            borderRadius: '20px',
+            boxShadow: '0 12px 32px -6px rgba(10, 37, 64, 0.08)',
             border: '1px solid var(--border-color)',
-            transition: 'all 0.3s ease',
+            transition: 'all 0.35s var(--motion-ease)',
         },
         header: {
             marginBottom: '1.5rem',

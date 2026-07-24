@@ -9,13 +9,14 @@ const ProjectSpotlight = ({ title, badge, summary, highlights, type, icon: Icon,
     const styles = {
         container: {
             background: 'var(--bg-card)',
-            borderRadius: '16px',
+            borderRadius: '24px',
             overflow: 'hidden',
             border: '1px solid var(--border-color)',
-            boxShadow: 'var(--shadow-md)',
+            boxShadow: '0 16px 40px -8px rgba(10, 37, 64, 0.09)',
             marginBottom: '40px',
             display: 'flex',
             flexDirection: 'column', // Mobile first
+            transition: 'transform 0.35s var(--motion-ease), box-shadow 0.35s var(--motion-ease), border-color 0.35s var(--motion-ease)',
         },
         desktopLayout: {
             '@media (min-width: 900px)': {

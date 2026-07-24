@@ -222,33 +222,27 @@ a:focus-visible,
   animation: titleSweep 4.5s ease-in-out infinite;
 }
 
-/* Global Translucent Glass Cards Across All Pages/Tabs */
+/* Global Prestigious Cards & Content Boxes Across All Pages/Tabs */
 .card,
 .motion-card,
 [class*="card"],
-article,
-section {
+article {
   background-color: var(--bg-card);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-}
-
-.motion-card,
-.card,
-[class*="card"],
-article,
-section a[style*="border"] {
-  will-change: transform, box-shadow;
-  transition: all 0.3s var(--motion-ease);
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px -8px rgba(10, 37, 64, 0.07), 0 4px 12px rgba(0, 0, 0, 0.02);
+  transition: transform 0.32s var(--motion-ease), box-shadow 0.32s var(--motion-ease), border-color 0.32s var(--motion-ease);
 }
 
 .card:hover,
 .motion-card:hover,
-article:hover,
-section a[style*="border"]:hover {
+[class*="card"]:hover,
+article:hover {
   transform: translateY(-5px);
-  box-shadow: var(--shadow-xl);
-  border-color: var(--accent-red) !important;
+  box-shadow: 0 20px 40px -10px rgba(10, 37, 64, 0.14), 0 0 0 1px rgba(185, 28, 28, 0.25);
+  border-color: rgba(185, 28, 28, 0.40) !important;
 }
 
 .luxury-sheen {

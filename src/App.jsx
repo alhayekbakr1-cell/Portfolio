@@ -87,10 +87,9 @@ function App() {
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </ErrorBoundary>
+          <Footer />
+          <QuickAccessToolbar />
         </Suspense>
-
-        <Footer />
-        <QuickAccessToolbar />
       </div>
     </Router>
     </QueryClientProvider>

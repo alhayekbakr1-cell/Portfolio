@@ -25,16 +25,16 @@ const PublicationCard = ({ pub }) => {
         card: {
             background: 'var(--bg-card)',
             border: '1px solid var(--border-color)',
-            borderRadius: '8px',
-            padding: '24px',
-            marginBottom: '16px',
-            transition: 'all 0.3s ease',
+            borderRadius: '18px',
+            padding: '28px',
+            marginBottom: '20px',
+            transition: 'all 0.35s var(--motion-ease)',
             position: 'relative',
             overflow: 'hidden',
-            boxShadow: 'var(--shadow-sm)',
+            boxShadow: '0 8px 24px -4px rgba(10, 37, 64, 0.06)',
         },
         featured: {
-            borderLeft: '4px solid var(--accent-navy)',
+            borderLeft: '4px solid var(--accent-red)',
         },
         header: {
             display: 'flex',

@@ -92,7 +92,7 @@ const Research = () => {
     const styles = {
         container: {
             padding: '100px 20px',
-            background: 'var(--bg-primary)',
+            background: 'transparent',
         },
         wrapper: {
             maxWidth: '1100px',

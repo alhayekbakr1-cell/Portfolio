@@ -359,7 +359,7 @@ const MedicalAILab = () => {
 const styles = {
     page: {
         padding: '130px 0 110px',
-        background: 'var(--bg-secondary)',
+        background: 'transparent',
         minHeight: '100vh',
         position: 'relative',
         overflow: 'hidden'
@@ -390,7 +390,7 @@ const styles = {
     modeButtonActive: { background: 'var(--accent-navy)', color: '#fff', borderColor: 'var(--accent-navy)', boxShadow: '0 18px 38px rgba(10,37,64,0.16)' },
     mainGrid: { display: 'grid', gridTemplateColumns: 'minmax(270px, 0.82fr) minmax(420px, 1.4fr)', gap: '28px', alignItems: 'stretch' },
     sidePanel: {
-        padding: '26px', borderRadius: '28px', background: 'rgba(255,255,255,0.78)', backdropFilter: 'blur(14px)',
+        padding: '26px', borderRadius: '28px', background: 'rgba(255,255,255,0.78)',
         border: '1px solid rgba(226,232,240,0.82)', boxShadow: '0 24px 70px rgba(10,37,64,0.10)'
     },
     panelTitle: { fontSize: '1.25rem', marginBottom: '16px', color: 'var(--text-primary)' },

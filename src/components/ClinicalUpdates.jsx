@@ -54,7 +54,7 @@ const ClinicalUpdates = () => {
     }) : 'Pending first refresh';
 
     const styles = {
-        page: { padding: '130px 20px 90px', minHeight: '100vh', background: 'var(--bg-primary)' },
+        page: { padding: '130px 20px 90px', minHeight: '100vh', background: 'transparent' },
         hero: { textAlign: 'center', maxWidth: '920px', margin: '0 auto 42px' },
         eyebrow: {
             display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '8px 14px',

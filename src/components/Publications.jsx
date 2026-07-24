@@ -17,7 +17,7 @@ const Publications = () => {
     const styles = {
         section: {
             padding: '100px 20px',
-            background: 'var(--bg-secondary)',
+            background: 'transparent',
         },
         wrapper: {
             maxWidth: '1200px',
