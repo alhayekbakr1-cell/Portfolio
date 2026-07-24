@@ -63,7 +63,6 @@ const Header = () => {
             ]
         },
         { label: 'Collaborate', href: '/collaborate' },
-        { label: 'Contact', href: '/contact' },
     ];
 
     const styles = {
