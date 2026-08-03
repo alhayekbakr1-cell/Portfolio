@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T14:49:20.866Z",
+  "generatedAt": "2026-08-03T14:52:48.904Z",
   "summary": "Latest global AI updates from 5 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
     {
@@ -44,6 +44,222 @@
   ],
   "items": [
     {
+      "id": "the-decoder-https-the-decoder-com-chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking-",
+      "title": "China&#039;s MiniMax H3 is the first open model to top an AI video ranking",
+      "description": "MiniMax releases H3 video model weights, putting an open model at the top of a video ranking for the first time. The article China&#039;s MiniMax H3 is the first open model to top an AI video ranking appeared first on The Decoder .",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-03",
+      "link": "https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-unicorn-pelican-middle-earth-openai-co-founder-karpathy-is-looking-for-the-next-ai-vib",
+      "title": "Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test",
+      "description": "One paragraph of \"Lord of the Rings\" in, 5,500 lines of code out. Andrej Karpathy had Claude Opus 5 turn Tolkien's opening into a 3D browser scene. The article Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test appe",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-03",
+      "link": "https://the-decoder.com/unicorn-pelican-middle-earth-openai-co-founder-karpathy-is-looking-for-the-next-ai-vibe-test/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart-",
+      "title": "Two teams solved the same quantum crypto problem using GPT-5.6 just three hours apart",
+      "description": "Two research teams independently solved the same open quantum cryptography problem using OpenAI's GPT-5.6 Sol Ultra, submitting their papers just three hours apart. \"If someone mentions an open problem, the first thing is to see if GPT solves it,\" says one of ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-03",
+      "link": "https://the-decoder.com/two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-para",
+      "title": "Alibaba’s open-weight Qwen3.8-Max takes on long-horizon AI tasks with 2.4 trillion parameters",
+      "description": "Alibaba's new flagship model Qwen3.8-Max is built to handle complex tasks on its own over days at a time, from reproducing research papers to designing chips autonomously. The team plans to release the weights next week. The article Alibaba’s open-weight Qwen3",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-03",
+      "link": "https://the-decoder.com/alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-parameters/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-openai-presence-wants-to-make-ai-agents-production-ready-for-businesses-",
+      "title": "OpenAI Presence wants to make AI agents production-ready for businesses",
+      "description": "OpenAI's new enterprise offering, Presence, is designed to get AI agents into production for customer service and internal workflows. Unlike the existing Workspace Agents, Presence targets external deployments. For complex cases, OpenAI's own engineers step in",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-02",
+      "link": "https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track-",
+      "title": "Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
+      "description": "Meta AI wants to stop AI agents from forgetting errors they've already diagnosed and repeating failed steps during complex tasks. A separate memory agent maintains a structured memory bank and decides when to remind the main agent and when to stay silent. The ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-02",
+      "link": "https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-a-real-macos-flaw-worth-200k-went-unreported-because-apples-bug-bounty-inbox-was-full-",
+      "title": "A real macOS flaw worth $200K went unreported because Apple&#039;s bug bounty inbox was full of AI slop",
+      "description": "Apple's bug bounty program is drowning in AI-generated bug reports. The company has capped submissions per researcher because fabricated reports are clogging the review pipeline. As a result, Italian startup Bynario was initially unable to report a serious mac",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-02",
+      "link": "https://the-decoder.com/a-real-macos-flaw-worth-200k-went-unreported-because-apples-bug-bounty-inbox-was-full-of-ai-slop/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited-",
+      "title": "AI finds plenty of security flaws, but almost none of them get exploited",
+      "description": "VulnCheck counted how often security flaws found by AI actually get exploited. Out of 1,061 AI-discovered vulnerabilities in the first half of 2026, just 14 saw confirmed attacks. That's 1.3 percent, the same rate as vulnerabilities overall. But exploits are l",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-02",
+      "link": "https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-claude-opus-5-pushes-prompt-to-game-ai-from-rough-color-blocks-to-full-3d-prototypes-w",
+      "title": "Claude Opus 5 pushes prompt-to-game AI from rough color blocks to full 3D prototypes with physics and music",
+      "description": "Anthropic's Claude Opus 5 generates complete 3D games from single prompts, including a first-person shooter, a kart racer, and a Minecraft clone, all without a single external asset. Geometry, textures, physics, and in some cases music are produced as code and",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-02",
+      "link": "https://the-decoder.com/claude-opus-5-pushes-prompt-to-game-ai-from-rough-color-blocks-to-full-3d-prototypes-with-physics-and-music/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-a",
+      "title": "After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior",
+      "description": "Research organization METR is calling for systematic, independently led investigations whenever AI agents act autonomously against their developers' intentions. The push comes partly in response to the Hugging Face hack carried out by OpenAI models. METR's own",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-02",
+      "link": "https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-ten-advances-in-mathematics",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "description": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-01",
+      "link": "https://openai.com/index/ten-advances-in-mathematics"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-advancing-responsible-ai-across-europe",
+      "title": "Advancing responsible AI across Europe",
+      "description": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-31",
+      "link": "https://openai.com/index/advancing-responsible-ai-across-europe"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-building-abundant-intelligence",
+      "title": "Building abundant intelligence",
+      "description": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-31",
+      "link": "https://openai.com/index/building-abundant-intelligence"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-unive",
+      "title": "Univé builds an AI-ready workforce",
+      "description": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-31",
+      "link": "https://openai.com/index/unive"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "title": "Disrupting a Criminal Scam Operation",
+      "description": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-31",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-advancing-the-price-performance-frontier-with-gpt-5-6",
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "description": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-30",
+      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-avatarin",
+      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+      "description": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-30",
+      "link": "https://openai.com/index/avatarin"
+    },
+    {
+      "id": "google-deepmind-blog-https-deepmind-google-blog-gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orc",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "description": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "source": "Google DeepMind Blog",
+      "category": "Frontier labs",
+      "date": "2026-07-30",
+      "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-how-two-settings-tripled-our-arc-agi-3-scores",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "description": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-29",
+      "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-chatgpt-for-academic-researchers",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "description": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-29",
+      "link": "https://openai.com/index/chatgpt-for-academic-researchers"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-gpt-5-6-frontier-intelligence-efficiency",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "description": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-29",
+      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency"
+    },
+    {
+      "id": "google-deepmind-blog-https-deepmind-google-blog-were-launching-lyria-35-in-google-flow-music-with-advances-across-musica",
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "description": "",
+      "source": "Google DeepMind Blog",
+      "category": "Frontier labs",
+      "date": "2026-07-29",
+      "link": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-scientific-computing-agentic-ai",
+      "title": "Scientific computing in the age of agentic AI",
+      "description": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-07-28",
+      "link": "https://openai.com/index/scientific-computing-agentic-ai"
+    },
+    {
+      "id": "google-deepmind-blog-https-deepmind-google-blog-gemini-robotics-2-brings-whole-body-intelligence-to-robots-",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "description": "",
+      "source": "Google DeepMind Blog",
+      "category": "Frontier labs",
+      "date": "2026-07-28",
+      "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+    },
+    {
       "id": "openai-news-https-openai-com-index-how-ai-is-expanding-what-people-do-at-work",
       "title": "How AI is expanding what people do at work",
       "description": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
@@ -51,96 +267,6 @@
       "category": "Frontier labs",
       "date": "2026-07-27",
       "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive",
-      "title": "METR introduces a new metric to calculate exactly when AI agents become more expensive than humans",
-      "description": "METR's new metric, the \"expenditure horizon,\" puts a dollar figure on how cost-effective AI agents are at solving problems. Early results on the NanoGPT speedrun are underwhelming, the metric has blind spots, and the newest generation of models could change th",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-27",
-      "link": "https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-shared-claude-chats-were-reportedly-showing-up-in-search-engines-",
-      "title": "Shared Claude chats were reportedly showing up in search engines",
-      "description": "Shared conversations with Anthropic's Claude chatbot briefly appeared in Google search results because the pages lacked a noindex tag. Users said some chats contained crypto keys and legal questions. OpenAI made the same mistake last year. The article Shared C",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-27",
-      "link": "https://the-decoder.com/shared-claude-chats-were-reportedly-showing-up-in-search-engines/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-model",
-      "title": "Cursor&#039;s agent swarm suggests cheaper models can handle most coding when frontier models plan the work",
-      "description": "Cursor asked its upgraded agent swarm and its predecessor to rebuild SQLite in Rust using only the documentation, with no source code or internet access. Every configuration of the new system, which separates planners from workers, eventually scored 100 percen",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-26",
-      "link": "https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-meas",
-      "title": "Anthropic&#039;s Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
-      "description": "Anthropic's Claude Opus 5 scored 30.2 percent on ARC-AGI-3, nearly quadrupling GPT-5.6 Sol's previous record of 7.8 percent. The benchmark's developers say the model independently formulated reflection equations, a behavior they had never seen from another mod",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-26",
-      "link": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high",
-      "title": "Hundreds asked ChatGPT for poison and bioweapon recipes and some got step-by-step high school level guides",
-      "description": "In summer 2025, OpenAI internally flagged GPT-5 as high-risk because it helped users create biological hazards, but downgraded the model's risk rating that fall. According to the Wall Street Journal, some users got step-by-step instructions for making poisons ",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-26",
-      "link": "https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-m",
-      "title": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
-      "description": "The Trump administration is planning targeted bans on Chinese AI models rather than a blanket ban. After public pressure, OpenAI and Google DeepMind signed an open letter opposing regulation of open-weight models, yet OpenAI and Anthropic continue to lobby pri",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-26",
-      "link": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-",
-      "title": "The AI coding tutor paradox grows as educators scramble to rethink how they test real skills",
-      "description": "An ACM survey of 763 computer science educators from 49 countries shows that 68 percent have already changed their exams because of AI, shifting toward oral exams, proctored tests, and project-based work. Teaching is moving from writing code to understanding i",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-26",
-      "link": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on",
-      "title": "New reports reveal the extent of OpenAI&#039;s loss of control during the autonomous hack on Hugging Face",
-      "description": "In a cybersecurity test, OpenAI's most advanced models breached the boundaries of their isolated test environment, reached the open internet, and hacked the AI platform Hugging Face on their own. The attack took hours, not the weeks a human hacker would need. ",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-25",
-      "link": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunti",
-      "title": "Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents",
-      "description": "Opus 5 combined with Auto Mode hits a zero percent prompt injection success rate for browser agents across 129 test scenarios. Without those extra protection layers, the rate is 3.7 percent. If these numbers hold up in practice, Anthropic may have cracked one ",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-25",
-      "link": "https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-t",
-      "title": "Anthropic&#039;s Claude Opus 5 delivers near-Fable 5 performance at half the token price",
-      "description": "Anthropic's new flagship model Claude Opus 5 posts top scores in coding and knowledge work at half of Fable 5's token rates. On ARC-AGI-3, a benchmark for novel problem-solving, Opus 5 hits 30.2 percent, nearly four times higher than GPT-5.6 Sol. The article A",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-25",
-      "link": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/"
     },
     {
       "id": "openai-news-https-openai-com-index-health-in-chatgpt",
@@ -186,132 +312,6 @@
       "category": "Frontier labs",
       "date": "2026-07-22",
       "link": "https://openai.com/index/introducing-openai-presence"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-ntt-data",
-      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
-      "description": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-22",
-      "link": "https://openai.com/index/ntt-data"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitmen",
-      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
-      "description": "Google commits $40M in AI tokens and credits for the Genesis Mission",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-07-22",
-      "link": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-chatgpt-small-business-program",
-      "title": "Introducing the ChatGPT for small business program",
-      "description": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-21",
-      "link": "https://openai.com/index/introducing-chatgpt-small-business-program"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-hugging-face-model-evaluation-security-incident",
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "description": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-21",
-      "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-david-velez-robin-vince-join-openai-boards",
-      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-      "description": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-21",
-      "link": "https://openai.com/index/david-velez-robin-vince-join-openai-boards"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-",
-      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "description": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-07-21",
-      "link": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-safety-alignment-long-horizon-models",
-      "title": "Safety and alignment in an era of long-horizon models",
-      "description": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-20",
-      "link": "https://openai.com/index/safety-alignment-long-horizon-models"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-a-scorecard-for-the-ai-age",
-      "title": "A scorecard for the AI age",
-      "description": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-17",
-      "link": "https://openai.com/index/a-scorecard-for-the-ai-age"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-introducing-gemini-3-5-flash-cyber-",
-      "title": "Introducing Gemini 3.5 Flash Cyber",
-      "description": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-07-17",
-      "link": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-why-teens-deserve-access-safe-ai",
-      "title": "Why teens deserve access to safe AI",
-      "description": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-16",
-      "link": "https://openai.com/index/why-teens-deserve-access-safe-ai"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-codex-collaborator-creative-team",
-      "title": "How Codex became a collaborator for OpenAI’s creative team",
-      "description": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-16",
-      "link": "https://openai.com/index/codex-collaborator-creative-team"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-cars24",
-      "title": "How Cars24 scales conversations and builds faster with OpenAI",
-      "description": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-16",
-      "link": "https://openai.com/index/cars24"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-our-approach-to-bioresilience-",
-      "title": "Our approach to bioresilience",
-      "description": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-07-16",
-      "link": "https://deepmind.google/blog/our-approach-to-bioresilience/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-advancing-ai-safety-through-state-and-federal-action",
-      "title": "The US is advancing AI safety through state and federal action",
-      "description": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-15",
-      "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action"
     }
   ]
 }
