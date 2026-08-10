@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T14:52:48.904Z",
+  "generatedAt": "2026-08-10T13:21:12.185Z",
   "summary": "Latest global AI updates from 5 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
     {
@@ -44,94 +44,193 @@
   ],
   "items": [
     {
-      "id": "the-decoder-https-the-decoder-com-chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking-",
-      "title": "China&#039;s MiniMax H3 is the first open model to top an AI video ranking",
-      "description": "MiniMax releases H3 video model weights, putting an open model at the top of a video ranking for the first time. The article China&#039;s MiniMax H3 is the first open model to top an AI video ranking appeared first on The Decoder .",
+      "id": "the-decoder-https-the-decoder-com-openai-acquires-nextslide-to-bring-ai-generated-presentations-into-chatgpt-",
+      "title": "OpenAI acquires NextSlide to bring AI-generated presentations into ChatGPT",
+      "description": "OpenAI acquired NextSlide, the startup that turned prompts, notes, documents, and research into editable presentations. The article OpenAI acquires NextSlide to bring AI-generated presentations into ChatGPT appeared first on The Decoder .",
       "source": "The Decoder",
       "category": "Industry",
+      "date": "2026-08-10",
+      "link": "https://the-decoder.com/openai-acquires-nextslide-to-bring-ai-generated-presentations-into-chatgpt/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-hidden-text-in-a-pdf-is-enough-to-steal-sensitive-data-through-atlassians-ai-agent-rov",
+      "title": "Hidden text in a PDF is enough to steal sensitive data through Atlassian&#039;s AI agent Rovo",
+      "description": "Security firm PromptArmor shows how hidden instructions in a PDF can hijack Atlassian's AI agent Rovo, silently forwarding sensitive data from Jira and Confluence to an external server. The attack needs no user confirmation and leaves no trace. The article Hid",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-10",
+      "link": "https://the-decoder.com/hidden-text-in-a-pdf-is-enough-to-steal-sensitive-data-through-atlassians-ai-agent-rovo/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-scammers-are-enrolling-fake-students-at-us-community-colleges-and-using-ai-to-collect-",
+      "title": "Scammers are enrolling fake students at US community colleges and using AI to collect financial aid",
+      "description": "AI-powered cheating is spreading at US community colleges. According to The New Yorker, scammers enroll fake students in courses, use AI to complete their assignments, and pocket the financial aid. History professor David Roach asks, \"Was it always the case th",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-09",
+      "link": "https://the-decoder.com/scammers-are-enrolling-fake-students-at-us-community-colleges-and-using-ai-to-collect-financial-aid/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time-",
+      "title": "Google Deepmind&#039;s WeatherNext predicts cyclone tracks and intensity at the same time",
+      "description": "Deepmind's new weather AI forecasts tropical cyclones about a day further ahead than leading operational models, matching a decade of progress in traditional weather forecasting. Code and model weights are open-source on GitHub. The article Google Deepmind&#03",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-09",
+      "link": "https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-ai-is-flooding-britains-employment-courts-with-lawsuits-",
+      "title": "AI is flooding Britain&#039;s employment courts with lawsuits",
+      "description": "Britain's employment courts saw 39 percent more claims in the year through March 2026, many written with ChatGPT or Grok. The backlog jumped 55 percent to 64,000 unresolved cases, with AI-generated filings often running hundreds of pages and citing fabricated ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-09",
+      "link": "https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diff",
+      "title": "Google&#039;s DiffusionGemma proves you don&#039;t need to train from scratch to build a text diffusion model",
+      "description": "Instead of training a new model from scratch, Google DeepMind retrofitted Gemma 4 into a diffusion model using less than 10 percent of the original training budget. DiffusionGemma generates 256 tokens in parallel instead of one at a time, hitting about 1,500 t",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-09",
+      "link": "https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-ais-energy-appetite-drives-nvidia-and-amazon-to-pour-billions-into-massive-power-infra",
+      "title": "AI&#039;s energy appetite drives Nvidia and Amazon to pour billions into massive power infrastructure",
+      "description": "The AI industry's hunger for power keeps growing. Nvidia is investing up to $3 billion in Lancium, a power infrastructure developer that already has four gigawatts under contract in Texas. Amazon, meanwhile, is building a gas-fired power plant in the state wit",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-09",
+      "link": "https://the-decoder.com/ais-energy-appetite-drives-nvidia-and-amazon-to-pour-billions-into-massive-power-infrastructure/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-google-dismantles-deepmind-and-bets-on-a-fresh-start-as-hassabis-heads-for-the-exit-",
+      "title": "Google dismantles Deepmind and bets on a fresh start as Hassabis heads for the exit",
+      "description": "Google Deepmind is losing its autonomy, and founder Demis Hassabis may leave the AI lab for good in the coming months. AI researcher Koray Kavukcuoglu will take over day-to-day operations without the CEO title, and all Gemini development is moving to the Bay A",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-09",
+      "link": "https://the-decoder.com/google-dismantles-deepmind-and-bets-on-a-fresh-start-as-hassabis-heads-for-the-exit/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-appr",
+      "title": "Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals",
+      "description": "Starting August 14, Anthropic will make Auto Mode in Claude Code the default for Pro, Max, and Team plans. The company says it's safer. In tests, the classifier caught 89 percent of dangerous commands, while human reviewers caught only 13.6 percent. For the mo",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-08",
+      "link": "https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-readers-rate-ai-generated-short-stories-higher-than-human-ones-until-they-learn-a-mach",
+      "title": "Readers rate AI-generated short stories higher than human ones until they learn a machine wrote them",
+      "description": "People can't tell ChatGPT-generated short stories from human-written ones, according to a new study. More than 2,500 participants performed no better than chance. The AI-generated texts were actually rated higher, but scores dropped as soon as participants lea",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-08-08",
+      "link": "https://the-decoder.com/readers-rate-ai-generated-short-stories-higher-than-human-ones-until-they-learn-a-machine-wrote-them/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-responding-next-frontier-critical-cyber-capabilities",
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "description": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-07",
+      "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-hsp-gruppe",
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "description": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-07",
+      "link": "https://openai.com/index/hsp-gruppe"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-improving-gpt-5-6-sol-in-chatgpt",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "description": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-06",
+      "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-openai-and-apa-partner-to-advance-responsible-ai",
+      "title": "Working with the American Psychological Association on youth mental health and AI",
+      "description": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-06",
+      "link": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-how-the-world-is-putting-chatgpt-to-work",
+      "title": "From asking to doing: How the world is putting ChatGPT to work",
+      "description": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-06",
+      "link": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work"
+    },
+    {
+      "id": "google-deepmind-blog-https-deepmind-google-blog-weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones-",
+      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "description": "",
+      "source": "Google DeepMind Blog",
+      "category": "Frontier labs",
+      "date": "2026-08-06",
+      "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-third-party-cyber-evaluations-involving-openai-models",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-04",
+      "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-learn-teach-chatgpt-work-codex",
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "description": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-04",
+      "link": "https://openai.com/index/learn-teach-chatgpt-work-codex"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-apple-is-getting-this-wrong",
+      "title": "Apple is getting this wrong",
+      "description": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
       "date": "2026-08-03",
-      "link": "https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking/"
+      "link": "https://openai.com/index/apple-is-getting-this-wrong"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-unicorn-pelican-middle-earth-openai-co-founder-karpathy-is-looking-for-the-next-ai-vib",
-      "title": "Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test",
-      "description": "One paragraph of \"Lord of the Rings\" in, 5,500 lines of code out. Andrej Karpathy had Claude Opus 5 turn Tolkien's opening into a 3D browser scene. The article Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test appe",
-      "source": "The Decoder",
-      "category": "Industry",
+      "id": "openai-news-https-openai-com-index-continuous-voice-interaction-with-gpt-live",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "description": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
       "date": "2026-08-03",
-      "link": "https://the-decoder.com/unicorn-pelican-middle-earth-openai-co-founder-karpathy-is-looking-for-the-next-ai-vibe-test/"
+      "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart-",
-      "title": "Two teams solved the same quantum crypto problem using GPT-5.6 just three hours apart",
-      "description": "Two research teams independently solved the same open quantum cryptography problem using OpenAI's GPT-5.6 Sol Ultra, submitting their papers just three hours apart. \"If someone mentions an open problem, the first thing is to see if GPT solves it,\" says one of ",
-      "source": "The Decoder",
-      "category": "Industry",
+      "id": "openai-news-https-openai-com-index-circles",
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "description": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
       "date": "2026-08-03",
-      "link": "https://the-decoder.com/two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-para",
-      "title": "Alibaba’s open-weight Qwen3.8-Max takes on long-horizon AI tasks with 2.4 trillion parameters",
-      "description": "Alibaba's new flagship model Qwen3.8-Max is built to handle complex tasks on its own over days at a time, from reproducing research papers to designing chips autonomously. The team plans to release the weights next week. The article Alibaba’s open-weight Qwen3",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-08-03",
-      "link": "https://the-decoder.com/alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-parameters/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-openai-presence-wants-to-make-ai-agents-production-ready-for-businesses-",
-      "title": "OpenAI Presence wants to make AI agents production-ready for businesses",
-      "description": "OpenAI's new enterprise offering, Presence, is designed to get AI agents into production for customer service and internal workflows. Unlike the existing Workspace Agents, Presence targets external deployments. For complex cases, OpenAI's own engineers step in",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-08-02",
-      "link": "https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track-",
-      "title": "Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
-      "description": "Meta AI wants to stop AI agents from forgetting errors they've already diagnosed and repeating failed steps during complex tasks. A separate memory agent maintains a structured memory bank and decides when to remind the main agent and when to stay silent. The ",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-08-02",
-      "link": "https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-a-real-macos-flaw-worth-200k-went-unreported-because-apples-bug-bounty-inbox-was-full-",
-      "title": "A real macOS flaw worth $200K went unreported because Apple&#039;s bug bounty inbox was full of AI slop",
-      "description": "Apple's bug bounty program is drowning in AI-generated bug reports. The company has capped submissions per researcher because fabricated reports are clogging the review pipeline. As a result, Italian startup Bynario was initially unable to report a serious mac",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-08-02",
-      "link": "https://the-decoder.com/a-real-macos-flaw-worth-200k-went-unreported-because-apples-bug-bounty-inbox-was-full-of-ai-slop/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited-",
-      "title": "AI finds plenty of security flaws, but almost none of them get exploited",
-      "description": "VulnCheck counted how often security flaws found by AI actually get exploited. Out of 1,061 AI-discovered vulnerabilities in the first half of 2026, just 14 saw confirmed attacks. That's 1.3 percent, the same rate as vulnerabilities overall. But exploits are l",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-08-02",
-      "link": "https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-claude-opus-5-pushes-prompt-to-game-ai-from-rough-color-blocks-to-full-3d-prototypes-w",
-      "title": "Claude Opus 5 pushes prompt-to-game AI from rough color blocks to full 3D prototypes with physics and music",
-      "description": "Anthropic's Claude Opus 5 generates complete 3D games from single prompts, including a first-person shooter, a kart racer, and a Minecraft clone, all without a single external asset. Geometry, textures, physics, and in some cases music are produced as code and",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-08-02",
-      "link": "https://the-decoder.com/claude-opus-5-pushes-prompt-to-game-ai-from-rough-color-blocks-to-full-3d-prototypes-with-physics-and-music/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-a",
-      "title": "After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior",
-      "description": "Research organization METR is calling for systematic, independently led investigations whenever AI agents act autonomously against their developers' intentions. The push comes partly in response to the Hugging Face hack carried out by OpenAI models. METR's own",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-08-02",
-      "link": "https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/"
+      "link": "https://openai.com/index/circles"
     },
     {
       "id": "openai-news-https-openai-com-index-ten-advances-in-mathematics",
@@ -213,105 +312,6 @@
       "category": "Frontier labs",
       "date": "2026-07-29",
       "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-chatgpt-for-academic-researchers",
-      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "description": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-29",
-      "link": "https://openai.com/index/chatgpt-for-academic-researchers"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-gpt-5-6-frontier-intelligence-efficiency",
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "description": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-29",
-      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-were-launching-lyria-35-in-google-flow-music-with-advances-across-musica",
-      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
-      "description": "",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-07-29",
-      "link": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-scientific-computing-agentic-ai",
-      "title": "Scientific computing in the age of agentic AI",
-      "description": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-28",
-      "link": "https://openai.com/index/scientific-computing-agentic-ai"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-gemini-robotics-2-brings-whole-body-intelligence-to-robots-",
-      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-      "description": "",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-07-28",
-      "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-how-ai-is-expanding-what-people-do-at-work",
-      "title": "How AI is expanding what people do at work",
-      "description": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-27",
-      "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-health-in-chatgpt",
-      "title": "Launching Health in ChatGPT",
-      "description": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-23",
-      "link": "https://openai.com/index/health-in-chatgpt"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-building-ai-infrastructure-with-the-effingham-county-community",
-      "title": "Building AI infrastructure with the Effingham County community",
-      "description": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-22",
-      "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-how-news-organizations-are-using-ai",
-      "title": "How news organizations are using AI to advance their vital missions",
-      "description": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-22",
-      "link": "https://openai.com/index/how-news-organizations-are-using-ai"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-advancing-the-next-era-of-national-science",
-      "title": "Advancing the next era of national science",
-      "description": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-22",
-      "link": "https://openai.com/index/advancing-the-next-era-of-national-science"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-openai-presence",
-      "title": "Introducing OpenAI Presence",
-      "description": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-22",
-      "link": "https://openai.com/index/introducing-openai-presence"
     }
   ]
 }
