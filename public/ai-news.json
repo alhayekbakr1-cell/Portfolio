@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:01:04.821Z",
+  "generatedAt": "2026-08-31T19:01:00.928Z",
   "summary": "Latest global AI updates from 5 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
     {
@@ -44,274 +44,274 @@
   ],
   "items": [
     {
-      "id": "the-decoder-https-the-decoder-com-thomson-reuters-bets-40m-on-owning-its-ai-instead-of-renting-from-openai-or-anthropic-",
-      "title": "Thomson Reuters bets $40M on owning its AI instead of renting from OpenAI or Anthropic",
-      "description": "Thomson Reuters is launching \"Thomson,\" its own language model built on Alibaba's Qwen, at a cost of about $40 million over two years. But the benchmarks only show top marks when the model can tap into the company's own content, like Westlaw. CTO Joel Hron mak",
+      "id": "openai-news-https-openai-com-index-expanding-access-to-ai-with-chatgpt-ads",
+      "title": "A milestone in expanding access to AI",
+      "description": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-31",
+      "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-bank-of-england-chief-warns-that-inflated-ai-valuations-and-rising-leverage-could-trig",
+      "title": "Bank of England chief warns that inflated AI valuations and rising leverage could trigger the next financial crisis",
+      "description": "Andrew Bailey warns G20 finance ministers about inflated AI valuations, growing leverage across markets, and cyber risks from frontier AI models. Cross-investments between AI companies and hyperscalers could trigger a chain reaction if one major player stumble",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-08-24",
-      "link": "https://the-decoder.com/thomson-reuters-bets-40m-on-owning-its-ai-instead-of-renting-from-openai-or-anthropic/"
+      "date": "2026-08-31",
+      "link": "https://the-decoder.com/bank-of-england-chief-warns-that-inflated-ai-valuations-and-rising-leverage-could-trigger-the-next-financial-crisis/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip-",
-      "title": "Cerebras unveils CS-4 with double the performance on the same chip",
-      "description": "Cerebras has introduced its CS-4 AI accelerator, which CEO Andrew Feldman calls the fastest system in the industry. The article Cerebras unveils CS-4 with double the performance on the same chip appeared first on The Decoder .",
+      "id": "the-decoder-https-the-decoder-com-instagram-admits-users-often-cant-tell-ai-profiles-from-real-people-",
+      "title": "Instagram admits users often can&#039;t tell AI profiles from real people",
+      "description": "Instagram is replacing its \"AI creator\" tag with a new \"AI-generated profile\" label because users can't tell AI profiles from real people. Singularity, defined by Instagram user competence. Profiles without the label get their reach and recommendations throttl",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-08-24",
-      "link": "https://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip/"
+      "date": "2026-08-31",
+      "link": "https://the-decoder.com/instagram-admits-users-often-cant-tell-ai-profiles-from-real-people/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure",
-      "title": "AI chatbots regularly link pregnant users to anti-abortion websites without disclosure",
-      "description": "When asked about unplanned pregnancies, AI chatbots regularly link to anti-abortion groups without disclosing their stance. In an AlgorithmWatch investigation of 270 responses from ChatGPT, Gemini, Grok, and Claude, the anti-abortion organization Profemina app",
+      "id": "the-decoder-https-the-decoder-com-openai-says-its-chatgpt-ad-business-hits-a-1-billion-annual-run-rate-",
+      "title": "OpenAI says its ChatGPT ad business hits a $1 billion annual run rate",
+      "description": "OpenAI's advertising business has reached an annualized revenue run rate of $1 billion, according to the company. The article OpenAI says its ChatGPT ad business hits a $1 billion annual run rate appeared first on The Decoder .",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-08-24",
-      "link": "https://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure/"
+      "date": "2026-08-31",
+      "link": "https://the-decoder.com/openai-says-its-chatgpt-ad-business-hits-a-1-billion-annual-run-rate/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation-",
-      "title": "Nvidia in talks to invest in Perplexity at $30 billion-plus valuation",
-      "description": "Nvidia is negotiating an investment in Perplexity at a valuation above $30 billion, more than 50 percent higher than its last funding round, The Information reports. Perplexity's annualized revenue has tripled to over $750 million. Much of Nvidia's investment ",
+      "id": "the-decoder-https-the-decoder-com-chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap-",
+      "title": "China&#039;s CXMT makes its first HBM3E chips, closing the AI memory gap",
+      "description": "China's top memory maker ChangXin Memory Technologies (CXMT) is producing HBM3E for the first time in small quantities, a fast memory found in many current AI processors. The article China&#039;s CXMT makes its first HBM3E chips, closing the AI memory gap appe",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-08-24",
-      "link": "https://the-decoder.com/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation/"
+      "date": "2026-08-31",
+      "link": "https://the-decoder.com/chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules",
-      "title": "An AI boss fired its first employee but only after humans reminded it of its own rules",
-      "description": "Andon Labs' AI agent Luna fired a human employee at a San Francisco store for the first time but needed a clear push from the operators to do it. When the scenario was replayed with seven models, more capable AIs recommended termination more consistently, whil",
+      "id": "the-decoder-https-the-decoder-com-chatgpt-now-faces-stricter-eu-oversight-as-a-very-large-search-engine-",
+      "title": "ChatGPT now faces stricter EU oversight as a very large search engine",
+      "description": "The EU Commission is classifying ChatGPT as a very large search engine under the Digital Services Act for the first time, with at least 45 million monthly EU users. By the end of 2026, OpenAI has to deliver risk assessments, transparency reports, and an ad arc",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-08-23",
-      "link": "https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/"
+      "date": "2026-08-31",
+      "link": "https://the-decoder.com/chatgpt-now-faces-stricter-eu-oversight-as-a-very-large-search-engine/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter-",
-      "title": "AI is becoming AI&#039;s biggest customer as agentic token usage jumps 14x on OpenRouter",
-      "description": "AI agents have consumed more tokens than humans on OpenRouter since February 6, 2025. Agentic usage has grown 14x since then, while human usage is up just 2.8x. Nearly 70 percent of agent token consumption comes from cheap cached prompts, though, so actual cos",
+      "id": "the-decoder-https-the-decoder-com-openai-starts-charging-some-customers-only-when-its-ai-actually-works-",
+      "title": "OpenAI starts charging some customers only when its AI actually works",
+      "description": "OpenAI is offering some large customers outcome-based pricing, where they pay only once the AI actually finishes a task. Salesforce, Adobe, and several startups are also moving away from fixed subscription fees. The central dispute stays the same. Who gets cre",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-08-23",
-      "link": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/"
+      "date": "2026-08-31",
+      "link": "https://the-decoder.com/openai-starts-charging-some-customers-only-when-its-ai-actually-works/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues-",
-      "title": "AI could make scientists do more work less well, not less work better, study argues",
-      "description": "Even if language models worked perfectly, they could make research worse, not better. A new theoretical study argues that because AI saves time, researchers' remaining hours become more valuable and get funneled into starting new projects instead of improving ",
+      "id": "the-decoder-https-the-decoder-com-openclaw-2-0-brings-simplified-setup-a-rebuilt-browser-app-and-multiplayer-sessions-",
+      "title": "OpenClaw 2.0 brings simplified setup, a rebuilt browser app, and multiplayer sessions",
+      "description": "The OpenClaw Foundation has released version 2.0 of its open-source AI platform, its largest release to date with over 16,000 pull requests. New features include cloud sessions on rented machines, real-time collaboration, and a browser app rebuilt from scratch",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-08-23",
-      "link": "https://the-decoder.com/ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues/"
+      "date": "2026-08-31",
+      "link": "https://the-decoder.com/openclaw-2-0-brings-simplified-setup-a-rebuilt-browser-app-and-multiplayer-sessions/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent-",
-      "title": "Memory shortage reportedly drives Nvidia AI server prices up about 15 percent",
-      "description": "Nvidia servers with Vera Rubin and Grace Blackwell chips are set to cost about 15 percent more due to an ongoing DRAM shortage from Samsung, SK Hynix, and Micron, Bloomberg reports. The price hikes hit cloud giants like Microsoft, Google, and Meta, which are p",
+      "id": "the-decoder-https-the-decoder-com-openai-and-rival-ai-labs-are-buying-tens-of-thousands-of-mac-minis-to-train-computer-u",
+      "title": "OpenAI and rival AI labs are buying tens of thousands of Mac minis to train computer-use agents",
+      "description": "According to The Information, OpenAI has purchased tens of thousands of Mac minis and Mac Studios to train computer agents. Anthropic also relies on Apple hardware. Demand is so high that the most powerful models have been sold out for months. Apple’s Mac reve",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-08-23",
-      "link": "https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent/"
+      "date": "2026-08-31",
+      "link": "https://the-decoder.com/openai-and-rival-ai-labs-are-buying-tens-of-thousands-of-mac-minis-to-train-computer-use-agents/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price-",
-      "title": "How China&#039;s gray market sells Claude tokens at a fraction of the price",
-      "description": "Anthropic's strict access controls against China, from geoblocking to selfie verification, are being systematically bypassed through a thriving network of so-called \"transfer stations.\" Chinese developers can buy Claude tokens for as little as ten percent of t",
+      "id": "the-decoder-https-the-decoder-com-ai-sentiment-is-turning-sour-as-employee-reviews-reveal-growing-frustration-across-the",
+      "title": "AI sentiment is turning sour as employee reviews reveal growing frustration across the workforce",
+      "description": "An analysis of Glassdoor reviews shows that positive AI comments have dropped from 81 to 43 percent since 2019. Executives rate AI mostly positive, while insurance claims workers rate it almost entirely negative. Fear of job loss is just one complaint among ma",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-08-23",
-      "link": "https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/"
+      "date": "2026-08-30",
+      "link": "https://the-decoder.com/ai-sentiment-is-turning-sour-as-employee-reviews-reveal-growing-frustration-across-the-workforce/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail-",
-      "title": "Study explains why AI agents benefit from \"skills\" and when they fail",
-      "description": "A study from researchers at Princeton University and UC San Diego finds that so-called skills make AI agents better mainly through structured workflows, not through added knowledge. But as the skill library grows, agents have a harder and harder time finding t",
+      "id": "the-decoder-https-the-decoder-com-ai-agents-have-no-sense-of-time-and-are-not-aware-of-it-",
+      "title": "AI agents have no sense of time and are not aware of it",
+      "description": "AI coding assistants like Claude Code and Codex have no sense of time, according to a new study. Both systematically overestimate how long tasks will take. Codex is off by as much as ten times the actual duration. They also rate their own work about 20 percent",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-08-22",
-      "link": "https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail/"
+      "date": "2026-08-30",
+      "link": "https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it/"
     },
     {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games-",
-      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-      "description": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-08-21",
-      "link": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-ai-futures",
-      "title": "Introducing AI Futures",
-      "description": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "id": "openai-news-https-openai-com-index-our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "description": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-08-20",
-      "link": "https://openai.com/index/introducing-ai-futures"
+      "date": "2026-08-28",
+      "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
     },
     {
-      "id": "openai-news-https-openai-com-index-stampli",
-      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-      "description": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+      "id": "openai-news-https-openai-com-index-supporting-next-generation-ai-startups-thailand",
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "description": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-08-20",
-      "link": "https://openai.com/index/stampli"
+      "date": "2026-08-28",
+      "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand"
     },
     {
-      "id": "openai-news-https-openai-com-index-offering-zero-data-retention-for-frontier-models",
-      "title": "Offering Zero Data Retention for frontier models",
-      "description": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "id": "openai-news-https-openai-com-index-what-students-gain-from-chatgpt-critical-thinking-training",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "description": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-08-19",
-      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+      "date": "2026-08-27",
+      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training"
     },
     {
-      "id": "openai-news-https-openai-com-index-replit",
-      "title": "Replit expands access to software creation with GPT-5.6 Luna",
-      "description": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+      "id": "openai-news-https-openai-com-index-expanding-our-presence-in-brazil",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "description": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-08-19",
-      "link": "https://openai.com/index/replit"
+      "date": "2026-08-27",
+      "link": "https://openai.com/index/expanding-our-presence-in-brazil"
     },
     {
-      "id": "venturebeat-ai-https-venturebeat-com-ai-venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterpris",
-      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
-      "description": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival is the next step in a deliberate move at VentureBeat toward d",
-      "source": "VentureBeat AI",
-      "category": "Industry",
-      "date": "2026-08-19",
-      "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-chatgpt-ads-expands-across-europe",
-      "title": "ChatGPT Ads expands across Europe",
-      "description": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-08-18",
-      "link": "https://openai.com/index/chatgpt-ads-expands-across-europe"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-strengthening-democratic-oversight-in-national-security",
-      "title": "Strengthening democratic oversight in national security",
-      "description": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-08-18",
-      "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-partnering-with-codeai",
-      "title": "Partnering with CodeAI to prepare the first AI generation",
-      "description": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-08-18",
-      "link": "https://openai.com/index/partnering-with-codeai"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-pacing-model-development-cyber-capabilities",
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "description": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-08-18",
-      "link": "https://openai.com/index/pacing-model-development-cyber-capabilities"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-chatgpt-for-teens",
-      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-      "description": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-08-18",
-      "link": "https://openai.com/index/chatgpt-for-teens"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-nvidia-chatgpt-work",
-      "title": "How NVIDIA scales expertise with ChatGPT Work",
-      "description": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-08-18",
-      "link": "https://openai.com/index/nvidia/chatgpt-work"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-asana",
-      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
-      "description": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-08-18",
-      "link": "https://openai.com/index/asana"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-the-defenders-window",
-      "title": "The Defender’s Window",
-      "description": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-08-17",
-      "link": "https://openai.com/index/the-defenders-window"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-openai-joins-ports-pike-project",
-      "title": "OpenAI joins PORTS-Pike project",
-      "description": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-08-17",
-      "link": "https://openai.com/index/openai-joins-ports-pike-project"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-new-policy-ideas-for-the-intelligence-age",
-      "title": "New policy ideas for the Intelligence Age",
-      "description": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-08-17",
-      "link": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-builders-guide-to-gpt-5-6",
-      "title": "The builder’s guide to GPT‑5.6",
-      "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-08-13",
-      "link": "https://openai.com/index/builders-guide-to-gpt-5-6"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-previewing-ultrafast",
-      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-      "description": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-08-13",
-      "link": "https://openai.com/index/previewing-ultrafast"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-dali-rajic-chief-revenue-officer",
-      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-      "description": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-08-13",
-      "link": "https://openai.com/index/dali-rajic-chief-revenue-officer"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-introducing-gemini-3-7-flash-",
-      "title": "Introducing Gemini 3.7 Flash",
+      "id": "google-deepmind-blog-https-deepmind-google-blog-gemini-omni-1-1-flash-lets-you-build-with-more-control-",
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
       "description": "",
       "source": "Google DeepMind Blog",
       "category": "Frontier labs",
-      "date": "2026-08-13",
-      "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+      "date": "2026-08-27",
+      "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+    },
+    {
+      "id": "google-deepmind-blog-https-deepmind-google-blog-piloting-the-worlds-first-double-blind-ai-evaluations-",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "description": "Piloting the world's first double-blind AI evaluations",
+      "source": "Google DeepMind Blog",
+      "category": "Frontier labs",
+      "date": "2026-08-27",
+      "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"
+    },
+    {
+      "id": "venturebeat-ai-https-venturebeat-com-ai-enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "description": "Presented by Gravitee Agent complexity is the insidious shadow lurking inside enterprises right now that needs a light shone on it. That’s because enterprises don&#x27;t deploy a single agent and watch it run, they deploy fleets, each one calling APIs, calling",
+      "source": "VentureBeat AI",
+      "category": "Industry",
+      "date": "2026-08-27",
+      "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them"
+    },
+    {
+      "id": "venturebeat-ai-https-venturebeat-com-security-when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
+      "title": "When agents act on their own, governance has to live in the data layer",
+      "description": "Presented by EDB As enterprises give AI agents more autonomy — the ability to plan, decide, and act across systems without a human approving each step — a hard question moves to the center of every architecture review: When an agent tries to complete an action",
+      "source": "VentureBeat AI",
+      "category": "Industry",
+      "date": "2026-08-27",
+      "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "description": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-26",
+      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-learning-never-stops",
+      "title": "Learning never stops: How AI makes learning continuous",
+      "description": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-26",
+      "link": "https://openai.com/index/learning-never-stops"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-hugging-face-incident-and-the-road-ahead",
+      "title": "The Hugging Face incident and the road ahead",
+      "description": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-26",
+      "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-loveholidays",
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "description": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-26",
+      "link": "https://openai.com/index/loveholidays"
+    },
+    {
+      "id": "google-deepmind-blog-https-deepmind-google-blog-intelligent-transcription-with-gemini-3-5-transcribe-",
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "description": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "source": "Google DeepMind Blog",
+      "category": "Frontier labs",
+      "date": "2026-08-26",
+      "link": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/"
+    },
+    {
+      "id": "venturebeat-ai-https-venturebeat-com-orchestration-orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+      "title": "Orchestration is the new challenge for CX in the age of AI agents",
+      "description": "Presented by Tata Communications Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and digital channels faster than the architecture meant to support it. Most of that deployment has involved attaching conversational AI to l",
+      "source": "VentureBeat AI",
+      "category": "Industry",
+      "date": "2026-08-26",
+      "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-the-full-stack-behind-abundant-intelligence",
+      "title": "The full stack behind abundant intelligence",
+      "description": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-25",
+      "link": "https://openai.com/index/the-full-stack-behind-abundant-intelligence"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-jalapeno-first-results",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "description": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-25",
+      "link": "https://openai.com/index/jalapeno-first-results"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "description": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-25",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-introducing-admin-plugin",
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "description": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-25",
+      "link": "https://openai.com/index/introducing-admin-plugin"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-gpt-5-6-in-kiro",
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "description": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-08-24",
+      "link": "https://openai.com/index/gpt-5-6-in-kiro"
     }
   ]
 }
