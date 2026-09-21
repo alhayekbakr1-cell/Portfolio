@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T17:58:34.850Z",
+  "generatedAt": "2026-09-21T18:06:23.844Z",
   "summary": "Latest global AI updates from 4 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
     {
@@ -45,6 +45,222 @@
   ],
   "items": [
     {
+      "id": "openai-news-https-openai-com-index-advisory-group-on-mathematics-and-ai",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "description": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-09-21",
+      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-building-standards-next-phase-ai",
+      "title": "Building standards for the next phase of AI",
+      "description": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-09-21",
+      "link": "https://openai.com/index/building-standards-next-phase-ai"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-expanding-openai-academy-with-new-learning-paths",
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "description": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-09-21",
+      "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-v7",
+      "title": "How V7 gives AI agents institutional memory",
+      "description": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-09-21",
+      "link": "https://openai.com/index/v7"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-un-science-panel-says-there-is-no-assurance-humans-will-keep-control-over-ai-agents-",
+      "title": "UN science panel says there is \"no assurance humans will keep control\" over AI agents",
+      "description": "The UN's AI science panel warns in its first thematic report that control over AI agents isn't assured. Co-chair Yoshua Bengio says OpenAI's Hugging Face incident first combined a misaligned goal, the ability to pursue it, and an environment that allowed it. L",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-09-21",
+      "link": "https://the-decoder.com/un-science-panel-says-there-is-no-assurance-humans-will-keep-control-over-ai-agents/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and",
+      "title": "xAI launches Grok 4.7 at bargain prices, but benchmarks reveal a wide gap to Claude and GPT-6",
+      "description": "xAI has released Grok 4.7, its most capable model yet. But on the Artificial Analysis Intelligence Index, it scores just 46 points, landing mid-pack and well behind Claude Fable 5.1 and GPT-6 at 53 each. The gap grows even wider in agentic coding. The upside i",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-09-21",
+      "link": "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-bytedance-launches-dramagic-a-full-pipeline-ai-platform-for-producing-short-dramas-fro",
+      "title": "ByteDance launches Dramagic, a full-pipeline AI platform for producing short dramas from script to screen",
+      "description": "Bytedance launched Dramagic, an AI platform that handles the entire short drama production pipeline, from script to video preview. Demand for these videos is surging in China: In Q1 2026 alone, 128,000 short dramas were released there, 95 percent of them AI-ge",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-09-21",
+      "link": "https://the-decoder.com/bytedance-launches-dramagic-a-full-pipeline-ai-platform-for-producing-short-dramas-from-script-to-screen/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-softbank-to-borrow-over-11-billion-in-risky-bonds-for-openai-stake-",
+      "title": "SoftBank to borrow over $11 billion in risky bonds for OpenAI stake",
+      "description": "SoftBank plans to borrow more than $11 billion from investors through risky bonds to fund another payment for its stake in OpenAI. The article SoftBank to borrow over $11 billion in risky bonds for OpenAI stake appeared first on The Decoder .",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-09-21",
+      "link": "https://the-decoder.com/softbank-to-borrow-over-11-billion-in-risky-bonds-for-openai-stake/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-bristol-researchers-say-medicine-already-knows-how-to-handle-black-boxes-and-ai-could-",
+      "title": "Bristol researchers say medicine already knows how to handle black boxes and AI could learn from it",
+      "description": "Researchers at the University of Bristol want to make medical AI systems safer by borrowing from how drugs get approved. Their \"Learning Ensemble\" framework defines three areas to check, including system limits, fairness across patient groups, and clinical fit",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-09-21",
+      "link": "https://the-decoder.com/bristol-researchers-say-medicine-already-knows-how-to-handle-black-boxes-and-ai-could-learn-from-it/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-us-and-china-agree-on-ai-dialogue-with-security-mechanism-ahead-of-trump-xi-summit-",
+      "title": "US and China agree on AI dialogue with security mechanism ahead of Trump-Xi summit",
+      "description": "The US and China have agreed to an official AI dialogue. US Treasury Secretary Bessent also proposed a notification mechanism for AI incidents at the national security level. The announcement comes just before Thursday's summit between Trump and Xi in Washingt",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-09-21",
+      "link": "https://the-decoder.com/us-and-china-agree-on-ai-dialogue-with-security-mechanism-ahead-of-trump-xi-summit/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-amazon-blocks-metas-ai-agent-muse-from-online-shopping-",
+      "title": "Amazon blocks Meta&#039;s AI agent Muse from online shopping",
+      "description": "Amazon has blocked Meta's new AI agent Muse from shopping on Amazon.com. The article Amazon blocks Meta&#039;s AI agent Muse from online shopping appeared first on The Decoder .",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-09-21",
+      "link": "https://the-decoder.com/amazon-blocks-metas-ai-agent-muse-from-online-shopping/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-w",
+      "title": "Alibaba&#039;s open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
+      "description": "Alibaba's Qwen team has released Qwen-Image-2.1, an open-weight model that generates and edits images on powerful consumer GPUs, with support for transparency and up to ten reference images at once. Its research license bars commercial use, which requires a se",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-09-20",
+      "link": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-tencents-gander-aims-to-keep-talking-while-it-works-in-the-background-",
+      "title": "Tencent&#039;s Gander aims to keep talking while it works in the background",
+      "description": "Tencent's Gander processes speech, images, and text while handling tasks in the background. A \"cerebellum\" keeps the conversation going, while a swappable \"brain\" searches files, writes code, or tackles other complex work. Users can interrupt or change the tas",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-09-20",
+      "link": "https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time-",
+      "title": "Runway wants to turn AI video generation into a live stream you control in real time",
+      "description": "Runway wants to stream AI video as users prompt it, rather than make them wait for finished clips. The approach builds on GWM-1, its world model that generates video frame by frame. Beyond creative tools, Runway sees uses in robotics and autonomous driving. Th",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-09-20",
+      "link": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-australian-youth-safety-blueprint",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "description": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-09-18",
+      "link": "https://openai.com/index/australian-youth-safety-blueprint"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-cooley-gopublic",
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "description": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-09-17",
+      "link": "https://openai.com/index/cooley-gopublic"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-astra-for-law",
+      "title": "Introducing Astra for Law",
+      "description": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-09-17",
+      "link": "https://openai.com/index/astra-for-law"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-helping-older-adults-use-ai-in-everyday-life",
+      "title": "Helping older adults use AI in everyday life",
+      "description": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-09-16",
+      "link": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-reimagining-advertising-with-ai",
+      "title": "Reimagining advertising with AI",
+      "description": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-09-16",
+      "link": "https://openai.com/index/reimagining-advertising-with-ai"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-hex-gpt-6-astra",
+      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "description": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-09-16",
+      "link": "https://openai.com/index/hex-gpt-6-astra"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-how-to-connect-ai-usage-to-business-value",
+      "title": "How to connect AI usage to business value",
+      "description": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-09-16",
+      "link": "https://openai.com/index/how-to-connect-ai-usage-to-business-value"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-model-misalignment-reporting-framework",
+      "title": "Our framework for reporting model misalignment",
+      "description": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-09-16",
+      "link": "https://openai.com/index/model-misalignment-reporting-framework"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-unlocking-new-ways-of-working",
+      "title": "How workers are unlocking new ways of working",
+      "description": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-09-16",
+      "link": "https://openai.com/index/unlocking-new-ways-of-working"
+    },
+    {
+      "id": "google-deepmind-blog-https-deepmind-google-blog-introducing-gemini-3-8-live-and-3-8-live-extended-thinking-",
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "description": "",
+      "source": "Google DeepMind Blog",
+      "category": "Frontier labs",
+      "date": "2026-09-15",
+      "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+    },
+    {
       "id": "openai-news-https-openai-com-index-fyxer",
       "title": "How Fyxer built an AI executive assistant people trust",
       "description": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
@@ -61,96 +277,6 @@
       "category": "Frontier labs",
       "date": "2026-09-14",
       "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations-",
-      "title": "OpenAI has hundreds of contract workers reading your ChatGPT conversations",
-      "description": "OpenAI has hundreds of contract workers reading real ChatGPT conversations and rating them on a scale of one to seven, partly to reduce flattery and human-like behavior, 404 Media reports. The prompts are anonymized but can still contain sensitive data. Users ",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-09-14",
-      "link": "https://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-microsofts-ai-rulebook-readable-thinking-no-inner-life-and-definitely-no-rights-",
-      "title": "Microsoft&#039;s AI rulebook: readable thinking, no inner life, and definitely no rights",
-      "description": "Microsoft AI has published a code of conduct for its MAI models that puts human control ahead of autonomy and performance. \"If it isn’t safe we shouldn’t build it.,\" says AI chief Mustafa Suleyman. Unlike Anthropic, Microsoft rejects any form of artificial inn",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-09-14",
-      "link": "https://the-decoder.com/microsofts-ai-rulebook-readable-thinking-no-inner-life-and-definitely-no-rights/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investor",
-      "title": "Anthropic eyes Nasdaq listing as a second profitable quarter aims to win over investors ahead of a mega-IPO",
-      "description": "Anthropic has told investors it will turn a profit for the second straight quarter, but the claim rests on an adjusted metric that leaves out costs like stock-based compensation. The article Anthropic eyes Nasdaq listing as a second profitable quarter aims to ",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-09-14",
-      "link": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-clay-mathematics-institute-says-the-navier-stokes-millennium-prize-problem-has-apparen",
-      "title": "Clay Mathematics Institute says the Navier-Stokes Millennium Prize Problem has \"apparently been settled\"",
-      "description": "The Clay Mathematics Institute says the Navier-Stokes problem, one of seven Millennium Prize Problems worth $1 million each, has \"apparently been settled.\" A formal review is now underway. The article Clay Mathematics Institute says the Navier-Stokes Millenniu",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-09-14",
-      "link": "https://the-decoder.com/clay-mathematics-institute-says-the-navier-stokes-millennium-prize-problem-has-apparently-been-settled/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-china-fires-back-at-u-s-ai-safety-warnings-calling-them-fearmongering-to-lock-in-ameri",
-      "title": "China fires back at U.S. AI safety warnings, calling them fearmongering to lock in American advantage",
-      "description": "China has flatly rejected warnings about AI risks from Anthropic CEO Amodei and other U.S. AI leaders. Beijing's Foreign Ministry calls it \"fearmongering,\" while the state-run Global Times accuses Amodei of waging a \"silent AI Cold War.\" China's security minis",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-09-14",
-      "link": "https://the-decoder.com/china-fires-back-at-u-s-ai-safety-warnings-calling-them-fearmongering-to-lock-in-american-advantage/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue-",
-      "title": "Sam Altman calls for pacing AI development but promises rapid progress will continue",
-      "description": "Sam Altman is doubling down on slowing AI development. OpenAI now runs safety checks before major training runs, and according to The Information, the company has been talking with Anthropic and Google for months about joint self-regulation. The article Sam Al",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-09-14",
-      "link": "https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options-",
-      "title": "Elevenlabs makes Music v2.5 available via app and API with free and pro tier options",
-      "description": "ElevenLabs has released Music v2.5 for its AI music generator. In a blind test with nearly 48,000 comparison pairs, listeners preferred the new version over its predecessor. The company says the model was trained only on licensed music. The article Elevenlabs ",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-09-13",
-      "link": "https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class-",
-      "title": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
-      "description": "The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and models also improved performance on tas",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-09-13",
-      "link": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own-",
-      "title": "GPT-6 Astra pilots a surveillance drone and runs a business on its own",
-      "description": "GPT-6 Astra earns nearly three times as much as Claude Fable 5.1 on Andon Labs' Vending-Bench agent benchmark and refuses illegal price-fixing deals that Fable agrees to. On drone control, Astra is the first model to beat the human baseline on all five subtask",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-09-13",
-      "link": "https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-two-year-university-study-finds-banning-ai-from-classrooms-leaves-students-worse-off-",
-      "title": "Two-year university study finds banning AI from classrooms leaves students worse off",
-      "description": "A law professor spent two years testing how an AI ban, unguided AI use, and structured training affect student performance. The group without AI finished last both years. \"I was wrong,\" the researcher writes, who had assumed that AI without guidance would do m",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-09-13",
-      "link": "https://the-decoder.com/two-year-university-study-finds-banning-ai-from-classrooms-leaves-students-worse-off/"
     },
     {
       "id": "openai-news-https-openai-com-index-scaling-storage-one-billion-users-part-one",
@@ -187,132 +313,6 @@
       "category": "Frontier labs",
       "date": "2026-09-10",
       "link": "https://openai.com/index/put-data-to-work"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-chatgpt-financial-services",
-      "title": "Introducing ChatGPT for Financial Services",
-      "description": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-09-10",
-      "link": "https://openai.com/index/introducing-chatgpt-financial-services"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-expanding-ai-access-us-government",
-      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-09-10",
-      "link": "https://openai.com/index/expanding-ai-access-us-government"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-the-agents-api",
-      "title": "Introducing the Agents API",
-      "description": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-09-10",
-      "link": "https://openai.com/index/introducing-the-agents-api"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-gpt-live-1-in-the-api",
-      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "description": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-09-10",
-      "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-ai-policy-window",
-      "title": "The AI policy window is open. We need to act.",
-      "description": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-09-09",
-      "link": "https://openai.com/index/ai-policy-window"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-gpt-6-astra-next-generation-work",
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "description": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-09-09",
-      "link": "https://openai.com/index/gpt-6-astra-next-generation-work"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-paul-christiano-joins-openai-foundation-board",
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "description": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-09-09",
-      "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-codex-quantum-computing-experiments",
-      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-      "description": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-09-08",
-      "link": "https://openai.com/index/codex-quantum-computing-experiments"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-the-work-now-within-reach",
-      "title": "The Work Now Within Reach",
-      "description": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-09-08",
-      "link": "https://openai.com/index/the-work-now-within-reach"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-chatgpt-images-2-5",
-      "title": "Introducing ChatGPT Images 2.5",
-      "description": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-09-08",
-      "link": "https://openai.com/index/introducing-chatgpt-images-2-5"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-navier-stokes-solution",
-      "title": "On the Navier–Stokes Millennium Prize Problem",
-      "description": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-09-08",
-      "link": "https://openai.com/index/navier-stokes-solution"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-teen-development-research-grants",
-      "title": "Funding grants for new research into AI and teen development",
-      "description": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-09-08",
-      "link": "https://openai.com/index/teen-development-research-grants"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-supporting-journalism-from-classrooms-to-newsrooms",
-      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-      "description": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-09-08",
-      "link": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-1password",
-      "title": "1Password increases engineering productivity 21% with Codex",
-      "description": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-09-08",
-      "link": "https://openai.com/index/1password"
     }
   ]
 }
