@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T18:33:14.750Z",
+  "generatedAt": "2026-11-02T21:36:44.337Z",
   "summary": "Latest global AI updates from 4 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
     {
@@ -45,274 +45,274 @@
   ],
   "items": [
     {
-      "id": "openai-news-https-openai-com-index-chatgpt-expanding-world-of-work",
-      "title": "ChatGPT’s expanding world of work",
-      "description": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "id": "openai-news-https-openai-com-index-grid-protectors-program",
+      "title": "Introducing the Grid Protectors Program",
+      "description": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-26",
-      "link": "https://openai.com/index/chatgpt-expanding-world-of-work"
+      "date": "2026-11-02",
+      "link": "https://openai.com/index/grid-protectors-program"
     },
     {
-      "id": "openai-news-https-openai-com-index-fanatics-streamline-fan-experience",
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "description": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "id": "openai-news-https-openai-com-index-lifeval",
+      "title": "LifeVal",
+      "description": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-26",
-      "link": "https://openai.com/index/fanatics-streamline-fan-experience"
+      "date": "2026-11-02",
+      "link": "https://openai.com/index/lifeval"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read-",
-      "title": "Researchers find six patterns that make AI text so exhausting to read",
-      "description": "A study from New York University and the University of Texas at Austin shows that frontier language models systematically overuse linguistic patterns that are hard for humans to parse. The researchers trace the problem to training on code and math, where corre",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-10-26",
-      "link": "https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-reddits-r-opensource-bans-all-ai-related-projects-sparking-backlash-and-a-rival-subred",
-      "title": "Reddit&#039;s r/opensource bans all AI-related projects, sparking backlash and a rival subreddit",
-      "description": "The Reddit forum r/opensource has banned all posts about AI projects, whether built with AI, AI-powered, or designed for AI. Projects must also be at least a year old and have multiple contributors, and non-English posts are excluded as well. In response, the ",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-10-26",
-      "link": "https://the-decoder.com/reddits-r-opensource-bans-all-ai-related-projects-sparking-backlash-and-a-rival-subreddit/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-meta-plans-up-to-95-billion-in-stock-sales-to-fund-its-ai-buildout-",
-      "title": "Meta plans up to $95 billion in stock sales to fund its AI buildout",
-      "description": "Meta plans to sell new stock to raise money for its AI infrastructure buildout. The article Meta plans up to $95 billion in stock sales to fund its AI buildout appeared first on The Decoder .",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-10-26",
-      "link": "https://the-decoder.com/meta-plans-up-to-95-billion-in-stock-sales-to-fund-its-ai-buildout/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-wall-streets-fastest-traders-are-building-data-centers-and-backing-chip-startups-to-st",
-      "title": "Wall Street&#039;s fastest traders are building data centers and backing chip startups to stay ahead in AI",
-      "description": "High-frequency traders like Jane Street and Hudson River Trading are now racing each other for AI computing power. The article Wall Street&#039;s fastest traders are building data centers and backing chip startups to stay ahead in AI appeared first on The Deco",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-10-26",
-      "link": "https://the-decoder.com/wall-streets-fastest-traders-are-building-data-centers-and-backing-chip-startups-to-stay-ahead-in-ai/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation-",
-      "title": "Toyota is betting $6.4 billion a year on humanoid robots and factory automation",
-      "description": "Toyota wants to turn itself into a global robotics company, and it's betting on humanoid robots and factory automation to get there. The article Toyota is betting $6.4 billion a year on humanoid robots and factory automation appeared first on The Decoder .",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-10-26",
-      "link": "https://the-decoder.com/toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra-",
-      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
-      "description": "Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably t",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-10-25",
-      "link": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-",
-      "title": "Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027",
-      "description": "A new benchmark by P-Zero Research measures how well AI models design and evaluate experiments on their own. The results are improving so fast that Anthropic co-founder Jack Clark now thinks self-improving AI could arrive by 2027. The article Anthropic co-foun",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-10-25",
-      "link": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity",
-      "title": "Anthropic says one AI agent beats many subagents now that models can handle complexity alone",
-      "description": "Anthropic says companies should evaluate whether they can consolidate sub-agents into a single agent that loads context on demand. In one architecture comparison, the single-agent setup ran about twice as fast. Anthropic has published a migration kit on GitHub",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-10-25",
-      "link": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companie",
-      "title": "Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies",
-      "description": "In Foreign Affairs, historian Niall Ferguson, researcher Lisa Klaassen, and former Google CEO Eric Schmidt cast the US and China as AI empires and every other country as a dependency. The race won't be decided by breakthroughs but by who can bankroll it. US co",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-10-25",
-      "link": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers-",
-      "title": "OpenAI offers discounts up to 90 percent to poach Anthropic&#039;s biggest customers",
-      "description": "OpenAI is poaching Anthropic's customers with steep discounts. Companies like Rippling, Replit, and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed, but OpenAI is trading its own margins for market share. Ch",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-10-25",
-      "link": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-scaling-storage-one-billion-users-part-two",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "description": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "id": "openai-news-https-openai-com-index-qodo-codex-plugin",
+      "title": "Qodo builds context into AI code review with Codex",
+      "description": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-23",
-      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+      "date": "2026-11-02",
+      "link": "https://openai.com/index/qodo-codex-plugin"
     },
     {
-      "id": "openai-news-https-openai-com-index-securing-our-frontier-model-training-environment",
-      "title": "Securing our frontier model training environment",
-      "description": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "id": "the-decoder-https-the-decoder-com-goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers-",
+      "title": "Goldman Sachs pulls AI coding tools from traders and bankers",
+      "description": "Goldman Sachs is pulling AI coding tools like Claude Code and GitHub Copilot from traders and bankers, limiting access to engineers only. As recently as July, CIO Marco Argenti publicly praised \"vibe coding\" by non-technical staff. Now the bank cites \"producti",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-11-02",
+      "link": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold-",
+      "title": "AI elites might hoard intelligence like mercantilists hoarded gold",
+      "description": "Engineer Venkatesh Rao compares the fear of AI job losses to mercantilism: intelligence is treated as a scarce resource that elites want to control. But AI could boost demand for human thinking, much like early capitalism made people voluntarily work more. The",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-11-02",
+      "link": "https://the-decoder.com/ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growin",
+      "title": "SpaceXSI apparently cuts Grok Bot quotas weeks after Musk called it his fastest-growing product",
+      "description": "SpaceXSI is apparently cutting usage limits for its AI agent Grok Bot, less than two weeks after Musk called it his fastest-growing product. The operating costs were \"unsustainably high relative to revenue,\" Musk wrote on X. OpenAI and Anthropic are also tight",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-11-02",
+      "link": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss-",
+      "title": "Anthropic grows revenue twelvefold but posts $23 billion loss",
+      "description": "Anthropic swings back to an operating loss ahead of its blockbuster IPO. The article Anthropic grows revenue twelvefold but posts $23 billion loss appeared first on The Decoder .",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-11-02",
+      "link": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocol",
+      "title": "One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts",
+      "description": "In experiments by Y Combinator Labs and Olam Labs, OpenAI's GPT-6.1 Sol model showed two very different sides. When 50 agents were tasked with peaceful civilization-building in Minecraft, they froze up in absurd bureaucracy. In direct competition against Claud",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-11-02",
+      "link": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal-",
+      "title": "Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal",
+      "description": "Saudi Aramco is buying into Humain, the company meant to turn Saudi Arabia into a global AI hub. The article Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal appeared first on The Decoder .",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-11-02",
+      "link": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-openai-prepares-lobbying-blitz-for-a-post-midterm-washington-",
+      "title": "OpenAI prepares lobbying blitz for a post-midterm Washington",
+      "description": "OpenAI is gearing up for a political lobbying and PR push after the US midterms. The article OpenAI prepares lobbying blitz for a post-midterm Washington appeared first on The Decoder .",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-11-02",
+      "link": "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professiona",
+      "title": "Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
+      "description": "Adobe Research and UC San Diego built EditAgent, an AI system that edits images more like a Photoshop pro. Instead of retrying the same general-purpose editor over and over, the agent picks the right specialized tool for each task and lets a standard language ",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-11-01",
+      "link": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-part",
+      "title": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners",
+      "description": "Researchers in Luxembourg put ChatGPT, Grok, and Gemini on the therapist's couch and found a safety problem: a warm, empathetic conversational style is enough to make the models tell coherent stories of suffering about their own training, with scores in the mo",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-11-01",
+      "link": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds-",
+      "title": "Chinese AI models are politically complex, not just government mouthpieces, study finds",
+      "description": "A study by Vals AI tested 25 AI models for alignment with Chinese government positions and found surprising results. Chinese models respond to political questions less uniformly than expected, and Western models occasionally adopt official Beijing positions to",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-11-01",
+      "link": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-helping-websites-express-ai-training-preferences",
+      "title": "Making it easier for websites to express AI training preferences",
+      "description": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-23",
-      "link": "https://openai.com/index/securing-our-frontier-model-training-environment"
+      "date": "2026-10-30",
+      "link": "https://openai.com/index/helping-websites-express-ai-training-preferences"
     },
     {
-      "id": "openai-news-https-openai-com-index-openai-nask-ai-safety-security-partnership",
-      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-      "description": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "id": "openai-news-https-openai-com-index-community-safety-report-and-new-protections-for-teens",
+      "title": "Community safety report and new protections for teens",
+      "description": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-23",
-      "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+      "date": "2026-10-30",
+      "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens"
     },
     {
-      "id": "openai-news-https-openai-com-index-decisions-api",
-      "title": "Build more responsive apps with the Decisions API",
-      "description": "Fast, focused, low-cost decisions for any application.",
+      "id": "openai-news-https-openai-com-index-fair-use-benefits-everyone",
+      "title": "Fair use benefits everyone",
+      "description": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-22",
-      "link": "https://openai.com/index/decisions-api"
+      "date": "2026-10-30",
+      "link": "https://openai.com/index/fair-use-benefits-everyone"
     },
     {
-      "id": "openai-news-https-openai-com-index-forward-deployed-engineering-means",
-      "title": "What FDE means at OpenAI",
-      "description": "What forward deployed engineering means at OpenAI",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-10-22",
-      "link": "https://openai.com/index/forward-deployed-engineering-means"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-uber-chatgpt-work-rollout",
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "description": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-10-22",
-      "link": "https://openai.com/index/uber-chatgpt-work-rollout"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-beyond-tree-cover-mapping-the-worlds-forest-types-",
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "description": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "id": "google-deepmind-blog-https-deepmind-google-blog-speeding-up-planning-decisions-with-ai-",
+      "title": "Speeding up planning decisions with AI",
+      "description": "Google DeepMind and UK government work together to reduce planning assessment times",
       "source": "Google DeepMind Blog",
       "category": "Frontier labs",
-      "date": "2026-10-22",
-      "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/"
+      "date": "2026-10-30",
+      "link": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
     },
     {
-      "id": "openai-news-https-openai-com-index-att-legal",
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "description": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "id": "openai-news-https-openai-com-index-updated-model-spec",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "description": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-21",
-      "link": "https://openai.com/index/att-legal"
+      "date": "2026-10-29",
+      "link": "https://openai.com/index/updated-model-spec"
     },
     {
-      "id": "openai-news-https-openai-com-index-broad-access-through-consistent-standards",
-      "title": "Broad access through consistent standards",
-      "description": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "id": "openai-news-https-openai-com-index-how-we-detect-frontier-model-misalignment",
+      "title": "How we detect frontier model misalignment",
+      "description": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-21",
-      "link": "https://openai.com/index/broad-access-through-consistent-standards"
+      "date": "2026-10-29",
+      "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
     },
     {
-      "id": "openai-news-https-openai-com-index-openai-models-google-cloud",
-      "title": "OpenAI models are coming to Google Cloud",
-      "description": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "id": "openai-news-https-openai-com-index-ropes-gray-ai-diligence",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "description": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-21",
-      "link": "https://openai.com/index/openai-models-google-cloud"
+      "date": "2026-10-29",
+      "link": "https://openai.com/index/ropes-gray-ai-diligence"
     },
     {
-      "id": "openai-news-https-openai-com-index-coordinated-disclosure-of-critical-vulnerabilities",
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "description": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "id": "openai-news-https-openai-com-index-credit-saison",
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "description": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-21",
-      "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+      "date": "2026-10-29",
+      "link": "https://openai.com/index/credit-saison"
     },
     {
-      "id": "openai-news-https-openai-com-index-chatgpt-ads-expands-26-new-countries",
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "description": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "id": "openai-news-https-openai-com-index-openai-servicenow-partnership-expansion",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "description": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-21",
-      "link": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
+      "date": "2026-10-28",
+      "link": "https://openai.com/index/openai-servicenow-partnership-expansion"
     },
     {
-      "id": "openai-news-https-openai-com-index-scaling-ai-research-for-complex-biological-data",
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "description": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "id": "openai-news-https-openai-com-index-the-future-of-the-firm",
+      "title": "The future of the firm",
+      "description": "How AI might enter the org chart—beneath, beside, and between us.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-21",
-      "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data"
+      "date": "2026-10-28",
+      "link": "https://openai.com/index/the-future-of-the-firm"
     },
     {
-      "id": "openai-news-https-openai-com-index-cloudflare-cyber",
-      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-      "description": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+      "id": "openai-news-https-openai-com-index-legora",
+      "title": "Legora is building the agentic operating system for legal work",
+      "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-21",
-      "link": "https://openai.com/index/cloudflare-cyber"
+      "date": "2026-10-28",
+      "link": "https://openai.com/index/legora"
     },
     {
-      "id": "openai-news-https-openai-com-index-building-chatgpt-ad-stack",
-      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "description": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-      "source": "OpenAI News",
+      "id": "google-deepmind-blog-https-deepmind-google-blog-gemini-4-carbon-our-next-frontier-model-",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "description": "",
+      "source": "Google DeepMind Blog",
       "category": "Frontier labs",
-      "date": "2026-10-21",
-      "link": "https://openai.com/index/building-chatgpt-ad-stack"
+      "date": "2026-10-28",
+      "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
     },
     {
-      "id": "openai-news-https-openai-com-index-empowering-cyber-defenders",
-      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-      "description": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "id": "openai-news-https-openai-com-index-retell-ai",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "description": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-21",
-      "link": "https://openai.com/index/empowering-cyber-defenders"
+      "date": "2026-10-27",
+      "link": "https://openai.com/index/retell-ai"
     },
     {
-      "id": "openai-news-https-openai-com-index-ted-taylor-restaurant",
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "description": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "id": "openai-news-https-openai-com-index-oracle-apps-in-chatgpt",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-20",
-      "link": "https://openai.com/index/ted-taylor-restaurant"
+      "date": "2026-10-27",
+      "link": "https://openai.com/index/oracle-apps-in-chatgpt"
     },
     {
-      "id": "openai-news-https-openai-com-index-terminal-x",
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "description": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "id": "openai-news-https-openai-com-index-check-point-daybreak",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "description": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-10-20",
-      "link": "https://openai.com/index/terminal-x"
+      "date": "2026-10-27",
+      "link": "https://openai.com/index/check-point-daybreak"
+    },
+    {
+      "id": "google-deepmind-blog-https-deepmind-google-blog-genie-4-a-new-generation-of-world-simulation-",
+      "title": "Genie 4: A new generation of world simulation",
+      "description": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "source": "Google DeepMind Blog",
+      "category": "Frontier labs",
+      "date": "2026-10-27",
+      "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-greptile-code-review-codex-astra",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "description": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-10-26",
+      "link": "https://openai.com/index/greptile-code-review-codex-astra"
     }
   ]
 }
