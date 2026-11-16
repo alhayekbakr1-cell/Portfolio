@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T22:10:04.957Z",
+  "generatedAt": "2026-11-16T21:51:38.667Z",
   "summary": "Latest global AI updates from 4 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
     {
@@ -45,274 +45,274 @@
   ],
   "items": [
     {
-      "id": "openai-news-https-openai-com-index-chatgpt-enterprise-aws-marketplace",
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "description": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "id": "openai-news-https-openai-com-index-expanding-chatgpt-for-academic-researchers",
+      "title": "Broadening access to AI for scientists",
+      "description": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-11-09",
-      "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+      "date": "2026-11-16",
+      "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
     },
     {
-      "id": "openai-news-https-openai-com-index-control-room",
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "description": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "id": "openai-news-https-openai-com-index-strengthening-online-child-safety",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "description": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-11-09",
-      "link": "https://openai.com/index/control-room"
+      "date": "2026-11-16",
+      "link": "https://openai.com/index/strengthening-online-child-safety"
     },
     {
-      "id": "openai-news-https-openai-com-index-coderabbit-codex-daybreak",
-      "title": "CodeRabbit scales agentic software development and ships 20x more",
-      "description": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "id": "openai-news-https-openai-com-index-science-at-the-frontier",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "description": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-11-09",
-      "link": "https://openai.com/index/coderabbit-codex-daybreak"
+      "date": "2026-11-16",
+      "link": "https://openai.com/index/science-at-the-frontier"
     },
     {
-      "id": "openai-news-https-openai-com-index-kuken",
-      "title": "Kuken Industries searches 70 years of drawings in minutes",
-      "description": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "id": "openai-news-https-openai-com-index-lvmh-media-division-partnership",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "description": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-11-09",
-      "link": "https://openai.com/index/kuken"
+      "date": "2026-11-16",
+      "link": "https://openai.com/index/lvmh-media-division-partnership"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo-",
-      "title": "Claude Fable 5.2 and Mythos 5.2 cement Anthropic&#039;s AI lead just before its IPO",
-      "description": "Anthropic is releasing Claude Fable 5.2 and Mythos 5.2, its most powerful models to date, in two versions: one freely available and one reserved for verified organizations. The models solve open physics problems, show stronger cybersecurity capabilities, desig",
+      "id": "openai-news-https-openai-com-index-our-first-phase-of-embedded-assessments",
+      "title": "Our first phase of embedded assessments",
+      "description": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-11-16",
+      "link": "https://openai.com/index/our-first-phase-of-embedded-assessments"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-advancing-computer-use-for-healthcare-teams",
+      "title": "Advancing computer-use agents for healthcare teams",
+      "description": "",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-11-16",
+      "link": "https://openai.com/index/advancing-computer-use-for-healthcare-teams"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "description": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-11-16",
+      "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-the-kings-trust-and-openai",
+      "title": "The King’s Trust and OpenAI launch £1m partnership",
+      "description": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-11-16",
+      "link": "https://openai.com/index/the-kings-trust-and-openai"
+    },
+    {
+      "id": "openai-news-https-openai-com-business-customer-stories-holiday-extras-dots",
+      "title": "At Holiday Extras, dots get to work before anyone asks",
+      "description": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-11-16",
+      "link": "https://openai.com/business/customer-stories/holiday-extras-dots"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast-",
+      "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
+      "description": "Google's Threat Intelligence Group has for the first time caught attackers finding and exploiting security vulnerabilities with no human involvement at all. An AI framework called \"exploit_agent,\" found on an exposed server, automatically compared code before ",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-11-09",
-      "link": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/"
+      "date": "2026-11-16",
+      "link": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actuall",
-      "title": "Meta launches Muse Ember, a small AI model built for the repetitive work agents actually do",
-      "description": "Meta is introducing Muse Ember, its smallest and most efficient AI model, optimized for repetitive agent tasks such as tool calls, routing, and data extraction. According to Meta, it delivers more intelligence per dollar than Claude Haiku 5.5 or GPT-6 Luna. Bu",
+      "id": "the-decoder-https-the-decoder-com-openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice-",
+      "title": "OpenAI&#039;s GPT-6 Astra tackles the Standard Model&#039;s toughest math problem on a lattice",
+      "description": "OpenAI physicist Nathaniel Craig used GPT-6 Astra to tackle a problem that had stumped particle physicists for over 25 years. The AI model took Craig's strategy for defining the full Standard Model on a computational lattice and turned it into a working proof.",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-11-09",
-      "link": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/"
+      "date": "2026-11-16",
+      "link": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-",
-      "title": "Bytedance&#039;s Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
-      "description": "Bytedance Seed has introduced Seedream 5.5, an image model built for professional production workflows. It supports stable multi-pass editing over up to 100 iterations, generates native RGBA images with transparent backgrounds, and, according to Bytedance, out",
+      "id": "the-decoder-https-the-decoder-com-moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten-",
+      "title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
+      "description": "Moonshot AI is done chasing coding benchmarks, it says. The Beijing startup is pivoting its Kimi language models toward biology, chemistry, and pharma research, arguing that science demands smarter AI than law, finance, or code. The article Moonshot AI pivots ",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-11-09",
-      "link": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/"
+      "date": "2026-11-16",
+      "link": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-emp",
-      "title": "Disney bets on Adobe&#039;s Firefly to create brand-safe AI models for its entertainment empire",
-      "description": "Disney and Adobe are building custom AI tools together for the entertainment giant's productions. The article Disney bets on Adobe&#039;s Firefly to create brand-safe AI models for its entertainment empire appeared first on The Decoder .",
+      "id": "the-decoder-https-the-decoder-com-alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices-",
+      "title": "Alibaba&#039;s Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
+      "description": "Alibaba launches Qwen4-Max, a new flagship model with 2.4 trillion parameters that activates only 71 billion per token. A hybrid architecture sharply cuts costs on long contexts. Qwen4-Max lands just behind Kimi K3.1 Pro on the Artificial Analysis Intelligence",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-11-09",
-      "link": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/"
+      "date": "2026-11-16",
+      "link": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer",
-      "title": "Tencent&#039;s AI chief says AI bioweapons are coming, but closing off models isn&#039;t the answer",
-      "description": "Tencent chief AI scientist Vinces Yao Shunyu warns that AI will soon be able to develop bioweapons and argues for a middle ground between open and closed models. While safety filters on open-source systems can be easily stripped through abliteration, closed mo",
+      "id": "the-decoder-https-the-decoder-com-claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-w",
+      "title": "Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML",
+      "description": "Claude can now embed text, buttons, and other web elements into complex graphics and 3D effects. The article Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML appeared first on The Decoder .",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-11-09",
-      "link": "https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/"
+      "date": "2026-11-16",
+      "link": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia-",
-      "title": "Google ships four TPU variants in one year as it ramps up competition with Nvidia",
-      "description": "Google is expanding its TPU 8 family with two specialized variants: the TPU 8tx keeps sensitive data encrypted even during processing, while the TPU 8i Max doubles compute power and memory by placing two chips on a single package. With nearly 100 external cust",
+      "id": "the-decoder-https-the-decoder-com-anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store",
+      "title": "Anthropic says the key to agent memory is knowing what to forget, not how much to store",
+      "description": "Anthropic studied how Claude retains knowledge across sessions. Selective notes beat exhaustive archives by a wide margin. In a Pokémon Red test, the newer Claude Fable 5 got four times as far as the older Sonnet 3.7 by keeping just a handful of strategy files",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-11-09",
-      "link": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/"
+      "date": "2026-11-16",
+      "link": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls-",
-      "title": "Nvidia espionage scandal weakens Huang&#039;s lobby against tighter AI chip export controls",
-      "description": "Nvidia CEO Jensen Huang has admitted to an extramarital affair with a woman US intelligence agencies classify as a suspected Chinese informant. The board has launched an independent investigation. The affair weakens Huang's lobbying efforts against stricter AI",
+      "id": "openai-news-https-openai-com-index-step-toward-defining-the-standard-model",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "description": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-11-15",
+      "link": "https://openai.com/index/step-toward-defining-the-standard-model"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-our-new-blog-for-science",
+      "title": "Our new blog for science",
+      "description": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-11-15",
+      "link": "https://openai.com/index/our-new-blog-for-science"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them-",
+      "title": "Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them",
+      "description": "Anthropic's Claude Fable 5.2 doesn't generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtual canvas, complete with bristle texture a",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-11-09",
-      "link": "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/"
+      "date": "2026-11-15",
+      "link": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-",
-      "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
-      "description": "OpenAI co-founder Andrej Karpathy used Claude's Opus 5.5 to filter 43 million Hacker News comments into 6,454 curated videos. The result beats YouTube's own recommendations, he says. The article Andrej Karpathy built a curated video platform in a weekend using",
+      "id": "the-decoder-https-the-decoder-com-firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-",
+      "title": "Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+      "description": "Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller Culper Research estimates Nvidia's actual ",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-11-08",
-      "link": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/"
+      "date": "2026-11-15",
+      "link": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousnes",
-      "title": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate",
-      "description": "Consciousness researchers Anil Seth, Ned Block, and Giulio Tononi argue in a Nature commentary that today's AI systems aren't conscious and won't become so on silicon hardware. They consider the assumption that consciousness depends on computation alone \"fatal",
+      "id": "the-decoder-https-the-decoder-com-australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-an",
+      "title": "Australia&#039;s central bank finds AI hitting young workers first, especially in software and customer service",
+      "description": "Australia's central bank sees early signs that AI is hitting young entry-level workers in highly exposed jobs like software development and customer service. Since ChatGPT launched, job postings and employment among 15- to 24-year-olds in those fields have dro",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-11-08",
-      "link": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/"
+      "date": "2026-11-15",
+      "link": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/"
     },
     {
-      "id": "the-decoder-https-the-decoder-com-the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts-",
-      "title": "The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts",
-      "description": "Turing Award winner Richard Sutton reaffirms that raw compute alone isn't enough for intelligence and that fundamentally new learning methods are needed. Ex-OpenAI researcher Tworek agrees, saying blind transformer scaling \"has reward hacked brains of a whole ",
+      "id": "the-decoder-https-the-decoder-com-meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu",
+      "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+      "description": "Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5. The sample deployment runs on 194 Huawei",
       "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-11-08",
-      "link": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/"
+      "date": "2026-11-15",
+      "link": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/"
     },
     {
-      "id": "openai-news-https-openai-com-index-partnering-with-hacktron",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "description": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "id": "openai-news-https-openai-com-index-introducing-chatgpt-wallet",
+      "title": "Introducing ChatGPT Wallet",
+      "description": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-11-06",
-      "link": "https://openai.com/index/partnering-with-hacktron"
+      "date": "2026-11-13",
+      "link": "https://openai.com/index/introducing-chatgpt-wallet"
     },
     {
-      "id": "openai-news-https-openai-com-index-measuring-how-ai-agents-handle-wet-lab-science",
-      "title": "Measuring how AI agents handle everyday wet-lab science",
-      "description": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "id": "openai-news-https-openai-com-business-customer-stories-shield",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "description": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-11-06",
-      "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+      "date": "2026-11-13",
+      "link": "https://openai.com/business/customer-stories/shield"
     },
     {
-      "id": "openai-news-https-openai-com-index-australian-universities-ai-native-graduates",
-      "title": "Australian universities are creating AI-native graduates",
-      "description": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "id": "openai-news-https-openai-com-business-customer-stories-amplitude",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-11-05",
-      "link": "https://openai.com/index/australian-universities-ai-native-graduates"
+      "date": "2026-11-12",
+      "link": "https://openai.com/business/customer-stories/amplitude"
     },
     {
-      "id": "openai-news-https-openai-com-index-cultfit-builds-with-codex",
-      "title": "Cult.fit builds operational muscle with Codex",
-      "description": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "id": "openai-news-https-openai-com-business-customer-stories-gondola",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "description": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-11-05",
-      "link": "https://openai.com/index/cultfit-builds-with-codex"
+      "date": "2026-11-12",
+      "link": "https://openai.com/business/customer-stories/gondola"
     },
     {
-      "id": "openai-news-https-openai-com-index-introducing-gpt-6-cyber",
-      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-      "description": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "id": "openai-news-https-openai-com-business-customer-stories-holidays-extras-codex",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "description": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-11-05",
-      "link": "https://openai.com/index/introducing-gpt-6-cyber"
+      "date": "2026-11-12",
+      "link": "https://openai.com/business/customer-stories/holidays-extras-codex"
     },
     {
-      "id": "openai-news-https-openai-com-index-merge-builds-with-openai",
-      "title": "Merge builds product and business tools with OpenAI technology",
-      "description": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "id": "openai-news-https-openai-com-index-children-first-declaration",
+      "title": "Supporting research on AI and children’s safety",
+      "description": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-11-05",
-      "link": "https://openai.com/index/merge-builds-with-openai"
+      "date": "2026-11-12",
+      "link": "https://openai.com/index/children-first-declaration"
     },
     {
-      "id": "openai-news-https-openai-com-index-setting-new-standard-responsible-ai-infrastructure",
-      "title": "Setting a new standard for responsible AI infrastructure",
-      "description": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "id": "openai-news-https-openai-com-index-gilbert-tobin-sam-nickless",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "description": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-11-05",
-      "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
+      "date": "2026-11-12",
+      "link": "https://openai.com/index/gilbert-tobin-sam-nickless"
     },
     {
-      "id": "openai-news-https-openai-com-ads-customers-flipsnack",
-      "title": "Flipsnack grows product signups with conversion optimization",
-      "description": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-11-05",
-      "link": "https://openai.com/ads/customers/flipsnack"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-franklin-templeton",
-      "title": "Franklin Templeton uses OpenAI to support investment research",
-      "description": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-11-05",
-      "link": "https://openai.com/index/franklin-templeton"
-    },
-    {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips-",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "id": "google-deepmind-blog-https-deepmind-google-blog-introducing-gemini-4-hydrogen-",
+      "title": "Introducing Gemini 4 Hydrogen",
       "description": "",
       "source": "Google DeepMind Blog",
       "category": "Frontier labs",
-      "date": "2026-11-05",
-      "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+      "date": "2026-11-12",
+      "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
     },
     {
-      "id": "openai-news-https-openai-com-index-openai-to-acquire-pierre",
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "description": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "id": "openai-news-https-openai-com-index-chatgpt-plus-for-veterans",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "description": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-11-04",
-      "link": "https://openai.com/index/openai-to-acquire-pierre"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-daybreak-red-aws-govcloud",
-      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "description": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-11-04",
-      "link": "https://openai.com/index/daybreak-red-aws-govcloud"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-a-thousand-fewer-paths-to-root",
-      "title": "A thousand fewer paths to root",
-      "description": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-11-04",
-      "link": "https://openai.com/index/a-thousand-fewer-paths-to-root"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-introducing-images-2-6",
-      "title": "Introducing Images 2.6",
-      "description": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-11-04",
-      "link": "https://openai.com/index/introducing-images-2-6"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-devrev-enterprise-self-service",
-      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-      "description": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-11-04",
-      "link": "https://openai.com/index/devrev-enterprise-self-service"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-accelerating-engineering-for-the-physical-world",
-      "title": "Accelerating engineering for the physical world",
-      "description": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-11-03",
-      "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+      "date": "2026-11-11",
+      "link": "https://openai.com/index/chatgpt-plus-for-veterans"
     }
   ]
 }
