@@ -212,13 +212,6 @@ const Contact = () => {
                     </div>
 
                     <div style={styles.contactInfo}>
-                        <a
-                            href="mailto:Bakr.Alhayek.MD@adventhealth.com"
-                            style={{ ...styles.infoText, color: 'var(--accent-blue)', textDecoration: 'none' }}
-                            className="contact-email-link"
-                        >
-                            📧 Bakr.Alhayek.MD@adventhealth.com
-                        </a>
                         <p style={styles.infoText}>📞 +1 (904) 750-7249</p>
                     </div>
 

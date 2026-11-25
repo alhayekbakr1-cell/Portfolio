@@ -6,13 +6,11 @@ const References = () => {
             name: "Claudia Kroker-Bode, M.D., Ph.D.",
             title: "Program Director, Internal Medicine Residency",
             institution: "AdventHealth Tampa",
-            email: "claudia.krokerbode.md@adventhealth.com"
         },
         {
             name: "Lidia Sepulveda Rubiera, M.D.",
             title: "Associate Program Director, Internal Medicine Residency",
             institution: "AdventHealth Tampa",
-            email: "lidia.sepulvedarubiera.md@adventhealth.com"
         },
         {
             name: "Muhamad Alhaj Moustafa, M.D., M.S.",
@@ -36,7 +34,6 @@ const References = () => {
             name: "Guru P. Sonpavde, M.D.",
             title: "Medical Director of Genitourinary (GU) Oncology, Assistant Director of the Clinical Research Unit",
             institution: "AdventHealth Cancer Institute",
-            email: "Guru.Sonpavde.MD@AdventHealth.com"
         }
     ];
 
@@ -120,13 +117,19 @@ const References = () => {
                                 <div style={styles.name}>{ref.name}</div>
                                 <span style={styles.title}>{ref.title}</span>
                                 <span style={styles.institution}>{ref.institution}</span>
-                                <a
-                                    href={`mailto:${ref.email}`}
-                                    style={styles.email}
-                                    className="reference-email"
-                                >
-                                    {ref.email}
-                                </a>
+                                {ref.email ? (
+                                    <a
+                                        href={`mailto:${ref.email}`}
+                                        style={styles.email}
+                                        className="reference-email"
+                                    >
+                                        {ref.email}
+                                    </a>
+                                ) : (
+                                    <span style={styles.institution}>
+                                        Contact available upon request
+                                    </span>
+                                )}
                             </div>
                         ))}
                     </div>
