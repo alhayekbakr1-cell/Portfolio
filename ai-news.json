@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-20T14:20:51.872Z",
-  "summary": "Latest global AI updates from 5 source groups, refreshed automatically by GitHub Actions.",
+  "generatedAt": "2026-11-23T23:41:01.778Z",
+  "summary": "Latest global AI updates from 4 source groups, refreshed automatically by GitHub Actions.",
   "sources": [
     {
       "name": "OpenAI News",
@@ -40,278 +40,279 @@
   ],
   "failedSources": [
     "Anthropic News: Anthropic News responded with 404",
-    "MIT News - Artificial Intelligence: MIT News - Artificial Intelligence responded with 404"
+    "MIT News - Artificial Intelligence: MIT News - Artificial Intelligence responded with 404",
+    "VentureBeat AI: VentureBeat AI responded with 429"
   ],
   "items": [
     {
-      "id": "the-decoder-https-the-decoder-com-trump-administration-reportedly-builds-a-slow-motion-ban-on-chinese-ai-models-through-",
-      "title": "Trump administration reportedly builds a slow-motion ban on Chinese AI models through sanctions and soft pressure",
-      "description": "The Trump administration is reportedly weighing measures targeting Chinese AI models, from adding Chinese labs to sanctions lists to holding U.S. companies liable for security failures. Rather than impose an outright ban, Washington could use soft rules to det",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-20",
-      "link": "https://the-decoder.com/trump-administration-reportedly-builds-a-slow-motion-ban-on-chinese-ai-models-through-sanctions-and-soft-pressure/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back-",
-      "title": "Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back",
-      "description": "Hugging Face reports an attack on parts of its production infrastructure that was allegedly carried out entirely by an autonomous AI agent system. The attack spanned thousands of actions controlled by an agent framework. During forensic analysis, commercial AI",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-20",
-      "link": "https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-moonshot-pauses-new-kimi-k3-subscriptions-after-gpu-demand-maxes-out-in-48-hours-",
-      "title": "Moonshot pauses new Kimi K3 subscriptions after GPU demand maxes out in 48 hours",
-      "description": "Moonshot has temporarily stopped selling new subscriptions for its Kimi K3 model as demand nearly maxed out its GPU capacity within 48 hours. The company plans to split its subscription model to spread computing power more evenly. The article Moonshot pauses n",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-20",
-      "link": "https://the-decoder.com/moonshot-pauses-new-kimi-k3-subscriptions-after-gpu-demand-maxes-out-in-48-hours/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-",
-      "title": "Alibaba&#039;s Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is \"second only to Fable 5\"",
-      "description": "Alibaba has unveiled Qwen 3.8, a multimodal AI model with 2.4 trillion parameters that the Qwen team says rivals leading models and trails only Fable 5. A preview is available now. The article Alibaba&#039;s Qwen takes on Kimi K3 with open-weight Qwen 3.8, say",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-19",
-      "link": "https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-google-deepmind-argues-video-generators-already-contain-the-world-models-computer-visi",
-      "title": "Google Deepmind argues video generators already contain the world models computer vision has been missing",
-      "description": "Google Deepmind's GenCeption repurposes a video generator for classic vision tasks such as depth estimation and segmentation, matching state-of-the-art systems with far less training data. The model trained almost entirely on synthetic videos. Its results add ",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-19",
-      "link": "https://the-decoder.com/google-deepmind-argues-video-generators-already-contain-the-world-models-computer-vision-has-been-missing/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-",
-      "title": "Moonshot&#039;s Kimi K3 outperforms Fable 5 in frontend code but lags far behind in complex math",
-      "description": "Moonshot's Kimi K3 is the first Chinese model to top the Code Arena: Frontend rankings, beating Claude Fable 5 and GPT-5.6 Sol by a wide margin. But on advanced math, the gap is stark: Kimi K3 scores only about 39 percent on FrontierMath Tier 4, while models f",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-19",
-      "link": "https://the-decoder.com/moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-math/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-ai-text-detectors-struggle-when-language-models-mimic-an-authors-style-",
-      "title": "AI text detectors struggle when language models mimic an author&#039;s style",
-      "description": "Epoch AI tested three leading AI text detectors (Pangram, GPTZero, and Originality.ai) using style-imitated texts. Up to 18 percent of AI-generated passages went undetected. For scientific writing, the miss rate climbed as high as 48 percent, the very genre wh",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-19",
-      "link": "https://the-decoder.com/ai-text-detectors-struggle-when-language-models-mimic-an-authors-style/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-ai-chatbots-reading-x-rays-can-be-dangerously-confident-even-when-theyre-wrong-",
-      "title": "AI chatbots reading X-rays can be dangerously confident even when they&#039;re wrong",
-      "description": "The RadLE 2.0 benchmark tests whether AI models in radiology can tell when they should leave a diagnosis to a human. Many models deliver wrong findings with full confidence, and human radiologists are still well ahead. Before AI can diagnose on its own, it nee",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-19",
-      "link": "https://the-decoder.com/ai-chatbots-reading-x-rays-can-be-dangerously-confident-even-when-theyre-wrong/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-chinas-new-world-artificial-intelligence-cooperation-organization-is-president-xis-cle",
-      "title": "China&#039;s new World Artificial Intelligence Cooperation Organization is President Xi&#039;s clearest play yet for a parallel AI order",
-      "description": "At the World AI Conference in Shanghai, Xi Jinping announced 5,000 AI training slots for Global South countries and the launch of the \"World Artificial Intelligence Cooperation Organization.\" Cooperation centers with ASEAN, the African Union, BRICS, and other ",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-18",
-      "link": "https://the-decoder.com/chinas-new-world-artificial-intelligence-cooperation-organization-is-president-xis-clearest-play-yet-for-a-parallel-ai-order/"
-    },
-    {
-      "id": "the-decoder-https-the-decoder-com-open-weight-models-now-match-frontier-cyber-performance-from-just-four-months-ago-at-a",
-      "title": "Open-weight models now match frontier cyber performance from just four months ago at a fraction of the cost",
-      "description": "The British AI Security Institute warns that open-weight models like GLM-5.2 and DeepSeek V4-Pro now trail closed frontier models in cyber capabilities by four to seven months. At the start of 2025, the gap was still six to ten months. It also found that safet",
-      "source": "The Decoder",
-      "category": "Industry",
-      "date": "2026-07-18",
-      "link": "https://the-decoder.com/open-weight-models-now-match-frontier-cyber-performance-from-just-four-months-ago-at-a-fraction-of-the-cost/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-a-scorecard-for-the-ai-age",
-      "title": "A scorecard for the AI age",
-      "description": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+      "id": "openai-news-https-openai-com-index-introducing-shirudo",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "description": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-07-17",
-      "link": "https://openai.com/index/a-scorecard-for-the-ai-age"
+      "date": "2026-11-23",
+      "link": "https://openai.com/index/introducing-shirudo"
     },
     {
-      "id": "openai-news-https-openai-com-index-why-teens-deserve-access-safe-ai",
-      "title": "Why teens deserve access to safe AI",
-      "description": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+      "id": "openai-news-https-openai-com-business-learn-connected-intelligence-for-in-house-legal",
+      "title": "Connected intelligence for in-house legal",
+      "description": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-07-16",
-      "link": "https://openai.com/index/why-teens-deserve-access-safe-ai"
+      "date": "2026-11-23",
+      "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal"
     },
     {
-      "id": "openai-news-https-openai-com-index-cars24",
-      "title": "How Cars24 scales conversations and builds faster with OpenAI",
-      "description": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+      "id": "openai-news-https-openai-com-business-customer-stories-richpanel-ai-customer-support",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "description": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-07-16",
-      "link": "https://openai.com/index/cars24"
+      "date": "2026-11-23",
+      "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
     },
     {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-our-approach-to-bioresilience-",
-      "title": "Our approach to bioresilience",
-      "description": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
+      "id": "google-deepmind-blog-https-deepmind-google-blog-finding-faster-quantum-algorithms-with-agents-and-formal-verification-",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "description": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
       "source": "Google DeepMind Blog",
       "category": "Frontier labs",
-      "date": "2026-07-16",
-      "link": "https://deepmind.google/blog/our-approach-to-bioresilience/"
+      "date": "2026-11-23",
+      "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
     },
     {
-      "id": "venturebeat-ai-https-venturebeat-com-ai-the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-me",
-      "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
-      "description": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet the next dollar is aimed at specialized ",
-      "source": "VentureBeat AI",
+      "id": "the-decoder-https-the-decoder-com-openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-mo",
+      "title": "OpenAI updates ChatGPT to handle complex everyday questions, web searches, and images more reliably",
+      "description": "OpenAI is making GPT-6.2 Sol the new default model in ChatGPT's chat tab, rolling it out worldwide. In internal tests, image understanding jumped from 47.4 to 71.7 percent, and the model now handles difficult instructions correctly 78.1 percent of the time. It",
+      "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-07-16",
-      "link": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs"
+      "date": "2026-11-23",
+      "link": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/"
     },
     {
-      "id": "venturebeat-ai-https-venturebeat-com-ai-the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-a",
-      "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
-      "description": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-miss; only about a third give every agent its o",
-      "source": "VentureBeat AI",
+      "id": "the-decoder-https-the-decoder-com-anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy-",
+      "title": "Anthropic&#039;s appetite for compute is pushing xAI toward a rent-over-build strategy",
+      "description": "Since May, SpaceXSI has been renting compute to competitors like Anthropic and Google while scaling back its own AI projects. Anthropic pays about $3.1 billion a month, Google $800 million, the New York Times reports. After its June IPO, SpaceXSI disbanded the",
+      "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-07-16",
-      "link": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials"
+      "date": "2026-11-23",
+      "link": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/"
     },
     {
-      "id": "venturebeat-ai-https-venturebeat-com-ai-the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrie",
-      "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
-      "description": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context source, and provider-native retrieval has quietly overtaken the d",
-      "source": "VentureBeat AI",
+      "id": "the-decoder-https-the-decoder-com-openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-",
+      "title": "OpenAI warns that upcoming AI systems could outpace safety checks and urges rivals to agree on shared limits",
+      "description": "OpenAI chief scientist Jakub Pachocki has released internal perplexity scores for the entire GPT series for the first time, up to an unreleased model beyond the current generation. The metric shows that core capabilities emerge at surprisingly precise threshol",
+      "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-07-16",
-      "link": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix"
+      "date": "2026-11-23",
+      "link": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/"
     },
     {
-      "id": "venturebeat-ai-https-venturebeat-com-ai-the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-pr",
-      "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
-      "description": "Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their internal evaluations and then failed a customer in production; only",
-      "source": "VentureBeat AI",
+      "id": "the-decoder-https-the-decoder-com-z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model-",
+      "title": "Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model",
+      "description": "Z.ai is moving its flagship GLM-5.4 model to a loop architecture in which 28 layers run twice, which the company says lets the 750-billion-parameter model match models with 2 to 3 trillion parameters. Benchmark scores are only available for a smaller 30B test ",
+      "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-07-16",
-      "link": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway"
+      "date": "2026-11-23",
+      "link": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/"
     },
     {
-      "id": "openai-news-https-openai-com-index-advancing-ai-safety-through-state-and-federal-action",
-      "title": "The US is advancing AI safety through state and federal action",
-      "description": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-15",
-      "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-unlocking-self-improvement-gpt-red",
-      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-      "description": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-      "source": "OpenAI News",
-      "category": "Frontier labs",
-      "date": "2026-07-15",
-      "link": "https://openai.com/index/unlocking-self-improvement-gpt-red"
-    },
-    {
-      "id": "venturebeat-ai-https-venturebeat-com-ai-agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-",
-      "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
-      "description": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step execution. But the ambition runs well ahea",
-      "source": "VentureBeat AI",
+      "id": "the-decoder-https-the-decoder-com-chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles-",
+      "title": "Chinese military fears AI could let the US find and destroy its nuclear missiles",
+      "description": "Chinese military researchers fear that AI advances could give the US an edge in the nuclear balance of power. The article Chinese military fears AI could let the US find and destroy its nuclear missiles appeared first on The Decoder .",
+      "source": "The Decoder",
       "category": "Industry",
-      "date": "2026-07-15",
-      "link": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents"
+      "date": "2026-11-23",
+      "link": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/"
     },
     {
-      "id": "openai-news-https-openai-com-index-managing-ai-investments-in-agentic-era",
-      "title": "How to manage AI investments in the agentic era",
-      "description": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+      "id": "the-decoder-https-the-decoder-com-nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks-",
+      "title": "Nvidia tried life without Jensen Huang and it lasted about two weeks",
+      "description": "Nvidia's board of directors has reinstated Jensen Huang as president, CEO, and board member, effective immediately. The article Nvidia tried life without Jensen Huang and it lasted about two weeks appeared first on The Decoder .",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-11-23",
+      "link": "https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-br",
+      "title": "Meta&#039;s Alexandr Wang warns the AI industry isn&#039;t ready for what&#039;s coming after Riemann breakthrough",
+      "description": "Meta's Chief AI Officer Alexandr Wang sees the recent AI-assisted proof sketch of the Riemann Hypothesis as a clear sign that superintelligence is right around the corner. The article Meta&#039;s Alexandr Wang warns the AI industry isn&#039;t ready for what&#0",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-11-23",
+      "link": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-us-spies-tracked-nvidia-scandal-figures-ties-to-chinese-intelligence-for-over-a-year-",
+      "title": "US spies tracked Nvidia scandal figure&#039;s ties to Chinese intelligence for over a year",
+      "description": "US intelligence agencies tracked contacts between Alice Huang and China's Ministry of State Security for over a year, the New York Times reports. The surveillance ran parallel to her secret affair with then-Nvidia CEO Jensen Huang. Federal investigators are no",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-11-23",
+      "link": "https://the-decoder.com/us-spies-tracked-nvidia-scandal-figures-ties-to-chinese-intelligence-for-over-a-year/"
+    },
+    {
+      "id": "the-decoder-https-the-decoder-com-gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proo",
+      "title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
+      "description": "OpenAI's GPT-6.2 Astra independently produced a machine-verifiable Lean proof of Smoktunowicz's gap theorem, the first of its kind according to Vals AI. The model chose its own approach because key foundations were missing from Mathlib. On Autoform-Hard, Astra",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-11-23",
+      "link": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-perplexity-and-intelligence",
+      "title": "Perplexity and Intelligence",
+      "description": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-07-14",
-      "link": "https://openai.com/index/managing-ai-investments-in-agentic-era"
+      "date": "2026-11-22",
+      "link": "https://openai.com/index/perplexity-and-intelligence"
     },
     {
-      "id": "openai-news-https-openai-com-academy-codex-for-work-how-sales-teams-use-codex",
-      "title": "How sales teams use ChatGPT Work",
-      "description": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "id": "the-decoder-https-the-decoder-com-ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simu",
+      "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+      "description": "A new real-world test puts AI coding agents in a simulated developer job with colleagues, project boards, and incomplete handoffs, where they have to keep developing software on their own and reliably close open tickets in a messy daily workflow. Even Opus 5.5",
+      "source": "The Decoder",
+      "category": "Industry",
+      "date": "2026-11-22",
+      "link": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-combatting-adversarial-distillation",
+      "title": "Combatting adversarial distillation",
+      "description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-07-14",
-      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex"
+      "date": "2026-11-20",
+      "link": "https://openai.com/index/combatting-adversarial-distillation"
     },
     {
-      "id": "openai-news-https-openai-com-academy-codex-for-work-how-data-science-teams-use-codex",
-      "title": "How data science teams use ChatGPT Work",
-      "description": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "id": "openai-news-https-openai-com-business-customer-stories-hebbia",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "description": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-07-14",
-      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex"
+      "date": "2026-11-20",
+      "link": "https://openai.com/business/customer-stories/hebbia"
     },
     {
-      "id": "google-deepmind-blog-https-deepmind-google-blog-empowering-indias-next-generation-of-innovators-with-atl-saathi-",
-      "title": "Empowering India’s next generation of innovators with ATL Saathi",
-      "description": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
-      "source": "Google DeepMind Blog",
-      "category": "Frontier labs",
-      "date": "2026-07-13",
-      "link": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/"
-    },
-    {
-      "id": "openai-news-https-openai-com-index-deutsche-telekom",
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "description": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+      "id": "openai-news-https-openai-com-index-introducing-medchembench",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "description": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-07-10",
-      "link": "https://openai.com/index/deutsche-telekom"
+      "date": "2026-11-20",
+      "link": "https://openai.com/index/introducing-medchembench"
     },
     {
-      "id": "openai-news-https-openai-com-academy-getting-started",
-      "title": "Getting started with ChatGPT",
-      "description": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+      "id": "openai-news-https-openai-com-index-how-openai-performance-factory-keeps-chatgpt-fast",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "description": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-07-10",
-      "link": "https://openai.com/academy/getting-started"
+      "date": "2026-11-19",
+      "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
     },
     {
-      "id": "openai-news-https-openai-com-index-gpt-5-6-preferred-model-microsoft-365-copilot",
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "description": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "id": "openai-news-https-openai-com-business-learn-pr-scans-demo",
+      "title": "See PR scans in action",
+      "description": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-07-09",
-      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot"
+      "date": "2026-11-19",
+      "link": "https://openai.com/business/learn/pr-scans-demo"
     },
     {
-      "id": "openai-news-https-openai-com-index-bio-bug-bounty",
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "description": "Details about the OpenAI Bio Bounty program",
+      "id": "openai-news-https-openai-com-business-learn-daybreak-blue-onboarding-demo",
+      "title": "Get started with Daybreak Blue",
+      "description": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-07-09",
-      "link": "https://openai.com/index/bio-bug-bounty"
+      "date": "2026-11-19",
+      "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo"
     },
     {
-      "id": "openai-news-https-openai-com-index-gpt-5-6",
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "description": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "id": "openai-news-https-openai-com-business-learn-codex-security-plugin-demo",
+      "title": "Explore the Codex Security Plugin",
+      "description": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
       "source": "OpenAI News",
       "category": "Frontier labs",
-      "date": "2026-07-09",
-      "link": "https://openai.com/index/gpt-5-6"
+      "date": "2026-11-19",
+      "link": "https://openai.com/business/learn/codex-security-plugin-demo"
+    },
+    {
+      "id": "openai-news-https-openai-com-business-learn-deploying-daybreak-red",
+      "title": "Deploying Daybreak Red",
+      "description": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-11-19",
+      "link": "https://openai.com/business/learn/deploying-daybreak-red"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-the-silent-consensus",
+      "title": "The Silent Consensus",
+      "description": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-11-18",
+      "link": "https://openai.com/index/the-silent-consensus"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-research-acceleration-jagged-frontier",
+      "title": "Research acceleration: The jagged frontier",
+      "description": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-11-18",
+      "link": "https://openai.com/index/research-acceleration-jagged-frontier"
+    },
+    {
+      "id": "openai-news-https-openai-com-business-customer-stories-sumitomo-life",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "description": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-11-18",
+      "link": "https://openai.com/business/customer-stories/sumitomo-life"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-inside-the-codex-sandbox",
+      "title": "Inside the Codex sandbox",
+      "description": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-11-18",
+      "link": "https://openai.com/index/inside-the-codex-sandbox"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-managing-frontier-ai-risk",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "description": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-11-18",
+      "link": "https://openai.com/index/managing-frontier-ai-risk"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-le-groupe-figaro-and-openai-announce-partnership",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "description": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-11-18",
+      "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership"
+    },
+    {
+      "id": "openai-news-https-openai-com-index-advancing-chip-design-with-our-models",
+      "title": "Advancing chip design with OpenAI models",
+      "description": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+      "source": "OpenAI News",
+      "category": "Frontier labs",
+      "date": "2026-11-18",
+      "link": "https://openai.com/index/advancing-chip-design-with-our-models"
     }
   ]
 }
